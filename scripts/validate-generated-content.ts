@@ -141,67 +141,6 @@ function createSnippetAt(value: string, index: number): string {
   return value.slice(start, end);
 }
 
-function findMathRanges(value: string) {
-  const ranges: Array<[number, number]> = [];
-  const stack: Array<{ token: "\\(" | "\\["; index: number }> = [];
-
-  for (let i = 0; i < value.length - 1; i += 1) {
-    const token = value.slice(i, i + 2);
-    if (token === "\\(" || token === "\\[") {
-      stack.push({ token, index: i });
-      i += 1;
-    } else if (token === "\\)" || token === "\\]") {
-      const expected = token === "\\)" ? "\\(" : "\\[";
-      for (let stackIndex = stack.length - 1; stackIndex >= 0; stackIndex -= 1) {
-        if (stack[stackIndex]?.token === expected) {
-          ranges.push([stack[stackIndex].index, i + 2]);
-          stack.splice(stackIndex, 1);
-          break;
-        }
-      }
-      i += 1;
-    }
-  }
-
-  return ranges;
-}
-
-function isInsideRanges(index: number, ranges: Array<[number, number]>) {
-  return ranges.some(([start, end]) => index >= start && index < end);
-}
-
-function findBarePercentIssues(value: string, jsonPath: string) {
-  const issues: Array<{ type: string; index: number; snippet: string; suggestion: string }> = [];
-  if (/formulaLatex$/.test(jsonPath)) return issues;
-
-  const mathRanges = findMathRanges(value);
-  let percentIndex = value.indexOf("\\%");
-  while (percentIndex !== -1) {
-    if (!isInsideRanges(percentIndex, mathRanges)) {
-      const nextChar = value[percentIndex + 2] ?? "";
-      const prevText = value.slice(Math.max(0, percentIndex - 24), percentIndex);
-      const nextText = value.slice(percentIndex + 2, Math.min(value.length, percentIndex + 24));
-      const chineseParenPercent = /（[^）]{0,40}$/.test(prevText) && /^[^（]{0,40}）/.test(nextText);
-      const type =
-        /[），；。]/.test(nextChar) || chineseParenPercent
-          ? "bare escaped percent near Chinese punctuation"
-          : "bare escaped percent outside math";
-      const suggestion = chineseParenPercent
-        ? "Convert the Chinese-parenthesized percentage expression to \\(...\\), with Chinese punctuation outside math."
-        : "Use a literal % in prose, or wrap the percentage/formula in \\(...\\) when it is a mathematical quantity.";
-      issues.push({
-        type,
-        index: percentIndex,
-        snippet: createSnippetAt(value, percentIndex),
-        suggestion,
-      });
-    }
-    percentIndex = value.indexOf("\\%", percentIndex + 2);
-  }
-
-  return issues;
-}
-
 function findInlineDelimiterErrors(value: string) {
   const issues: Array<{ type: string; index: number; snippet: string; suggestion: string }> = [];
   const stack: number[] = [];
@@ -321,17 +260,6 @@ function runContentQualityChecks(filePath: string, framework: unknown): ContentI
           suggestion: "formulaLatex should contain only the LaTeX body, without $$, \\(...\\), or \\[...\\].",
         });
       }
-    }
-
-    for (const issue of findBarePercentIssues(value, jsonPath)) {
-      issues.push({
-        severity: "warning",
-        filePath,
-        jsonPath,
-        type: issue.type,
-        snippet: issue.snippet,
-        suggestion: issue.suggestion,
-      });
     }
 
     const textWithoutInlineMath = stripInlineMath(value);
