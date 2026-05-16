@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
 import { parseFrameworkJson } from "../src/lib/ai/framework-schema";
@@ -90,6 +90,8 @@ const ERROR_PATTERNS: Array<[string, RegExp, string]> = [
   ["broken inline delimiter after operator", /(?:\\cdot|\\times|=|\/)\\\(/, "Remove the inner delimiter or wrap the entire formula once in \\(...\\)."],
 ];
 
+const EARLY_INLINE_CLOSE_PATTERN = /\\%\\\)(?=[=+\-])|\\\)\\\)(?==)/g;
+
 const FORMULA_LATEX_WRAPPER_PATTERN = /\$\$|\\\(|\\\)|\\\[|\\\]/;
 
 const BARE_FORMULA_PATTERNS: Array<[string, RegExp]> = [
@@ -133,6 +135,71 @@ function createSnippet(value: string, matchText: string): string {
   return value.slice(start, end);
 }
 
+function createSnippetAt(value: string, index: number): string {
+  const start = Math.max(0, index - 60);
+  const end = Math.min(value.length, index + 120);
+  return value.slice(start, end);
+}
+
+function findInlineDelimiterErrors(value: string) {
+  const issues: Array<{ type: string; index: number; snippet: string; suggestion: string }> = [];
+  const stack: number[] = [];
+  let openCount = 0;
+  let closeCount = 0;
+
+  for (let i = 0; i < value.length - 1; i += 1) {
+    const token = value.slice(i, i + 2);
+    if (token === "\\(") {
+      stack.push(i);
+      openCount += 1;
+      i += 1;
+    } else if (token === "\\)") {
+      closeCount += 1;
+      if (stack.length === 0) {
+        issues.push({
+          type: "orphan inline math close delimiter",
+          index: i,
+          snippet: createSnippetAt(value, i),
+          suggestion: "Remove the stray \\) or add a matching \\( before the formula body.",
+        });
+      } else {
+        stack.pop();
+      }
+      i += 1;
+    }
+  }
+
+  for (const index of stack) {
+    issues.push({
+      type: "unclosed inline math open delimiter",
+      index,
+      snippet: createSnippetAt(value, index),
+      suggestion: "Add the missing \\) after the formula body, before Chinese punctuation.",
+    });
+  }
+
+  if (openCount !== closeCount) {
+    issues.push({
+      type: "inline math delimiter count mismatch",
+      index: 0,
+      snippet: value.slice(0, 180),
+      suggestion: `Inline math delimiters must be paired; found ${openCount} \\( and ${closeCount} \\).`,
+    });
+  }
+
+  let earlyCloseMatch: RegExpExecArray | null;
+  while ((earlyCloseMatch = EARLY_INLINE_CLOSE_PATTERN.exec(value)) !== null) {
+    issues.push({
+      type: "likely early inline math close delimiter",
+      index: earlyCloseMatch.index,
+      snippet: createSnippetAt(value, earlyCloseMatch.index),
+      suggestion: "The formula appears to continue after \\); move the closing delimiter to the end of the calculation.",
+    });
+  }
+
+  return issues;
+}
+
 function walkStrings(obj: unknown, jsonPath: string, visitor: (val: string, jsonPath: string) => void) {
   if (obj === null || obj === undefined) return;
   if (typeof obj === "string") {
@@ -163,6 +230,17 @@ function runContentQualityChecks(filePath: string, framework: unknown): ContentI
   const issues: ContentIssue[] = [];
 
   walkStrings(framework, "", (value, jsonPath) => {
+    for (const issue of findInlineDelimiterErrors(value)) {
+      issues.push({
+        severity: "error",
+        filePath,
+        jsonPath,
+        type: issue.type,
+        snippet: issue.snippet,
+        suggestion: issue.suggestion,
+      });
+    }
+
     for (const [type, pattern, suggestion] of ERROR_PATTERNS) {
       const match = pattern.exec(value);
       if (match) {
@@ -284,6 +362,59 @@ function printContentIssues(courseId: string, variant: string, level: string, is
   }
 }
 
+async function collectJsonFiles(dir: string): Promise<string[]> {
+  const entries = await readdir(dir, { withFileTypes: true });
+  const files = await Promise.all(
+    entries.map(async (entry) => {
+      const filePath = path.join(dir, entry.name);
+      if (entry.isDirectory()) return collectJsonFiles(filePath);
+      if (entry.isFile() && entry.name.endsWith(".json")) return [filePath];
+      return [];
+    }),
+  );
+  return files.flat();
+}
+
+async function runGlobalInlineDelimiterGate() {
+  const generatedDir = path.join(process.cwd(), "data", "generated");
+  const files = await collectJsonFiles(generatedDir);
+  const issues: ContentIssue[] = [];
+
+  for (const filePath of files) {
+    const raw = await readJsonText(filePath);
+    const parsed = JSON.parse(raw) as unknown;
+    walkStrings(parsed, "", (value, jsonPath) => {
+      for (const issue of findInlineDelimiterErrors(value)) {
+        issues.push({
+          severity: "error",
+          filePath,
+          jsonPath,
+          type: issue.type,
+          snippet: issue.snippet,
+          suggestion: issue.suggestion,
+        });
+      }
+    });
+  }
+
+  if (issues.length === 0) return;
+
+  console.error(`\n[data/generated] inline math delimiter gate failed: ${issues.length} error(s)`);
+  for (const issue of issues.slice(0, MAX_ISSUES_TO_PRINT)) {
+    console.error(
+      `  [ERROR] ${issue.type}\n` +
+      `    file: ${issue.filePath}\n` +
+      `    path: ${issue.jsonPath || "$"}\n` +
+      `    snippet: ${issue.snippet}\n` +
+      `    suggestion: ${issue.suggestion}`,
+    );
+  }
+  if (issues.length > MAX_ISSUES_TO_PRINT) {
+    console.error(`  ... ${issues.length - MAX_ISSUES_TO_PRINT} more issue(s) omitted from console output`);
+  }
+  throw new Error(`Inline math delimiter gate failed with ${issues.length} error(s)`);
+}
+
 async function validateCourseVariant(course: GeneratedCourse, variant: "sample" | "full"): Promise<CourseValidationResult | null> {
   const variantDir = path.join(process.cwd(), course.generatedPath, variant);
   const concisePath = path.join(variantDir, "framework-concise.json");
@@ -357,6 +488,13 @@ async function validateCourse(course: GeneratedCourse): Promise<CourseValidation
 
 async function main() {
   let allPassed = true;
+
+  try {
+    await runGlobalInlineDelimiterGate();
+  } catch (error) {
+    console.error(`  ${error instanceof Error ? error.message : error}`);
+    allPassed = false;
+  }
 
   for (const course of generatedCourses) {
     try {
