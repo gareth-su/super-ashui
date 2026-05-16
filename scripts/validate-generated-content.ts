@@ -82,12 +82,16 @@ type ContentIssue = {
 const MAX_ISSUES_TO_PRINT = 200;
 
 const ERROR_PATTERNS: Array<[string, RegExp, string]> = [
+  ["encoding corruption marker", /\?{5,}|\uFFFD|\u6D93|\u9365|\u9286|[\u00E7\u00E5]/, "Restore the source JSON from a UTF-8 backup; mojibake or replacement characters were detected."],
   ["backslash digit", /\\[1-9]/, "Remove the accidental backslash before the digit, or wrap the whole expression in valid \\(...\\)."],
+  ["backslash Chinese punctuation (unicode)", /\\[\u3002\uff0c\uff1b\uff1a\u3001\uff09]/, "Remove the accidental backslash before Chinese punctuation."],
+  ["backslash Chinese unit (unicode)", /\\(?:\u5143|\u7f8e\u5143)/, "Move the unit outside math mode or use \\text{...} inside LaTeX."],
   ["backslash Chinese punctuation", /\\[。，；：、）]/, "Remove the accidental backslash before Chinese punctuation."],
   ["backslash Chinese unit", /\\(?:元|美元|万|亿元)/, "Move the unit outside math mode or use \\text{...} inside LaTeX."],
   ["JSON control character", /[\x08\r\t\f]/, "Escape LaTeX commands in JSON source; do not let \\b, \\r, or \\t become control characters."],
   ["double escaped inline delimiter", /\\\\[()]/, "JSON should store inline math as \\\\( ... \\\\), which parses to \\( ... \\)."],
   ["broken inline delimiter after operator", /(?:\\cdot|\\times|=|\/)\\\(/, "Remove the inner delimiter or wrap the entire formula once in \\(...\\)."],
+  ["broken left/right delimiter", /\\(?:left|right)\\(?:[()]|$)/, "Use \\left( ... \\right) inside one math expression; do not insert inline delimiters after \\left or \\right."],
 ];
 
 const EARLY_INLINE_CLOSE_PATTERN = /\\%\\\)(?=[=+\-])|\\\)\\\)(?==)/g;
@@ -106,6 +110,12 @@ const BARE_FORMULA_PATTERNS: Array<[string, RegExp]> = [
 
 const PLAIN_PAREN_FORMULA_PATTERN =
   /(?:（[^）]{1,140}(?:=|_[A-Za-z]|\^\{|PV|FV|swap|fixed|float|R1T1|R2T2|RF\()[^）]{0,140}）|(?<!\\)\([^()]{1,140}(?:=|_[A-Za-z]|\^\{|PV|FV|swap|fixed|float|R1T1|R2T2|RF\()[^()]{0,140}\))/;
+
+const HIGH_CONFIDENCE_PERCENT_CHAIN_PATTERN =
+  /LIBOR[+-]\d+(?:\.\d+)?\\%|\d+(?:\.\d+)?\\%\s*[-+\u2212]\s*\d+(?:\.\d+)?\\%\s*=\s*\d+(?:\.\d+)?\\%|(?:\u56fa\u5b9a\u5229\u5dee|\u6d6e\u52a8\u5229\u5dee|\u603b\u6536\u76ca\u7a7a\u95f4|\u4f18\u52bf|\u5229\u5dee)[\s\S]{0,120}\\%/;
+
+const BARE_SWAP_FORMULA_PATTERN =
+  /B_\{fixed\}\s*=\s*B_\{float\}|V_\{swap\}\s*=\s*B_\{fixed\}\s*[-\u2212]\s*B_\{float\}|V_swap\s*=\s*B_fixed\s*[-\u2212]\s*B_float/;
 
 function shouldSkipBareFormulaWarning(jsonPath: string): boolean {
   return /\.type$/.test(jsonPath) || /formulaLatex$/.test(jsonPath) || /\.variables\[\d+\]\.symbol$/.test(jsonPath);
@@ -263,6 +273,32 @@ function runContentQualityChecks(filePath: string, framework: unknown): ContentI
     }
 
     const textWithoutInlineMath = stripInlineMath(value);
+    if (!/formulaLatex$/.test(jsonPath)) {
+      const percentChainMatch = HIGH_CONFIDENCE_PERCENT_CHAIN_PATTERN.exec(textWithoutInlineMath);
+      if (percentChainMatch) {
+        issues.push({
+          severity: "warning",
+          filePath,
+          jsonPath,
+          type: "high-confidence bare percent calculation chain",
+          snippet: createSnippet(value, percentChainMatch[0]),
+          suggestion: "Wrap the complete percentage or LIBOR calculation in \\(...\\), with Chinese punctuation outside math.",
+        });
+      }
+
+      const bareSwapMatch = BARE_SWAP_FORMULA_PATTERN.exec(textWithoutInlineMath);
+      if (bareSwapMatch) {
+        issues.push({
+          severity: "warning",
+          filePath,
+          jsonPath,
+          type: "bare swap valuation formula",
+          snippet: createSnippet(value, bareSwapMatch[0]),
+          suggestion: "Wrap the swap valuation formula in \\(...\\) and normalize subscripts such as V_{swap}, B_{fixed}, and B_{float}.",
+        });
+      }
+    }
+
     if (!shouldSkipBareFormulaWarning(jsonPath)) {
       const bareFormulaMatch = findBareFormulaPattern(textWithoutInlineMath);
       if (bareFormulaMatch) {
