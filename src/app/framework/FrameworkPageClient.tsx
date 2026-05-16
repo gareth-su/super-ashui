@@ -1,5 +1,6 @@
 "use client";
 
+import FeedbackButton from "@/components/feedback/FeedbackButton";
 import FrameworkLearningView, { type FrameworkData } from "@/components/framework/FrameworkLearningView";
 import { useMemo } from "react";
 
@@ -74,6 +75,7 @@ export default function FrameworkPageClient({
         headerTitle={framework.title ?? "课程知识框架"}
         headerDescription={framework.courseSummary ?? "围绕课程进行系统化梳理，帮助快速定位章节主线、核心概念、公式、案例和图表。"}
       />
+      <FeedbackButton courseId={currentCourseId} />
     </div>
   );
 }
