@@ -41,6 +41,15 @@ async function readJsonText(filePath: string) {
   return readFile(filePath, "utf8");
 }
 
+async function fileExists(filePath: string) {
+  try {
+    await readFile(filePath, "utf8");
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function parseJsonFile<T>(filePath: string, schema: z.ZodType<T>): Promise<T> {
   const raw = await readJsonText(filePath);
   const parsed = JSON.parse(raw) as unknown;
@@ -58,31 +67,46 @@ type CourseValidationResult = {
 };
 
 /* ------------------------------------------------------------------ */
-/*  Content quality warnings                                            */
+/*  Math/content quality gates                                         */
 /* ------------------------------------------------------------------ */
 
-const UNWRAPPED_MATH_PATTERNS = [
-  /\([^)]*_{[A-Za-z0-9,]+}[^)]*\)/,
-  /\([^)]*\^\{[^)]*\}[^)]*\)/,
-  /\([^)]*\b(sigma|alpha|beta|gamma|delta|theta|lambda|mu|rho|tau|phi|psi|omega|pi)\b[^)]*\)/,
+type ContentIssue = {
+  severity: "error" | "warning";
+  filePath: string;
+  jsonPath: string;
+  type: string;
+  snippet: string;
+  suggestion: string;
+};
+
+const MAX_ISSUES_TO_PRINT = 200;
+
+const ERROR_PATTERNS: Array<[string, RegExp, string]> = [
+  ["backslash digit", /\\[1-9]/, "Remove the accidental backslash before the digit, or wrap the whole expression in valid \\(...\\)."],
+  ["backslash Chinese punctuation", /\\[。，；：、）]/, "Remove the accidental backslash before Chinese punctuation."],
+  ["backslash Chinese unit", /\\(?:元|美元|万|亿元)/, "Move the unit outside math mode or use \\text{...} inside LaTeX."],
+  ["JSON control character", /[\x08\r\t\f]/, "Escape LaTeX commands in JSON source; do not let \\b, \\r, or \\t become control characters."],
+  ["double escaped inline delimiter", /\\\\[()]/, "JSON should store inline math as \\\\( ... \\\\), which parses to \\( ... \\)."],
+  ["broken inline delimiter after operator", /(?:\\cdot|\\times|=|\/)\\\(/, "Remove the inner delimiter or wrap the entire formula once in \\(...\\)."],
 ];
+
+const FORMULA_LATEX_WRAPPER_PATTERN = /\$\$|\\\(|\\\)|\\\[|\\\]/;
 
 const BARE_FORMULA_PATTERNS: Array<[string, RegExp]> = [
   ["exponential expression", /\b\d*(?:\.\d+)?e\^\{[^}]+\}|\be\^\{[A-Z]/],
+  ["forward rate chain", /R1T1|R2T2|RF\(/],
   ["math multiplication symbol", /[A-Za-z0-9)}%]\s*[×·]\s*[A-Za-z0-9({]/],
-  ["forward-rate variables", /R1T1|R2T2|RF\(|\bR[12]\b|\bT[12]\b/],
   ["greek variable assignment", /\b(sigma|rho|beta|alpha|gamma|delta)\s*[=<>]/i],
   ["formula assignment", /\b(?:P|F|V|PV|FV|EL|LGD|PD|EAD|VaR|I_[A-Za-z]+)\s*=/],
   ["starred hedge variable", /\b[Nh]\*/],
   ["latex command without wrapper", /\b(?:sqrt|sum|frac)\b/],
 ];
 
-function shouldSkipBareFormulaWarning(path: string): boolean {
-  return (
-    /\.type$/.test(path) ||
-    /formulaLatex$/.test(path) ||
-    /\.variables\[\d+\]\.symbol$/.test(path)
-  );
+const PLAIN_PAREN_FORMULA_PATTERN =
+  /(?:（[^）]{1,140}(?:=|_[A-Za-z]|\^\{|PV|FV|swap|fixed|float|R1T1|R2T2|RF\()[^）]{0,140}）|(?<!\\)\([^()]{1,140}(?:=|_[A-Za-z]|\^\{|PV|FV|swap|fixed|float|R1T1|R2T2|RF\()[^()]{0,140}\))/;
+
+function shouldSkipBareFormulaWarning(jsonPath: string): boolean {
+  return /\.type$/.test(jsonPath) || /formulaLatex$/.test(jsonPath) || /\.variables\[\d+\]\.symbol$/.test(jsonPath);
 }
 
 function findBareFormulaPattern(text: string): [string, string] | null {
@@ -93,160 +117,191 @@ function findBareFormulaPattern(text: string): [string, string] | null {
   return null;
 }
 
-function looksLikeProseFormula(text: string): boolean {
-  const proseWords = /\b(equals|expected|discounted|value|under|nodes|where|represents|means|calculated|derived|obtained|given by|expressed as)\b/i;
-  const mathChars = /[_^{}\\]/;
-  const hasEqualOrOp = /[=+\-*/]/.test(text);
-  return proseWords.test(text) && (!mathChars.test(text) || !hasEqualOrOp);
+function stripInlineMath(text: string): string {
+  return text.replace(/\\\([\s\S]*?\\\)/g, " ").replace(/\\\[[\s\S]*?\\\]/g, " ");
 }
 
-const CONTROL_ESCAPED_LATEX_PATTERNS: Array<[string, RegExp]> = [
-  ["tab", /\t/],
-  ["form feed", /\f/],
-  ["carriage return", /\r/],
-  ["backspace", /\x08/],
-];
-
-const DAMAGED_LATEX_PATTERNS: Array<[string, RegExp]> = [
-  ["missing \\text", /(?:^|\s)ext\{/],
-  ["missing \\times", /(?:^|\s)imes\b/],
-  ["missing \\frac", /(?:^|[^\\A-Za-z])rac\{/],
-  ["missing \\sqrt", /(?:^|[^\\A-Za-z])sqrt\{/],
-  ["missing \\text before float", /(?:^|[^\\])text\{float\}/],
-  ["I_{\\text{float}} control-escaped", /I_\{\s*ext\{float\}\}/],
-  ["V_{\\text{swap}} control-escaped", /V_\{\s*ext\{swap\}\}/],
-  ["B_{\\text{float}} control-escaped", /B_\{\s*ext\{float\}\}/],
-  ["B_{\\text{fixed}} control-escaped", /B_\{\s*ext\{fixed\}\}/],
-  ["missing \\max", /\\\([^)]*[^\\]max\(/],
-  ["missing \\min", /\\\([^)]*[^\\]min\(/],
-  ["missing braces in exponential", /e\^rT/],
-];
-
-function formulaFieldHasUnescapedCommand(value: string, command: "times" | "frac"): boolean {
-  const pattern = command === "times" ? /times\b/g : /frac\{/g;
-  let match: RegExpExecArray | null;
-  while ((match = pattern.exec(value)) !== null) {
-    const previous = value[match.index - 1];
-    if (previous !== "\\" && !(command === "frac" && previous === "t")) return true;
-  }
-  return false;
+function textOutsideTextCommands(mathBody: string): string {
+  return mathBody.replace(/\\text\{[^}]*[\u4e00-\u9fff][^}]*\}/g, "");
 }
 
-function walkStrings(obj: unknown, path: string, visitor: (val: string, path: string) => void) {
+function createSnippet(value: string, matchText: string): string {
+  const index = value.indexOf(matchText);
+  if (index < 0) return value.slice(0, 160);
+  const start = Math.max(0, index - 60);
+  const end = Math.min(value.length, index + matchText.length + 80);
+  return value.slice(start, end);
+}
+
+function walkStrings(obj: unknown, jsonPath: string, visitor: (val: string, jsonPath: string) => void) {
   if (obj === null || obj === undefined) return;
   if (typeof obj === "string") {
-    visitor(obj, path);
+    visitor(obj, jsonPath);
   } else if (Array.isArray(obj)) {
-    obj.forEach((item, i) => walkStrings(item, `${path}[${i}]`, visitor));
+    obj.forEach((item, i) => walkStrings(item, `${jsonPath}[${i}]`, visitor));
   } else if (typeof obj === "object") {
     for (const [key, value] of Object.entries(obj as Record<string, unknown>)) {
-      walkStrings(value, path ? `${path}.${key}` : key, visitor);
+      walkStrings(value, jsonPath ? `${jsonPath}.${key}` : key, visitor);
     }
   }
 }
 
-function runContentWarnings(courseId: string, variant: string, level: string, framework: unknown) {
-  const warnings: string[] = [];
-
-  walkStrings(framework, "", (value, path) => {
-    for (const [label, pattern] of CONTROL_ESCAPED_LATEX_PATTERNS) {
-      if (pattern.test(value)) {
-        warnings.push(
-          `String contains ${label} control character, often caused by unescaped LaTeX backslashes:\n` +
-          `  path: ${path}\n` +
-          `  suggestion: escape LaTeX commands in JSON source, e.g. \\text → \\\\text`
-        );
-      }
+function walkObjects(obj: unknown, jsonPath: string, visitor: (val: Record<string, unknown>, jsonPath: string) => void) {
+  if (obj === null || obj === undefined) return;
+  if (Array.isArray(obj)) {
+    obj.forEach((item, i) => walkObjects(item, `${jsonPath}[${i}]`, visitor));
+  } else if (typeof obj === "object") {
+    const record = obj as Record<string, unknown>;
+    visitor(record, jsonPath);
+    for (const [key, value] of Object.entries(record)) {
+      walkObjects(value, jsonPath ? `${jsonPath}.${key}` : key, visitor);
     }
+  }
+}
 
-    for (const [label, pattern] of DAMAGED_LATEX_PATTERNS) {
+function runContentQualityChecks(filePath: string, framework: unknown): ContentIssue[] {
+  const issues: ContentIssue[] = [];
+
+  walkStrings(framework, "", (value, jsonPath) => {
+    for (const [type, pattern, suggestion] of ERROR_PATTERNS) {
       const match = pattern.exec(value);
       if (match) {
-        warnings.push(
-          `Potential damaged LaTeX found (${label}):\n` +
-          `  path: ${path}\n` +
-          `  text: ${match[0]}\n` +
-          `  suggestion: restore the missing LaTeX backslash in the JSON source`
-        );
+        issues.push({ severity: "error", filePath, jsonPath, type, snippet: createSnippet(value, match[0]), suggestion });
       }
     }
 
-    if (/formula(Latex)?$/.test(path)) {
-      for (const command of ["times", "frac"] as const) {
-        if (formulaFieldHasUnescapedCommand(value, command)) {
-          warnings.push(
-            `Formula field contains ${command} without a preceding LaTeX backslash:\n` +
-            `  path: ${path}\n` +
-            `  suggestion: use \\${command}`
-          );
-        }
+    if (/formulaLatex$/.test(jsonPath)) {
+      const match = FORMULA_LATEX_WRAPPER_PATTERN.exec(value);
+      if (match) {
+        issues.push({
+          severity: "error",
+          filePath,
+          jsonPath,
+          type: "formulaLatex contains math delimiters",
+          snippet: createSnippet(value, match[0]),
+          suggestion: "formulaLatex should contain only the LaTeX body, without $$, \\(...\\), or \\[...\\].",
+        });
       }
     }
 
-    // Skip already-wrapped LaTeX
-    if (/\\(\(|\[)/.test(value)) return;
-
-    if (!shouldSkipBareFormulaWarning(path)) {
-      const bareFormulaMatch = findBareFormulaPattern(value);
+    const textWithoutInlineMath = stripInlineMath(value);
+    if (!shouldSkipBareFormulaWarning(jsonPath)) {
+      const bareFormulaMatch = findBareFormulaPattern(textWithoutInlineMath);
       if (bareFormulaMatch) {
         const [label, text] = bareFormulaMatch;
-        warnings.push(
-          `Potential bare formula found (${label}):\n` +
-          `  path: ${path}\n` +
-          `  text: ${text}\n` +
-          `  suggestion: wrap clear formulas in \\(...\\), use \\times/\\cdot, or move formula bodies to formulaLatex`
-        );
+        issues.push({
+          severity: "warning",
+          filePath,
+          jsonPath,
+          type: `bare formula candidate: ${label}`,
+          snippet: createSnippet(value, text),
+          suggestion: "If this is a displayed formula, wrap it in \\(...\\), normalize operators, or move the body to formulaLatex.",
+        });
       }
     }
 
-    // Check for unwrapped inline math in parentheses
-    for (const pattern of UNWRAPPED_MATH_PATTERNS) {
-      const match = pattern.exec(value);
-      if (match) {
-        warnings.push(
-          `Potential unwrapped inline math found:\n` +
-          `  path: ${path}\n` +
-          `  text: ${match[0]}\n` +
-          `  suggestion: use \\(...\\) wrapping, convert sigma→\\sigma, %→\\%`
-        );
-        break;
+    const plainParenMatch = /formulaLatex$/.test(jsonPath) ? null : PLAIN_PAREN_FORMULA_PATTERN.exec(textWithoutInlineMath);
+    if (plainParenMatch) {
+      issues.push({
+        severity: "warning",
+        filePath,
+        jsonPath,
+        type: "plain parentheses formula candidate",
+        snippet: createSnippet(value, plainParenMatch[0]),
+        suggestion: "Convert clear formula parentheses to \\(...\\), with _{...}, \\times/\\cdot, and ASCII minus where appropriate.",
+      });
+    }
+
+    const mathModePattern = /\\\(([\s\S]*?)\\\)/g;
+    let mathMatch: RegExpExecArray | null;
+    while ((mathMatch = mathModePattern.exec(value)) !== null) {
+      const body = mathMatch[1] ?? "";
+      if (/[\u4e00-\u9fff]/.test(textOutsideTextCommands(body))) {
+        issues.push({
+          severity: "warning",
+          filePath,
+          jsonPath,
+          type: "Chinese text in math mode",
+          snippet: createSnippet(value, mathMatch[0]),
+          suggestion: "Move Chinese explanation outside math mode or wrap units/labels with \\text{...}.",
+        });
       }
     }
 
-    // Check for prose in formula fields
-    if (/formula(Latex)?$/.test(path) && looksLikeProseFormula(value)) {
-      warnings.push(
-        `Formula field appears to contain prose instead of a mathematical expression:\n` +
-        `  path: ${path}\n` +
-        `  text: ${value}\n` +
-        `  suggestion: move explanatory text to description/explanation fields`
-      );
+    if (/−/.test(textWithoutInlineMath) && /[A-Za-z0-9_=^{}]/.test(textWithoutInlineMath)) {
+      issues.push({
+        severity: "warning",
+        filePath,
+        jsonPath,
+        type: "Unicode minus in formula candidate",
+        snippet: createSnippet(value, "−"),
+        suggestion: "Use ASCII '-' inside formula expressions.",
+      });
     }
   });
 
-  if (warnings.length > 0) {
-    console.warn(`\n[${courseId}/${variant}/${level}] 内容质量警告 (${warnings.length}):`);
-    for (const w of warnings) {
-      console.warn(`  ⚠ ${w.replace(/\n/g, "\n    ")}`);
+  walkObjects(framework, "", (record, jsonPath) => {
+    if (typeof record.formula === "string" && typeof record.formulaLatex === "string") {
+      const normalizedFormula = record.formula.replace(/\s+/g, "");
+      const normalizedLatex = record.formulaLatex
+        .replace(/\\(?:frac|sum|times|cdot|text|left|right|begin|end|max|min|approx|bar|geq|leq)/g, "")
+        .replace(/[{}\\_\s]/g, "");
+      if (normalizedFormula && normalizedLatex && normalizedFormula !== normalizedLatex) {
+        issues.push({
+          severity: "warning",
+          filePath,
+          jsonPath: jsonPath ? `${jsonPath}.formula` : "formula",
+          type: "formula/formulaLatex differ",
+          snippet: record.formula.slice(0, 180),
+          suggestion: "Rendering uses formulaLatex; keep formula as readable fallback or align it when the mismatch is unintended.",
+        });
+      }
     }
+  });
+
+  return issues;
+}
+
+function printContentIssues(courseId: string, variant: string, level: string, issues: ContentIssue[]) {
+  if (issues.length === 0) return;
+  const errors = issues.filter((issue) => issue.severity === "error");
+  const warnings = issues.filter((issue) => issue.severity === "warning");
+  console.warn(`\n[${courseId}/${variant}/${level}] content quality: ${errors.length} error(s), ${warnings.length} warning(s)`);
+
+  for (const issue of issues.slice(0, MAX_ISSUES_TO_PRINT)) {
+    const label = issue.severity === "error" ? "ERROR" : "WARN";
+    console.warn(
+      `  [${label}] ${issue.type}\n` +
+      `    file: ${issue.filePath}\n` +
+      `    path: ${issue.jsonPath || "$"}\n` +
+      `    snippet: ${issue.snippet}\n` +
+      `    suggestion: ${issue.suggestion}`,
+    );
+  }
+
+  if (issues.length > MAX_ISSUES_TO_PRINT) {
+    console.warn(`  ... ${issues.length - MAX_ISSUES_TO_PRINT} more issue(s) omitted from console output`);
   }
 }
 
 async function validateCourseVariant(course: GeneratedCourse, variant: "sample" | "full"): Promise<CourseValidationResult | null> {
   const variantDir = path.join(process.cwd(), course.generatedPath, variant);
+  const concisePath = path.join(variantDir, "framework-concise.json");
+  const detailedPath = path.join(variantDir, "framework-detailed.json");
 
-  // Skip if variant directory doesn't exist (e.g. a new course that only has full/)
-  try {
-    await readFile(path.join(variantDir, "materials.json"), "utf8");
-  } catch {
+  if (!(await fileExists(concisePath)) || !(await fileExists(detailedPath))) {
     return null;
   }
 
+  const materialsPath = path.join(variantDir, "materials.json");
+  const chunksPath = path.join(variantDir, "chunks.json");
+  const hasMaterialsAndChunks = (await fileExists(materialsPath)) && (await fileExists(chunksPath));
+
   const [materials, chunks, conciseRaw, detailedRaw] = await Promise.all([
-    parseJsonFile(path.join(variantDir, "materials.json"), MaterialsInputSchema),
-    parseJsonFile(path.join(variantDir, "chunks.json"), ChunksInputSchema),
-    readJsonText(path.join(variantDir, "framework-concise.json")),
-    readJsonText(path.join(variantDir, "framework-detailed.json")),
+    hasMaterialsAndChunks ? parseJsonFile(materialsPath, MaterialsInputSchema) : Promise.resolve([]),
+    hasMaterialsAndChunks ? parseJsonFile(chunksPath, ChunksInputSchema) : Promise.resolve([]),
+    readJsonText(concisePath),
+    readJsonText(detailedPath),
   ]);
 
   const materialIds = new Set(materials.map((material) => material.id));
@@ -256,16 +311,22 @@ async function validateCourseVariant(course: GeneratedCourse, variant: "sample" 
 
   if (unknownMaterialIds.length > 0) {
     throw new Error(
-      `[${course.id}/${variant}] chunks.json 引用了不存在的 materialId：${[...new Set(unknownMaterialIds)].join("、")}`,
+      `[${course.id}/${variant}] chunks.json references unknown materialId: ${[...new Set(unknownMaterialIds)].join(", ")}`,
     );
   }
 
   const conciseFramework = parseFrameworkJson(conciseRaw);
   const detailedFramework = parseFrameworkJson(detailedRaw);
 
-  /* ---------- content quality warnings ---------- */
-  runContentWarnings(course.id, variant, "concise", conciseFramework);
-  runContentWarnings(course.id, variant, "detailed", detailedFramework);
+  const conciseIssues = runContentQualityChecks(concisePath, conciseFramework);
+  const detailedIssues = runContentQualityChecks(detailedPath, detailedFramework);
+  printContentIssues(course.id, variant, "concise", conciseIssues);
+  printContentIssues(course.id, variant, "detailed", detailedIssues);
+
+  const errorCount = [...conciseIssues, ...detailedIssues].filter((issue) => issue.severity === "error").length;
+  if (errorCount > 0) {
+    throw new Error(`[${course.id}/${variant}] content quality gate failed with ${errorCount} error(s)`);
+  }
 
   return {
     courseId: course.id,
@@ -301,7 +362,7 @@ async function main() {
     try {
       const results = await validateCourse(course);
       if (results.length === 0) {
-        console.log(`[${course.id}] ${course.title} — 跳过（无有效 variant）`);
+        console.log(`[${course.id}] ${course.title} - skipped (no valid variant)`);
         continue;
       }
       for (const r of results) {
@@ -310,12 +371,12 @@ async function main() {
         console.log(`  framework concise chapters: ${r.conciseChapters}, detailed chapters: ${r.detailedChapters}`);
       }
     } catch (error) {
-      console.error(`[${course.id}] ${course.title} — 校验失败`);
+      console.error(`[${course.id}] ${course.title} - validation failed`);
 
       if (error instanceof z.ZodError) {
         console.error(formatZodError(error));
       } else if (error instanceof SyntaxError) {
-        console.error(`  JSON 解析失败：${error.message}`);
+        console.error(`  JSON parse failed: ${error.message}`);
       } else {
         console.error(`  ${error instanceof Error ? error.message : error}`);
       }
@@ -325,7 +386,7 @@ async function main() {
   }
 
   if (allPassed && generatedCourses.length > 0) {
-    console.log("\n离线生成内容校验通过");
+    console.log("\nGenerated content validation passed");
   }
 
   if (!allPassed) {
