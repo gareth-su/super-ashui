@@ -133,6 +133,12 @@ function stripInlineMath(text: string): string {
   return text.replace(/\\\([\s\S]*?\\\)/g, " ").replace(/\\\[[\s\S]*?\\\]/g, " ");
 }
 
+function findBarePercentOutsideMath(text: string): number | null {
+  const textWithoutInlineMath = stripInlineMath(text);
+  const index = textWithoutInlineMath.indexOf("\\%");
+  return index >= 0 ? index : null;
+}
+
 function textOutsideTextCommands(mathBody: string): string {
   return mathBody.replace(/\\text\{[^}]*[\u4e00-\u9fff][^}]*\}/g, "");
 }
@@ -274,6 +280,18 @@ function runContentQualityChecks(filePath: string, framework: unknown): ContentI
 
     const textWithoutInlineMath = stripInlineMath(value);
     if (!/formulaLatex$/.test(jsonPath)) {
+      const barePercentIndex = findBarePercentOutsideMath(value);
+      if (barePercentIndex !== null) {
+        issues.push({
+          severity: "warning",
+          filePath,
+          jsonPath,
+          type: "bare percent outside math mode",
+          snippet: createSnippetAt(textWithoutInlineMath, barePercentIndex),
+          suggestion: "Use a plain percent sign (%) in prose/table text, or keep \\% only inside valid math mode.",
+        });
+      }
+
       const percentChainMatch = HIGH_CONFIDENCE_PERCENT_CHAIN_PATTERN.exec(textWithoutInlineMath);
       if (percentChainMatch) {
         issues.push({
