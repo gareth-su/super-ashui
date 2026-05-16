@@ -1,0 +1,40 @@
+{
+  "name": "study-ai-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "ingest:fixed": "tsx scripts/ingest-fixed-course.ts",
+    "validate:content": "tsx scripts/validate-generated-content.ts",
+    "import:content": "tsx scripts/import-generated-content.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "anthropic": "^0.0.0",
+    "katex": "^0.16.45",
+    "mammoth": "^1.12.0",
+    "next": "16.2.5",
+    "pdf-parse": "^2.4.5",
+    "pptx2json": "^0.0.10",
+    "prisma": "^6.14.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-katex": "^3.1.0",
+    "recharts": "^3.8.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.5",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.6",
+    "typescript": "^5"
+  }
+}

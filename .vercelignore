@@ -1,0 +1,9 @@
+source-materials/
+uploads/
+prisma/dev.db
+.env*
+data/generated/*/audit/
+data/generated/audit/
+.playwright-cli/
+.tmp/
+.next-dev-codex*.log

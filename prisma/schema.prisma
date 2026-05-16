@@ -1,0 +1,180 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum MaterialParseStatus {
+  PENDING
+  PARSING
+  SUCCESS
+  FAILED
+}
+
+enum UploadStatus {
+  UPLOADED
+  STORED
+  FAILED
+}
+
+enum ArtifactType {
+  C1_FRAMEWORK
+  C4_CHEATSHEET
+}
+
+enum DetailLevel {
+  CONCISE
+  DETAILED
+}
+
+enum QuestionType {
+  SINGLE
+  MULTI
+  TF
+  SHORT
+  CASE
+}
+
+enum JobType {
+  PARSE
+  GENERATE_ARTIFACTS
+  GENERATE_QUESTIONS
+}
+
+enum JobStatus {
+  PENDING
+  RUNNING
+  SUCCESS
+  FAILED
+}
+
+model Subject {
+  id                 String              @id @default(cuid())
+  name               String              @unique
+  status             String              @default("ACTIVE")
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  materials          Material[]
+  artifacts          KnowledgeArtifact[]
+  questions          Question[]
+  practiceSessions   PracticeSession[]
+  jobs               Job[]
+}
+
+model Material {
+  id                 String              @id @default(cuid())
+  subjectId          String
+  title              String
+  filePath           String
+  mimeType           String?
+  uploadStatus       UploadStatus        @default(UPLOADED)
+  parseStatus        MaterialParseStatus @default(PENDING)
+  parseError         String?
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  subject            Subject             @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  chunks             MaterialChunk[]
+  questions          Question[]
+  jobs               Job[]
+
+  @@index([subjectId])
+  @@index([parseStatus])
+}
+
+model MaterialChunk {
+  id                 String    @id @default(cuid())
+  materialId         String
+  chunkIndex         Int
+  content            String
+  tokenCount         Int       @default(0)
+  sourcePage         Int?
+  sourceSection      String?
+  contentType        String?
+  createdAt          DateTime  @default(now())
+  material           Material  @relation(fields: [materialId], references: [id], onDelete: Cascade)
+
+  @@index([materialId])
+  @@unique([materialId, chunkIndex])
+}
+
+model KnowledgeArtifact {
+  id                 String      @id @default(cuid())
+  subjectId          String
+  type               ArtifactType
+  detailLevel        DetailLevel
+  contentJson        String?
+  contentMd          String?
+  version            Int         @default(1)
+  generatedAt        DateTime    @default(now())
+  subject            Subject      @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([subjectId, type, detailLevel, version])
+  @@index([subjectId, type, detailLevel])
+}
+
+model Question {
+  id                    String       @id @default(cuid())
+  subjectId             String
+  materialId            String?
+  questionType          QuestionType
+  stem                  String
+  optionsJson           String?
+  answerJson            String
+  analysis              String?
+  difficulty            Int          @default(2)
+  autoGradable          Boolean      @default(true)
+  sourceCitationsJson   String
+  createdAt             DateTime     @default(now())
+  updatedAt             DateTime     @updatedAt
+  subject               Subject      @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  material              Material?    @relation(fields: [materialId], references: [id], onDelete: SetNull)
+  practiceAnswers       PracticeAnswer[]
+
+  @@index([subjectId])
+}
+
+model PracticeSession {
+  id                 String           @id @default(cuid())
+  subjectId          String
+  mode               String           @default("STANDARD")
+  createdAt          DateTime         @default(now())
+  subject            Subject           @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  answers            PracticeAnswer[]
+
+  @@index([subjectId])
+}
+
+model PracticeAnswer {
+  id                 String          @id @default(cuid())
+  sessionId          String
+  questionId         String
+  userAnswerJson     String
+  score              Float           @default(0)
+  isCorrect          Boolean         @default(false)
+  feedback           String?
+  gradedAt           DateTime        @default(now())
+  session            PracticeSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question           Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId])
+  @@index([questionId])
+}
+
+model Job {
+  id                 String      @id @default(cuid())
+  jobType            JobType
+  status             JobStatus   @default(PENDING)
+  subjectId          String?
+  materialId         String?
+  payloadJson        String?
+  error              String?
+  createdAt          DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+  subject            Subject?     @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  material           Material?    @relation(fields: [materialId], references: [id], onDelete: SetNull)
+
+  @@index([jobType, status])
+}
