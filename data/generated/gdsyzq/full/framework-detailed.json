@@ -3889,7 +3889,7 @@
           "formulaLatex": "V_{callable}=V_{option\\text{-}free}-V_{call},\\quad V_{putable}=V_{option\\text{-}free}+V_{put}",
           "variables": [
             {
-              "symbol": "V_{option\text{-}free}",
+              "symbol": "V_{option\\text{-}free}",
               "meaning": "同等条件下无期权债券价值"
             },
             {

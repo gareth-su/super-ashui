@@ -46,6 +46,16 @@ function normalizeLooseInlineMath(text: string): string {
   });
 }
 
+function repairControlEscapedLatex(text: string): string {
+  return text
+    .replace(/\beta/g, "\\beta")
+    .replace(/\text/g, "\\text")
+    .replace(/\times/g, "\\times")
+    .replace(/\tau/g, "\\tau")
+    .replace(/\frac/g, "\\frac")
+    .replace(/\rho/g, "\\rho");
+}
+
 /* ------------------------------------------------------------------ */
 /*  Parse a string into tokens: plain text, \(...\), \[...\]           */
 /* ------------------------------------------------------------------ */
@@ -83,7 +93,7 @@ function tokenize(text: string): Token[] {
 }
 
 function tokenizeWithLooseMath(text: string): Token[] {
-  return tokenize(text).flatMap((token) => {
+  return tokenize(repairControlEscapedLatex(text)).flatMap((token) => {
     if (token.type !== "text") return [token];
     return tokenize(normalizeLooseInlineMath(token.value));
   });

@@ -20,9 +20,19 @@ import {
 /*  Safe KaTeX helpers – pure functions, safely wrapped in try/catch   */
 /* ------------------------------------------------------------------ */
 
+function repairControlEscapedLatex(text: string): string {
+  return text
+    .replace(/\beta/g, "\\beta")
+    .replace(/\text/g, "\\text")
+    .replace(/\times/g, "\\times")
+    .replace(/\tau/g, "\\tau")
+    .replace(/\frac/g, "\\frac")
+    .replace(/\rho/g, "\\rho");
+}
+
 function renderLatex(latex: string, displayMode: boolean): string | null {
   try {
-    return katex.renderToString(latex, {
+    return katex.renderToString(repairControlEscapedLatex(latex), {
       displayMode,
       throwOnError: false,
       strict: "ignore",

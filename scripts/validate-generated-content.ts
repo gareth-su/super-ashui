@@ -74,6 +74,38 @@ function looksLikeProseFormula(text: string): boolean {
   return proseWords.test(text) && (!mathChars.test(text) || !hasEqualOrOp);
 }
 
+const CONTROL_ESCAPED_LATEX_PATTERNS: Array<[string, RegExp]> = [
+  ["tab", /\t/],
+  ["form feed", /\f/],
+  ["carriage return", /\r/],
+  ["backspace", /\x08/],
+];
+
+const DAMAGED_LATEX_PATTERNS: Array<[string, RegExp]> = [
+  ["missing \\text", /(?:^|\s)ext\{/],
+  ["missing \\times", /(?:^|\s)imes\b/],
+  ["missing \\frac", /(?:^|[^\\A-Za-z])rac\{/],
+  ["missing \\sqrt", /(?:^|[^\\A-Za-z])sqrt\{/],
+  ["missing \\text before float", /(?:^|[^\\])text\{float\}/],
+  ["I_{\\text{float}} control-escaped", /I_\{\s*ext\{float\}\}/],
+  ["V_{\\text{swap}} control-escaped", /V_\{\s*ext\{swap\}\}/],
+  ["B_{\\text{float}} control-escaped", /B_\{\s*ext\{float\}\}/],
+  ["B_{\\text{fixed}} control-escaped", /B_\{\s*ext\{fixed\}\}/],
+  ["missing \\max", /\\\([^)]*[^\\]max\(/],
+  ["missing \\min", /\\\([^)]*[^\\]min\(/],
+  ["missing braces in exponential", /e\^rT/],
+];
+
+function formulaFieldHasUnescapedCommand(value: string, command: "times" | "frac"): boolean {
+  const pattern = command === "times" ? /times\b/g : /frac\{/g;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(value)) !== null) {
+    const previous = value[match.index - 1];
+    if (previous !== "\\" && !(command === "frac" && previous === "t")) return true;
+  }
+  return false;
+}
+
 function walkStrings(obj: unknown, path: string, visitor: (val: string, path: string) => void) {
   if (obj === null || obj === undefined) return;
   if (typeof obj === "string") {
@@ -91,6 +123,40 @@ function runContentWarnings(courseId: string, variant: string, level: string, fr
   const warnings: string[] = [];
 
   walkStrings(framework, "", (value, path) => {
+    for (const [label, pattern] of CONTROL_ESCAPED_LATEX_PATTERNS) {
+      if (pattern.test(value)) {
+        warnings.push(
+          `String contains ${label} control character, often caused by unescaped LaTeX backslashes:\n` +
+          `  path: ${path}\n` +
+          `  suggestion: escape LaTeX commands in JSON source, e.g. \\text → \\\\text`
+        );
+      }
+    }
+
+    for (const [label, pattern] of DAMAGED_LATEX_PATTERNS) {
+      const match = pattern.exec(value);
+      if (match) {
+        warnings.push(
+          `Potential damaged LaTeX found (${label}):\n` +
+          `  path: ${path}\n` +
+          `  text: ${match[0]}\n` +
+          `  suggestion: restore the missing LaTeX backslash in the JSON source`
+        );
+      }
+    }
+
+    if (/formula(Latex)?$/.test(path)) {
+      for (const command of ["times", "frac"] as const) {
+        if (formulaFieldHasUnescapedCommand(value, command)) {
+          warnings.push(
+            `Formula field contains ${command} without a preceding LaTeX backslash:\n` +
+            `  path: ${path}\n` +
+            `  suggestion: use \\${command}`
+          );
+        }
+      }
+    }
+
     // Skip already-wrapped LaTeX
     if (/\\(\(|\[)/.test(value)) return;
 
