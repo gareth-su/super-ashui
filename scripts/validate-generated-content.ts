@@ -67,6 +67,32 @@ const UNWRAPPED_MATH_PATTERNS = [
   /\([^)]*\b(sigma|alpha|beta|gamma|delta|theta|lambda|mu|rho|tau|phi|psi|omega|pi)\b[^)]*\)/,
 ];
 
+const BARE_FORMULA_PATTERNS: Array<[string, RegExp]> = [
+  ["exponential expression", /\b\d*(?:\.\d+)?e\^\{[^}]+\}|\be\^\{[A-Z]/],
+  ["math multiplication symbol", /[A-Za-z0-9)}%]\s*[×·]\s*[A-Za-z0-9({]/],
+  ["forward-rate variables", /R1T1|R2T2|RF\(|\bR[12]\b|\bT[12]\b/],
+  ["greek variable assignment", /\b(sigma|rho|beta|alpha|gamma|delta)\s*[=<>]/i],
+  ["formula assignment", /\b(?:P|F|V|PV|FV|EL|LGD|PD|EAD|VaR|I_[A-Za-z]+)\s*=/],
+  ["starred hedge variable", /\b[Nh]\*/],
+  ["latex command without wrapper", /\b(?:sqrt|sum|frac)\b/],
+];
+
+function shouldSkipBareFormulaWarning(path: string): boolean {
+  return (
+    /\.type$/.test(path) ||
+    /formulaLatex$/.test(path) ||
+    /\.variables\[\d+\]\.symbol$/.test(path)
+  );
+}
+
+function findBareFormulaPattern(text: string): [string, string] | null {
+  for (const [label, pattern] of BARE_FORMULA_PATTERNS) {
+    const match = pattern.exec(text);
+    if (match) return [label, match[0]];
+  }
+  return null;
+}
+
 function looksLikeProseFormula(text: string): boolean {
   const proseWords = /\b(equals|expected|discounted|value|under|nodes|where|represents|means|calculated|derived|obtained|given by|expressed as)\b/i;
   const mathChars = /[_^{}\\]/;
@@ -159,6 +185,19 @@ function runContentWarnings(courseId: string, variant: string, level: string, fr
 
     // Skip already-wrapped LaTeX
     if (/\\(\(|\[)/.test(value)) return;
+
+    if (!shouldSkipBareFormulaWarning(path)) {
+      const bareFormulaMatch = findBareFormulaPattern(value);
+      if (bareFormulaMatch) {
+        const [label, text] = bareFormulaMatch;
+        warnings.push(
+          `Potential bare formula found (${label}):\n` +
+          `  path: ${path}\n` +
+          `  text: ${text}\n` +
+          `  suggestion: wrap clear formulas in \\(...\\), use \\times/\\cdot, or move formula bodies to formulaLatex`
+        );
+      }
+    }
 
     // Check for unwrapped inline math in parentheses
     for (const pattern of UNWRAPPED_MATH_PATTERNS) {
