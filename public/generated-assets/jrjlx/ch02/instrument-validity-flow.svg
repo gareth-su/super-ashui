@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0284c7"/></marker></defs><rect width="1280" height="720" fill="#f8fafc"/><text x="64" y="70" font-size="38" font-weight="800" fill="#0f172a">工具变量有效性检查流程</text><text x="64" y="112" font-size="22" fill="#475569">相关性看第一阶段，外生性靠论证；过度识别时用 J 检验辅助。</text>
+<rect x="70" y="170" width="500" height="135" rx="14" fill="#e0f2fe" stroke="#94a3b8" stroke-width="2"/><text x="88" y="204" font-size="24" font-weight="700" fill="#0f172a">1. OLS 为什么坏</text>
+<text x="88" y="238" font-size="20" fill="#334155">X 是否与 u 相关？</text>
+<text x="88" y="265" font-size="20" fill="#334155">四类内生性来源</text>
+<rect x="710" y="170" width="430" height="135" rx="14" fill="#dcfce7" stroke="#94a3b8" stroke-width="2"/><text x="728" y="204" font-size="24" font-weight="700" fill="#0f172a">2. 找 Z</text>
+<text x="728" y="238" font-size="20" fill="#334155">Z 要能推动 X</text>
+<text x="728" y="265" font-size="20" fill="#334155">但不能直接影响 Y</text>
+<rect x="70" y="410" width="500" height="135" rx="14" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/><text x="88" y="444" font-size="24" font-weight="700" fill="#0f172a">3. 第一阶段 F</text>
+<text x="88" y="478" font-size="20" fill="#334155">F &lt; 10：弱工具风险</text>
+<text x="88" y="505" font-size="20" fill="#334155">F 大也不证明外生</text>
+<rect x="710" y="410" width="430" height="135" rx="14" fill="#fee2e2" stroke="#94a3b8" stroke-width="2"/><text x="728" y="444" font-size="24" font-weight="700" fill="#0f172a">4. J 检验</text>
+<text x="728" y="478" font-size="20" fill="#334155">只在 m &gt; k 时可做</text>
+<text x="728" y="505" font-size="20" fill="#334155">拒绝不定位哪个工具坏</text>
+<text x="64" y="684" font-size="18" fill="#64748b">教学示意图：用于理解操作链路，不是 Stata 回归结果截图。</text></svg>

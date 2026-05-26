@@ -1,0 +1,704 @@
+[
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 年春季学期 一 概论 固定收益证券 本科生专业方向课程",
+    "tokenCount": 18,
+    "sourcePage": 1,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 1,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 目录 课程介绍 固定收益证券的概念 固定收益证券在金融市场中的地位",
+    "tokenCount": 28,
+    "sourcePage": 2,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 2,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 目录 课程介绍 固定收益证券的概念 固定收益证券在金融市场中的地位",
+    "tokenCount": 28,
+    "sourcePage": 3,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 3,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 课程目标 掌握固定收益证券相关重要概念 了解固定收益证券在金融市场中的地位 掌握固定收益证券分析的基本方法，包括 定价、 风险评估 及 投资组合管理等 了解资产证券化的原理、实操流程及典型案例 了解 中国债券市场的现状 及相关实务：话题 ( 新闻、有关政策部门、行研报告等 )",
+    "tokenCount": 83,
+    "sourcePage": 4,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 4,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 了解 中国债券市场的现状 及相关实务：话题 （ 1 ）新闻：",
+    "tokenCount": 29,
+    "sourcePage": 5,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 5,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 了解 中国债券市场的现状 及相关实务：话题 （ 2 ）有关政策部门：",
+    "tokenCount": 31,
+    "sourcePage": 6,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 6,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 了解 中国债券市场的现状 及相关实务：话题 （ 3 ）行研报告等：",
+    "tokenCount": 30,
+    "sourcePage": 7,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 7,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 教学内容 教学内容 学习要点 课时安排 １ . 概论 固定收益证券基本概念 固定收益证券在金融市场中的地位 3 ２ . 债券基本概念与债券市场组成 债券市场 介绍、常见债券工具 债务类证券特征 资产证券化 15 ３ . 债券产品的定价 债券收益率 债券定价 - 国债、不含嵌入期权的 非国债定价、 含嵌入期权的债券定价、 MBS 及 ABS 定价 18 ４ . 债券投资的风险 债券投资风险简介 利率风险：含义、特征及量化 信用风险：含义、特征及量化 6 ５ . 债券投资组合管理 保险型组合管理策略、积极型组合管理策略、对冲型组合管理策略 6 ６ . 中国债券市场实务（选讲） 宏观利率研究：负利率、收益率曲线 信用研究：信用利差、债券违约风险 产品创新： ABS 产品创新、公募 REIT s 的发展 ７ . 课程总结与答疑 课程回顾总结、重点习题讲解 学生答疑 3",
+    "tokenCount": 206,
+    "sourcePage": 8,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 8,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 考核方式 考核方式 分数占比 说明 课程参与 50% 根据学生出勤、课堂提问及讨论、平时作业 情况给分、互动展示：跟债券相关 随堂测验 20% 闭卷考试： 重点考察学生对课程相关知识点的掌握，特别是运用相关知识 计算、 分析问题的能力 期末报告 3 0% 给出相关话题范围，独立完成报告",
+    "tokenCount": 85,
+    "sourcePage": 9,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 9,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 2022 年第三、四期储蓄国债（电子式） 7 月 10 日正式发行 中国建设银行：国债业务介绍 凭证式？ 电子式？ 记账式？",
+    "tokenCount": 74,
+    "sourcePage": 10,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 10,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 中国建设银行：国债业务介绍 凭证式？ 电子式？ 记账式？ 需开通证券交易账户； 可以上市流通，可以在二级市场买卖；票面利率是由国债承购包销团成员投标确定",
+    "tokenCount": 81,
+    "sourcePage": 11,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 11,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 我国债券市场存量规模及结构 2025 年各券种发行占比 2025 年新品种债券发行情况",
+    "tokenCount": 64,
+    "sourcePage": 12,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 12,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？",
+    "tokenCount": 42,
+    "sourcePage": 13,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 13,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 中美债券市场对比： 中国：市场起步晚，但目前债券品种较丰富，已超过日本称为全球第二大市场；发行人以央企、国企、城投为主；中短期债券为主 美国：以国债为主，抵押贷款类债券占比高；发行人主要为非金融机构的各类公司；中长债券占比高 补充阅读： 中国外汇交易中心 中国债券市场投资手册 中债研发中心 中国债券市场概览 中国债券信息网 债券业务统计分析报告 中国银行间市场交易商协会 中国债券市场改革发展报告",
+    "tokenCount": 142,
+    "sourcePage": 14,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 14,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 固定收益证券 (Fixed income securities)：一种要求资金使用方按照规定时间和方式向资金供给方支付已承诺费用的有价证券。 反映了一种 财务 上的义务 承诺支付费用的 实体：发行人 (Issuer)/ 借款人 (Borrower) 购买固定收益证券的 投资者：出借方 (Lender)/ 债权人 (Creditor) 主要分成两大类：债务权证和优先股 - 债务权证：债券 (Bonds)：国债、企业债、嵌入期权债券（可转债） 资产证券化： 抵押贷款支持证券 (Mortgage-backed securities, MBS) 资产支持证券 (Asset-backed securities, ABS) 等 - 优先股：一种具有和债券相似特征的权益证券",
+    "tokenCount": 183,
+    "sourcePage": 15,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 15,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 目录 课程介绍 固定收益证券的概念 固定收益证券在金融市场中的地位",
+    "tokenCount": 28,
+    "sourcePage": 16,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 16,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融市场 含义： 指货币资金融通和金融资产交换的场所， 将资金盈余方的资金转移到资金短缺方。 功能： 有效资本，提高整体经济的产出水平和效率； 通过帮助消费者更好地安排购买时机，功能健全的金融市场能够直接提高他们的经济福利 举例： 如果 A 有 500 元储蓄， B 需要借 500 元用于生产，通过金融市场， A 把钱借给 B, 从而获取利息收入； B 得到资金用于投资（购买资本） 结构： 债券市场 和 股权市场",
+    "tokenCount": 123,
+    "sourcePage": 17,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 17,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融市场的重要组成部分",
+    "tokenCount": 25,
+    "sourcePage": 18,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 18,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 Country Total Financial corporations Non-financial corporations General governments Total/GDP US 41,232 14,748 6,558 19,714 2.03 Japan 12,825 2,558 772 9,494 2.60 UK 6,288 2,831 539 2,913 2.30 France 4,670 1,681 697 2,292 1.78 China 14,726 5,472 3,609 5,644 0.96 Summary of debt securities outstanding (by residence and sector of issuer, amounts outstanding at end-December 2019, in billions of US dollars) Source: Bank for International Settlements (BIS) 金融市场的重要组成部分",
+    "tokenCount": 253,
+    "sourcePage": 19,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 19,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 不同国家金融业发展类型： 英美以伦敦和纽约为代表的以 资本市场 为主金融发展模式 德日以法 兰 克福和东京为代表的以 银行信贷市场 为主的金融发展模式 中国社会主义市场经济模式下的金融发展模式， 信贷市场 为主，发展资本市场，实施政府宏观调控 金融市场的重要组成部分",
+    "tokenCount": 86,
+    "sourcePage": 20,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 20,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融市场的重要组成部分",
+    "tokenCount": 25,
+    "sourcePage": 21,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 21,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 中国新增违约发行人及违约债券情况 债券违约发行人性质 中国新增债券违约金额情况 债券违约回收率",
+    "tokenCount": 49,
+    "sourcePage": 22,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 22,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国硅谷银行破产",
+    "tokenCount": 29,
+    "sourcePage": 23,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 23,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国硅谷银行破产",
+    "tokenCount": 29,
+    "sourcePage": 24,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 24,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国硅谷银行破产",
+    "tokenCount": 29,
+    "sourcePage": 25,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 25,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国次贷危机示意图",
+    "tokenCount": 30,
+    "sourcePage": 26,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 26,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国次贷危机示意图",
+    "tokenCount": 30,
+    "sourcePage": 27,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 27,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融机构的重要业务构成",
+    "tokenCount": 25,
+    "sourcePage": 28,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 28,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 29,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 29,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 30,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 30,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 31,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 31,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 32,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 学年春季 学期 二 债券基本概念与债券市场组成 固定收益证券 本科生专业方向课程",
+    "tokenCount": 25,
+    "sourcePage": 1,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 1,
+    "content": "二 · 债券基本概念与债券市场组成 目录 债券基本概念 债券市场组成",
+    "tokenCount": 17,
+    "sourcePage": 2,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 2,
+    "content": "二 · 债券基本概念与债券市场组成 目录 债券基本概念 债券市场组成",
+    "tokenCount": 17,
+    "sourcePage": 4,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 3,
+    "content": "二 · 债券基本概念与债券市场组成 契约和条款： 详细阐明发行人的承诺和债券持有者的权利。 基本条款： 债券的基本特征，决定债券的预定现金流量，是投资者预期和实际回报的关键因素。包括到期期限、面值、息票率和派息频率以及票面货币。 应急条款：可能影响债券未来现金流的条款，给予发行人或债权人一些影响债券处置或赎回的权利（ 选择权 ）。包括债偿条款（除本金定期偿还的其他方式）、回售条款、转换条款。 嵌入式期权债券：嵌入不同应急条款的债券。固定收益证券正变得越来越复杂的一个重要原因：期权结构使现金流（本金和利息）预测变得更加困难",
+    "tokenCount": 132,
+    "sourcePage": 5,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 4,
+    "content": "二 · 债券基本概念与债券市场组成 债券发行公告及募集说明书： 山东招金集团 2019 年公开发行公司债券（第一期） 契约和条款： 详细阐明发行人的承诺和债券持有者的权利。 基本条款： 债券的基本特征。 应急条款：可能影响债券未来现金流的条款，给予发行人或债权人一些影响债券处置或赎回的权利（ 选择权 ）。",
+    "tokenCount": 77,
+    "sourcePage": 6,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 5,
+    "content": "二 · 债券基本概念与债券市场组成 契约和条款 （权利） 债券契约 (Indenture) 会详细阐明发行人的承诺和债券持有者的权利。 为了确定发行人坚守契约承诺，通常还会引入第三方，即托管人作为债券持有人利益的代表。 债券合同中通常有肯定性条约和否定性条约。 肯定性条约 (Affirmative covenants) 规定了借款人承诺去做的事 : - 按时支付利息和本金 - 到期支付所有税款和其他所需费用 - 保持所有财产可用，保证借款人的业务运营良好且有序 - 向托管人定期提交报告，陈述借款人履行条约的情况 否定性条约 (Negative covenants) 是对借款人的活动做限制的条约： - 禁止借款人触发更多债务，除非公司本身达到相应的标准要求",
+    "tokenCount": 166,
+    "sourcePage": 7,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 6,
+    "content": "二 · 债券基本概念与债券市场组成 基本条款 （特征） 到期期限 (Term to maturity)：到期并退出的时间点，此时债券发行人会支付余下的所有本金并赎回债券。 债券在外流通的年限 最后一笔本金支付之前的剩余年限 短期债 (1-5)、中期债 (5-12)、长期债 (12 年以上 ) 到期期限重要性 - 到期期限与利息、本金 - 债券收益率与到期时间（收益率曲线） - 价格波动率与债券期限（利率风险）",
+    "tokenCount": 103,
+    "sourcePage": 8,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 7,
+    "content": "二 · 债券基本概念与债券市场组成 债券面值 (Par value)：债券发行人在债券到期日当天或者提前返还给债券持有人的金额。 可以反映本金 (Principal value)、赎回价值 (Redemption value)、到期价值 (Maturity value) 面值体现的币种可用本国货币，也可用外币 债券的面值是固定的，作为计息还本的依据，但由于发行者的种种考虑或资金市场上供求关系、利息率的变化，债券的市场价格常常脱离它的面值： - 折价交易 (Trading at a discount)：价格 < 面值 - 溢价交易 (Trading at premium)： 价格 > 面值 基本条款",
+    "tokenCount": 151,
+    "sourcePage": 9,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 8,
+    "content": "二 · 债券基本概念与债券市场组成 息票率 (Coupon rate)/ 名义利率 (Nominal rate)：债券发行人固定时期支付利息的利率。 息票：在相应期间支付的利息额 息票率通常和到期期限一同被提及，如“ 6% of 12/1/2020 ” “时期”选择反映了支付方式： - 美国通常做法是每半年支付一次息票 - 美国以外市场发行的债券通常是每年支付一次息票 - 抵押支持证券和资产支持证券通常按月支付 息票率也会影响债券价格对市场利率变化的敏感性（息票率越高，价格随市场利率变动越小） 不同息票率的设定会形成不同债券品种 - 零息债券 / 递增债券 / 递延息票债券 / 浮动利率债券 基本条款",
+    "tokenCount": 152,
+    "sourcePage": 10,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 9,
+    "content": "二 · 债券基本概念与债券市场组成 零息债券 (Zero-coupon bonds)：无需定期支付息票的债券。 通常折价发行且期限较短 面值和购买价格之间的差额作为利息 基本条款",
+    "tokenCount": 45,
+    "sourcePage": 11,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 10,
+    "content": "二 · 债券基本概念与债券市场组成 递增债券 (Step-up bonds)：债券息票率逐步攀升的债券。 单一递增债券 (Single step-up note)：出现一次利率递增 多次递增债券 (Multiple step-up note)：多于一次利率递增 基本条款",
+    "tokenCount": 68,
+    "sourcePage": 12,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 11,
+    "content": "二 · 债券基本概念与债券市场组成 递延息票债券 (Deferred coupon bonds)：利息支付会向后递延几年，即在递延期间不支付利息的债券。 递延期之后支付的利息通常比之前要高，用于补偿债券持有人在递延期间没有利息支付的情况 基本条款",
+    "tokenCount": 62,
+    "sourcePage": 13,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 12,
+    "content": "二 · 债券基本概念与债券市场组成 浮动利率债券 (Floating-rate securities)/ 变动利率债券 (Variable-rate securities)：根据参考利率来调整支付利息的债券。 息票率 = 参考利率 + 息差报价 参考利率 - 国债利率 - 伦敦同业拆解利率 (London interbank offered rate, LIBOR) - 债券指数、外汇指数、大宗商品价格、股票指数等 - 通胀指数：通胀保护国债 (Treasury inflation protection securities, TIPS)、与 通胀挂钩的债券 (Inflation-linked bonds) - 通过金融工程，发行人能够构造出以任何参考利率作为基准的浮动债券 一般情况下，参考利率与息票率同向变动 基本条款",
+    "tokenCount": 183,
+    "sourcePage": 14,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 13,
+    "content": "二 · 债券基本概念与债券市场组成 浮动利率债券 (Floating-rate securities)/ 变动利率债券 (Variable-rate securities)：根据参考利率来调整支付利息的债券。 息差报价 (Quoted margin)：发行人愿意支付的高于参考利率的部分，通常以基点来表示，可正可负 基点 (Basis Point, BP) 是衡量债券利率变动的最小计量单位， 1 个基点等于 0.01%， 100 个基点等于 1% 利率限额 (Cap)：最大息票率（上限）、最小息票率（下限） 逆向浮动利率债券 (Inverse floaters)：息票率与参考利率反向变动的债券 - 使相信利率将下跌的投资者有机会获得更高息票率，对冲利率下降风险 基本条款",
+    "tokenCount": 169,
+    "sourcePage": 15,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 14,
+    "content": "二 · 债券基本概念与债券市场组成 票面货币： 可用本国货币，也可用外币，这取决于发行者的需要和债券的种类。 - 以美国为例：以美元定价的发行、非美元定价的发行、双重货币 发行（本金和息票支付采用不同货币）。 基本条款",
+    "tokenCount": 55,
+    "sourcePage": 16,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 15,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 （选择权） 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 可赎回债券 (Callable bond)：允许债券发行人提前赎回的债券。 赎回原因：如果未来利率大幅低于息票率，发行人可以赎回原债券以更低票面利率发行新债券 通常发行人想拥有这个权利，需要在发行时给予投资者一定补偿（更高的息票率或更低的发行价格） 递延赎回 (Deferred call)：发行人在债券发行几年内不能赎回 - 首次赎回日 (First call date): 债券第一次被赎回的时间 部分赎回的方式： - 通过计算机随机选择召回序列号 - 债券持有人有同样比例的召回份额",
+    "tokenCount": 161,
+    "sourcePage": 17,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 16,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 赎回价 (Call price)/ 偿还价 (Redemption price)：赎回债券而支付的价格 - 不管赎回日期的单一赎回价 1997 年 10 月 6 日，安海斯 - 布西公司发行 2.5 亿美元票据，息票率 7.1%，募集说明书陈述：“ …… 公司可以自行选择在 2004 年 6 月 15 日或之后任何时候赎回；无论是整体或部分赎回，都要求提前 30-60 天发布公告， 赎回价等于 100% 的本金，以及赎回日前的应计利息。” - 基于提前赎回补偿的赎回价 (A make-whole redemption price)：提前赎回补 偿条款 (A make-whole premium provisions)/ 收益保障溢价条款 (A yield- maintenance premium provision) 要求发行人必须付出溢价来赎回债券。",
+    "tokenCount": 227,
+    "sourcePage": 18,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 17,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 赎回价 (Call price)/ 偿还价 (Redemption price)：赎回债券而支付的价格 - 基于赎回计划 (Call schedule) 的赎回价：取决于发行人何时执行赎回行为",
+    "tokenCount": 84,
+    "sourcePage": 19,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 18,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 不可赎回条款 (Noncallable provision)：禁止借款人赎回债券的行为 不可交换条款 (Nonrefundable provision)：禁止借款人通过发行成本更低的债券融到资金来赎回旧债券 1988 年 6 月 23 日，安海斯 - 布西公司发行息票率为 10% 的债券， 2018 年 7 月 1 日 到期。债券可立即赎回，但募集说明书在赎回条款中明确规定：“ …… 在 1998 年 7 月 1 日之前，公司不可期望通过发行低于 10% 利率的债券来赎回任何 公司债券，从而降低成本获得收益。”",
+    "tokenCount": 165,
+    "sourcePage": 20,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 19,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 提前还款条款 (Prepayment provision)：对于以贷款为主的摊销证券，借款人有权在设定的本息支付时间表之前付清所有或部分贷款。 借款人的权利 任何在时间表之前完成的支付都是提前支付 主要与抵押转手债券、担保抵押债券有关 赎回风险 (Call risk)/ 提前偿付风险 (Prepayment risk) - 债券的现金流无法确切估计 - 投资者面临再投资风险 (Reinvestment risk)，即将利息和本金收入以低于原 债券收益率进行再投资的风险",
+    "tokenCount": 130,
+    "sourcePage": 21,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 20,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 偿债基金条款 (Sinking fund requirement)：要求债券发行人每年偿付一定比例的债券。 条款的主要目的在于降低信用风险 - 1995 年 6 月 5 日发行的格索兰债券，偿债基金条款开始时间是 2006 年 6 月 1 日， 发行人每年必须先偿还 750 万美元。 加速偿债条款 (Accelerated sinking fund provision) 允许发行人有权比偿债基金要求的偿还更多，但可能会设置上限 - 一家公司债券在 2016 年 12 月 1 日到期，其偿债基金条款要求从 1997 年 12 月 1 日开始每年支付 750 万美元，发行人允许最多支付 1500 万美元。",
+    "tokenCount": 164,
+    "sourcePage": 22,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 21,
+    "content": "二 · 债券基本概念与债券市场组成 回售条款（选择权） 回售条款 (Put provision)：给予债券持有人在到期日之前向发行人回售部分或全部债券的权利。 可回售债券 (Puttable bonds)：：允许债券持有人提前回售的债券 回售原因：如果未来利率大幅高于息票率，持有人可以回售原债券以更高票面利率投资新债券；债券价格大幅下降 回售价 (Put price)：持有人向发行人出售债券时的设定价格 - 回售权对投资者有利。回售权执行后发行人不得不以更高票面利率融资 - 大多数可回售债券还会有利率跳升条款，即在回售时点前，发行人可提高 票面利率以满足投资者的要求",
+    "tokenCount": 143,
+    "sourcePage": 23,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 22,
+    "content": "二 · 债券基本概念与债券市场组成 转换条款（选择权） 转换条款 (Convertible provision)：债券发行人承诺根据转换价格在一定时间内可将债券转换为转换一定数额的公司普通股。 可转换债券 (Convertible bonds)：含有转换条款的债券 同时拥有为普通股所不具备的固定收益和一般债券不具备的升值潜力 - 债权性：可转换债券在转换成股票前是纯粹的债券，有规定的利率和期 限，投资者可以选择持有债券到期，收取本息 - 股权性：可转换债券转换成股票之后，原债券持有人变成公司股东，可参 与公司经营决策和分红，也会在一定程度上影响公司的股本结构 转股权是债券持有人享有的、一般债券所没有的选择权，允许持有人利用发行人普通股股价变动的优势，因此可转换债券利率一般低于普通公司债券利率，发行人发行可转换债券可以降低筹资成本 可交换债券 (Exchangeable bonds)：允许债券持有人用债券去交换一定份额的其他发行人的股票",
+    "tokenCount": 212,
+    "sourcePage": 24,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 23,
+    "content": "二 · 债券基本概念与债券市场组成 转换条款（选择权） 可转债 2020 年发 145 只（截至 9 月 9 号），后市怎么投资？ Wind 数据显示， 2020 年不到 9 个月， A 股上市公司发行可转债已经达到 145 只，而 2019 年全年发行也仅有 128 只，大幅超过 2019 年发行总数 https://xw.qq.com/amphtml/20200910A0ER8300 讨论： https://finance.sina.com.cn/money/bond/market/2020-10-23/doc-iiznctkc7121460.shtml https://zhuanlan.zhihu.com/p/106587723 https://xueqiu.com/5656325751/196780579",
+    "tokenCount": 181,
+    "sourcePage": 25,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 24,
+    "content": "二 · 债券基本概念与债券市场组成 嵌入式期权 嵌入式期权 (Embedded options)：发行债券的契约中赋予债券持有人或发行人一项或多项的制衡另一方的权利。 赋予债券发行人的嵌入式期权 - 赎回权 - 在贷款池中潜在的借款人有权提前支付本金 - 加速偿债基金 - 浮动债券的利率上限 赋予债券持有人的嵌入式期权 - 转换权 - 回售权 - 浮动债券的利率下限 固定收益证券正变得越来越复杂，一个重要原因就是期权结构使现金流（本金和利息）预测变得更加困难",
+    "tokenCount": 116,
+    "sourcePage": 26,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 25,
+    "content": "二 · 债券基本概念与债券市场组成 目录 债券基本概念 债券市场组成",
+    "tokenCount": 17,
+    "sourcePage": 27,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 26,
+    "content": "二 · 债券基本概念与债券市场组成 债券市场组成：内部市场和外部市场（国家角度）；一级市场和二级市场（发行和交易） 债券工具：传统债券 - 主权债券，准政府 / 机构债券，州政府及地方政府债券，公司债务型债券；证券化债券 - MBS， ABS， CDO",
+    "tokenCount": 63,
+    "sourcePage": 28,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 27,
+    "content": "二 · 债券基本概念与债券市场组成 内部和外部债券市场 内部债券市场 (International bond market)/ 国家债券市场 (National bond market)：一个国家内部的债券市场。 本国债券市场：发行人在母国发行和交易债券的市场 外国债券市场：非本国发行人在该国发行和交易债券的市场 - 在美国市场，以美元标价的外国债券称为“扬基债券” - 在英国市场，以英镑标价的外国债券称为“猛犬债券” - 在中国市场，以人民币标价的外国债券称为“熊猫债券” 外国债券发行人包括中央银行和其下属机构、公司和超国家组织",
+    "tokenCount": 134,
+    "sourcePage": 29,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 28,
+    "content": "二 · 债券基本概念与债券市场组成 内部和外部债券市场 外部债券市场 (International bond market)：发行人在本国境外市场发行不以发行市场所在国货币为面值的国际债券的市场。 国际债券 (International bond)/ 离岸债券 (Offshore bond)/ 欧洲债券 (Eurobond) - 发行时，同时向多国投资者发行，发行范围超过任何单个国家的管辖权 - 由一个国际银团承销，采取不记名（非注册）方式发行 全球债券 (Global bond)：一种在一个或多个国家的外国债券市场和欧洲债券市场发行和交易的债券",
+    "tokenCount": 138,
+    "sourcePage": 30,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 29,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 主权债券 (Sovereign bonds)：一国中央政府发行的债券。 可以在本国国家债券市场发行和交易，也可以在欧洲债券市场或另一国家的外国债券市场发行交易 通常以发行国的货币标价 会接受信用评级机构的主权评级 (Sovereign ratings) - 本币债券评级 (Local currency debt rating) - 外币债券评级 (Foreign currency debt rating)",
+    "tokenCount": 114,
+    "sourcePage": 31,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 30,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 主权债券 (Sovereign bonds)：一国中央政府发行的债券。 发行目的 - 筹措军费 - 平衡财政收支 - 筹集建设资金 - 借换国债的发行 固定本金国债 - 短期国债：以折价、无票面利率发行，到期价格为面值，期限不超过 12 个月（零息债券） - 中期国债：期限大于 1 年不超过 10 年的国债 - 长期国债：期限超过 10 年的国债",
+    "tokenCount": 99,
+    "sourcePage": 32,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 31,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 主权债券 (Sovereign bonds)：一国中央政府发行的债券。 通胀指数国债 (Inflation-indexed securities)/ 通货膨胀保护国债 (Treasury inflation protected securities)：对抗通货膨胀风险的中期和长期国债 - 以经通货膨胀调整后的本金 (Inflation-adjusted principal) 作为计付利息和 计算到期价值的基础 - 假定通货膨胀保护国债的票面利率为 3.5%，面值 10 万美元，半年付息 时间 半年通货膨胀率 经通货膨胀调整的本金 收到的利息 第一个半年期 1.5% 100000 美元 ×(1+1.5%) =101500 美元 101500 美元 ×1.75% =1776.25 美元 第二个半年期 1% 101500 美元 ×(1+1%) =102515 美元 102515 美元 ×1.75% =1794.01 美元 ……",
+    "tokenCount": 220,
+    "sourcePage": 33,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 32,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 准政府债券 (Semi-government bonds)/ 政府机构债券 (Government agency bonds)：由中央政府设立机构或组织发行的债券，可能会得到中央政府的直接或间接保证。 在美国，准政府债券被称为联邦机构证券 (Federal agency securities) - 联邦关联机构，如美国进出口银行、田纳西河流管理局、小型企业总署 - 政府主办企业，如联邦国民抵押贷款协会（房利美）、联邦房屋抵押贷 款公司（房地美）等 美国机构信用债券 (Debentures) 和贴现债券 (Discount notes)：没有任何特殊的抵押品进行担保，其偿债能力取决于债券发行人的现金流情况 - 信用债券可以是中期债券（ 1-20 年）或长期债券（长于 20 年）；贴现债 券属于短期债券，期限在 1 年以内 美国机构抵押贷款支持证券 (Agency mortgage-backed securities) - 用其包销或购买的抵押贷款作为抵押品发行的债券",
+    "tokenCount": 231,
+    "sourcePage": 34,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 33,
+    "content": "市政债券 (Municipal bonds)：州政府和地方政府及其创造的主体发行的债券。 税收支持债券 (Tax-backed debt)：由州、县、特区、市、镇和学校行政区以一些形式的税收作为担保支持的债券工具 - 无限税收一般责任债券 (Unlimited tax general obligation debt)、有限税收 一般责任债券 (Limited tax general obligation debt)、拨款担保债券、公共 信用提升计划支持债券 收入债券 (Revenue bonds)：由完工项目产生收入作为担保支持的债券工具 - 公用事业收入债券、高等教育收入债券、运输收入债券等 二 · 债券基本概念与债券市场组成 债券工具",
+    "tokenCount": 162,
+    "sourcePage": 35,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 34,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 金融债券 (Financial bonds)：银行及其他金融机构所发行的债券 - 解决银行等金融机构的资金来源不足和期限不匹配的矛盾 - 金融债券的违约风险较其他非金融机构债券小，而利率低于一般公司债 券，高于风险更小的国债和银行储蓄存款利率 - 政策性金融债 - 商业银行普通债券、二级资本债 - 证券公司债、证券公司短期融资券",
+    "tokenCount": 105,
+    "sourcePage": 36,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 35,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 公司债券 (Corporate bonds)：非金融企业所发行的债券 - 担保债券 (Secured debt)：有某种形式的抵押品（不动产或动产）来确保 债务的支付，债券发行人授予债券持有人对抵押品的留置权 - 无担保债券 (Unsecured debt)/ 信用债券 (Debenture bonds)：不被特定抵押 品担保的债券，但债券持有人对债券发行人所拥有的未用来抵押担保 其他负债的所有资产有求偿权 - 信用增级债券 (Credit enhancement bonds)：债券发行人让其他公司为其 发行的债务提供担保，但债券信用评级通常不会比担保人信用评级高",
+    "tokenCount": 165,
+    "sourcePage": 37,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 36,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 中期票据 (Medium-term note)：一种在注册期限内连续发行的公募债券 - 发行规模灵活。公司债券通常都是一次性、大规模的足额发行，而中期 票据通常采取的是多次、小额的发行，具体发行时间和每次发行的规模 依据当时市场的情况而定 - 发行条款灵活。公司债券的契约条款是标准化的，简单明了，而同一次 注册下的中期票据的期限、定价、利息支付均可不同，且常常可能包含 一种或几种复杂的衍生品，形成结构化票据 (Structured note) - 发行方式灵活。公司债券一般都是由投资银行进行承销。中期票据则以 投行或代理商分销，或发行人自行销售为主，而且通常先征求潜在的投 资人对发行价格、期限等条款的意见，然后再发行相应的中期票据",
+    "tokenCount": 182,
+    "sourcePage": 38,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 37,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 商业票据 (Commercial paper)：由金融机构和非金融机构发行的无担保短期票据 - 通常作为零息票据在公开市场上发行，期限通常少于 270 天，大多数是 50 天甚至更少 - 二级市场交易很少，持有者通常会持有至到期 - 金融机构（专属金融公司、银行关联公司和独立金融公司）发行商业票 据的频率远高于非金融机构 - 商业票据分为直接销售票据 (Directly placed paper) 和代理商经销票据 (Dealer-placed commercial paper)。直接销售票据通过发行公司直接销售 给投资者，发行人通常是金融机构",
+    "tokenCount": 160,
+    "sourcePage": 39,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 38,
+    "content": "二 · 债券基本概念与债券市场组成 一级和二级债券市场 一级债券市场 (Primary bond market)：向投资者分销新发行债权工具的市场。 公开发行和私募发行 销售方式： - 包销：投行提供一个出价，从发行人处购买债券，赚取销售差价（低买 高卖），但承担销售风险 - 代销：投行不需要从发行人处购买全部债券，只是利用自己专业技术来 销售债券，收取代销佣金，不承担销售风险 - 拍卖：发行人公布证券的条款，感兴趣的人对该证券进行投标（竞标承 销），通常收益率最低报价（发行人成本最低）的竞标者中标",
+    "tokenCount": 126,
+    "sourcePage": 40,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 39,
+    "content": "二级债券市场 (Secondary bond market)： 已经发行的证券进行买卖、 转让和流通的市场。 市场对投资者持有的债券提供流动性以及公允或统一定价 场内交易市场和场外交易市场 二 · 债券基本概念与债券市场组成 一级和二级债券市场",
+    "tokenCount": 61,
+    "sourcePage": 41,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 40,
+    "content": "场内交易市场：上海证券交易所、深圳证券交易所等 - 主要参与者是非银行机构，交易部分公开发行的国债、地方政府债、金 融债、企业债、公司债、可转债和资产支持证券以及非公募债券品种 - 上交所交易的债券总额占到了场内交易市场总量的 90% 以上 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 74,
+    "sourcePage": 42,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 41,
+    "content": "场外交易市场：银行间债券市场和柜台交易市场 - 银行间债券市场主要参与者是机构投资者，交易央票、中期票据、短期 融资券、同业存单与定向工具，以及部分国债、地方政府债、金融债、 企业债、公司债、可转债和资产支持证券，是规模最大的债券交易场所 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 74,
+    "sourcePage": 43,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 42,
+    "content": "场外交易市场：银行间债券市场和柜台交易市场 - 柜台交易市场主要参与者是个人投资者和部分非金融机构投资者，以国 债交易为主，一般由交易双方协商交易价格 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 52,
+    "sourcePage": 44,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 43,
+    "content": "中债登与上清所共同负责银行间市场债券品种的发行、托管与结算业务 中债登是柜台市场债券业务的一级托管人和交易所托管的国债总托管人 中证登承接了原来隶属于上海和深圳证券交易所的全部登记结算业务，施行“中央登记、二级托管”的制度 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 70,
+    "sourcePage": 45,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 44,
+    "content": "中国债券市场的特征 中国债券市场架构图 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 19,
+    "sourcePage": 46,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 45,
+    "content": "中国债券市场的特征 美国债券市场架构图 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 19,
+    "sourcePage": 47,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  }
+]

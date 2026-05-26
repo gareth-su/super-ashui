@@ -1,0 +1,11 @@
+[
+  {
+    "materialId": "derivatives-material-001",
+    "chunkIndex": 0,
+    "content": "这里放 Codex 离线解析后的资料切片文本。请用真实整理内容替换本示例。",
+    "tokenCount": 0,
+    "sourcePage": 1,
+    "sourceSection": "示例章节",
+    "contentType": "text"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "title": "示例课程知识框架（讲义版）",
+  "courseSummary": "这是用于校验离线导入流程的示例讲义版知识框架。实际使用时请替换为 Codex 离线整理后的完整内容。",
+  "chapters": [
+    {
+      "chapterTitle": "示例章节",
+      "sourceFile": "示例资料标题",
+      "summary": "讲义版可以包含更完整的章节说明、概念关系、公式含义和易混点。",
+      "keyConcepts": ["示例概念", "示例关系"],
+      "nodes": [
+        {
+          "name": "示例知识点",
+          "summary": "这里填写更详细的知识点解释，保留资料中的定义、适用场景、重点和常见误区。",
+          "children": [
+            {
+              "name": "示例子知识点",
+              "summary": "子节点用于展开上层知识点。",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overallFramework": {
+    "mainThread": "示例课程主线，实际内容应概括整门课的逻辑链条。",
+    "learningPath": ["建立章节总览", "理解核心概念", "梳理跨章节关系"],
+    "crossChapterRelations": [
+      {
+        "from": "示例概念",
+        "to": "示例关系",
+        "relation": "概念通过关系形成复习主线。"
+      }
+    ],
+    "coreConceptMap": [
+      {
+        "concept": "示例概念",
+        "appearsIn": ["示例章节"],
+        "importance": "用于验证讲义版框架结构和学生端展示兼容性。"
+      }
+    ]
+  }
+}

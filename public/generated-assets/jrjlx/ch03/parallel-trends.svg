@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fbfcff"/>
+  <text x="60" y="70" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">平行趋势：不要求水平相同，要求未处理时趋势相同</text>
+  <text x="60" y="110" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5b6472">教学示意图：根据讲义内容重绘。虚线表示处理组如果没有政策冲击时应当延续的反事实趋势。</text>
+  <g transform="translate(110,150)" font-family="Microsoft YaHei, Arial, sans-serif">
+    <line x1="0" y1="500" x2="960" y2="500" stroke="#172033" stroke-width="3"/>
+    <line x1="0" y1="500" x2="0" y2="40" stroke="#172033" stroke-width="3"/>
+    <line x1="555" y1="500" x2="555" y2="55" stroke="#d95f59" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="515" y="535" font-size="20" fill="#d95f59">政策发生</text>
+    <polyline points="60,390 220,350 380,310 540,270 700,230 880,185" fill="none" stroke="#7194d9" stroke-width="5"/>
+    <polyline points="60,285 220,245 380,205 540,165" fill="none" stroke="#8e71d9" stroke-width="5"/>
+    <polyline points="540,165 700,125 880,80" fill="none" stroke="#8e71d9" stroke-width="5" stroke-dasharray="10 8"/>
+    <polyline points="540,165 700,165 880,150" fill="none" stroke="#d95f59" stroke-width="5"/>
+    <text x="720" y="225" font-size="20" fill="#7194d9">对照组趋势</text>
+    <text x="720" y="92" font-size="20" fill="#8e71d9">处理组反事实趋势</text>
+    <text x="720" y="145" font-size="20" fill="#d95f59">处理组实际结果</text>
+    <text x="780" y="535" font-size="20" fill="#172033">时间</text>
+    <text x="-35" y="35" font-size="20" fill="#172033">结果 Y</text>
+  </g>
+</svg>

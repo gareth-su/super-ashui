@@ -1,0 +1,50 @@
+[
+  {
+    "id": "gdsyzq-ch01-introduction",
+    "title": "第一章：概论",
+    "filePath": "source-materials/gdsyzq/1.概论(3).pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "id": "gdsyzq-ch02-bond-basics-market",
+    "title": "第二章：债券基本概念与债券市场组成",
+    "filePath": "source-materials/gdsyzq/2.债券基本概念与债券市场组成(2).pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "id": "gdsyzq-ch03-bond-yields",
+    "title": "第三章：债券收益率",
+    "filePath": "source-materials/gdsyzq/3.债券收益率(2).pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "id": "gdsyzq-ch04-treasury-pricing",
+    "title": "第四章：债券定价（一）：国债定价与无套利估值",
+    "filePath": "source-materials/gdsyzq/更新版 4.债券定价 (一).pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "id": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "title": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "filePath": "source-materials/gdsyzq/5.债券定价 (二)(4).pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "id": "gdsyzq-ch06-spreads-convertibles",
+    "title": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "filePath": "source-materials/gdsyzq/6.债券定价 (三) 更新版.pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "id": "gdsyzq-ch07-mbs-abs-pricing",
+    "title": "第七章：债券定价（四）：MBS与ABS估值",
+    "filePath": "source-materials/gdsyzq/7.债券定价 (四)(3).pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "id": "gdsyzq-ch08-bond-investment-risk",
+    "title": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "filePath": "source-materials/gdsyzq/8.债券投资风险（一）(2).pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  }
+]

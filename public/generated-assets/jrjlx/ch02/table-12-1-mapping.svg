@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0284c7"/></marker></defs><rect width="1280" height="720" fill="#f8fafc"/><text x="64" y="70" font-size="38" font-weight="800" fill="#0f172a">TABLE 12.1 复现映射</text><text x="64" y="112" font-size="22" fill="#475569">表格是 do 命令、log 输出和教材单元格之间的对应关系。</text>
+<rect x="80" y="170" width="340" height="135" rx="14" fill="#e0f2fe" stroke="#94a3b8" stroke-width="2"/><text x="98" y="204" font-size="24" font-weight="700" fill="#0f172a">列 (1)</text>
+<text x="98" y="238" font-size="20" fill="#334155">sales tax: drtaxso</text>
+<text x="98" y="265" font-size="20" fill="#334155">log: coef -0.938, SE .207</text>
+<text x="98" y="292" font-size="20" fill="#334155">表：-0.94 (.21)</text>
+<rect x="470" y="170" width="340" height="135" rx="14" fill="#fee2e2" stroke="#94a3b8" stroke-width="2"/><text x="488" y="204" font-size="24" font-weight="700" fill="#0f172a">列 (2)</text>
+<text x="488" y="238" font-size="20" fill="#334155">cigarette-specific tax</text>
+<text x="488" y="265" font-size="20" fill="#334155">现有 do/log 未单独跑</text>
+<text x="488" y="292" font-size="20" fill="#334155">数值来自表图</text>
+<rect x="860" y="170" width="340" height="135" rx="14" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/><text x="878" y="204" font-size="24" font-weight="700" fill="#0f172a">列 (3)</text>
+<text x="878" y="238" font-size="20" fill="#334155">两个工具</text>
+<text x="878" y="265" font-size="20" fill="#334155">log: coef -1.202, SE .197</text>
+<text x="878" y="292" font-size="20" fill="#334155">J=4.93, p=.026</text>
+<rect x="360" y="450" width="560" height="135" rx="14" fill="#fee2e2" stroke="#94a3b8" stroke-width="2"/><text x="378" y="484" font-size="24" font-weight="700" fill="#0f172a">搬运动作</text>
+<text x="378" y="518" font-size="20" fill="#334155">找 dlavgprs 行 Coef.</text>
+<text x="378" y="545" font-size="20" fill="#334155">找 Robust Std. Err.</text>
+<text x="378" y="572" font-size="20" fill="#334155">看 F 与 J</text>
+<text x="64" y="684" font-size="18" fill="#64748b">教学示意图：用于理解操作链路，不是 Stata 回归结果截图。</text></svg>

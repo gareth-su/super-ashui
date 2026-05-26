@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect width="1200" height="680" fill="#f8fafc"/>
+<rect x="40" y="36" width="1120" height="608" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<text x="72" y="92" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#172033">TSS、ESS、RSS 与 R²</text>
+<text x="72" y="132" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#526070">R² 看的是模型解释了 y 总波动中的多大比例，不直接证明因果。</text>
+<rect x="90" y="178" width="310" height="140" rx="14" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+<text x="112" y="216" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">TSS 总波动</text>
+<text x="112" y="250" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">y 围绕均值的总变化</text>
+<text x="112" y="278" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">没有模型时的不确定性</text>
+<rect x="445" y="178" width="310" height="140" rx="14" fill="#f0fdf4" stroke="#34d399" stroke-width="2"/>
+<text x="467" y="216" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">ESS 可解释波动</text>
+<text x="467" y="250" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">拟合值解释掉的部分</text>
+<text x="467" y="278" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">模型能解释多少</text>
+<rect x="800" y="178" width="310" height="140" rx="14" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+<text x="822" y="216" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">RSS 残差波动</text>
+<text x="822" y="250" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">模型没解释掉的部分</text>
+<text x="822" y="278" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">误差或遗漏因素</text>
+
+        <rect x="150" y="430" width="900" height="70" rx="12" fill="#e2e8f0"/>
+        <rect x="150" y="430" width="560" height="70" rx="12" fill="#60a5fa"/>
+        <rect x="710" y="430" width="340" height="70" rx="12" fill="#fbbf24"/>
+        <text x="360" y="474" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" fill="#ffffff">ESS</text>
+        <text x="850" y="474" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" fill="#713f12">RSS</text>
+        <text x="470" y="540" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" fill="#172033">R² = ESS / TSS</text>
+        
+<text x="72" y="620" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#64748b">教学示意图：根据第 0 讲讲义与 Stata 入门材料重绘，不是原始软件输出截图。</text>
+</svg>

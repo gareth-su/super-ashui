@@ -1,0 +1,534 @@
+{
+  "title": "衍生金融工具 · 可视化内容块示例",
+  "courseSummary": "这是一个包含 visualBlocks 的示例知识框架，用于说明各种可视化内容块的 JSON 格式。不会被自动导入数据库。",
+  "chapters": [
+    {
+      "chapterTitle": "期货交易机制",
+      "sourceFile": "示例资料",
+      "summary": "本章演示所有可视化内容块类型：流程图、对比表、公式卡片、概念关系图、图片、案例卡片、数据表、数值例子和图表说明。",
+      "keyConcepts": ["期货合约", "保证金", "盯市制度", "交割"],
+      "nodes": [
+        {
+          "name": "期货合约基本概念",
+          "summary": "期货合约是在交易所交易的标准化合约。",
+          "children": []
+        }
+      ],
+      "visualBlocks": [
+        {
+          "type": "process_flow",
+          "title": "期货交易基本流程",
+          "description": "从建立头寸到最终交割或平仓的完整流程。",
+          "steps": [
+            {
+              "label": "开户与风险评估",
+              "description": "交易者在期货经纪商处开立账户并完成风险评估。"
+            },
+            {
+              "label": "缴纳初始保证金",
+              "description": "交易者按合约价值一定比例缴纳初始保证金。"
+            },
+            {
+              "label": "建立头寸",
+              "description": "交易者买入（多头）或卖出（空头）期货合约。"
+            },
+            {
+              "label": "每日盯市结算",
+              "description": "交易所每日按结算价对持仓进行盈亏划转。"
+            },
+            {
+              "label": "平仓或交割",
+              "description": "合约到期前可对冲平仓，到期后进行实物或现金交割。"
+            }
+          ],
+          "source": {
+            "sourceFile": "示例资料"
+          }
+        },
+        {
+          "type": "comparison_table",
+          "title": "远期合约 vs 期货合约",
+          "headers": ["维度", "远期合约", "期货合约"],
+          "rows": [
+            ["交易场所", "场外交易（OTC）", "交易所集中交易"],
+            ["标准化程度", "个性化定制", "完全标准化"],
+            ["信用风险", "较高", "极低（交易所担保）"],
+            ["流动性", "较低", "较高"],
+            ["结算方式", "到期一次结算", "每日盯市结算"],
+            ["监管程度", "较少", "严格监管"]
+          ],
+          "source": {
+            "sourceFile": "示例资料"
+          }
+        },
+        {
+          "type": "formula_card",
+          "title": "无收益资产远期价格",
+          "formula": "F0 = S0 e^(rT)",
+          "formulaLatex": "F_0 = S_0 e^{rT}",
+          "variables": [
+            { "symbol": "F_0", "meaning": "标的资产远期价格" },
+            { "symbol": "S_0", "meaning": "当前现货价格" },
+            { "symbol": "r", "meaning": "连续复利无风险利率" },
+            { "symbol": "T", "meaning": "合约到期时间（年）" }
+          ],
+          "usage": "用于计算无收益资产在连续复利条件下的远期理论价格。",
+          "pitfalls": [
+            "连续复利条件，不要和简单利率混用",
+            "假设标的资产不产生任何现金流"
+          ],
+          "source": {
+            "sourceFile": "示例资料"
+          }
+        },
+        {
+          "type": "formula_card",
+          "title": "支付已知现金收益资产的远期价格",
+          "formula": "F0 = (S0 - I)e^(rT)",
+          "formulaLatex": "F_0 = (S_0 - I)e^{rT}",
+          "variables": [
+            { "symbol": "I", "meaning": "合约有效期内现金收益的现值" },
+            { "symbol": "S_0", "meaning": "当前现货价格" },
+            { "symbol": "r", "meaning": "无风险利率" },
+            { "symbol": "T", "meaning": "到期时间" }
+          ],
+          "usage": "用于计算支付已知现金收益资产的远期理论价格。",
+          "pitfalls": ["I 是未来现金收益的现值，不是名义金额"]
+        },
+        {
+          "type": "concept_map",
+          "title": "期货市场核心概念关系",
+          "concepts": [
+            {
+              "name": "期货合约",
+              "description": "交易所交易的标准化衍生品合约"
+            },
+            {
+              "name": "保证金制度",
+              "description": "控制违约风险的资金担保机制"
+            },
+            {
+              "name": "盯市制度",
+              "description": "每日按结算价重新计算持仓盈亏"
+            },
+            {
+              "name": "交割",
+              "description": "合约到期后的实物或现金结算"
+            },
+            {
+              "name": "结算所",
+              "description": "作为所有交易的中央对手方"
+            }
+          ],
+          "relations": [
+            {
+              "from": "期货合约",
+              "to": "保证金制度",
+              "relation": "期货交易要求缴纳保证金以控制违约风险"
+            },
+            {
+              "from": "保证金制度",
+              "to": "盯市制度",
+              "relation": "盯市制度每日调整保证金账户余额"
+            },
+            {
+              "from": "结算所",
+              "to": "期货合约",
+              "relation": "结算所作为中央对手方确保所有合约履行"
+            },
+            {
+              "from": "期货合约",
+              "to": "交割",
+              "relation": "合约到期后通过交割完成标的物转移"
+            }
+          ],
+          "source": {
+            "sourceFile": "示例资料"
+          }
+        },
+        {
+          "type": "image",
+          "title": "保证金制度示意图",
+          "src": "/generated-assets/ysjrgj/margin-flow.png",
+          "caption": "根据课件内容整理的保证金制度流程图（占位示例，实际图片需手动放入 public/generated-assets/ysjrgj/ 目录）",
+          "source": {
+            "sourceFile": "示例资料",
+            "sourcePage": 15
+          }
+        },
+        {
+          "type": "case_card",
+          "title": "德国金属公司（MG）套期保值失败案例",
+          "background": "1993年，德国金属公司（Metallgesellschaft AG）的美国子公司 MGRM 与客户签订了长期固定价格供油合约，总量约1.6亿桶。",
+          "scenario": "MGRM 使用短期期货合约进行滚动套期保值（stack-and-roll），在油价下跌时期货空头盈利，但现货端长期合约价值上升的收益尚未实现。期货端需追加大量保证金，造成严重现金流压力。",
+          "analysis": "MGRM 的套期保值策略在理论上可行，但忽略了基差风险和现金流管理。短期期货合约到期时需要滚动展期，展期成本（contango 市场中的负滚动收益）侵蚀了套保效果。最终母公司被迫平仓止损，损失约13亿美元。",
+          "lesson": "套期保值不仅需要方向对冲正确，还必须考虑基差风险、展期成本和现金流管理。长期现货头寸用短期期货对冲时，滚动风险是核心问题。",
+          "relatedConcepts": ["套期保值", "基差风险", "滚动套保", "保证金管理", "Contango"]
+        },
+        {
+          "type": "data_table",
+          "title": "期货合约保证金追缴示例",
+          "description": "某投资者持有2份黄金期货多头合约，初始保证金 $2,000/份，维持保证金 $1,500/份。",
+          "headers": ["交易日", "结算价", "每日盈亏", "累计盈亏", "保证金余额", "追加保证金"],
+          "rows": [
+            ["Day 0", "$400.00", "—", "—", "$4,000", "—"],
+            ["Day 1", "$397.00", "−$600", "−$600", "$3,400", "—"],
+            ["Day 2", "$393.30", "−$740", "−$1,340", "$2,660", "—"],
+            ["Day 3", "$390.00", "−$660", "−$2,000", "$2,000", "$2,000"],
+            ["Day 4", "$392.00", "+$400", "−$1,600", "$4,400", "—"],
+            ["Day 5", "$387.00", "−$1,000", "−$2,600", "$3,400", "—"]
+          ],
+          "note": "当保证金余额低于维持保证金（$3,000）时，需追加至初始保证金水平（$4,000）。Day 3 余额 $2,000 < $3,000，故追加 $2,000。"
+        },
+        {
+          "type": "example_box",
+          "title": "无套利定价：股指期货定价计算",
+          "scenario": "某股票指数当前点位 \\(S_0 = 1,000\\)，连续复利无风险利率 \\(r = 5\\%/年\\)，指数连续股息收益率 \\(q = 2\\%/年\\)，期货合约期限 \\(T = 0.25\\) 年（3个月）。",
+          "steps": [
+            "确定定价公式：\\(F_0 = S_0 \\times e^{(r-q)T}\\)",
+            "代入参数：\\(F_0 = 1,000 \\times e^{(0.05-0.02)\\times 0.25}\\)",
+            "计算指数：\\((r-q)T = 0.03 \\times 0.25 = 0.0075\\)",
+            "计算 \\(e^{0.0075} \\approx 1.007528\\)",
+            "得出 \\(F_0 = 1,000 \\times 1.007528 \\approx 1,007.53\\)"
+          ],
+          "result": "期货理论价格 \\(F_0 \\approx 1,007.53\\) 点",
+          "takeaway": "注意使用连续复利公式，\\(r\\) 和 \\(q\\) 都是连续复利而非离散利率。若实际期货价格偏离理论值，则存在套利机会。"
+        },
+        {
+          "type": "chart_explanation",
+          "title": "看涨期权买方收益图（Long Call Payoff）",
+          "chartType": "payoff",
+          "xAxis": "标的资产到期价格 S_T",
+          "yAxis": "收益 / 利润",
+          "elements": [
+            {
+              "name": "收益线（Payoff）",
+              "meaning": "当 S_T ≤ K 时，收益 = 0（期权不行权）；当 S_T > K 时，收益 = S_T − K，线性上升"
+            },
+            {
+              "name": "利润线（Profit）",
+              "meaning": "利润 = 收益 − 期权费 c。整条线下移 c 个单位"
+            },
+            {
+              "name": "盈亏平衡点",
+              "meaning": "S_T = K + c，此时利润恰好为零"
+            }
+          ],
+          "keyTakeaways": [
+            "买入看涨期权最大损失为期权费 c（有限亏损）",
+            "理论最大收益无上限（S_T 越高收益越大）",
+            "盈亏平衡点 = 行权价 + 期权费",
+            "当 S_T < K 时期权到期作废，仅损失期权费"
+          ],
+          "examTips": [
+            "区分 payoff（收益）和 profit（利润）：profit = payoff − premium",
+            "画图时注意标注盈亏平衡点和最大损失",
+            "买方卖方收益图互为镜像（零和博弈）"
+          ]
+        },
+        {
+          "type": "payoff_chart",
+          "title": "买入看涨期权收益图（Long Call）",
+          "description": "展示到期时标的价格与期权收益/利润之间的关系。执行价 K=50，期权费 c=5。",
+          "xAxis": "到期标的价格 S_T",
+          "yAxis": "收益 / 盈亏",
+          "curves": [
+            {
+              "name": "收益（Payoff）",
+              "points": [
+                { "x": 30, "y": 0 },
+                { "x": 40, "y": 0 },
+                { "x": 50, "y": 0 },
+                { "x": 55, "y": 5 },
+                { "x": 60, "y": 10 },
+                { "x": 70, "y": 20 },
+                { "x": 80, "y": 30 }
+              ]
+            },
+            {
+              "name": "利润（Profit）",
+              "points": [
+                { "x": 30, "y": -5 },
+                { "x": 40, "y": -5 },
+                { "x": 50, "y": -5 },
+                { "x": 55, "y": 0 },
+                { "x": 60, "y": 5 },
+                { "x": 70, "y": 15 },
+                { "x": 80, "y": 25 }
+              ]
+            }
+          ],
+          "breakEvenPoints": ["K + c = 55"],
+          "annotations": [
+            { "x": 50, "label": "执行价格 K" },
+            { "x": 55, "label": "盈亏平衡点" }
+          ],
+          "keyTakeaways": [
+            "最大损失 = 期权费 c = 5（有限亏损）",
+            "理论最大收益无上限",
+            "盈亏平衡点 = K + c = 55"
+          ]
+        },
+        {
+          "type": "line_chart",
+          "title": "保证金账户余额变化示意",
+          "description": "展示每日盯市后保证金账户余额的变化，包含追加保证金事件。",
+          "xAxis": "交易日",
+          "yAxis": "账户余额（$）",
+          "series": [
+            {
+              "name": "保证金余额",
+              "points": [
+                { "x": "Day 0", "y": 4000 },
+                { "x": "Day 1", "y": 3400 },
+                { "x": "Day 2", "y": 2660 },
+                { "x": "Day 3", "y": 4000 },
+                { "x": "Day 4", "y": 4400 },
+                { "x": "Day 5", "y": 3400 }
+              ]
+            }
+          ],
+          "referenceLines": [
+            { "value": 3000, "label": "维持保证金" }
+          ],
+          "keyTakeaways": [
+            "余额低于维持保证金（$3,000）时触发追加保证金通知",
+            "Day 3 追加保证金后余额恢复至初始保证金水平（$4,000）"
+          ]
+        },
+        {
+          "type": "curve_chart",
+          "title": "基差收敛示意图",
+          "description": "随着交割日临近，期货价格与现货价格趋于一致，基差收敛至零。",
+          "xAxis": "距交割日（月）",
+          "yAxis": "基差（期货价格 − 现货价格）",
+          "curves": [
+            {
+              "name": "基差",
+              "shape": "converging",
+              "points": [
+                { "x": 6, "y": 8 },
+                { "x": 5, "y": 6.5 },
+                { "x": 4, "y": 4.8 },
+                { "x": 3, "y": 3.2 },
+                { "x": 2, "y": 1.8 },
+                { "x": 1, "y": 0.6 },
+                { "x": 0, "y": 0 }
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "随着交割日临近，现货价格与期货价格趋于一致",
+            "基差风险来自基差变化的不确定性",
+            "套期保值的有效性取决于基差的可预测性"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "互换与期权策略",
+      "sourceFile": "示例资料",
+      "summary": "本章演示 v4 新增和增强的可视化内容块：cashflow_diagram、decision_tree、timeline，以及增强的 payoff_chart（含 regions/metrics/legs）。",
+      "keyConcepts": ["利率互换", "货币互换", "牛市价差", "跨式组合", "套利判断"],
+      "nodes": [
+        {
+          "name": "互换与期权策略",
+          "summary": "互换和期权组合策略的可视化展示。",
+          "children": []
+        }
+      ],
+      "visualBlocks": [
+        {
+          "type": "cashflow_diagram",
+          "title": "Apple 与 Flower 利率互换现金流",
+          "description": "展示固定利率端和浮动利率端之间的现金流方向。Apple 支付固定利率，Flower 支付浮动利率。",
+          "nodes": [
+            { "id": "apple", "label": "Apple", "role": "支付固定、收入浮动" },
+            { "id": "flower", "label": "Flower", "role": "收入固定、支付浮动" }
+          ],
+          "edges": [
+            {
+              "id": "fixed-leg",
+              "from": "apple",
+              "to": "flower",
+              "label": "支付固定利率 5%",
+              "cashflowType": "fixed",
+              "timing": "每 6 个月"
+            },
+            {
+              "id": "floating-leg",
+              "from": "flower",
+              "to": "apple",
+              "label": "支付浮动利率 LIBOR",
+              "cashflowType": "floating",
+              "timing": "每 6 个月"
+            }
+          ],
+          "phases": [
+            { "title": "存续期间", "edgeIds": ["fixed-leg", "floating-leg"] }
+          ],
+          "outcome": "双方通常只交换净额，名义本金只用于计算利息，不实际交换。",
+          "keyTakeaways": [
+            "先判断谁付固定、谁收浮动。",
+            "净额现金流取决于固定利率和浮动利率的大小关系。",
+            "利率互换可以用于将浮动利率负债转换为固定利率负债。"
+          ]
+        },
+        {
+          "type": "timeline",
+          "title": "货币互换现金流时间线",
+          "description": "展示货币互换在不同时间点发生的本金和利息现金流。",
+          "events": [
+            {
+              "time": "期初（\\(t = 0\\)）",
+              "title": "交换本金",
+              "description": "双方按约定汇率交换两种货币本金。例如：A 支付 1,000 万美元，B 支付 800 万英镑。"
+            },
+            {
+              "time": "存续期间（每 6 个月）",
+              "title": "交换利息",
+              "description": "A 支付英镑利息（按 800 万英镑计），B 支付美元利息（按 1,000 万美元计）。"
+            },
+            {
+              "time": "到期（\\(t = T\\)）",
+              "title": "返还本金",
+              "description": "双方按初始约定金额返还本金（不按当前汇率），A 收回 1,000 万美元，B 收回 800 万英镑。"
+            }
+          ],
+          "keyTakeaways": [
+            "货币互换通常包含期初和期末的本金交换，这是与利率互换的关键区别。",
+            "返还本金使用初始约定汇率，不受到期时汇率变动影响。"
+          ]
+        },
+        {
+          "type": "decision_tree",
+          "title": "远期价格套利判断路径",
+          "description": "根据市场远期价格与理论远期价格 \\(F_0 = S_0 e^{rT}\\) 的关系判断套利方向。",
+          "root": {
+            "id": "root",
+            "question": "市场远期价格 \\(F_{市场}\\) 是否高于理论远期价格 \\(F_0\\)？",
+            "branches": [
+              { "condition": "\\(F_{市场} > F_0\\)（高于理论价格）", "target": "cash-and-carry" },
+              { "condition": "\\(F_{市场} < F_0\\)（低于理论价格）", "target": "reverse-cash-and-carry" }
+            ]
+          },
+          "nodes": [
+            {
+              "id": "cash-and-carry",
+              "label": "正向套利（Cash-and-Carry）",
+              "content": "借入资金买入现货，同时卖出远期合约锁定卖价。到期时交付现货获取利润。"
+            },
+            {
+              "id": "reverse-cash-and-carry",
+              "label": "反向套利（Reverse Cash-and-Carry）",
+              "content": "卖空现货并将所得资金投资于无风险利率，同时买入远期合约锁定买价。到期时买入现货归还借入的标的。"
+            }
+          ],
+          "keyTakeaways": [
+            "套利方向由市场价格相对理论价格的偏离方向决定。",
+            "正向套利适用于市场远期价格偏高的情况。",
+            "反向套利适用于市场远期价格偏低的情况。"
+          ]
+        },
+        {
+          "type": "payoff_chart",
+          "title": "牛市看涨价差（Bull Call Spread）",
+          "description": "买入低执行价看涨期权（\\(K_1 = 50\\)）+ 卖出高执行价看涨期权（\\(K_2 = 60\\)），净期权费 = 3。",
+          "xAxis": "到期标的价格 S_T",
+          "yAxis": "策略利润",
+          "curves": [
+            {
+              "name": "组合利润",
+              "points": [
+                { "x": 30, "y": -3 },
+                { "x": 40, "y": -3 },
+                { "x": 50, "y": -3 },
+                { "x": 53, "y": 0 },
+                { "x": 55, "y": 2 },
+                { "x": 60, "y": 7 },
+                { "x": 70, "y": 7 },
+                { "x": 80, "y": 7 }
+              ]
+            }
+          ],
+          "breakEvenPoints": ["K_1 + 净期权费 = 53"],
+          "annotations": [
+            { "x": 50, "label": "K₁ = 50" },
+            { "x": 60, "label": "K₂ = 60" }
+          ],
+          "regions": [
+            { "fromX": 53, "toX": 80, "label": "盈利区", "kind": "profit" },
+            { "fromX": 30, "toX": 50, "label": "最大亏损区", "kind": "loss" },
+            { "fromX": 50, "toX": 53, "label": "部分回收区", "kind": "other" }
+          ],
+          "metrics": [
+            { "label": "最大收益", "value": "\\(K_2 - K_1 - \\text{净期权费} = 7\\)" },
+            { "label": "最大损失", "value": "\\(\\text{净期权费} = 3\\)" },
+            { "label": "盈亏平衡点", "value": "\\(K_1 + \\text{净期权费} = 53\\)" }
+          ],
+          "legs": [
+            { "name": "买入低执行价看涨期权", "position": "long_call", "strike": "K₁ = 50" },
+            { "name": "卖出高执行价看涨期权", "position": "short_call", "strike": "K₂ = 60" }
+          ],
+          "keyTakeaways": [
+            "牛市看涨价差的收益和损失都有上限（有限收益、有限损失）。",
+            "适用于对标的资产温和看涨的预期。",
+            "最大收益 = \\(K_2 - K_1 - \\text{净期权费}\\)。"
+          ]
+        },
+        {
+          "type": "payoff_chart",
+          "title": "跨式组合（Long Straddle）",
+          "description": "同时买入相同执行价 \\(K = 50\\) 的看涨期权和看跌期权，总期权费 = 8。",
+          "xAxis": "到期标的价格 S_T",
+          "yAxis": "组合利润",
+          "curves": [
+            {
+              "name": "组合利润",
+              "points": [
+                { "x": 30, "y": 12 },
+                { "x": 35, "y": 7 },
+                { "x": 42, "y": 0 },
+                { "x": 45, "y": -3 },
+                { "x": 50, "y": -8 },
+                { "x": 55, "y": -3 },
+                { "x": 58, "y": 0 },
+                { "x": 65, "y": 7 },
+                { "x": 70, "y": 12 }
+              ]
+            }
+          ],
+          "breakEvenPoints": ["K - 总期权费 = 42", "K + 总期权费 = 58"],
+          "annotations": [
+            { "x": 50, "label": "执行价 K = 50" }
+          ],
+          "regions": [
+            { "fromX": 30, "toX": 42, "label": "下方盈利区", "kind": "profit" },
+            { "fromX": 42, "toX": 58, "label": "亏损区", "kind": "loss" },
+            { "fromX": 58, "toX": 70, "label": "上方盈利区", "kind": "profit" }
+          ],
+          "metrics": [
+            { "label": "最大损失", "value": "\\(\\text{总期权费} = 8\\)（发生在 \\(S_T = K\\)）" },
+            { "label": "最大收益", "value": "理论无上限（向上）/ \\(K - \\text{总期权费}\\)（向下）" },
+            { "label": "盈亏平衡点", "value": "\\(K \\pm \\text{总期权费} = 42, 58\\)" }
+          ],
+          "legs": [
+            { "name": "买入看涨期权", "position": "long_call", "strike": "K = 50" },
+            { "name": "买入看跌期权", "position": "long_put", "strike": "K = 50" }
+          ],
+          "keyTakeaways": [
+            "跨式组合适用于预期标的资产将大幅波动但方向不确定的场景。",
+            "最大损失 = 总期权费，发生在标的价格恰好等于执行价时。",
+            "需要标的价格偏离执行价足够大才能盈利。"
+          ]
+        }
+      ]
+    }
+  ],
+  "overallFramework": {
+    "mainThread": "本示例展示如何在知识框架 JSON 中使用 visualBlocks 字段。",
+    "learningPath": ["理解 visualBlocks 结构", "查看各 block type 的渲染效果"],
+    "crossChapterRelations": [],
+    "coreConceptMap": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "示例课程知识框架（提纲版）",
+  "courseSummary": "这是用于校验离线导入流程的示例知识框架。请用 Codex 离线整理后的真实结构化内容替换。",
+  "chapters": [
+    {
+      "chapterTitle": "示例章节",
+      "sourceFile": "示例资料标题",
+      "summary": "本章节展示知识框架 JSON 的最小可用结构。",
+      "keyConcepts": ["示例概念"],
+      "nodes": [
+        {
+          "name": "示例知识点",
+          "summary": "这里填写知识点解释、定义、用途、易混点或复习提示。",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "overallFramework": {
+    "mainThread": "示例课程主线。",
+    "learningPath": ["先阅读示例章节", "再替换为真实内容"],
+    "crossChapterRelations": [
+      {
+        "from": "示例章节",
+        "to": "示例知识点",
+        "relation": "章节包含该知识点。"
+      }
+    ],
+    "coreConceptMap": [
+      {
+        "concept": "示例概念",
+        "appearsIn": ["示例章节"],
+        "importance": "用于验证 /framework 可消费的数据结构。"
+      }
+    ]
+  }
+}

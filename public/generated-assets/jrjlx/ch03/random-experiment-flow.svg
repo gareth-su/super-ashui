@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#f7f8fb"/>
+  <text x="60" y="70" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">随机实验的因果识别链路</text>
+  <text x="60" y="110" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5b6472">教学示意图：根据讲义内容重绘，用于解释随机分配如何打断处理变量与潜在结果的系统关系。</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif">
+    <rect x="60" y="190" width="220" height="110" rx="14" fill="#ffffff" stroke="#c9d2e3" stroke-width="2"/>
+    <text x="96" y="232" font-size="24" font-weight="700" fill="#172033">研究总体</text>
+    <text x="92" y="266" font-size="17" fill="#5b6472">所有可能参与实验的人</text>
+    <rect x="380" y="170" width="250" height="150" rx="14" fill="#fff7e8" stroke="#e6b75f" stroke-width="2"/>
+    <text x="426" y="216" font-size="24" font-weight="700" fill="#172033">随机抽样</text>
+    <text x="415" y="252" font-size="17" fill="#5b6472">让样本代表目标总体</text>
+    <text x="415" y="282" font-size="17" fill="#5b6472">影响外部有效性</text>
+    <rect x="730" y="170" width="250" height="150" rx="14" fill="#eaf7f1" stroke="#60b78a" stroke-width="2"/>
+    <text x="770" y="216" font-size="24" font-weight="700" fill="#172033">随机分配</text>
+    <text x="765" y="252" font-size="17" fill="#5b6472">处理与潜在结果无关</text>
+    <text x="765" y="282" font-size="17" fill="#5b6472">影响内部有效性</text>
+    <rect x="190" y="430" width="300" height="120" rx="14" fill="#eef3ff" stroke="#7194d9" stroke-width="2"/>
+    <text x="250" y="474" font-size="24" font-weight="700" fill="#172033">对照组</text>
+    <text x="235" y="510" font-size="17" fill="#5b6472">没有接受处理，观察结果</text>
+    <rect x="710" y="430" width="300" height="120" rx="14" fill="#f1ecff" stroke="#9372d9" stroke-width="2"/>
+    <text x="770" y="474" font-size="24" font-weight="700" fill="#172033">治疗组</text>
+    <text x="755" y="510" font-size="17" fill="#5b6472">接受处理，观察结果</text>
+    <path d="M280 245 H380" stroke="#8b95a5" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M630 245 H730" stroke="#8b95a5" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M855 320 C840 365 780 390 710 430" fill="none" stroke="#8b95a5" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M855 320 C820 380 490 395 430 430" fill="none" stroke="#8b95a5" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="430" y="585" width="340" height="48" rx="24" fill="#172033"/>
+    <text x="466" y="617" font-size="20" fill="#ffffff">均值差异 ≈ 平均处理效应</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#8b95a5"/>
+    </marker>
+  </defs>
+</svg>

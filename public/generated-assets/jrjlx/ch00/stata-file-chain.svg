@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect width="1200" height="680" fill="#f8fafc"/>
+<rect x="40" y="36" width="1120" height="608" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<text x="72" y="92" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#172033">Stata 入门文件关系：dta、do、smcl</text>
+<text x="72" y="132" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#526070">第 0 讲用 beauty 数据串起数据、脚本和日志。</text>
+<rect x="90" y="190" width="260" height="130" rx="14" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+<text x="112" y="228" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">.dta 数据</text>
+<text x="112" y="262" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">beauty.dta</text>
+<text x="112" y="290" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">Stata 能直接读取的数据表</text>
+<rect x="470" y="190" width="260" height="130" rx="14" fill="#f0fdf4" stroke="#34d399" stroke-width="2"/>
+<text x="492" y="228" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">.do 脚本</text>
+<text x="492" y="262" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">beauty.do</text>
+<text x="492" y="290" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">按顺序写好的命令</text>
+<rect x="850" y="190" width="260" height="130" rx="14" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+<text x="872" y="228" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">.smcl 日志</text>
+<text x="872" y="262" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">beauty.smcl</text>
+<text x="872" y="290" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">Stata 输出记录</text>
+
+        <path d="M350 255 L465 255" stroke="#334155" stroke-width="4" marker-end="url(#a)"/>
+        <path d="M730 255 L845 255" stroke="#334155" stroke-width="4" marker-end="url(#a)"/>
+        <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+        <text x="388" y="232" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">use</text>
+        <text x="768" y="232" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">log</text>
+        
+<text x="72" y="620" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#64748b">教学示意图：根据第 0 讲讲义与 Stata 入门材料重绘，不是原始软件输出截图。</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0284c7"/></marker></defs><rect width="1280" height="720" fill="#f8fafc"/><text x="64" y="70" font-size="38" font-weight="800" fill="#0f172a">TSLS 两阶段怎么跑</text><text x="64" y="112" font-size="22" fill="#475569">先提取 X 中由 Z 推动的变化，再用这部分变化解释 Y。</text>
+<rect x="90" y="220" width="470" height="135" rx="14" fill="#e0f2fe" stroke="#94a3b8" stroke-width="2"/><text x="108" y="254" font-size="24" font-weight="700" fill="#0f172a">第一阶段</text>
+<text x="108" y="288" font-size="20" fill="#334155">reg X Z W</text>
+<text x="108" y="315" font-size="20" fill="#334155">得到 Xhat：由 Z 解释的 X 部分</text>
+<rect x="710" y="220" width="470" height="135" rx="14" fill="#dcfce7" stroke="#94a3b8" stroke-width="2"/><text x="728" y="254" font-size="24" font-weight="700" fill="#0f172a">第二阶段</text>
+<text x="728" y="288" font-size="20" fill="#334155">Y 对 Xhat 和 W 回归</text>
+<text x="728" y="315" font-size="20" fill="#334155">手动系数直觉对，但 SE 不对</text>
+<rect x="370" y="460" width="540" height="135" rx="14" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/><text x="388" y="494" font-size="24" font-weight="700" fill="#0f172a">正式命令</text>
+<text x="388" y="528" font-size="20" fill="#334155">ivreg Y W (X = Z), r</text>
+<text x="388" y="555" font-size="20" fill="#334155">一次完成 TSLS 并给正确标准误</text>
+<text x="64" y="684" font-size="18" fill="#64748b">教学示意图：用于理解操作链路，不是 Stata 回归结果截图。</text></svg>

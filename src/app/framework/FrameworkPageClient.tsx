@@ -1,6 +1,6 @@
 "use client";
 
-import FeedbackButton from "@/components/feedback/FeedbackButton";
+import { generatedCourses } from "@/lib/courses/course-registry";
 import FrameworkLearningView, { type FrameworkData } from "@/components/framework/FrameworkLearningView";
 import { useMemo } from "react";
 
@@ -44,26 +44,19 @@ export default function FrameworkPageClient({
       <div className="mx-auto mt-8 flex w-full max-w-6xl items-center gap-3 px-6 text-sm">
         <span className="text-xs font-medium uppercase tracking-[0.15em] text-zinc-400">课程</span>
         <div className="flex gap-0.5">
-          <button
-            onClick={() => switchCourse("ysjrgj")}
-            className={`rounded-lg px-3 py-1.5 text-sm transition ${
-              currentCourseId === "ysjrgj"
-                ? "bg-zinc-900 font-medium text-white shadow-sm"
-                : "text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800"
-            }`}
-          >
-            衍生品
-          </button>
-          <button
-            onClick={() => switchCourse("gdsyzq")}
-            className={`rounded-lg px-3 py-1.5 text-sm transition ${
-              currentCourseId === "gdsyzq"
-                ? "bg-zinc-900 font-medium text-white shadow-sm"
-                : "text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800"
-            }`}
-          >
-            固收
-          </button>
+          {generatedCourses.map((course) => (
+            <button
+              key={course.id}
+              onClick={() => switchCourse(course.id)}
+              className={`rounded-lg px-3 py-1.5 text-sm transition ${
+                currentCourseId === course.id
+                  ? "bg-zinc-900 font-medium text-white shadow-sm"
+                  : "text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800"
+              }`}
+            >
+              {course.shortTitle}
+            </button>
+          ))}
         </div>
       </div>
 
@@ -75,7 +68,6 @@ export default function FrameworkPageClient({
         headerTitle={framework.title ?? "课程知识框架"}
         headerDescription={framework.courseSummary ?? "围绕课程进行系统化梳理，帮助快速定位章节主线、核心概念、公式、案例和图表。"}
       />
-      <FeedbackButton courseId={currentCourseId} />
     </div>
   );
 }

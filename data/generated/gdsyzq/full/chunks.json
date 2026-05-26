@@ -1,0 +1,3548 @@
+[
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 年春季学期 一 概论 固定收益证券 本科生专业方向课程",
+    "tokenCount": 18,
+    "sourcePage": 1,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 1,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 目录 课程介绍 固定收益证券的概念 固定收益证券在金融市场中的地位",
+    "tokenCount": 28,
+    "sourcePage": 2,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 2,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 目录 课程介绍 固定收益证券的概念 固定收益证券在金融市场中的地位",
+    "tokenCount": 28,
+    "sourcePage": 3,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 3,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 课程目标 掌握固定收益证券相关重要概念 了解固定收益证券在金融市场中的地位 掌握固定收益证券分析的基本方法，包括 定价、 风险评估 及 投资组合管理等 了解资产证券化的原理、实操流程及典型案例 了解 中国债券市场的现状 及相关实务：话题 ( 新闻、有关政策部门、行研报告等 )",
+    "tokenCount": 83,
+    "sourcePage": 4,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 4,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 了解 中国债券市场的现状 及相关实务：话题 （ 1 ）新闻：",
+    "tokenCount": 29,
+    "sourcePage": 5,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 5,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 了解 中国债券市场的现状 及相关实务：话题 （ 2 ）有关政策部门：",
+    "tokenCount": 31,
+    "sourcePage": 6,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 6,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 了解 中国债券市场的现状 及相关实务：话题 （ 3 ）行研报告等：",
+    "tokenCount": 30,
+    "sourcePage": 7,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 7,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 教学内容 教学内容 学习要点 课时安排 １ . 概论 固定收益证券基本概念 固定收益证券在金融市场中的地位 3 ２ . 债券基本概念与债券市场组成 债券市场 介绍、常见债券工具 债务类证券特征 资产证券化 15 ３ . 债券产品的定价 债券收益率 债券定价 - 国债、不含嵌入期权的 非国债定价、 含嵌入期权的债券定价、 MBS 及 ABS 定价 18 ４ . 债券投资的风险 债券投资风险简介 利率风险：含义、特征及量化 信用风险：含义、特征及量化 6 ５ . 债券投资组合管理 保险型组合管理策略、积极型组合管理策略、对冲型组合管理策略 6 ６ . 中国债券市场实务（选讲） 宏观利率研究：负利率、收益率曲线 信用研究：信用利差、债券违约风险 产品创新： ABS 产品创新、公募 REIT s 的发展 ７ . 课程总结与答疑 课程回顾总结、重点习题讲解 学生答疑 3",
+    "tokenCount": 206,
+    "sourcePage": 8,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 8,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 课程介绍 考核方式 考核方式 分数占比 说明 课程参与 50% 根据学生出勤、课堂提问及讨论、平时作业 情况给分、互动展示：跟债券相关 随堂测验 20% 闭卷考试： 重点考察学生对课程相关知识点的掌握，特别是运用相关知识 计算、 分析问题的能力 期末报告 3 0% 给出相关话题范围，独立完成报告",
+    "tokenCount": 85,
+    "sourcePage": 9,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 9,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 2022 年第三、四期储蓄国债（电子式） 7 月 10 日正式发行 中国建设银行：国债业务介绍 凭证式？ 电子式？ 记账式？",
+    "tokenCount": 74,
+    "sourcePage": 10,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 10,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 中国建设银行：国债业务介绍 凭证式？ 电子式？ 记账式？ 需开通证券交易账户； 可以上市流通，可以在二级市场买卖；票面利率是由国债承购包销团成员投标确定",
+    "tokenCount": 81,
+    "sourcePage": 11,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 11,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 我国债券市场存量规模及结构 2025 年各券种发行占比 2025 年新品种债券发行情况",
+    "tokenCount": 64,
+    "sourcePage": 12,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 12,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？",
+    "tokenCount": 42,
+    "sourcePage": 13,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 13,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 问题：固定收益证券 (Fixed income securities) 等同于债券 (Bonds) 吗？ 中美债券市场对比： 中国：市场起步晚，但目前债券品种较丰富，已超过日本称为全球第二大市场；发行人以央企、国企、城投为主；中短期债券为主 美国：以国债为主，抵押贷款类债券占比高；发行人主要为非金融机构的各类公司；中长债券占比高 补充阅读： 中国外汇交易中心 中国债券市场投资手册 中债研发中心 中国债券市场概览 中国债券信息网 债券业务统计分析报告 中国银行间市场交易商协会 中国债券市场改革发展报告",
+    "tokenCount": 142,
+    "sourcePage": 14,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 14,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券的概念 固定收益证券 (Fixed income securities)：一种要求资金使用方按照规定时间和方式向资金供给方支付已承诺费用的有价证券。 反映了一种 财务 上的义务 承诺支付费用的 实体：发行人 (Issuer)/ 借款人 (Borrower) 购买固定收益证券的 投资者：出借方 (Lender)/ 债权人 (Creditor) 主要分成两大类：债务权证和优先股 - 债务权证：债券 (Bonds)：国债、企业债、嵌入期权债券（可转债） 资产证券化： 抵押贷款支持证券 (Mortgage-backed securities, MBS) 资产支持证券 (Asset-backed securities, ABS) 等 - 优先股：一种具有和债券相似特征的权益证券",
+    "tokenCount": 183,
+    "sourcePage": 15,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 15,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 目录 课程介绍 固定收益证券的概念 固定收益证券在金融市场中的地位",
+    "tokenCount": 28,
+    "sourcePage": 16,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 16,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融市场 含义： 指货币资金融通和金融资产交换的场所， 将资金盈余方的资金转移到资金短缺方。 功能： 有效资本，提高整体经济的产出水平和效率； 通过帮助消费者更好地安排购买时机，功能健全的金融市场能够直接提高他们的经济福利 举例： 如果 A 有 500 元储蓄， B 需要借 500 元用于生产，通过金融市场， A 把钱借给 B, 从而获取利息收入； B 得到资金用于投资（购买资本） 结构： 债券市场 和 股权市场",
+    "tokenCount": 123,
+    "sourcePage": 17,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 17,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融市场的重要组成部分",
+    "tokenCount": 25,
+    "sourcePage": 18,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 18,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 Country Total Financial corporations Non-financial corporations General governments Total/GDP US 41,232 14,748 6,558 19,714 2.03 Japan 12,825 2,558 772 9,494 2.60 UK 6,288 2,831 539 2,913 2.30 France 4,670 1,681 697 2,292 1.78 China 14,726 5,472 3,609 5,644 0.96 Summary of debt securities outstanding (by residence and sector of issuer, amounts outstanding at end-December 2019, in billions of US dollars) Source: Bank for International Settlements (BIS) 金融市场的重要组成部分",
+    "tokenCount": 253,
+    "sourcePage": 19,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 19,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 不同国家金融业发展类型： 英美以伦敦和纽约为代表的以 资本市场 为主金融发展模式 德日以法 兰 克福和东京为代表的以 银行信贷市场 为主的金融发展模式 中国社会主义市场经济模式下的金融发展模式， 信贷市场 为主，发展资本市场，实施政府宏观调控 金融市场的重要组成部分",
+    "tokenCount": 86,
+    "sourcePage": 20,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 20,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融市场的重要组成部分",
+    "tokenCount": 25,
+    "sourcePage": 21,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 21,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 中国新增违约发行人及违约债券情况 债券违约发行人性质 中国新增债券违约金额情况 债券违约回收率",
+    "tokenCount": 49,
+    "sourcePage": 22,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 22,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国硅谷银行破产",
+    "tokenCount": 29,
+    "sourcePage": 23,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 23,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国硅谷银行破产",
+    "tokenCount": 29,
+    "sourcePage": 24,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 24,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国硅谷银行破产",
+    "tokenCount": 29,
+    "sourcePage": 25,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 25,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国次贷危机示意图",
+    "tokenCount": 30,
+    "sourcePage": 26,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 26,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 固定收益证券与金融风险 美国次贷危机示意图",
+    "tokenCount": 30,
+    "sourcePage": 27,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 27,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位 金融机构的重要业务构成",
+    "tokenCount": 25,
+    "sourcePage": 28,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 28,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 29,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 29,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 30,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 30,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 31,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch01-introduction",
+    "chunkIndex": 31,
+    "content": "固定收益证券 西南财经大学金融学院 李丽莎 固定收益证券在金融市场中的地位",
+    "tokenCount": 19,
+    "sourcePage": 32,
+    "sourceSection": "第一章：概论",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 学年春季 学期 二 债券基本概念与债券市场组成 固定收益证券 本科生专业方向课程",
+    "tokenCount": 25,
+    "sourcePage": 1,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 1,
+    "content": "二 · 债券基本概念与债券市场组成 目录 债券基本概念 债券市场组成",
+    "tokenCount": 17,
+    "sourcePage": 2,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 2,
+    "content": "二 · 债券基本概念与债券市场组成 目录 债券基本概念 债券市场组成",
+    "tokenCount": 17,
+    "sourcePage": 4,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 3,
+    "content": "二 · 债券基本概念与债券市场组成 契约和条款： 详细阐明发行人的承诺和债券持有者的权利。 基本条款： 债券的基本特征，决定债券的预定现金流量，是投资者预期和实际回报的关键因素。包括到期期限、面值、息票率和派息频率以及票面货币。 应急条款：可能影响债券未来现金流的条款，给予发行人或债权人一些影响债券处置或赎回的权利（ 选择权 ）。包括债偿条款（除本金定期偿还的其他方式）、回售条款、转换条款。 嵌入式期权债券：嵌入不同应急条款的债券。固定收益证券正变得越来越复杂的一个重要原因：期权结构使现金流（本金和利息）预测变得更加困难",
+    "tokenCount": 132,
+    "sourcePage": 5,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 4,
+    "content": "二 · 债券基本概念与债券市场组成 债券发行公告及募集说明书： 山东招金集团 2019 年公开发行公司债券（第一期） 契约和条款： 详细阐明发行人的承诺和债券持有者的权利。 基本条款： 债券的基本特征。 应急条款：可能影响债券未来现金流的条款，给予发行人或债权人一些影响债券处置或赎回的权利（ 选择权 ）。",
+    "tokenCount": 77,
+    "sourcePage": 6,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 5,
+    "content": "二 · 债券基本概念与债券市场组成 契约和条款 （权利） 债券契约 (Indenture) 会详细阐明发行人的承诺和债券持有者的权利。 为了确定发行人坚守契约承诺，通常还会引入第三方，即托管人作为债券持有人利益的代表。 债券合同中通常有肯定性条约和否定性条约。 肯定性条约 (Affirmative covenants) 规定了借款人承诺去做的事 : - 按时支付利息和本金 - 到期支付所有税款和其他所需费用 - 保持所有财产可用，保证借款人的业务运营良好且有序 - 向托管人定期提交报告，陈述借款人履行条约的情况 否定性条约 (Negative covenants) 是对借款人的活动做限制的条约： - 禁止借款人触发更多债务，除非公司本身达到相应的标准要求",
+    "tokenCount": 166,
+    "sourcePage": 7,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 6,
+    "content": "二 · 债券基本概念与债券市场组成 基本条款 （特征） 到期期限 (Term to maturity)：到期并退出的时间点，此时债券发行人会支付余下的所有本金并赎回债券。 债券在外流通的年限 最后一笔本金支付之前的剩余年限 短期债 (1-5)、中期债 (5-12)、长期债 (12 年以上 ) 到期期限重要性 - 到期期限与利息、本金 - 债券收益率与到期时间（收益率曲线） - 价格波动率与债券期限（利率风险）",
+    "tokenCount": 103,
+    "sourcePage": 8,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 7,
+    "content": "二 · 债券基本概念与债券市场组成 债券面值 (Par value)：债券发行人在债券到期日当天或者提前返还给债券持有人的金额。 可以反映本金 (Principal value)、赎回价值 (Redemption value)、到期价值 (Maturity value) 面值体现的币种可用本国货币，也可用外币 债券的面值是固定的，作为计息还本的依据，但由于发行者的种种考虑或资金市场上供求关系、利息率的变化，债券的市场价格常常脱离它的面值： - 折价交易 (Trading at a discount)：价格 < 面值 - 溢价交易 (Trading at premium)： 价格 > 面值 基本条款",
+    "tokenCount": 151,
+    "sourcePage": 9,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 8,
+    "content": "二 · 债券基本概念与债券市场组成 息票率 (Coupon rate)/ 名义利率 (Nominal rate)：债券发行人固定时期支付利息的利率。 息票：在相应期间支付的利息额 息票率通常和到期期限一同被提及，如“ 6% of 12/1/2020 ” “时期”选择反映了支付方式： - 美国通常做法是每半年支付一次息票 - 美国以外市场发行的债券通常是每年支付一次息票 - 抵押支持证券和资产支持证券通常按月支付 息票率也会影响债券价格对市场利率变化的敏感性（息票率越高，价格随市场利率变动越小） 不同息票率的设定会形成不同债券品种 - 零息债券 / 递增债券 / 递延息票债券 / 浮动利率债券 基本条款",
+    "tokenCount": 152,
+    "sourcePage": 10,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 9,
+    "content": "二 · 债券基本概念与债券市场组成 零息债券 (Zero-coupon bonds)：无需定期支付息票的债券。 通常折价发行且期限较短 面值和购买价格之间的差额作为利息 基本条款",
+    "tokenCount": 45,
+    "sourcePage": 11,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 10,
+    "content": "二 · 债券基本概念与债券市场组成 递增债券 (Step-up bonds)：债券息票率逐步攀升的债券。 单一递增债券 (Single step-up note)：出现一次利率递增 多次递增债券 (Multiple step-up note)：多于一次利率递增 基本条款",
+    "tokenCount": 68,
+    "sourcePage": 12,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 11,
+    "content": "二 · 债券基本概念与债券市场组成 递延息票债券 (Deferred coupon bonds)：利息支付会向后递延几年，即在递延期间不支付利息的债券。 递延期之后支付的利息通常比之前要高，用于补偿债券持有人在递延期间没有利息支付的情况 基本条款",
+    "tokenCount": 62,
+    "sourcePage": 13,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 12,
+    "content": "二 · 债券基本概念与债券市场组成 浮动利率债券 (Floating-rate securities)/ 变动利率债券 (Variable-rate securities)：根据参考利率来调整支付利息的债券。 息票率 = 参考利率 + 息差报价 参考利率 - 国债利率 - 伦敦同业拆解利率 (London interbank offered rate, LIBOR) - 债券指数、外汇指数、大宗商品价格、股票指数等 - 通胀指数：通胀保护国债 (Treasury inflation protection securities, TIPS)、与 通胀挂钩的债券 (Inflation-linked bonds) - 通过金融工程，发行人能够构造出以任何参考利率作为基准的浮动债券 一般情况下，参考利率与息票率同向变动 基本条款",
+    "tokenCount": 183,
+    "sourcePage": 14,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 13,
+    "content": "二 · 债券基本概念与债券市场组成 浮动利率债券 (Floating-rate securities)/ 变动利率债券 (Variable-rate securities)：根据参考利率来调整支付利息的债券。 息差报价 (Quoted margin)：发行人愿意支付的高于参考利率的部分，通常以基点来表示，可正可负 基点 (Basis Point, BP) 是衡量债券利率变动的最小计量单位， 1 个基点等于 0.01%， 100 个基点等于 1% 利率限额 (Cap)：最大息票率（上限）、最小息票率（下限） 逆向浮动利率债券 (Inverse floaters)：息票率与参考利率反向变动的债券 - 使相信利率将下跌的投资者有机会获得更高息票率，对冲利率下降风险 基本条款",
+    "tokenCount": 169,
+    "sourcePage": 15,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 14,
+    "content": "二 · 债券基本概念与债券市场组成 票面货币： 可用本国货币，也可用外币，这取决于发行者的需要和债券的种类。 - 以美国为例：以美元定价的发行、非美元定价的发行、双重货币 发行（本金和息票支付采用不同货币）。 基本条款",
+    "tokenCount": 55,
+    "sourcePage": 16,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 15,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 （选择权） 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 可赎回债券 (Callable bond)：允许债券发行人提前赎回的债券。 赎回原因：如果未来利率大幅低于息票率，发行人可以赎回原债券以更低票面利率发行新债券 通常发行人想拥有这个权利，需要在发行时给予投资者一定补偿（更高的息票率或更低的发行价格） 递延赎回 (Deferred call)：发行人在债券发行几年内不能赎回 - 首次赎回日 (First call date): 债券第一次被赎回的时间 部分赎回的方式： - 通过计算机随机选择召回序列号 - 债券持有人有同样比例的召回份额",
+    "tokenCount": 161,
+    "sourcePage": 17,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 16,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 赎回价 (Call price)/ 偿还价 (Redemption price)：赎回债券而支付的价格 - 不管赎回日期的单一赎回价 1997 年 10 月 6 日，安海斯 - 布西公司发行 2.5 亿美元票据，息票率 7.1%，募集说明书陈述：“ …… 公司可以自行选择在 2004 年 6 月 15 日或之后任何时候赎回；无论是整体或部分赎回，都要求提前 30-60 天发布公告， 赎回价等于 100% 的本金，以及赎回日前的应计利息。” - 基于提前赎回补偿的赎回价 (A make-whole redemption price)：提前赎回补 偿条款 (A make-whole premium provisions)/ 收益保障溢价条款 (A yield- maintenance premium provision) 要求发行人必须付出溢价来赎回债券。",
+    "tokenCount": 227,
+    "sourcePage": 18,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 17,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 赎回价 (Call price)/ 偿还价 (Redemption price)：赎回债券而支付的价格 - 基于赎回计划 (Call schedule) 的赎回价：取决于发行人何时执行赎回行为",
+    "tokenCount": 84,
+    "sourcePage": 19,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 18,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 赎回条款 (Call provision)：给予债券发行人在到期日之前赎回部分或全部债券的权利。 不可赎回条款 (Noncallable provision)：禁止借款人赎回债券的行为 不可交换条款 (Nonrefundable provision)：禁止借款人通过发行成本更低的债券融到资金来赎回旧债券 1988 年 6 月 23 日，安海斯 - 布西公司发行息票率为 10% 的债券， 2018 年 7 月 1 日 到期。债券可立即赎回，但募集说明书在赎回条款中明确规定：“ …… 在 1998 年 7 月 1 日之前，公司不可期望通过发行低于 10% 利率的债券来赎回任何 公司债券，从而降低成本获得收益。”",
+    "tokenCount": 165,
+    "sourcePage": 20,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 19,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 提前还款条款 (Prepayment provision)：对于以贷款为主的摊销证券，借款人有权在设定的本息支付时间表之前付清所有或部分贷款。 借款人的权利 任何在时间表之前完成的支付都是提前支付 主要与抵押转手债券、担保抵押债券有关 赎回风险 (Call risk)/ 提前偿付风险 (Prepayment risk) - 债券的现金流无法确切估计 - 投资者面临再投资风险 (Reinvestment risk)，即将利息和本金收入以低于原 债券收益率进行再投资的风险",
+    "tokenCount": 130,
+    "sourcePage": 21,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 20,
+    "content": "二 · 债券基本概念与债券市场组成 偿债条款 偿债基金条款 (Sinking fund requirement)：要求债券发行人每年偿付一定比例的债券。 条款的主要目的在于降低信用风险 - 1995 年 6 月 5 日发行的格索兰债券，偿债基金条款开始时间是 2006 年 6 月 1 日， 发行人每年必须先偿还 750 万美元。 加速偿债条款 (Accelerated sinking fund provision) 允许发行人有权比偿债基金要求的偿还更多，但可能会设置上限 - 一家公司债券在 2016 年 12 月 1 日到期，其偿债基金条款要求从 1997 年 12 月 1 日开始每年支付 750 万美元，发行人允许最多支付 1500 万美元。",
+    "tokenCount": 164,
+    "sourcePage": 22,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 21,
+    "content": "二 · 债券基本概念与债券市场组成 回售条款（选择权） 回售条款 (Put provision)：给予债券持有人在到期日之前向发行人回售部分或全部债券的权利。 可回售债券 (Puttable bonds)：：允许债券持有人提前回售的债券 回售原因：如果未来利率大幅高于息票率，持有人可以回售原债券以更高票面利率投资新债券；债券价格大幅下降 回售价 (Put price)：持有人向发行人出售债券时的设定价格 - 回售权对投资者有利。回售权执行后发行人不得不以更高票面利率融资 - 大多数可回售债券还会有利率跳升条款，即在回售时点前，发行人可提高 票面利率以满足投资者的要求",
+    "tokenCount": 143,
+    "sourcePage": 23,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 22,
+    "content": "二 · 债券基本概念与债券市场组成 转换条款（选择权） 转换条款 (Convertible provision)：债券发行人承诺根据转换价格在一定时间内可将债券转换为转换一定数额的公司普通股。 可转换债券 (Convertible bonds)：含有转换条款的债券 同时拥有为普通股所不具备的固定收益和一般债券不具备的升值潜力 - 债权性：可转换债券在转换成股票前是纯粹的债券，有规定的利率和期 限，投资者可以选择持有债券到期，收取本息 - 股权性：可转换债券转换成股票之后，原债券持有人变成公司股东，可参 与公司经营决策和分红，也会在一定程度上影响公司的股本结构 转股权是债券持有人享有的、一般债券所没有的选择权，允许持有人利用发行人普通股股价变动的优势，因此可转换债券利率一般低于普通公司债券利率，发行人发行可转换债券可以降低筹资成本 可交换债券 (Exchangeable bonds)：允许债券持有人用债券去交换一定份额的其他发行人的股票",
+    "tokenCount": 212,
+    "sourcePage": 24,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 23,
+    "content": "二 · 债券基本概念与债券市场组成 转换条款（选择权） 可转债 2020 年发 145 只（截至 9 月 9 号），后市怎么投资？ Wind 数据显示， 2020 年不到 9 个月， A 股上市公司发行可转债已经达到 145 只，而 2019 年全年发行也仅有 128 只，大幅超过 2019 年发行总数 https://xw.qq.com/amphtml/20200910A0ER8300 讨论： https://finance.sina.com.cn/money/bond/market/2020-10-23/doc-iiznctkc7121460.shtml https://zhuanlan.zhihu.com/p/106587723 https://xueqiu.com/5656325751/196780579",
+    "tokenCount": 181,
+    "sourcePage": 25,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 24,
+    "content": "二 · 债券基本概念与债券市场组成 嵌入式期权 嵌入式期权 (Embedded options)：发行债券的契约中赋予债券持有人或发行人一项或多项的制衡另一方的权利。 赋予债券发行人的嵌入式期权 - 赎回权 - 在贷款池中潜在的借款人有权提前支付本金 - 加速偿债基金 - 浮动债券的利率上限 赋予债券持有人的嵌入式期权 - 转换权 - 回售权 - 浮动债券的利率下限 固定收益证券正变得越来越复杂，一个重要原因就是期权结构使现金流（本金和利息）预测变得更加困难",
+    "tokenCount": 116,
+    "sourcePage": 26,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 25,
+    "content": "二 · 债券基本概念与债券市场组成 目录 债券基本概念 债券市场组成",
+    "tokenCount": 17,
+    "sourcePage": 27,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 26,
+    "content": "二 · 债券基本概念与债券市场组成 债券市场组成：内部市场和外部市场（国家角度）；一级市场和二级市场（发行和交易） 债券工具：传统债券 - 主权债券，准政府 / 机构债券，州政府及地方政府债券，公司债务型债券；证券化债券 - MBS， ABS， CDO",
+    "tokenCount": 63,
+    "sourcePage": 28,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 27,
+    "content": "二 · 债券基本概念与债券市场组成 内部和外部债券市场 内部债券市场 (International bond market)/ 国家债券市场 (National bond market)：一个国家内部的债券市场。 本国债券市场：发行人在母国发行和交易债券的市场 外国债券市场：非本国发行人在该国发行和交易债券的市场 - 在美国市场，以美元标价的外国债券称为“扬基债券” - 在英国市场，以英镑标价的外国债券称为“猛犬债券” - 在中国市场，以人民币标价的外国债券称为“熊猫债券” 外国债券发行人包括中央银行和其下属机构、公司和超国家组织",
+    "tokenCount": 134,
+    "sourcePage": 29,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 28,
+    "content": "二 · 债券基本概念与债券市场组成 内部和外部债券市场 外部债券市场 (International bond market)：发行人在本国境外市场发行不以发行市场所在国货币为面值的国际债券的市场。 国际债券 (International bond)/ 离岸债券 (Offshore bond)/ 欧洲债券 (Eurobond) - 发行时，同时向多国投资者发行，发行范围超过任何单个国家的管辖权 - 由一个国际银团承销，采取不记名（非注册）方式发行 全球债券 (Global bond)：一种在一个或多个国家的外国债券市场和欧洲债券市场发行和交易的债券",
+    "tokenCount": 138,
+    "sourcePage": 30,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 29,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 主权债券 (Sovereign bonds)：一国中央政府发行的债券。 可以在本国国家债券市场发行和交易，也可以在欧洲债券市场或另一国家的外国债券市场发行交易 通常以发行国的货币标价 会接受信用评级机构的主权评级 (Sovereign ratings) - 本币债券评级 (Local currency debt rating) - 外币债券评级 (Foreign currency debt rating)",
+    "tokenCount": 114,
+    "sourcePage": 31,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 30,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 主权债券 (Sovereign bonds)：一国中央政府发行的债券。 发行目的 - 筹措军费 - 平衡财政收支 - 筹集建设资金 - 借换国债的发行 固定本金国债 - 短期国债：以折价、无票面利率发行，到期价格为面值，期限不超过 12 个月（零息债券） - 中期国债：期限大于 1 年不超过 10 年的国债 - 长期国债：期限超过 10 年的国债",
+    "tokenCount": 99,
+    "sourcePage": 32,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 31,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 主权债券 (Sovereign bonds)：一国中央政府发行的债券。 通胀指数国债 (Inflation-indexed securities)/ 通货膨胀保护国债 (Treasury inflation protected securities)：对抗通货膨胀风险的中期和长期国债 - 以经通货膨胀调整后的本金 (Inflation-adjusted principal) 作为计付利息和 计算到期价值的基础 - 假定通货膨胀保护国债的票面利率为 3.5%，面值 10 万美元，半年付息 时间 半年通货膨胀率 经通货膨胀调整的本金 收到的利息 第一个半年期 1.5% 100000 美元 ×(1+1.5%) =101500 美元 101500 美元 ×1.75% =1776.25 美元 第二个半年期 1% 101500 美元 ×(1+1%) =102515 美元 102515 美元 ×1.75% =1794.01 美元 ……",
+    "tokenCount": 220,
+    "sourcePage": 33,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 32,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 准政府债券 (Semi-government bonds)/ 政府机构债券 (Government agency bonds)：由中央政府设立机构或组织发行的债券，可能会得到中央政府的直接或间接保证。 在美国，准政府债券被称为联邦机构证券 (Federal agency securities) - 联邦关联机构，如美国进出口银行、田纳西河流管理局、小型企业总署 - 政府主办企业，如联邦国民抵押贷款协会（房利美）、联邦房屋抵押贷 款公司（房地美）等 美国机构信用债券 (Debentures) 和贴现债券 (Discount notes)：没有任何特殊的抵押品进行担保，其偿债能力取决于债券发行人的现金流情况 - 信用债券可以是中期债券（ 1-20 年）或长期债券（长于 20 年）；贴现债 券属于短期债券，期限在 1 年以内 美国机构抵押贷款支持证券 (Agency mortgage-backed securities) - 用其包销或购买的抵押贷款作为抵押品发行的债券",
+    "tokenCount": 231,
+    "sourcePage": 34,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 33,
+    "content": "市政债券 (Municipal bonds)：州政府和地方政府及其创造的主体发行的债券。 税收支持债券 (Tax-backed debt)：由州、县、特区、市、镇和学校行政区以一些形式的税收作为担保支持的债券工具 - 无限税收一般责任债券 (Unlimited tax general obligation debt)、有限税收 一般责任债券 (Limited tax general obligation debt)、拨款担保债券、公共 信用提升计划支持债券 收入债券 (Revenue bonds)：由完工项目产生收入作为担保支持的债券工具 - 公用事业收入债券、高等教育收入债券、运输收入债券等 二 · 债券基本概念与债券市场组成 债券工具",
+    "tokenCount": 162,
+    "sourcePage": 35,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 34,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 金融债券 (Financial bonds)：银行及其他金融机构所发行的债券 - 解决银行等金融机构的资金来源不足和期限不匹配的矛盾 - 金融债券的违约风险较其他非金融机构债券小，而利率低于一般公司债 券，高于风险更小的国债和银行储蓄存款利率 - 政策性金融债 - 商业银行普通债券、二级资本债 - 证券公司债、证券公司短期融资券",
+    "tokenCount": 105,
+    "sourcePage": 36,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 35,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 公司债券 (Corporate bonds)：非金融企业所发行的债券 - 担保债券 (Secured debt)：有某种形式的抵押品（不动产或动产）来确保 债务的支付，债券发行人授予债券持有人对抵押品的留置权 - 无担保债券 (Unsecured debt)/ 信用债券 (Debenture bonds)：不被特定抵押 品担保的债券，但债券持有人对债券发行人所拥有的未用来抵押担保 其他负债的所有资产有求偿权 - 信用增级债券 (Credit enhancement bonds)：债券发行人让其他公司为其 发行的债务提供担保，但债券信用评级通常不会比担保人信用评级高",
+    "tokenCount": 165,
+    "sourcePage": 37,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 36,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 中期票据 (Medium-term note)：一种在注册期限内连续发行的公募债券 - 发行规模灵活。公司债券通常都是一次性、大规模的足额发行，而中期 票据通常采取的是多次、小额的发行，具体发行时间和每次发行的规模 依据当时市场的情况而定 - 发行条款灵活。公司债券的契约条款是标准化的，简单明了，而同一次 注册下的中期票据的期限、定价、利息支付均可不同，且常常可能包含 一种或几种复杂的衍生品，形成结构化票据 (Structured note) - 发行方式灵活。公司债券一般都是由投资银行进行承销。中期票据则以 投行或代理商分销，或发行人自行销售为主，而且通常先征求潜在的投 资人对发行价格、期限等条款的意见，然后再发行相应的中期票据",
+    "tokenCount": 182,
+    "sourcePage": 38,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 37,
+    "content": "二 · 债券基本概念与债券市场组成 债券工具 企业债务型债券：金融机构或公司发行的债券。 商业票据 (Commercial paper)：由金融机构和非金融机构发行的无担保短期票据 - 通常作为零息票据在公开市场上发行，期限通常少于 270 天，大多数是 50 天甚至更少 - 二级市场交易很少，持有者通常会持有至到期 - 金融机构（专属金融公司、银行关联公司和独立金融公司）发行商业票 据的频率远高于非金融机构 - 商业票据分为直接销售票据 (Directly placed paper) 和代理商经销票据 (Dealer-placed commercial paper)。直接销售票据通过发行公司直接销售 给投资者，发行人通常是金融机构",
+    "tokenCount": 160,
+    "sourcePage": 39,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 38,
+    "content": "二 · 债券基本概念与债券市场组成 一级和二级债券市场 一级债券市场 (Primary bond market)：向投资者分销新发行债权工具的市场。 公开发行和私募发行 销售方式： - 包销：投行提供一个出价，从发行人处购买债券，赚取销售差价（低买 高卖），但承担销售风险 - 代销：投行不需要从发行人处购买全部债券，只是利用自己专业技术来 销售债券，收取代销佣金，不承担销售风险 - 拍卖：发行人公布证券的条款，感兴趣的人对该证券进行投标（竞标承 销），通常收益率最低报价（发行人成本最低）的竞标者中标",
+    "tokenCount": 126,
+    "sourcePage": 40,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 39,
+    "content": "二级债券市场 (Secondary bond market)： 已经发行的证券进行买卖、 转让和流通的市场。 市场对投资者持有的债券提供流动性以及公允或统一定价 场内交易市场和场外交易市场 二 · 债券基本概念与债券市场组成 一级和二级债券市场",
+    "tokenCount": 61,
+    "sourcePage": 41,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 40,
+    "content": "场内交易市场：上海证券交易所、深圳证券交易所等 - 主要参与者是非银行机构，交易部分公开发行的国债、地方政府债、金 融债、企业债、公司债、可转债和资产支持证券以及非公募债券品种 - 上交所交易的债券总额占到了场内交易市场总量的 90% 以上 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 74,
+    "sourcePage": 42,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 41,
+    "content": "场外交易市场：银行间债券市场和柜台交易市场 - 银行间债券市场主要参与者是机构投资者，交易央票、中期票据、短期 融资券、同业存单与定向工具，以及部分国债、地方政府债、金融债、 企业债、公司债、可转债和资产支持证券，是规模最大的债券交易场所 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 74,
+    "sourcePage": 43,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 42,
+    "content": "场外交易市场：银行间债券市场和柜台交易市场 - 柜台交易市场主要参与者是个人投资者和部分非金融机构投资者，以国 债交易为主，一般由交易双方协商交易价格 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 52,
+    "sourcePage": 44,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 43,
+    "content": "中债登与上清所共同负责银行间市场债券品种的发行、托管与结算业务 中债登是柜台市场债券业务的一级托管人和交易所托管的国债总托管人 中证登承接了原来隶属于上海和深圳证券交易所的全部登记结算业务，施行“中央登记、二级托管”的制度 中国债券市场的构成 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 70,
+    "sourcePage": 45,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 44,
+    "content": "中国债券市场的特征 中国债券市场架构图 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 19,
+    "sourcePage": 46,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch02-bond-basics-market",
+    "chunkIndex": 45,
+    "content": "中国债券市场的特征 美国债券市场架构图 二 · 债券基本概念与债券市场组成",
+    "tokenCount": 19,
+    "sourcePage": 47,
+    "sourceSection": "第二章：债券基本概念与债券市场组成",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 0,
+    "content": "2026 学年春季 学期 第三讲 债券收益率 固定收益证券 本科生专业方向课程",
+    "tokenCount": 20,
+    "sourcePage": 1,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 1,
+    "content": "第三讲 · 债券收益率",
+    "tokenCount": 6,
+    "sourcePage": 2,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 2,
+    "content": "第三讲 · 债券收益率",
+    "tokenCount": 6,
+    "sourcePage": 3,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 3,
+    "content": "第三讲 · 债券收益率 目录 收益率衡量指标 利率期限结构构造 利率期限结构理论",
+    "tokenCount": 20,
+    "sourcePage": 4,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 4,
+    "content": "第三讲 · 债券收益率 目录 收益率衡量指标 利率期限结构构造 利率期限结构理论",
+    "tokenCount": 20,
+    "sourcePage": 5,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 5,
+    "content": "第三讲 · 债券收益率 收益率衡量指标 如何衡量债券收益率？",
+    "tokenCount": 15,
+    "sourcePage": 6,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 6,
+    "content": "第三讲 · 债券收益率 收益率衡量指标 知识目标： 掌握收益的来源 - 利息支付 - 资本利得或损失 - 再 投资收益 熟悉衡量收益率的常见指标 - 当期收益率 - 到期收益率 - 再投资风险 - 即期收益率 - 区别",
+    "tokenCount": 55,
+    "sourcePage": 7,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 7,
+    "content": "第三讲 · 债券收益率 收益的来源 重要性？ 在衡量固定收益证券的潜在收益时，任何衡量收益率的方法都应该首先考虑收益的来源。",
+    "tokenCount": 31,
+    "sourcePage": 8,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 8,
+    "content": "第三讲 · 债券收益率 收益的来源 固定收益证券应有三种收入来源： 利息支付 - 最常见的债券收益来源 - 零息债券的收益来源为零 资本利得或损失 - 在债券到期、被赎回或被出售时都会收到现金。 - 若收益大于购买价，产生资本利得；若收益低于购买价，产生资本损失 再投资收益 (Reinvestment income) - 债券最终到期前将中期现金流量（利息和偿付本金）重新投资获得的利息 思考：在三种衡量收益率指标 - 当期、到期、即期收益率中，是否考虑了三种潜在收入来源？",
+    "tokenCount": 119,
+    "sourcePage": 9,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 9,
+    "content": "第三讲 · 债券收益率 当期收益率 当期收益率 (Current yield)： 票面利息和债券价格的比率。 当期收益率 = 年息票利息收入 价格 例：票面利率为 7%、 8 年期债券的价格是 94.17 元，则 当期收益率 = 0 . 07 × 100 94 . 17 = 7 . 43 % (- 当债券折价出售时，票面利率小于当期收益率；当溢价出售时，票面利率大于当期收益率 ) 局限性：只 考虑了票面利息，没有 充分 考虑资本利得或损失 和 再投资收益",
+    "tokenCount": 115,
+    "sourcePage": 10,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 10,
+    "content": "第三讲 · 债券收益率 到期收益率 到期收益率 (Yield to maturity, YTM)： 使得债券现金流量的现值等于其市场价值与应计利息之和的折现利率。 例：一 8 年期国债，息票率为 7 ％，每 6 个月付息 1 次，假设发行价格为 94.17，则发行时的到期收益率为 - 以半年付息的到期收益率 y =4% - 债券等值收益率 (Bond equivalent yield) 为 4%×2= 8%",
+    "tokenCount": 103,
+    "sourcePage": 11,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 11,
+    "content": "第三讲 · 债券收益率 到期收益率 (Yield to maturity, YTM)： 使得债券现金流量的现值等于其市场价值与应计利息之和的折现利率。 补充：应用到期收益率简单比较不同债券 例：假设有两个国债，都是 3 年后到期，每年付息 1 次。一个息票率为 5 ％，价格 94.75，而另外一个息票率为 7 ％，价格 101.32。再假设其他方面都一样。如果两个债券都持有至到期日，哪个更值得投资？ - 通过计算，第一个债券的到期收益率为 7%，第二个为 6.5%。因此，第一个债券更值得投资 到期收益率",
+    "tokenCount": 127,
+    "sourcePage": 12,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 12,
+    "content": "第三讲 · 债券收益率 到期收益率 (Yield to maturity, YTM)： 使得债券现金流量的现值等于其市场价值与应计利息之和的折现利率。 局限性： - 到期收益率考虑了利息收入，和投资者在债券到期时会获得的资本利得或损失。 - 还考虑了再投资收入，但假设票面利率仅能够以等于到期收益率的利率重新投资。 - 即 使用到期收益率作为衡量指标时，需满足： 债券会被持有至到期； 利息能够以到期收益率再投资； 到期收益率",
+    "tokenCount": 107,
+    "sourcePage": 13,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 13,
+    "content": "第三讲 · 债券收益率 以 94.17 元购买一个面值 100 元、 8 年期、票面利率 7% 的债券。假设利息能够以到期收益率再投资。债券被持有到期的收益： 票面利息 = 3.5×16= 56 元 资本利得 =100 － 94.17=5.83 元 再投资收益 = 20 . 38 元 （占比 25% ） 总 收益 金额 = 56 +5.83+ 20 . 38 = 82 . 21 元 到期收益率",
+    "tokenCount": 99,
+    "sourcePage": 14,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 14,
+    "content": "第三讲 · 债券收益率 对该债券每半年支付的利息按到期收益率 8% （ 4% 的半年收益率）进行投资，可计算再投资收益 t = 1 16 3 . 5 × [ ( 1 + 4 %) 16 － t − 1 ] 每半年 3.5 元利息收入在之后以到期收益率再投资可获得的收益： 到期收益率",
+    "tokenCount": 71,
+    "sourcePage": 15,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 15,
+    "content": "第三讲 · 债券收益率 使用到期收益率作为衡量指标时，需满足： 债券会被持有至到期； 利息能够以到期收益率再投资； 在第一个假设下，投资面临再投资风险 (Reinvestment risk)，即未来利率可能会低于购买时的到期收益率 再投资风险",
+    "tokenCount": 61,
+    "sourcePage": 16,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 16,
+    "content": "第三讲 · 债券收益率 以 94.17 美元购买一个面值 100 元、 8 年期、票面利率 7% 的债券。假设利息能够以到期收益率再投资。债券被持有到期的收益： 票面利息 = 3.5×16= 56 元 资本利得 =100 － 94.17=5.83 元 再投资收益 = 20 . 38 元 （ 占比 25% ） 总 收益 金额 = 56 +5.83+ 20 . 38 = 82 . 21 元 按面值（ 100 美元）购买一个 15 年期、票面利率 8% 的债券。假设利息能够以到期收益率再投资。债券被持有到期的收益： 票面利息 = 4×30= 120 元 再投资收益 = 104 . 34 元 （ 占比 46.5% ） 总 收益 金额 = 120 + 104 . 34 = 224 . 34 元 再投资风险",
+    "tokenCount": 176,
+    "sourcePage": 17,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 17,
+    "content": "第三讲 · 债券收益率 再投资风险 再投资风险 (Reinvestment risk)：未来利率可能会低于购买时的到期收益率 思考：影响再投资风险的因素？",
+    "tokenCount": 39,
+    "sourcePage": 18,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 18,
+    "content": "第三讲 · 债券收益率 再投资风险 (Reinvestment risk)：未来利率可能会低于购买时的到期收益率 对于附息债券，给定的到期收益率， 到期时间越长，债券的总收益金额要 达到购买时的到期收益率就越依赖再投资收益 对于附息债券，给定到期收益率和到期时间， 票面利率越高，债券的总收 益金额要达到购买时的到期收益率就越依赖再投资收益 再投资风险",
+    "tokenCount": 88,
+    "sourcePage": 19,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 19,
+    "content": "第三讲 · 债券收益率 再投资风险 (Reinvestment risk)：未来利率可能会低于购买时的到期收益率 思考：什么类型债券无再投资风险？ 再投资风险",
+    "tokenCount": 40,
+    "sourcePage": 20,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 20,
+    "content": "第三讲 · 债券收益率 即期收益率 对于零息债券，由于没有再投资收益，所以将零息债券持有到期是没有再投资风险的。 即期收益率 / 即期利率 (Spot rate)：零息票国债到期收益率",
+    "tokenCount": 46,
+    "sourcePage": 21,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 21,
+    "content": "第三讲 · 债券收益率 收益率衡量指标 回顾： 收益的来源：利息支付、 资本利得或损失、再投资收益 掌握收益的来源 衡量收益率的常见指标 - 当期收益率： 只考虑了票面利息，没有考虑资本利得或损失、再投资收益。 - 到期收益率： 不仅考虑了利息收入，还考虑了资本利得或损失、再投资收入，但假设票面利率能够以等于到期收益率的利率重新投资。 - 再投资风险： 再投资风险使得到期收益率并不能够代表附息债券的潜在收益。 - 即期收益率： 零息债券没有再投资风险。零息国债收益率，也称即期利率。",
+    "tokenCount": 122,
+    "sourcePage": 22,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 22,
+    "content": "第三讲 · 债券收益率 目录 收益率衡量指标 利率期限结构构造 利率期限结构理论",
+    "tokenCount": 20,
+    "sourcePage": 23,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 23,
+    "content": "第三讲 · 债券收益率 利率期限结构构造 知识目标： 掌握到期收益率曲线概念 掌握即期利率曲线概念（利率期限结构） 了解利率期限结构构造方法，掌握基本计算",
+    "tokenCount": 39,
+    "sourcePage": 24,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 24,
+    "content": "第三讲 · 债券收益率 到期收益率曲线 到期收益率曲线 (Yield curve)：债券到期收益率与到期期限的关系。 到期收益率曲线的形状 - 向上倾斜的收益率曲线 (Upward) - 向下倾斜的收益率曲线 (Inverted) - 平坦的收益率曲线 (Flat) - 拱形的收益率曲线 (Humped)",
+    "tokenCount": 77,
+    "sourcePage": 25,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 25,
+    "content": "第三讲 · 债券收益率 即期收益率曲线（利率期限结构） 利率期限结构 (Term structure of interest rates)：零息票国债到期收益率曲线。 即期收益率 (Spot rate)：零息票国债到期收益率 即期收益率曲线： 零息票国债到期收益率曲线，也称为利率期限结构 (Term structure of interest rates)",
+    "tokenCount": 90,
+    "sourcePage": 26,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 26,
+    "content": "第三讲 · 债券收益率 即期收益率曲线（利率期限结构） 利率期限结构 (Term structure of interest rates)：零息票国债到期收益率曲线。 债券定价中的贴现率就是使用国债即期利率曲线 （货币市场工具以贴现率为基础报价，如商业票据、 1 年期以下国债、银行承兑汇票） 零息票国债 - 不存在再投资风险 - 无违约风险 - 流动性较好 - 任何附息国债都可由零息票债券组合来复制",
+    "tokenCount": 101,
+    "sourcePage": 27,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 27,
+    "content": "第三讲 · 债券收益率 常用利率期限结构构造方法 - 随机利率模型：假设利率服从某随机过程，如 CIR 模型。基于严格经济学假设推导，现实应用效果不佳 - 数量拟合方法：拟合效果好，应用广泛 插值法（如多项式样条法、 Nelson-Siegel 法）：利用关键期限的收益率估算出其他期限的收益率，即从有限的点，变成一条曲线。 自展法（ Bootstrapping ）：利用已有的债券价格与息票率去构造其他期限的即期收益率。如零息票国债的品种非常有限，只有 1 年期以下的品种。 利率期限结构构造",
+    "tokenCount": 124,
+    "sourcePage": 28,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 28,
+    "content": "第三讲 · 债券收益率 常用利率期限结构构造方法 插值法（如多项式样条法、 Nelson-Siegel 法）：利用关键期限的收益率估算出其他期限的收益率，即从有限的点，变成一条曲线。 例： 中债收益率曲线模型 p13 美联储国债收益率曲线 p15 利率期限结构构造",
+    "tokenCount": 66,
+    "sourcePage": 29,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 29,
+    "content": "第三讲 · 债券收益率 常用利率期限结构构造方法 自展法（ Bootstrapping ）：利用已有的债券价格与息票率去构造其他期限的即期收益率。如零息票国债的品种非常有限，只有 1 年期以下的品种。 国债即期利率曲线的构造 - 自展 (Boot strapping)：基于 1 年期及以下零息票国债的价格和息票率产生 其他期限的即期收益率 - 6 个月期和 1 年期的短期国债可视为零息国债，因此， 6 个月期国债的收益 率等于 6 个月期的年即期利率； 1 年期国债的收益率等于 1 年期的年即期利 率。可以逐步计算出 1.5 年， 2 年， 2.5 年， 3 年 … 的即期收益率 利率期限结构构造",
+    "tokenCount": 151,
+    "sourcePage": 30,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 30,
+    "content": "第三讲 · 债券收益率 例： 6 个月期国债的即期收益率是 3%， 1 年期国债的即期收益率是 3.3%。如果所有附息国债都以面值 100 美元平价出售。计算各到期年限的即期收益率 - 若 1.5 年期国债票面利率为 3.5%，则与其价值相关的三笔现金流： 0.5 年时现金流 =100×0.5×3.5%=1.75 美元 1 年时现金流 =100×0.5×3.5%=1.75 美元 1.5 年时现金流 =100×0.5×3.5%+100=101.75 美元 若 1.5 年期国债年即期收益率为 z，则以零息国债组合表示的价值为 1 00 = 1 . 75 ( 1 + 3 %/ 2 ) 1 + 1 . 75 ( 1 + 3 . 3 %/ 2 ) 2 + 101 . 75 ( 1 + z / 2 ) 3 通过计算可知， z=3.5053% 利率期限结构构造",
+    "tokenCount": 189,
+    "sourcePage": 31,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 31,
+    "content": "第三讲 · 债券收益率 例： 6 个月期国债的即期收益率是 3%， 1 年期国债的即期收益率是 3.3%。如果所有附息国债都以面值 100 元平价出售。计算各到期年限的即期收益率 利率期限结构构造",
+    "tokenCount": 49,
+    "sourcePage": 32,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 32,
+    "content": "第三讲 · 债券收益率 到期收益率与即期收益率对比 到期收益率 - 含义：以到期收益率将未来现金流折算的现值等于债券现在的价格 - 作用：使不同息票和期限的债券之间有了相当的可比性 - 局限：不能脱离特定债券而独立存在，多用于报价而非分析工具 即期利率 - 含义：零息票国债到期收益率 - 作用：可为任意确定形态的现金流定价 - 特点：淡化了 息票 的背景，突出了期限特征，从而克服了到期收益依赖特 定债券的缺点。只与期限相关的特性使得即期利率曲线可以作为定价标准 利率期限结构构造",
+    "tokenCount": 121,
+    "sourcePage": 33,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 33,
+    "content": "第三讲 · 债券收益率 利率期限结构构造 回顾： 到期收益率曲线： 表示债券到期收益率与到期期限的关系 即期收益率曲线（利率期限结构）：零息票国债到期收益率（即期利率）与到期期限的关系；债券定价中的贴现率 即期利率曲线的构造：自展（ Bootstrapping ） - 利用已有的债券价格与息票率去构造其他期限的即期收益率",
+    "tokenCount": 81,
+    "sourcePage": 34,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 34,
+    "content": "第三讲 · 债券收益率 目录 收益率衡量指标 利率期限结构构造 利率期限结构理论",
+    "tokenCount": 20,
+    "sourcePage": 35,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 35,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 知识目标： 熟悉远期利率 掌握利率期限结构理论，可应用理论解释收益率曲线 - 纯预期理论 - 有偏预期理论：流动性偏好理论 - 有偏预期理论：偏好理论 - 市场分割理论",
+    "tokenCount": 53,
+    "sourcePage": 36,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 36,
+    "content": "第三讲 · 债券收益率 远期利率 即期利率：从现在开始的利率 远期利率： 隐含在给定即期利率中的，从未来某一时点到另一时点的利率 （从将来某一个时间点开 始的利率）",
+    "tokenCount": 41,
+    "sourcePage": 37,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 37,
+    "content": "第三讲 · 债券收益率 远期利率 远期利率 (Forward rate)：隐含在给定即期利率中从未来某一时点到另一时点的利率。 可通过即期利率计算出来 投资者有 1 年的投资期限，面临两种选择： - 购买 1 年期国债； - 购买半年期国债，到期后再购买另一个半年期国债。 原理：给定半年期（ z 1 ）和一年期（ z 2 ）国债的即期利率，则半年期国债的远期利率（ f ）等于使得两种方案的总收益相等的利率。 X 1 + z 1 1 + f = X ( 1 + z 2 ) 2 f = ( 1 + z 2 ) 2 1 + z 1 − 1",
+    "tokenCount": 135,
+    "sourcePage": 38,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 38,
+    "content": "第三讲 · 债券收益率 远期利率 推广：远期利率与即期利率之间的关系 f m = ( 1 + z m + 1 ) m + 1 ( 1 + z m ) m − 1 时期 即期利率 时期 即期利率 时期 即期利率 1 3.0000 5 4.4376 9 5.1701 2 3.3000 6 4.7520 10 5.2772 3 3.5053 7 4.9622 4 3.9164 8 5.0650 时期 远期利率 时期 远期利率 时期 远期利率 𝑓 0 3.00 𝑓 4 6.54 𝑓 8 6.01 𝑓 1 3.60 𝑓 5 6.33 𝑓 9 6.24 𝑓 2 3.92 𝑓 6 6.23 𝑓 3 5.15 𝑓 7 5.79 时期 远期利率 时期 远期利率 时期 远期利率 3.00 6.54 6.01 3.60 6.33 6.24 3.92 6.23 5.15 5.79",
+    "tokenCount": 197,
+    "sourcePage": 39,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 39,
+    "content": "第三讲 · 债券收益率 远期利率 推广：远期利率与即期利率之间的关系",
+    "tokenCount": 17,
+    "sourcePage": 40,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 40,
+    "content": "第三讲 · 债券收益率 远期利率 练习： 假设当前的 1 年期利率为 3% 1 年后和 2 年后的 1 年期远期利率分别为 5 ％和 7 ％ 问题：当前 3 年期的即期利率为多少呢？",
+    "tokenCount": 46,
+    "sourcePage": 41,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 41,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 收益率曲线的形态 曲线的坡度反映了长期国债收益率与短期国债收益率之间的差额 收益率曲线的四种形状 - 正常收益率曲线：持有较长期限 债券的投资者获得较高潜在收益率 - 负陡度收益率曲线： 持有较短期债券的投资活动较高潜在收益率 - 平坦的收益率曲线：所有期限收 益率大致相等 - 拱形的收益率曲线：收益率 在一定期限范围内到期期限先增加后下降",
+    "tokenCount": 96,
+    "sourcePage": 42,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 42,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 利率期限结构理论 试图解释三个事实 - 事实 1：不同到期债券利率随时间一起变动 - 事实 2：如果短期利率较低，收益率曲线倾向于向上倾 斜，如果短期利率较高，收益率曲线通常向下倾斜 - 事实 3：收益率曲线总是向上倾斜 预期理论 纯预期理论 有偏预期理论 流动性偏好理论 偏好理论 市场分割理论 利率期限结构理论",
+    "tokenCount": 89,
+    "sourcePage": 43,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 43,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 纯预期理论 (Pure expectation theory) 假设前提：投资者对于不同期限的债券没有特别偏好，在未来不同的时间段内 短期利率的预期值 不同是导致不同期限债券具有不同利率的原因 将不同期限的债券看成一个密切联系的统一体 - 远期利率完全代表预期的未来短期利率 - 长期收益率等于当期短期利率以及预期短期利率的几何平均 z T = [ 1 + z 1 1 + f 1 1 + f 2 …… 1 + f T − 1 ] 1 / T − 1 - 纯预期理论可用于解释任何可能出现的收益率曲线 纯预期理论 期限结构形状 预期的未来短期利率上升 向上倾斜（正常） 预期的未来短期利率下降 向下倾斜（反向） 预期的未来短期利率不变 平坦",
+    "tokenCount": 171,
+    "sourcePage": 44,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 44,
+    "content": "第三讲 · 债券收益率 利率期限结构理论",
+    "tokenCount": 10,
+    "sourcePage": 45,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 45,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 纯预期理论 (Pure expectation theory) 纯预期理论解释事实 1：不同到期债券利率随时间一起变动 当期短期利率的上升会提高市场对未来短期利率的预期，由于长期利率是当期短期利率以及预期短期利率的几何平均，当期短期利率的上升会提高长期利率，短期利率和长期利率出现同向运动的趋势 纯预期理论解释事实 2：如果短期利率较低，收益率曲线倾向于向上倾斜，如果短期利率较高，收益率曲线通常向下倾斜 当短期利率较低时，市场通常预期未来其会上升到正常水平，未来短期利率预期的平均值高于当前的短期利率，长期利率会高于当前的短期利率，收益率曲线向上倾斜；反之亦然",
+    "tokenCount": 151,
+    "sourcePage": 46,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 46,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 纯预期理论 (Pure expectation theory) 纯预期理论 无法解释事实 3：收益率曲线总是向上倾斜 由于未来短期利率可能上升也可能下降，因此根据预期理论，典型的收益率曲线应该是平坦的，而非总是向上倾斜",
+    "tokenCount": 65,
+    "sourcePage": 47,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 47,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 纯预期理论 (Pure expectation theory) 纯预期理论的缺陷：忽略了投资债券的内在风险 - 远期利率并不是未来利率的完美预测 - 如果远期利率是未来短期利率的准确估计，债券的未来价格、投资期限内 的收益将是确定的；现实中，未来利率具有不确定性，将导致未来债券价 格、投资期内的收益变得不确定",
+    "tokenCount": 88,
+    "sourcePage": 48,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 48,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 流动性偏好理论 (Liquidity preference theory) 假设前提：投资者对不同期限债券有偏好 - 融资方喜欢发行长期债券，但投资者偏好短期债券 - 投资者希望对持有较长期限债券而承受的利率风险得到补偿 远期利率不是对未来利率市场预期的无偏估计，还需要考虑流动性溢价 L t , T - 长期债券的利率包括： 1 ）长期债券到期之前短期利率的几何平均； 2 ）随 债券的供求状况的变动而变动的流动性溢价 流动性偏好理论可用于解释任何可能出现的收益率曲线 纯预期理论 流动性溢价 期限结构形状 预期的未来短期利率上升 期限越长， L t , T 越大 向上倾斜 预期的未来短期利率下降 期限越长， L t , T 越大 通常向上倾斜 预期的未来短期利率不变 期限越长， L t , T 越大 向上倾斜 纯预期理论 流动性溢价 期限结构形状 预期的未来短期利率上升 向上倾斜 预期的未来短期利率下降 通常向上倾斜 预期的未来短期利率不变 向上倾斜",
+    "tokenCount": 226,
+    "sourcePage": 49,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 49,
+    "content": "第三讲 · 债券收益率 利率期限结构理论",
+    "tokenCount": 10,
+    "sourcePage": 50,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 50,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 流动性偏好理论 (Liquidity preference theory) 流动性偏好理论解释事实 1：当期短期利率的上升会提高市场对未来短期利率的预期，因此长期利率将随着短期利率的上升而上升 流动性偏好理论解释事实 2：当短期利率较低时，市场通常预期未来其会上升到正常水平，未来短期利率预期的平均值高于当前的短期利率，长期利率会高于当前的短期利率，收益率曲线向上倾斜；反之亦然 流动性偏好理论解释事实 3：由于投资者更偏好短期债券，并且流动性溢价随着债券的到期期限的延长而上升，即使预期未来短期利率的平均值不变，长期利率也仍然高于短期利率，因此收益率曲线总是向上倾斜",
+    "tokenCount": 153,
+    "sourcePage": 51,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 51,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 偏好理论 (Preferred theory) 前提假设：如果在特定的到期期限范围内，资金的供应和需求存在不平衡，投资者和借款人偏离偏好的期限区间进行投资和筹资活动 偏好理论 vs. 流动性偏好理论 - 相同：期限结构反映了 未来利率的预期和风险溢价 - 不同：流动性偏好理论认为风险溢价与到期期限正相关，但偏好理论反对 风险溢价 必须与期限一致上升 的假设 偏好理论可用于解释任何可能出现的收益率曲线 纯预期理论 风险溢价 期限结构形状 预期的未来短期利率上升 可大，可小 任何形状 预期的未来短期利率下降 可大，可小 任何形状 预期的未来短期利率不变 可大，可小 任何形状",
+    "tokenCount": 155,
+    "sourcePage": 52,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 52,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 市场分割理论 (Market segmentation theory) 假设前提：不同期限债券之间不能任意替代，不同类型投资者都有一个债券期限的首选项 - 短期市场的主要参与者是商业银行、非金融机构和货币市场基金等，更关 注的是本金确定性而不是收入的确定性 - 长期市场的参与者主要是寿险公司、养老基金等债务期限结构比较长的机 构，更注重收入的确定性 - 市场中供给与需求的力量决定了各自的市场利率",
+    "tokenCount": 110,
+    "sourcePage": 53,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 53,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 市场分割理论 (Market segmentation theory) 分割的含义：每个期限区间是一个独立或者分割的市场 - 市场分割理论可用于解释任何可能出现的收益率曲线 市场分割理论解释事实 3：通常情况下，长期债券相对于短期债券的需求较少，因此价格较低、利率较高，所以典型收益率曲线是向上倾斜的",
+    "tokenCount": 86,
+    "sourcePage": 54,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch03-bond-yields",
+    "chunkIndex": 54,
+    "content": "第三讲 · 债券收益率 利率期限结构理论 回顾： 远期利率与即期利率： 利率期限结构理论 - 纯预期理论： 远期利率完全代表未来短期利率的预期 - 有偏预期理论： 期限结构反映了未来短期利率的预期和风险溢价 - 市场分割理论",
+    "tokenCount": 56,
+    "sourcePage": 55,
+    "sourceSection": "第三章：债券收益率",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 学 年春季 学期 第四讲 债券定价（一） 固定收益证券 本科生专业方向课程",
+    "tokenCount": 23,
+    "sourcePage": 1,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 1,
+    "content": "2 第四讲 · 债券定价",
+    "tokenCount": 6,
+    "sourcePage": 2,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 2,
+    "content": "3 第四讲 · 债券定价 目录 国债定价 不含嵌入期权的非国债定价 含嵌入期权的债券定价",
+    "tokenCount": 22,
+    "sourcePage": 3,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 3,
+    "content": "4 目录 国债定价 不含嵌入期权的非国债定价 含嵌入期权的债券定价 第四讲 · 债券定价",
+    "tokenCount": 22,
+    "sourcePage": 4,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 4,
+    "content": "5 第四讲 · 债券定价（一） 国债定价 知识目标： 掌握国债定价方法及应用 - 传统现金流贴现法 - 无套利估值法 - 非利息支付日的债券定价",
+    "tokenCount": 36,
+    "sourcePage": 5,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 5,
+    "content": "6 国债定价 （ 1 ）传统现金流贴现法 估值的一般原则：金融资产价格等于预期现金流的现值。 具有 主观性，针对同一只债券，投资者对债券的价值判断反映在其要求达到的到期收益率。 P = C 1 1+ i + C 2 (1+ 𝑖 ) 2 +⋯⋯+ C 𝑇 (1+ i ) T + F 𝑇 (1+ i ) T = t = 1 T C 𝑡 (1+ i ) t + F 𝑇 (1+ i ) T 估值步骤： - 现金流量的估算 - 确定合适的贴现率 - 对预期现金流量折现 第四讲 · 债券定价",
+    "tokenCount": 124,
+    "sourcePage": 6,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 6,
+    "content": "7 国债定价 现金流量的估算 固定收益证券的现金流量是每一期现金收入（利息和本金偿付）的总和 注意： 不可赎回国债通常有确定的现金流：固定票面利息 很多固定收益证券而言，有时估算现金流量非常困难 - 发行者或投资者有权利改变合同约定的本金偿付： 如可赎回债券、可回售债券、 MBS 和 ABS 可能存在该情况 - 以某一种或某几种参考利率为基础的公式定期重新调整利息支付： 如浮动利率债券可能存在该情况 - 投资者可以选择将证券换为普通股股票： 如可转换债券、可交换债券可能存在该情况 第四讲 · 债券定价",
+    "tokenCount": 127,
+    "sourcePage": 7,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 7,
+    "content": "8 国债定价 确定合适的贴现率 贴现率 (Discount rate)：融资方的 资金使用成本 / 投资者 要求报酬率 不同类型债券的贴现率： - 投资者要求的最低利率：国债利率（无违约风险现金流量可得到的收益率） - 非国债证券定价：国债利率 + 收益率溢价（反映非国债证券的风险） 第四讲 · 债券定价",
+    "tokenCount": 77,
+    "sourcePage": 8,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 8,
+    "content": "9 国债定价 对预期现金流折现 计算每一期预期现金流量现值 (Present value) 计算该证券所有预期现金流量的现值之和 第四讲 · 债券定价",
+    "tokenCount": 38,
+    "sourcePage": 9,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 9,
+    "content": "10 国债定价 传统现金流贴现估值法（传统估值法）：应用 例： 10 年期、利率为 8% 的国债估值 第四讲 · 债券定价 期 年 现金流量 传统估值 贴现率 现值 1 0.5 4 6.0000 3.8835 2 1.0 4 6.0000 3.7704 3 1.5 4 6.0000 3.6606 4 2.0 4 6.0000 3.5539 5 2.5 4 6.0000 3.4504 6 3.0 4 6.0000 3.3499 7 3.5 4 6.0000 3.2524 8 4.0 4 6.0000 3.1576 9 4.5 4 6.0000 3.0657 10 5.0 4 6.0000 2.9764 11 5.5 4 6.0000 2.8897 12 6.0 4 6.0000 2.8055 13 6.5 4 6.0000 2.7238 14 7.0 4 6.0000 2.6445 15 7.5 4 6.0000 2.5674 16 8.0 4 6.0000 2.4927 17 8.5 4 6.0000 2.4201 18 9.0 4 6.0000 2.3496 19 9.5 4 6.0000 2.2811 20 10.0 104 6.0000 57.5823 总计 114.8775 注：新发行 10 年期国债收益率为 6% 缺陷：每一现金流量都不一样，应用与 每一现金流量到期日 对应的利率 贴现",
+    "tokenCount": 304,
+    "sourcePage": 10,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 10,
+    "content": "11 国债定价 （ 2 ）无套利估值法 (Arbitrage-free valuation approach) 传统估值法：将债券未来现金流按照给定到期收益率进行贴现得到现值，价格反映主观性定价 无套利估值法： - 估值的一般原则： 以即期利率（ 零息债券到期收益率 ）贴现的债券价值称为无套利价值 具有 客观性，利用市场上已有其他产品即期利率，根据无套利定价原理计算得出目标债券价格 P = t = 1 T C 𝑡 (1+ 𝑟 𝑡 ) t + F 𝑇 (1+ 𝑟 𝑇 ) T 第四讲 · 债券定价",
+    "tokenCount": 128,
+    "sourcePage": 11,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 11,
+    "content": "12 国债定价 （ 2 ）无套利估值法 (Arbitrage-free valuation approach) 无套利估值法： - 估值的一般原则： 以即期利率（ 零息债券到期收益率 ）贴现的债券价值称为无套利价值 具有 客观性，利用市场上已有其他产品即期利率，根据无套利定价原理计算得出目标债券价格 P = t = 1 T C 𝑡 (1+ 𝑟 𝑡 ) t + F 𝑇 (1+ 𝑟 𝑇 ) T 估值步骤： - 现金流量的估算 - 确定 t 期即期利率： 𝑟 𝑡 - 对预期现金流量折现 第四讲 · 债券定价",
+    "tokenCount": 131,
+    "sourcePage": 12,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 12,
+    "content": "13 国债定价 无套利估值法：应用 例：假定市场上不同期限的即期利率如表所示 第四讲 · 债券定价 问：票面利率 10%，期限为 3 年，半年付息一次的债券，价格为多少？ 期限 即期利率 / % 0.5 1.5 1 2 1.5 2.5 2 2.8 2.5 3.2 3 3.5",
+    "tokenCount": 69,
+    "sourcePage": 13,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 13,
+    "content": "14 国债定价 无套利估值法：应用 例：假定市场上不同期限的即期利率如表所示 第四讲 · 债券定价 问：票面利率 10%，期限为 3 年，半年付息一次的债券，价格为多少？ 5 （ 1+1.5% /2 ） 1 + 5 （ 1+ 2 % /2 ） 2 + 5 （ 1+2 .5 % /3 ） 3 + 5 （ 1+2 .8 % /2 ） 4 + 5 （ 1+ 3. 2% /2 ） 5 + 10 5 （ 1+ 3.5 % /2 ） 6 =118. 65 期限 即期利率 / % 0.5 1.5 1 2 1.5 2.5 2 2.8 2.5 3.2 3 3.5",
+    "tokenCount": 138,
+    "sourcePage": 14,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 14,
+    "content": "15 国债定价 无套利估值法：应用 例：假定市场上不同期限的即期利率如表所示 第四讲 · 债券定价 问：一个 3 年期债券，息票率为 6%，每年支付利息 1 次，到期收益率为 3.2%, 当期即期利率如表格所示。这个债券值得花 107.50 元去购买吗？ A. 可以，被低估约 0.39 元 B. 不可以，被高估约 0.33 元 C. 不可以，被高估约 0.39 元 D. 可以，刚好价值 107.50 元 期限 即期利率 / % 1 2 2 2.8 3 3.5",
+    "tokenCount": 116,
+    "sourcePage": 15,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 15,
+    "content": "16 国债定价 无套利估值法：应用 例：假定市场上不同期限的即期利率如表所示 第四讲 · 债券定价 答： B 6 （ 1+2% ） 1 + 6 （ 1+2 .8 % ） 2 + 106 （ 1+ 3.5 % ） 3 =107.17 注意： 例子中 到期收益率 并没有起到作用：其与市场价格一一对应，代表市场上投资者所要求的回报率 通过 其他债券即期利率（无套利估值法） 确定债券价格：反映该债券相对其他债券的便宜 / 昂贵程度，即客观性价格 期限 即期利率 / % 1 2 2 2.8 3 3.5",
+    "tokenCount": 124,
+    "sourcePage": 16,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 16,
+    "content": "17 国债定价 无套利估值法：应用 例：假定市场上不同期限的即期利率如表所示 第四讲 · 债券定价 答： B 6 （ 1+2% ） 1 + 6 （ 1+2 .8 % ） 2 + 6 （ 1+ 3.5 % ） 3 =107.17 注意：通过 其他债券即期利率（无套利估值法） 确定债券价格：反映该债券相对其他债券的便宜 / 昂贵程度，即客观性价格 问：为什么采用即期利率曲线定价就是公允价格，投资者不按这个价格买卖会怎么样？ 期限 即期利率 / % 1 2 2 2.8 3 3.5",
+    "tokenCount": 120,
+    "sourcePage": 17,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 17,
+    "content": "18 国债定价 无套利估值法 (Arbitrage-free valuation approach) 同一价格理论：存在两个不同的资产组合，如果它们的未来损益相同（完全互为替代品），那么二者的价格应该相同 - 自展法构建利率期限结构的基本原则：付息国债的价值应该等于按附息国债现金流复制的零息国债组合的价值之和。 - 套利：如果两个未来损益相同的资产组合价格不同，那么存在一个低价买进后再以高价卖出的套利机会 第四讲 · 债券定价",
+    "tokenCount": 108,
+    "sourcePage": 18,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 18,
+    "content": "19 国债定价 无套利估值法 (Arbitrage-free valuation approach) 例：利息率为 8% 的 10 年期国债，面值 100，到期收益率 6% - 传统估值法： 19 次半年支付的利息和最后一次 104 元本息支付 - 无套利估值法： 将利息率为 8% 的 10 年期国债视为 20 个零息债券，到期日是各期现金流量的支付日期 第四讲 · 债券定价",
+    "tokenCount": 95,
+    "sourcePage": 19,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 19,
+    "content": "20 国债定价 使用国债即期利率的原因： 分离和套利：附息国债市场价格低于无套利价格，交易商买入 附息 国 债， 分离 其单笔现金流量，作为 零息 债券进行交易 重构和套利：附息国债市场价格高于无套利价格，交易商 可以重新组 合 零息债券， 复制成基础的附息国债 无套利估值法 不允许市场参与者通过分离和重建实现套利利润。（将任何债券视为一组零息债券，估值框架具有连贯性；相同风险、相同到期日现金流量使用相同贴现率进行估值） 第四讲 · 债券定价",
+    "tokenCount": 112,
+    "sourcePage": 20,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 20,
+    "content": "21 国债定价 无套利估值法 (Arbitrage-free valuation approach) 分离与无套利定价 期 年 现金流量 无套利价值 传统估值 套利 即期利率 现值 贴现率 现值 售价 买价 套利收益 1 0.5 4 3.0000 3.9409 6.0000 3.8835 3.9409 3.8835 0.0574 2 1.0 4 3.3000 3.8712 6.0000 3.7704 3.8712 3.7704 0.1008 3 1.5 4 3.5053 3.7968 6.0000 3.6606 3.7968 3.6606 0.1362 4 2.0 4 3.9164 3.7014 6.0000 3.5539 3.7014 3.5539 0.1475 5 2.5 4 4.4376 3.5843 6.0000 3.4504 3.5843 3.4504 0.1339 6 3.0 4 4.7520 3.4743 6.0000 3.3499 3.4743 3.3499 0.1244 7 3.5 4 4.9622 3.3694 6.0000 3.2524 3.3694 3.2524 0.1170 8 4.0 4 5.0650 3.2747 6.0000 3.1576 3.2747 3.1576 0.1171 9 4.5 4 5.1701 3.1791 6.0000 3.0657 3.1791 3.0657 0.1134 10 5.0 4 5.2772 3.0829 6.0000 2.9764 3.0829 2.9764 0.1065 11 5.5 4 5.3864 2.9861 6.0000 2.8897 2.9861 2.8897 0.0964 12 6.0 4 5.4976 2.8889 6.0000 2.8055 2.8889 2.8055 0.0834 13 6.5 4 5.6108 2.7916 6.0000 2.7238 2.7916 2.7238 0.0678 14 7.0 4 5.6643 2.7055 6.0000 2.6445 2.7055 2.6445 0.0610 15 7.5 4 5.7193 2.6205 6.0000 2.5674 2.6205 2.5674 0.0531 16 8.0 4 5.7755 2.5365 6.0000 2.4927 2.5365 2.4927 0.0438 17 8.5 4 5.8331 2.4536 6.0000 2.4201 2.4536 2.4201 0.0335 18 9.0 4 5.9584 2.3581 6.0000 2.3496 2.3581 2.3496 0.0085 19 9.5 4 6.0863 2.2631 6.0000 2.2811 2.2631 2.2811 -0.0180 20 10.0 104 6.2169 56.3830 6.0000 57.5823 56.3830 57.5823 -1.1993 总计 115.2621 114.8775 115.2621 114.8775 0.3846 10 年期、利率为 8% 的国债分离套利 第四讲 · 债券定价",
+    "tokenCount": 673,
+    "sourcePage": 21,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 21,
+    "content": "22 国债定价 无套利估值法 (Arbitrage-free valuation approach) 重构与无套利定价 期 年 现金流量 无套利价值 传统估值 套利 即期利率 现值 贴现率 现值 售价 买价 套利收益 1 0.5 2.4 3 2.3645 6.0000 2.3301 2.3301 2.3645 -0.0344 2 1.0 2.4 3.3 2.3227 6.0000 2.2622 2.2622 2.3227 -0.0605 3 1.5 2.4 3.5053 2.2781 6.0000 2.1963 2.1963 2.2781 -0.0818 4 2.0 2.4 3.9164 2.2209 6.0000 2.1324 2.1324 2.2209 -0.0885 5 2.5 2.4 4.4376 2.1506 6.0000 2.0703 2.0703 2.1506 -0.0803 6 3.0 2.4 4.752 2.0846 6.0000 2.01 2.01 2.0846 -0.0746 7 3.5 2.4 4.9622 2.0216 6.0000 1.9514 1.9514 2.0216 -0.0702 8 4.0 2.4 5.065 1.9648 6.0000 1.8946 1.8946 1.9648 -0.0702 9 4.5 2.4 5.1701 1.9075 6.0000 1.8394 1.8394 1.9075 -0.0681 10 5.0 2.4 5.2772 1.8497 6.0000 1.7858 1.7858 1.8497 -0.0639 11 5.5 2.4 5.3864 1.7916 6.0000 1.7338 1.7338 1.7916 -0.0578 12 6.0 2.4 5.4976 1.7334 6.0000 1.6833 1.6833 1.7334 -0.0501 13 6.5 2.4 5.6108 1.6750 6.0000 1.6343 1.6343 1.675 -0.0407 14 7.0 2.4 5.6643 1.6233 6.0000 1.5867 1.5867 1.6233 -0.0366 15 7.5 2.4 5.7193 1.5723 6.0000 1.5405 1.5405 1.5723 -0.0318 16 8.0 2.4 5.7755 1.5219 6.0000 1.4956 1.4956 1.5219 -0.0263 17 8.5 2.4 5.8331 1.4722 6.0000 1.452 1.452 1.4722 -0.0201 18 9.0 2.4 5.9584 1.4149 6.0000 1.4097 1.4097 1.4149 -0.0051 19 9.5 2.4 6.0863 1.3578 6.0000 1.3687 1.3687 1.3578 0.0108 20 10.0 102.4 6.2169 55.5156 6.0000 56.6964 56.6964 55.5156 1.1808 总计 90.843 91.0735 91.0735 90.843 0.2305 10 年期、利率为 4.8% 的国债重构套利 第四讲 · 债券定价",
+    "tokenCount": 691,
+    "sourcePage": 22,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 22,
+    "content": "23 国债定价 应用 例：附息 债券现金流如表所示 第四讲 · 债券定价 问： 1 ）如何通过 A、 B、 C 来构建一个 1 年期面值为 100 元的零息债券？ 2 ）该债券的公允价值 / 按照一价原则为多少？ 时间 A B C 0 -98.68 -104.34 -113.89 1 3 5 10 2 3 5 110 3 103 105 0",
+    "tokenCount": 86,
+    "sourcePage": 23,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 23,
+    "content": "24 国债定价 应用 例：附息债券现金流如表所示 第四讲 · 债券定价 问： 1 ）如何通过 A、 B、 C 来构建一个 1 年期面值为 100 元的零息债券？ 答：假设需购买 A、 B、 C 各 N 𝐴、 N B、 N 𝐶 份，则 3 𝑁 𝐴 +5 𝑁 B +10 𝑁 𝐶 =100 3 𝑁 𝐴 +5 𝑁 B +110 𝑁 𝐶 =0 103 𝑁 𝐴 +105 𝑁 B +0 𝑁 𝐶 =0 求解得 : 𝑁 𝐴 =−57.75 , 𝑁 𝐵 =56.65 , 𝑁 𝐶 =−1 时间 A B C 0 -98.68 -104.34 -113.89 1 3 5 10 2 3 5 110 3 103 105 0",
+    "tokenCount": 162,
+    "sourcePage": 24,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 24,
+    "content": "25 国债定价 应用 例：附息债券现金流如表所示 第四讲 · 债券定价 问： 2 ）该债券的公允价值 / 按照一价原则为多少？ 答：由 1) 已知 𝑁 𝐴 =−57.75 , 𝑁 𝐵 =56.65 , 𝑁 𝐶 =−1 𝑃 =−57.75∗98.68+56.65∗104.34+ −1 ∗113.89=98.2 时间 A B C 0 -98.68 -104.34 -113.89 1 3 5 10 2 3 5 110 3 103 105 0",
+    "tokenCount": 113,
+    "sourcePage": 25,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 25,
+    "content": "26 国债定价 （ 3 ）非利息支付日的债券定价 应计利息 (Accrued interest)：发生在上一次利息支付日和交割日之间应计提的利息（销售者赚得的利息） 全价 (Full price)：包含应计利息的价格 净价 (Clean price)：全价 - 应计利息 - 净价报价、全价结算 - 净价能真实地反映 债券价值的变动情况，有利于投资人分析和判断债券 走势。在债券价值不变的情况下，随着持有天数的增加，全价自然上升 第四讲 · 债券定价",
+    "tokenCount": 113,
+    "sourcePage": 26,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 26,
+    "content": "27 国债定价 非利息支付日的债券定价 例：假设有 5 个半年的利息支付，息票率 10%，年贴现率 8%，交割日和下一次利息支付之间是 78 天，计息期 182 天。 78 天 182 天 w 期 = 78 182 =0.4286 全价 = 5 1.04 0.4286 + 5 1.04 1.4286 + 5 1.04 2.4286 + 5 1.04 3.4286 + 105 1.04 4.4286 =106.8192 应计利息 = 5×(1 - 0.4286 )=2.8570 净价 = 全价 - 应计利息 =103.9622 第四讲 · 债券定价",
+    "tokenCount": 138,
+    "sourcePage": 27,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 27,
+    "content": "28 国债定价 非利息支付日的债券定价 关键在于现金流量 折现期限 的确定 w 期 = 交割日和下一次利息支付之间 的天数 计息期天数 应计利息 = 票息 ×(1 - w ) 假设第一次利息支付是从现在开始的 w 期，从现在开始第 t 期收到的预期现金流的现值是： 现值 t = 预期现金流量 (1+ i ) t − 1+ w 第四讲 · 债券定价",
+    "tokenCount": 87,
+    "sourcePage": 28,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 28,
+    "content": "29 第四讲 · 债券定价 国债定价 应用实例：中证估值",
+    "tokenCount": 14,
+    "sourcePage": 29,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 29,
+    "content": "30 第四讲 · 债券定价 国债定价 应用实例：中证估值",
+    "tokenCount": 14,
+    "sourcePage": 30,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 30,
+    "content": "31 第四讲 · 债券定价 国债定价 应用实例：中证估值",
+    "tokenCount": 14,
+    "sourcePage": 31,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 31,
+    "content": "32 第四讲 · 债券定价 国债定价 回顾： 掌握国债定价方法及应用： - 传统 现金流贴现法： 现金流贴现法，且对每一期现金流采用相同的贴现率（一般为附息国债到期收益率） P = C 1 1+ i + C 2 (1+ 𝑖 ) 2 +⋯⋯+ C 𝑇 (1+ i ) T + F 𝑇 (1+ i ) T = t = 1 T C 𝑡 (1+ i ) t + F 𝑇 (1+ i ) T - 无套利估值法： 存在两个不同的资产组合，如果它们的未来损益相同，那么他们的现值应该相同 以即期利率贴现的债券价值称为无套利价值 使用国债即期收益率的原因：分离和重构 - 非利息支付日的债券定价：全价、净价、应计利息",
+    "tokenCount": 153,
+    "sourcePage": 32,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 32,
+    "content": "33 目录 国债定价 不含嵌入期权的非国债定价 含嵌入期权的债券定价 第四讲 · 债券定价",
+    "tokenCount": 23,
+    "sourcePage": 33,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 33,
+    "content": "34 不含嵌入期权的非国债定价 中国债券市场常见非国债类型： 1. 企业债： 多由央企、国企或国有控股企业发行，主要在银行间市场流动，多用于基础设施建设和政府项目 https://www.financialnews.com.cn/sc/zq/202310/t20231025_281026.html 2. 公司债 / 企业类债券： 多由股份公司和有限公司发行，在证券交易所流动，由公司根据经营所需发行 http://www.sse.com.cn/assortment/bonds/list/ 第四讲 · 债券定价",
+    "tokenCount": 128,
+    "sourcePage": 34,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 34,
+    "content": "35 不含嵌入期权的非国债定价 中国债券市场常见非国债类型： https://finance.sina.com.cn/jjxw/2023-03-09/doc-imykfusz3168816.shtml 第四讲 · 债券定价",
+    "tokenCount": 56,
+    "sourcePage": 35,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 35,
+    "content": "36 不含嵌入期权的非国债定价 例： 2019 年发行的中石油五年期公司债，票面利率为 3.77%，每年付息 1 次， 2024 年 1 月 9 日到期，在 2021 年 1 月 8 日收盘时净价为 99.8956。 问： 1 ）可否利用国债即期利率估算价格？ 2 ）依据当天国债即期利率曲线算出债券价格为 101.2118，明显高于市场价格，为何两者有差别？ 第四讲 · 债券定价",
+    "tokenCount": 96,
+    "sourcePage": 36,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 36,
+    "content": "37 第四讲 · 债券定价 不含嵌入期权的非国债定价 知识目标： 熟悉收益利差含义及影响因素： - 绝对 / 相对收益利差 - 市场间收益利差和市场内收益利差 - 影响收益利差的因素：相对信用风险、嵌入期权、流动性、 利息收入的税收 熟悉信用利差含义及影响因素 掌握不含权公司债估值： - 信用利差期限结构 - 基准即期利率曲线 - 公司债定价实例",
+    "tokenCount": 87,
+    "sourcePage": 37,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 37,
+    "content": "38 不含嵌入期权的非国债定价 国债收益率曲线 一般作为投资者投资于非国债的 最小利率基准，将加在相同到期日的国债收益率上的 额外收益率 称作 收益利差 （ yield spread ）。 名义 利差 = 𝑦 目标 债券 − 𝑦 参考 债券 （ 1 ）收益利差 (Yield spread)：任意两种相同到期日债券之间的 收益率 差别 第四讲 · 债券定价",
+    "tokenCount": 90,
+    "sourcePage": 38,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 38,
+    "content": "39 不含嵌入期权的非国债定价 收益利差 (Yield spread)：任意两种相同到期日债券之间的收益率差别 绝对收益利差 (Absolute yield spread) = 债券 X 的收益率 - 债券 Y 的收益率（以基点衡量差异） 相对收益利差 (Relative yield spread) = ( 债券 X 的收益率 - 债券 Y 的收益率 )/ 债券 Y 的收益率 收益率比率 = 债券 X 的收益率 / 债券 Y 的收益率 例： 2002 年 2 月 8 日， 10 年期新发行国债收益率是 4.88%， 10 年期 A 级工业债券的收益率是 6.24%，则：绝对收益利差？相对收益利差？ 最常用的作为收益利差衡量标准的是绝对收益利差 第四讲 · 债券定价",
+    "tokenCount": 168,
+    "sourcePage": 39,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 39,
+    "content": "40 不含嵌入期权的非国债定价 收益利差 (Yield spread)：任意两种相同到期日债券之间的收益率差别 市场间收益利差和市场内收益利差： - 债券市场根据发行者不同分为不同的细分市场，如美国政府债券市场、公司债券市场、抵押贷款支持证券市场 …… 不同债券市场提供不同的风险和回报 - 两个债券市场间相同到期日债券的收益利差被称为 市场间收益利差。最常见的市场间收益利差是 非国债债券市场 和 国债市场 相同到期日债券的收益利差 - 同一市场上不同债券的收益利差被称为 市场内收益利差 第四讲 · 债券定价",
+    "tokenCount": 128,
+    "sourcePage": 40,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 40,
+    "content": "41 不含嵌入期权的非国债定价 收益利差 (Yield spread)：任意两种相同到期日债券之间的收益率差别 影响收益利差的因素：除到期日外，其它影响市场间收益利差和市场内收益利差的因素主要有： - 两种债券的相对信用风险（信用利差） - 嵌入期权的存在 - 债券的流动性 - 利息收入是否要征税 可与后面学习的债券投资面临的主要风险相结合：利率风险、信用风险、流动性风险、嵌入期权风险（如赎回和提前偿付风险） 第四讲 · 债券定价",
+    "tokenCount": 109,
+    "sourcePage": 41,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 41,
+    "content": "42 不含嵌入期权的非国债定价 嵌入期权带来的收益利差 嵌入期权：债券发行时包含的某种条款，使发行人或债券持有人有权选择采取一些行动对抗另一方，从而锁定己方风险 - 涉及赎回期权、回售期权、提前偿付期权、可转换期权等 嵌入期权的存在（如赎回权、回售权）不仅对一种债券相对于国债的收益利差有影响，而且对这种债券与其他不包含嵌入期权的类似债券的收益利差也有影响 - 对于带有有利于投资者的嵌入期权，投资者要求一个较小的收益利差 - 含有有利于投资者的嵌入期权债券，其利率甚至可能低于可比的国债利率 第四讲 · 债券定价",
+    "tokenCount": 129,
+    "sourcePage": 42,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 42,
+    "content": "43 不含嵌入期权的非国债定价 嵌入期权带来的收益利差 类似于国债但含有有利于发行人的嵌入期权的债券（如可赎回债券），投资者要求一个比不带有此期权的债券更高的收益利差 例：吉利美（政府国民抵押贷款协会）转手债券与类似国债之间的收益利差不是取决于信用风险，而主要取决于提前偿付风险 第四讲 · 债券定价",
+    "tokenCount": 75,
+    "sourcePage": 43,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 43,
+    "content": "44 不含嵌入期权的非国债定价 流动性带来的收益利差 债券发行量越大，流动性越高，收益利差越小 即使在国债市场上，旧国债和新发行国债之间也存在由于流动性差异导致的收益差异 利息收入税收带来的收益利差 在美国，一些地方政府发行的市政债券可以免除利息收入税，其收益率低于相同到期日的国债收益率 免税债券和国债的收益率差异通常以收益率比率来衡量 税率越高，免税特征对投资者越具吸引力，收益率比率越低 第四讲 · 债券定价",
+    "tokenCount": 104,
+    "sourcePage": 44,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 44,
+    "content": "45 不含嵌入期权的非国债定价 （ 2 ）信用利差 (Credit spread)/ 质量利差 (Quality spread)： 国债与 除信用评级外所有性质相同 的非国债债券之间的收益利差 “除信用评级外所有性质相同”表明非国债具有 相同到期日 且 没有嵌入期权 信用等级越低，信用利差越大 第四讲 · 债券定价",
+    "tokenCount": 79,
+    "sourcePage": 45,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 45,
+    "content": "46 不含嵌入期权的非国债定价 信用利差 (Credit spread)/ 质量利差 (Quality spread)： 公司债和国债之间的信用利差 随经济波动而有规则的变化：经济紧缩时变大，经济扩张时期变小 - 经济紧缩中，公司收益和现金流量减少，公司债信用质量下降，为了吸引投资者信用利差必须扩大；风险厌恶型投资者放弃投公司债，发行者会进一步扩大信用利差 第四讲 · 债券定价",
+    "tokenCount": 95,
+    "sourcePage": 46,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 46,
+    "content": "47 不含嵌入期权的非国债定价 信用利差 (Credit spread)/ 质量利差 (Quality spread)： 思考： 第四讲 · 债券定价 1. 国盛固收研究：全行业利差数据库 https://finance.sina.com.cn/jjxw/2021-08-24/doc-ikqcfncc4746281.shtml 2. 信用利差指标常用计算方法： 光大证券 https://m.hibor.com.cn/wap_detail.aspx?id=c21da153b07b38518a2538d12d8f133b https://pdf.dfcfw.com/pdf/H3_AP202111221530486749_1.pdf?1637596732000.pdf",
+    "tokenCount": 168,
+    "sourcePage": 47,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 47,
+    "content": "48 不含嵌入期权的非国债定价 信用利差 (Credit spread)/ 质量利差 (Quality spread)： 思考： 第四讲 · 债券定价 1. 国盛固收研究：全行业利差数据库 https://finance.sina.com.cn/jjxw/2021-08-24/doc-ikqcfncc4746281.shtml 2. 信用利差指标常用计算方法： 中泰固收 https://finance.sina.com.cn/money/bond/2021-12-19/doc-ikyamrmy9903671.shtml 中信证券： https://finance.sina.com.cn/stock/stockzmt/2019-11-18/doc-iihnzahi1744353.shtml",
+    "tokenCount": 174,
+    "sourcePage": 48,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 48,
+    "content": "49 不含嵌入期权的非国债定价 信用利差 (Credit spread)/ 质量利差 (Quality spread)： 思考：如何利用行业利差进行投资决策？ - 阅读：行业利差反映了什么 https://finance.sina.com.cn/money/bond/2021-06-06/doc-ikqcfnaz9450046.shtml - 阅读：行业利差的构建与应用 https://www.xquant.com/xinwendongtai/2021/996.html 第四讲 · 债券定价",
+    "tokenCount": 124,
+    "sourcePage": 49,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 49,
+    "content": "50 第四讲 · 债券定价 不含嵌入期权的非国债定价 回顾： 收益利差含义及影响因素： - 绝对 / 相对收益利差 - 市场间收益利差和市场内收益利差 - 影响收益利差的因素：相对信用风险、嵌入期权、流动性、 利息收入的税收 信用利差含义及影响因素：宏观经济运行情况",
+    "tokenCount": 67,
+    "sourcePage": 50,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 50,
+    "content": "51 不含嵌入期权的非国债定价 （ 3 ）不含权公司债估值： 信用利差期限结构 (Term structure of credit spreads)：预期信用利差与到期期限之间的关系 - 典型的信用利差期限结构：随到期期限延长，信用利差增加 - 不同信用级别有不同的期限结构， 信用利差期限结构越陡，信用级别越低 基准即期利率曲线：对某一信用级别债券市场，国债即期利率加上该信用级别债券市场的信用利差。 - 如 AA 级中债企业即期利率曲线 = 国债即期利率曲线 +AA 级债券市场的信用利差期限结构 第四讲 · 债券定价",
+    "tokenCount": 131,
+    "sourcePage": 51,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 51,
+    "content": "52 不含嵌入期权的非国债定价 不含权公司债估值： 第四讲 · 债券定价",
+    "tokenCount": 18,
+    "sourcePage": 52,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 52,
+    "content": "53 不含嵌入期权的非国债定价 不含权公司债估值： 例：根据下表的期限结构，利率为 8% 的 10 年期国债的无套利价值为 115.2621；利率为 8% 的 10 年期非国债债券的无套利价值为 108.4616 第四讲 · 债券定价",
+    "tokenCount": 59,
+    "sourcePage": 53,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch04-treasury-pricing",
+    "chunkIndex": 53,
+    "content": "54 不含嵌入期权的非国债定价 不含权公司债估值： 思考：公司债如何定价？ https://www.cuhk.edu.cn/article/6731 https://www.163.com/dy/article/GHR4JS3805199NPP.html https://finance.sina.com.cn/zl/china/2020-07-24/zl-iivhvpwx7318183.shtml 第四讲 · 债券定价",
+    "tokenCount": 106,
+    "sourcePage": 54,
+    "sourceSection": "第四章：债券定价（一）：国债定价与无套利估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 学年 春季学期 第四讲 债券定价（二） 固定收益证券 本科生专业方向课程",
+    "tokenCount": 23,
+    "sourcePage": 1,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 1,
+    "content": "第四讲 · 债券定价 目录 国债定价 不含嵌入期权的非国债定价 含嵌入期权的债券定价",
+    "tokenCount": 21,
+    "sourcePage": 2,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 2,
+    "content": "目录 国债定价 不含嵌入期权的非国债定价 含嵌入期权的债券定价 第四讲 · 债券定价",
+    "tokenCount": 21,
+    "sourcePage": 3,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 3,
+    "content": "第四讲 · 债券定价（一） 不含权债券定价 知识目标： 掌握国债定价方法及应用 - 传统现金流贴现法： 现金流贴现法，且对每一期现金流采用 相同的贴现率 P = C 1 1 + i + C 2 ( 1 + 𝑖 ) 2 +⋯⋯+ C 𝑇 ( 1 + i ) T + F 𝑇 ( 1 + i ) T = t = 1 T C 𝑡 ( 1 + i ) t + F 𝑇 ( 1 + i ) T - 无套利估值法： 利用市场上已有其他产品 即期利率，根据无套利定价原理计算得出目标债券价格 P = t = 1 T C 𝑡 ( 1 + 𝒓 𝒕 ) t + F 𝑇 ( 1 + 𝒓 𝑻 ) T - 非利息支付日的债券定价： 全价、净价、应计利息",
+    "tokenCount": 163,
+    "sourcePage": 4,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 4,
+    "content": "第四讲 · 债券定价（一） 不含权债券定价 知识目标： 不含嵌入期权的非国债定价： 对于无期权债券， 利率变动 对债券的 现金流量大小和时间 没有影响，利用即期利率进行估值贴现产生无套利估值 - 如 AA 级中债企业即期利率曲线 = 国债即期利率曲线 +AA 级债券市场的信用利差期限结构 𝑃 = 𝐶 1 + 𝑦 1 + 𝐶 ( 1 + 𝑦 2 ) 2 +…+ 𝐶 + 𝐹 1 + 𝑦 𝑇 𝑇",
+    "tokenCount": 103,
+    "sourcePage": 5,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 5,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 思考： 现实中，含权债券越来越多 , 能否应用常见不含权债券定价方法进行定价？ - 如山东招金集团 2019 年公开发行的可续期公司债券（发行人续期选择权、递延支付利息权、发行人赎回选择权） -",
+    "tokenCount": 60,
+    "sourcePage": 6,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 6,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 思考： 现实中，含权债券越来越多 , 能否应用常见不含权债券定价方法进行定价？ 房地产市场、房地产相关债券现状？ - 2022 年警惕八大经济风险：房地产仍有债务违约风险",
+    "tokenCount": 54,
+    "sourcePage": 7,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 7,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 思考： 对于含权债券，未来 利率的变动 会影响 期权行权的可能性，从而影响 现金流量，需要借助 利率二叉树 进行估值",
+    "tokenCount": 40,
+    "sourcePage": 8,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 8,
+    "content": "第四讲 · 债券定价 含嵌入期权的债券定价 知识目标： 了解基准利率的选取 掌握利率树形图的构建及估值 - 假定利率波动，选定利率模型 - 根据无套利定价原则，由基准收益率曲线导出利率树形图 掌握常见的含权债券估值 - 可赎回债券 - 可回售债券 - 有上限浮动利率债券",
+    "tokenCount": 68,
+    "sourcePage": 9,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 9,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 1 ）确定基准利率 估价过程第一步确定基准利率，可以获得基准利率的三个潜在市场： - 国债市场 - 债券市场某个板块 - 发行人证券的市场 基准利率的确定：根据无套利定价原则，使得新发行债券估价等于其市场观测价格的利率 依据基准利率，求得一个无期权债券的无套利价值 例：可赎回债券价格 = 无期权债券价格 - 赎回权价格",
+    "tokenCount": 92,
+    "sourcePage": 10,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 10,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 2 ）利率树形图 (Interest rate tree) 的构建及估值： 利率树：基于利率模型和利率波动假设的利率可能值的一个简单形象化表示。 - 利率模型： 以概率对未来利率可能 随时间而变化 的情况进行刻画的模型。例如：假设利率变化符合正态分布或布朗运动。 - 二叉树利率模型： 本章重点。指用二叉树来描述未来利率变化的模型。",
+    "tokenCount": 95,
+    "sourcePage": 11,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 11,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 2 ）利率树形图 (Interest rate tree) 的构建及估值： 利率树：基于利率模型和利率波动假设的利率可能值的一个简单形象化表示。 - 二叉树利率模型： 本章重点。指用二叉树来描述未来利率变化的模型。 例如，如下为一 4 年期利率二叉树：",
+    "tokenCount": 75,
+    "sourcePage": 12,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 12,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 2 ）利率树形图 (Interest rate tree) 的构建及估计： 利率树： - 二叉树利率模型： 本章重点。指用二叉树来描述未来利率变化的模型。 例如，如下为一 4 年期利率二叉树： - 图中的点称为 节点，每个节点代表一个随机事件。在二项式模型中，假定随机事件（即 利率变化 ）只有两个可能的值，且实现任何一个数值的概率相等 - 每个节点处的利率（如 𝑖 1 , L 和 i 1 , H ）有两个下标，第一个下标 1 表示从第一年开始后的利率，第二个下标表示第一年中两种利率较高（ H ）的一种还是较低的一种（ L ）",
+    "tokenCount": 145,
+    "sourcePage": 13,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 13,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 2 ）利率树形图 (Interest rate tree) 的构建及估计： 利率树： - 二叉树利率模型： 我们在这个模型中做如下假设： - 下一期的利率波动只有两种可能：上升 / 下降 - 利率水平的分布为随机对数正态分布 - 利率的波动率保持不变 - 每一个节点出发的上行和下行节点之间的利率水平，满足如下关系： 𝑖 1 , 𝐻 = 𝑒 2 𝜎 𝑖 1 , 𝐿 𝑖 𝐻 / 𝑖 𝐿 : 两种利率水平中较大 / 较小的一个 𝜎：利率波动率",
+    "tokenCount": 128,
+    "sourcePage": 14,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 14,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 2 ）利率树形图 (Interest rate tree) 的构建及估计： 利率树： - 二叉树利率模型： 𝜎 = 15 % 𝑖 1 , 𝐻 = ? 𝑖 2 , 𝐻𝐻 = ?",
+    "tokenCount": 59,
+    "sourcePage": 15,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 15,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 2 ）利率树形图 (Interest rate tree) 的构建及估计： 利率树： - 二叉树利率模型： 𝜎 = 15 % 𝑖 1 , 𝐻 = 𝑒 2 𝜎 𝑖 1 , 𝐿 = 𝑒 2 ∗ 15 % ∗ 1 . 194 (%)= 1 . 612 (%) 𝑖 2 , 𝐻𝐻 = 𝑒 2 𝜎 𝑖 2 , 𝐻 𝐿 = 𝑒 2 ∗ 15 % ∗ 1 . 323 (%)= 1 . 786 (%)",
+    "tokenCount": 117,
+    "sourcePage": 16,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 16,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 问题 2：利率树的估值？",
+    "tokenCount": 41,
+    "sourcePage": 17,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 17,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设采用如下新发行国债来构建利率树，基本信息如表，债券每年支付 1 次利息 问：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 期限 票面利率（ % ） 市场价格 到期收益率（ % ） 即期利率（ % ） 1 年 1.50 100 1.50 1.500 2 年 2.47 100 2.47 3.449 3 年 2.80 100 2.80 3.463 4 年 3.00 100 3.00 3.602",
+    "tokenCount": 141,
+    "sourcePage": 18,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 18,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree)： 基于 利率模型 和 利率波动假设 的利率可能值的一个简单形象化表示。 本质是一个无套利定价模型， 即按照市场中债券价格构建出来的，节点上利率水平采用市场上债券价格校准得到。 基本原则：利率波动 利率波动：利率在未来的变化情况（含嵌入期权的债券定价的难点，决定未来的现金流量） - 通常由标准差衡量 - 两种估算利率波动的方法： 基于历史数据估算的历史波动率 基于利率衍生工具市场价格计算的隐含波动率",
+    "tokenCount": 125,
+    "sourcePage": 19,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 19,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree)： 本质是一个无套利定价模型， 即按照市场中债券价格构建出来的，节点上利率水平采用市场上债券价格校准得到。 基本原则：利率波动 基于假设的利率模型及利率波动，我们可以确定 i 1 , L 和 i 1 , H 的关系及 i 2 , L L、 i 2 , HL 和 i 2 , HH 之间的关系。如只需知道 i 1 , L，即可用公式求出 : i 1 , H = i 1 , L e 2 σ 𝑖 2 , HL = i 2 , LL e 2 σ i 2 , HH = i 2 , LL e 4 σ",
+    "tokenCount": 147,
+    "sourcePage": 20,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 20,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 * 补充知识 - 基于假设的利率模型及利率波动，我们可以确定 i 1 , L 和 i 1 , H 的关系及 i 2 , L L、 i 2 , HL 和 i 2 , HH 之间的关系。如只需知道 i 1 , L，即可用公式求出 : i 1 , H = i 1 , L e 2 σ 𝑖 2 , HL = i 2 , LL e 2 σ i 2 , HH = i 2 , LL e 4 σ - 注意：中间利率接近于从即期推出的 1 年期即期利率，而另外两个利率是高于和低于该值的两个标准差（重组树）。该模型的这一特征有利于更快计算，因为每个周期的可能结果数量呈线性增加。",
+    "tokenCount": 152,
+    "sourcePage": 21,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 21,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 * 补充知识 基本原则：利率模型 利率模型 (Interest rate model)：关于利率在债券有效期内如何改变的一个概率性描述 - 单因素模型 (One-factor model)：只考虑短期利率随时间变化的情况 - 两因素模型 (Two-factor model)：同时考虑短期利率和长期利率随时 间变化的情况",
+    "tokenCount": 91,
+    "sourcePage": 22,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 22,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 * 补充知识 基本原则：利率模型 利率模型 (Interest rate model)： - 了解： 常用的期限结构模型主要有单因素固定参数期限结构模型、多因素固定参数期限结构模型、单因素时变参数模型和多因素时变参数模型几类。",
+    "tokenCount": 68,
+    "sourcePage": 23,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 23,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 * 补充知识 基本原则：利率模型 多项式利率模型： 给定一个利率模型和一个利率波动假设，假定下期可能出现多种利率中的一种（如三项式模型假设利率下期可能出现三种变化） - 例如：",
+    "tokenCount": 55,
+    "sourcePage": 24,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 24,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设采用如下新发行国债来构建利率树，基本信息如表，债券每年支付 1 次利息 问：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 期限 票面利率（ % ） 市场价格 到期收益率（ % ） 即期利率（ % ） 1 年 1.50 100 1.50 1.500 2 年 2.47 100 2.47 3.449 3 年 2.80 100 2.80 3.463 4 年 3.00 100 3.00 3.602",
+    "tokenCount": 141,
+    "sourcePage": 25,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 25,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 答： 步骤 1. 求解 1 年后短期利率 𝑟 1 , 𝐻 ( 𝑟 1 , 𝐻 = 𝑒 2 𝜎 𝑟 1 , 𝐿 ) , 利用表中 2 年期债券信息，使用利率树计算，使得计算得到价格等于市场价格 100 元。 1 .50% 𝑟 0 𝑟 1 , 𝐻 =? 𝑟 1 , 𝐿 =? 𝑟 2 , 𝐻𝐻 =? 𝑟 2 , 𝐻𝐿 =? 𝑟 2 , 𝐿𝐿 =? 第 2 年 现在 第 1 年",
+    "tokenCount": 158,
+    "sourcePage": 26,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 26,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 步骤 1. 求解 1 年后短期利率 𝑟 1 , 𝐻 ( 𝑟 1 , 𝐻 = 𝑒 2 𝜎 𝑟 1 , 𝐿 ) , 利用表中 2 年期债券信息，使用利率树计算，使得计算得到价格等于市场价格 100 元。 100 = 1 2 ∗ 100 + 2 . 47 1 + 𝑟 1 , 𝐿 + 2 . 47 ∗ 1 1 + 1 . 5 % + 100 + 2 . 47 1 + 𝑒 0 . 2 𝑟 1 , 𝐿 + 2 . 47 ∗ 1 1 + 1 . 5 % 1 .50% 𝑟 0 𝑃 1 , 𝐻 2.47 𝑟 1 , 𝐻 = 𝑟 1 , 𝐿 𝑒 0 . 2 𝑃 1 , 𝐿 2.47 𝑟 1 , 𝐿 100 2.47 100 2.47 第 1 期利率树构建",
+    "tokenCount": 227,
+    "sourcePage": 27,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 27,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 步骤 1. 求解 1 年后短期利率 𝑟 1 , 𝐻 ( 𝑟 1 , 𝐻 = 𝑒 2 𝜎 𝑟 1 , 𝐿 ) , 利用表中 2 年期债券信息，使用利率树计算，使得计算得到价格等于市场价格 100 元。 100 = 1 2 ∗ 100 + 2 . 47 1 + 𝑟 1 , 𝐿 + 2 . 47 ∗ 1 1 + 1 . 5 % + 100 + 2 . 47 1 + 𝑒 0 . 2 𝑟 1 , 𝐿 + 2 . 47 ∗ 1 1 + 1 . 5 % 可参照相关市场利率，假定一个合适的 𝑟 1 , 𝐿 初始值，如设定为 𝑟 1 , 𝐿 =3.1%，如果算得价格低于 100 则表明 𝑟 1 , 𝐿 初始值设定偏高，再进行调整，直到市场价格等于 100 或： Excel 单变量求解",
+    "tokenCount": 232,
+    "sourcePage": 28,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 28,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 步骤 1. 求解 1 年后短期利率 𝑟 1 , 𝐻 ( 𝑟 1 , 𝐻 = 𝑒 2 𝜎 𝑟 1 , 𝐿 ) , 利用表中 2 年期债券信息，使用利率树计算，使得计算得到价格等于市场价格 100 元。 得到 无套利定价 的利率树如图 100 1 .50% 𝑟 0 98.6985 2.47 𝑟 1 , 𝐻 = 3 . 8212 % 9 9 . 3615 2.47 3.1285% 100 2.47 100 2.47 第 1 期利率树构建",
+    "tokenCount": 168,
+    "sourcePage": 29,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 29,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 步骤 2. 求解 2 年后短期利率 𝑟 2 , 𝐿𝐿 ( 𝑟 2 , 𝐻𝐿 = 𝑒 2 𝜎 𝑟 2 , 𝐿 𝐿 , 𝑟 2 , 𝐻𝐻 = 𝑒 4 𝜎 𝑟 2 , 𝐿𝐿 ) , 利用表中 3 年期债券信息，使用利率树计算，使得计算得到价格等于市场价格 100 元。 公式？ 可参照相关市场利率，假定一个合适的 𝑟 2 , 𝐿𝐿 初始值，如设定为 𝑟 2 , 𝐿𝐿 =2.8%，如果算得价格低于 100 则表明 𝑟 2 , 𝐿𝐿 初始值设定偏高，再进行调整，直到市场价格等于 100; 或： Excel 单变量求解 100 1 .50% 𝑟 0 𝑃 1 , 𝐻 2.8 𝑟 1 , 𝐻 = 3 . 8212 % 𝑃 1 , 𝐿 2.8 3 . 1285 % 𝑃 2 , 𝐻𝐻 2.8 𝑟 2 , 𝐻𝐻 = 𝑟 2 , 𝐿𝐿 𝑒 0 . 4 第 2 期利率树构建 𝑃 2 , 𝐻𝐿 2.8 𝑟 2 , 𝐻𝐿 = 𝑟 2 , 𝐿𝐿 𝑒 0 . 2 𝑃 2 , 𝐿𝐿 2.8 𝑟 2 , 𝐿𝐿 1 00 2.8 1 00 2.8 1 00 2.8",
+    "tokenCount": 319,
+    "sourcePage": 30,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 30,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 步骤 2. 求解 2 年后短期利率 𝑟 2 , 𝐿𝐿 ( 𝑟 2 , 𝐻𝐿 = 𝑒 2 𝜎 𝑟 2 , 𝐿 𝐿 , 𝑟 2 , 𝐻𝐻 = 𝑒 4 𝜎 𝑟 2 , 𝐿𝐿 ) , 利用表中 3 年期债券信息，使用利率树计算，使得计算得到价格等于市场价格 100 元。 𝑃 2 , 𝐻𝐻 = 100 + 2 . 8 1 + 𝑟 2 , 𝐻𝐻 ; 𝑃 2 , 𝐻 𝐿 = 100 + 2 . 8 1 + 𝑟 2 , 𝐻 𝐿 ; 𝑃 2 , 𝐿𝐿 = 100 + 2 . 8 1 + 𝑟 2 , 𝐿𝐿 100 1 .50% 𝑟 0 𝑃 1 , 𝐻 2.8 𝑟 1 , 𝐻 = 3 . 8212 % 𝑃 1 , 𝐿 2.8 3 . 1285 % 𝑃 2 , 𝐻𝐻 2.8 𝑟 2 , 𝐻𝐻 = 𝑟 2 , 𝐿𝐿 𝑒 0 . 4 第 2 期利率树构建 𝑃 2 , 𝐻𝐿 2.8 𝑟 2 , 𝐻𝐿 = 𝑟 2 , 𝐿𝐿 𝑒 0 . 2 𝑃 2 , 𝐿𝐿 2.8 𝑟 2 , 𝐿𝐿 1 00 2.8 1 00 2.8 1 00 2.8",
+    "tokenCount": 318,
+    "sourcePage": 31,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 31,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree) 的构建及估计： 问题 1：利率树的构建？ 例：假设利率波动率为 𝜎 = 10 %，如何构建一个 2 年期的利率树？ 步骤 2. 求解 3 年后短期利率 𝑟 2 , 𝐿𝐿 ( 𝑟 2 , 𝐻𝐿 = 𝑒 2 𝜎 𝑟 2 , 𝐿 𝐿 , 𝑟 2 , 𝐻𝐻 = 𝑒 4 𝜎 𝑟 2 , 𝐿𝐿 ) , 利用表中 3 年期债券信息，使用利率树计算，使得计算得到价格等于市场价格 100 元。 𝑃 1 , 𝐻 = 1 2 𝑃 2 , 𝐻𝐿 + 2 . 8 1 + 𝑟 1 , 𝐻 + 𝑃 2 , 𝐻𝐻 + 2 . 8 1 + 𝑟 1 , 𝐻 ; 𝑃 1 , 𝐿 = 1 2 𝑃 2 , 𝐿𝐿 + 2 . 8 1 + 𝑟 1 , 𝐿 + 𝑃 2 , 𝐻𝐿 + 2 . 8 1 + 𝑟 1 , 𝐿 ; 𝑃 0 = 1 2 𝑃 1 , 𝐻 + 2 . 8 1 + 𝑟 0 + 𝑃 1 , 𝐿 + 2 . 8 1 + 𝑟 0 = 100 100 1 .50% 𝑟 0 9 8 . 0464 2.8 𝑟 1 , 𝐻 = 3 . 8212 % 99.3535 2.8 3 . 1285 % 98.6275 2.8 𝑟 2 , 𝐻𝐻 = 4 . 2306 % 第 2 期利率树构建 99 . 3585 2.8 𝑟 2 , 𝐻𝐿 = 3 . 4637 % 99.9651 2.8 𝑟 2 , 𝐿𝐿 = 2 . 8259 % 1 00 2.8 1 00 2.8 1 00 2.8",
+    "tokenCount": 368,
+    "sourcePage": 32,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 32,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree)： 利率树的估值： - 与利率波动假设和利率模型一致 - 根据无套利定价原则，由基准收益率曲线导出利率树形图： 不管假设下一阶段会呈现多少种可能的利率，运用利率树形图给基准市场债券 估价必须与其市场观测价格相等，即必须得出 无套利价值 问题 2：利率树的估值？",
+    "tokenCount": 89,
+    "sourcePage": 33,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 33,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree)： 利率树的估值： - 例： 假定较低的 1 年期利率为 1.1943%，则较高的 1 年期利率为 1.6161% （ =1.1943%× e 2 × 0 . 15 ）， 2 年期息票为 1.2% 的基准债券估值如下： - 找到树中的利率是一个迭代过程 ( 如果 i 1 , L 初始赋值 1.35%？ )",
+    "tokenCount": 101,
+    "sourcePage": 34,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 34,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree)： 利率树的估值： - 例： 假定 i 2 , LL = 0 . 9803 %，则 i 2 , H L = 1 . 3233 % , i 2 , HH = 1 . 3233 % , 3 年期息票为 1.25% 的基准债券估值如下（即𝑉 0 是否等于 100? ）",
+    "tokenCount": 90,
+    "sourcePage": 35,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 35,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree)： 实务应用： - 实践中，只有少数从业者会开发自己的模型对含嵌入期权的债券进行定价；投资组合经理或分析师一般会使用交易商或分析系统生产商等 第三方所开发的估价模型。 - 理解估价模型的必要性： 实际使用的估价模型建立在很多假设之上，假设改变将会产生不同的估价 对于没有真正理解估价模型的用户，无法评价假设的重要性，也无法衡量这些假设对模型估价造成的影响（模型风险）",
+    "tokenCount": 116,
+    "sourcePage": 36,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 36,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 利率树形图 (Interest rate tree)： 实务应用： - 思考： 16 怀仁估值差异产生原因？ 含权债 用哪个收益率不吃亏？",
+    "tokenCount": 46,
+    "sourcePage": 37,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 37,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 3 ）常见含权债券估值 可赎回债券 - 例：对于一个 4 年期、票面利率为 6.5% 的可赎回债券， 1 年后可按 100 元的价格赎回，假设波动率为 10% - 赎回价格计划： 100 元 - 检查每种情形，确定未来现金流量现值是否高于赎回价格？ 是，发行人将赎回债券",
+    "tokenCount": 80,
+    "sourcePage": 38,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 38,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 可赎回债券 赎回期权的价值 = 无期权债券的价值 - 可赎回债券的价值 - 在上面 1 年后可按 100 元赎回的可赎回债券例子中，赎回期权的价 值 = 无期权债券的价值 104.643 – 可赎回债券的价值 102.899 = 1.744",
+    "tokenCount": 71,
+    "sourcePage": 39,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 39,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 可赎回债券 波动与无套利定价： 假设的利率波动越高，债券中嵌入式期权价格越高，而无期权债券的价值不受影响，因此含嵌入期权的债券价值将减小 - 上例中无期权债券的价值为 104.643 元，假设一年期利率波动为 20%，如果每一年的赎回价为 100 元，可赎回债券的价值为 102.108 元。赎回期权价值为 2.535 元",
+    "tokenCount": 92,
+    "sourcePage": 40,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 40,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 3 ）常见含权债券估值 可回售债券： 债券 持有人 有权要求发行人在到期日前提前偿清债务 - 若处于某个节点处债券的价值低于其票面价值时，债券持有人将可 能行使回售权 - 例：对于一个 4 年期、票面利率为 6.5% 的可回售债券， 1 年后可按 100 元的价格回售，假设波动率为 10%",
+    "tokenCount": 85,
+    "sourcePage": 41,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 41,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 可回售债券： - 例：对于一个 4 年期、票面利率为 6.5% 的可回售债券， 1 年后可按 100 元的价格回售，假设波动率为 10% - 回售价格计划： 100 元 - 检查每种情形，确定未来现金流量现值是否低于回售价格？ 是，投资人将回售债券",
+    "tokenCount": 73,
+    "sourcePage": 42,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 42,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 可回售债券： 回售期权的价值 = 可回售债券的价值 - 无期权债券的价值 - 含回售期权债券的价值大于无期权债券的价值 可回售债券的价值会随着假设波动的增加而增加 了解：如果债券同时具有赎回期权和可回售期权，首先应根据赎回规则确定债券是否会被赎回。如果被赎回，节点处价值会以赎回价格替代。如果未被赎回，则继续确定是否行使回售期权",
+    "tokenCount": 93,
+    "sourcePage": 43,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 43,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 （ 3 ）常见含权债券估值 有上限浮动利率债券 - 浮动利率中嵌入的上限实际上是投资者给予 发行人 的一种期权（发行人有权在利率上升时不采取行动），因此对有上限浮动利率债券进行估价仍需使用二项式利率树形图模型 - 有上限浮动利率债券的估价过程与前面其他债券过程一样，唯一的一点差异：浮动利率债券的票面利率 在期初时设定而在期末（下期初）支付",
+    "tokenCount": 96,
+    "sourcePage": 44,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 44,
+    "content": "含嵌入期权的债券定价 第四讲 · 债券定价 有上限浮动利率债券 例如 V 2, HH = 0.5[(98.215+7.0053)/(1+7.0053%) + (99.738+7.0053)/(1+7.0053%)]= 99.044",
+    "tokenCount": 58,
+    "sourcePage": 45,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch05-embedded-option-bond-pricing",
+    "chunkIndex": 45,
+    "content": "第四讲 · 债券定价 含嵌入期权的债券定价 总结： 确定基准利率 利率树形图的构建及估计 - 构建：基于假定的 利率波动、利率模型 - 根据无套利定价原则，由基准收益率曲线导出利率树形图 常见 的含权债券估值 - 可赎回债券 - 可回售债券 - 有上限浮动利率债券",
+    "tokenCount": 66,
+    "sourcePage": 46,
+    "sourceSection": "第五章：债券定价（二）：含嵌入期权债券定价",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 学 年春季 学期 第四讲 债券定价（三） 固定收益证券 本科生专业方向课程",
+    "tokenCount": 23,
+    "sourcePage": 1,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 1,
+    "content": "2 第四讲 · 债券定价 含嵌入期权的债券定价 回顾： 了解基准利率的选取 了解利率树形图的构建及估计 - 假定利率波动，选定利率模型 - 根据无套利定价原则，由基准收益率曲线导出利率树形图 掌握常见的含权债券估值 - 可赎回债券 - 可回售债券 - 有上限浮动利率债券",
+    "tokenCount": 68,
+    "sourcePage": 2,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 2,
+    "content": "3 第四讲 · 债券定价 含嵌入期权的债券定价 回顾： 债券定价方法 步骤 1. 估计现金流：确定未来各期现金流 步骤 2. 决定合适贴现率（无风险利率 / 国债利率 + 风险溢价 / 信用利差）： - 不含权债券：到期收益率 / 即期利率曲线 + 名义利差 / Z- 利差 - 含权债券：二叉树利率模型 + OAS 利差 步骤 3. 对未来每期现金流进行逐一贴现 步骤 4. 债券价值 = 贴现现值（利息 + 本金）",
+    "tokenCount": 105,
+    "sourcePage": 3,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 3,
+    "content": "4 第四讲 · 债券定价 目录 含嵌入期权的非国债定价：期权调整利差 含嵌入期权的非国债定价：可转换债券",
+    "tokenCount": 26,
+    "sourcePage": 4,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 4,
+    "content": "5 第四讲 · 债券定价 含嵌入期权的债券定价 知识目标： 掌握无波动利差（ Z 利差）期权调整利差（ OAS 利差）的 含义 及应用 : 掌握可转换债券的 特征 了解可转换债券的估值",
+    "tokenCount": 46,
+    "sourcePage": 5,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 5,
+    "content": "6 含嵌入期权的债券定价 第四讲 · 债券定价 思考： 如何衡量不含嵌入式期权非国债与无风险国债之间的收益利差？ 如何衡量含嵌入式期权债券与无风险国债之间的收益利差？",
+    "tokenCount": 42,
+    "sourcePage": 6,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 6,
+    "content": "7 含嵌入期权的非国债定价 （ 1 ）收益利差的度量：名义利差 名义利差 (Nominal spread)：目标债券 到期收益率 与基准付息国债到期收益率之间的差额 - 如果以国债收益曲线为基准考察非国债债券，名义利差反映的是高 于国债收益曲线上某一点的利差 - 国债和非国债的收益率都 没有考虑 及 即期利率 的期限结构 名义利差 = 𝑦 目标 债券 − 𝑦 参考 债券 第四讲 · 债券定价",
+    "tokenCount": 100,
+    "sourcePage": 7,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 7,
+    "content": "8 含嵌入期权的非国债定价 （ 2 ）收益利差的度量： Z 利差 为简化不含嵌入式期权的非国债估值， 行业标准方法 是增加固定收益利差，从无违约基准收益率曲线上导出其收益率曲线（根据类似信用质量的合适债券市场价格估算）。 𝑃 0 = 𝑡 =1 𝑛 𝐶 𝑡 (1+ 𝑟 𝑡 + 𝑟 𝑠𝑠 ) + 𝐹𝑉 (1+ 𝑟 𝑡 + 𝑟 𝑠𝑠 ) 𝑟 𝑡 : 第 t 年即期利率 𝑟 𝑠𝑠： Z- 利差 第四讲 · 债券定价",
+    "tokenCount": 114,
+    "sourcePage": 8,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 8,
+    "content": "9 含嵌入期权的非国债定价 收益利差的度量： Z 利差 无波动利差 (Zero-volatility spread)/Z 利差 (Z-spread)：当投资者将债券持有至到期时，可以实现的在整个持有期内超过国债每期 即期利率 曲线的 固定幅度 的收益利差 - Z 利差是反映的是超过整个 基准即期利率曲线 的 利差 第四讲 · 债券定价",
+    "tokenCount": 84,
+    "sourcePage": 9,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 9,
+    "content": "10 含嵌入期权的非国债定价 收益利差的度量： Z 利差 如果以国债即期利率为基准， Z 利差是使非国债未来现金流量的现值 等于 其价格的折现率与国债 即期收益率 的 差额 第四讲 · 债券定价",
+    "tokenCount": 49,
+    "sourcePage": 10,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 10,
+    "content": "11 含嵌入期权的非国债定价 收益利差的度量： Z 利差 例：某公司债券，期限为 3 年，票面利率为 5%，价格为 98.5175，各个期限即期利率如表所示，问：名义利差和 Z- 利差分别是多少？ 第四讲 · 债券定价 时期 期限 即期利率（ % ） 1 1 1.5 2 2 2.47 3 3 2.80",
+    "tokenCount": 76,
+    "sourcePage": 11,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 11,
+    "content": "12 含嵌入期权的非国债定价 收益利差的度量： Z 利差 例：某公司债券，期限为 3 年，票面利率为 5%，价格为 98.5175，各个期限国债即期利率如表所示，问：名义利差和 Z- 利差分别是多少？ 解答： 1 ）名义利差： 利用即期利率计算国债价格，求得国债到期收益率 Excel 计算得到：国债 YTM=2.769%；公司债 YTM=5.55% 名义利差 =5.55%-2.769%=2.781% 第四讲 · 债券定价 时期 期限 即期利率 现金流 现值 1 1 1.50% 5 4.9261 2 2 2.47% 5 4.7619 3 3 2.80% 105 96.6518 价格 106.3398",
+    "tokenCount": 151,
+    "sourcePage": 12,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 12,
+    "content": "13 含嵌入期权的非国债定价 收益利差的度量： Z 利差 例：某公司债券，期限为 3 年，票面利率为 5%，价格为 98.5175，各个期限国债即期利率如表所示，问：名义利差和 Z- 利差分别是多少？ 解答： 1 ） Z- 利差： 𝑃 0 = 𝑡 =1 𝑛 𝐶 𝑡 (1+ 𝑟 𝑡 + 𝑟 𝑠𝑠 ) + 𝐹𝑉 (1+ 𝑟 𝑡 + 𝑟 𝑠𝑠 ) 𝑃 0 = 5 (1+1.5%+ 𝑟 𝑠 𝑠 ) 1 + 5 (1+2.47%+ 𝑟 𝑠𝑠 ) 2 + 10 5 (1+2.8%+ 𝑟 𝑠𝑠 ) 3 =98.5175 Excel 单变量求解得到： Z- 利差 =2.783% 注：名义利差 /Z- 利差数值差别不大，但 并不完全相同 第四讲 · 债券定价",
+    "tokenCount": 176,
+    "sourcePage": 13,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 13,
+    "content": "14 含嵌入期权的债券定价 第四讲 · 债券定价 (3) 收益利差的度量：期权调整利差 (Option adjusted spread, OAS) 超过在对含嵌入期权债券定价中运用的基准利率的利差 将 OAS 加入二项式利率树形图上的利率中可以使得由二项式模型生成的无套利价值与市场价格相等 例：假设 4 年期票面利率为 6.5% 的可赎回债券的市场价格是 102.218 元，以 基准利率 波动为 10% 时得到的理论价格是 102.899 元。债券价值高估了 0.681 元",
+    "tokenCount": 120,
+    "sourcePage": 14,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 14,
+    "content": "15 含嵌入期权的债券定价 第四讲 · 债券定价 (3) 收益利差的度量：期权调整利差 (Option adjusted spread, OAS) 例：假设 4 年期票面利率为 6.5% 的可赎回债券的市场价格是 102.218 元，以基准利率波动为 10% 时得到的理论价格是 102.899 元。若 OAS=35 个基点（利率树形图中 每个利率加 35 个基点 ），所生成的无套利价格等于市场价格 102.218 元",
+    "tokenCount": 105,
+    "sourcePage": 15,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 15,
+    "content": "16 含嵌入期权的债券定价 第四讲 · 债券定价 (3) 收益利差的度量：期权调整利差 (Option adjusted spread, OAS) 内含期权会改变现金流量，而名义利差和 Z 利差均忽略了 利率变动 会影响现金流量的事实（ Z 利差假设利率波动为 0，因此叫作无波动利率） - 在一个利率不会改变的环境中，投资者将会赢得 Z 利差；当未来利 率不确定时，由于嵌入期权的存在，利差不再是 Z 利差而是 OAS， 即考虑了期权成本的利差 - 期权成本 = Z 利差 - OAS",
+    "tokenCount": 122,
+    "sourcePage": 16,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 16,
+    "content": "17 含嵌入期权的债券定价 第四讲 · 债券定价 (4) 收益利差的度量：不同基准下的利差补偿风险 以国债为基准的三种利差补偿的风险 利差计量 基准 被补偿的风险 名义利差 国债到期收益率曲线 信用风险、期权风险、流动性风险 无波动利差 国债即期利率曲线 信用风险、期权风险、流动性风险 期权调整利差 国债即期利率曲线 信用风险、流动性风险 以特定信用评级的某个具体债券板块为基准的三种利差补偿的风险 利差计量 基准 被补偿的风险 名义利差 板块收益率曲线 信用风险、期权风险、流动性风险 无波动利差 板块即期利率曲线 信用风险、期权风险、流动性风险 期权调整利差 板块即期利率曲线 信用风险、流动性风险",
+    "tokenCount": 151,
+    "sourcePage": 17,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 17,
+    "content": "18 含嵌入期权的债券定价 第四讲 · 债券定价 (4) 收益利差的度量：不同基准下的利差补偿风险 以特定发行人为基准的三种利差补偿的风险 - 假设被分析的具体债券信用风险与基准发行人的信用风险相同， 所以 不存在信用风险 利差计量 基准 被补偿的风险 名义利差 发行人收益率曲线 期权风险、流动性风险 无波动利差 发行人即期利率曲线 期权风险、流动性风险 期权调整利差 发行人即期利率曲线 流动性风险",
+    "tokenCount": 101,
+    "sourcePage": 18,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 18,
+    "content": "19 第四讲 · 债券定价 含嵌入期权的债券定价 总结： 掌握名义利差 / 无波动利差（ Z 利差）：用于度量（不含期权）无利率波动的风险债券利差 期权调整利差（ OAS 利差）：用于度量含期权（有利率波动）的风险债券利差",
+    "tokenCount": 56,
+    "sourcePage": 19,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 19,
+    "content": "20 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 转换条款给予债券持有人将债券转换为发行人的预定数量的普通股 - 转换期权：发行人普通股的看涨期权，票息通常低于其他相同的不可转换债券 - 投资人利益：股价超过转换价格时，可以低于市场价成本将其债券转化为股票 - 发行人利益：支付较低票息；如转换，不再偿还已转换为股权的债务",
+    "tokenCount": 85,
+    "sourcePage": 20,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 20,
+    "content": "21 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 以表中可转换债券为例，进行相关分析： 转换价值（等价价值）：按照股票市场价格转换的债券价值 转换价值 = 相关股票价格 × 转换比率 例：发行日转换价值： 4.58 ×16666.67=76333.33 2013 年 4 月 4 日转换价值？",
+    "tokenCount": 77,
+    "sourcePage": 21,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 21,
+    "content": "22 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 可转换债券的最小值 =Max( 转换价值，基础无期权债券价值 ) - 纯粹债券的价值：发行人发行的相同的不可转换债券市场价值 - 此债券很少存在，使用无套利框架贴现债券未来现金流确定 - 若可转换债券低于最小值，则产生套利机会：如价格 103833.33< 纯粹债券价格 107523.95，投资者买入可转换债券，获取高于不可转换债券收益率",
+    "tokenCount": 102,
+    "sourcePage": 22,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 22,
+    "content": "23 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 可转换债券的最小值 =Max( 转换价值，基础无期权债券价值 ) 例：发行日最小值 = 最大（ 76333.33； 100000 ） =100000 2013 年 4 月 4 日：票息 4.50%，假设平坦收益率曲线 2.5% 纯粹值： 当日最小值：最大（ 103833.33； 107523.95 ） =107523.95 4 500 1.025 + 4500 1.025 2 + 4500 1.025 3 + 4500 +100000 1.025 4 = 107523.95",
+    "tokenCount": 136,
+    "sourcePage": 23,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 23,
+    "content": "24 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 每股市场转换溢价：用于鉴别购买可转换债券而非普通股票时应付的溢价或折价 - 每股市场转换价格 = 可转换债券价格 / 转换比率 例： 2013 年 4 月 4 日：转换价格 = 127006 16666.7 =7.62 - 每股市场转换溢价 = 市场转化价格 - 基础股票价格 例： 2013 年 4 月 4 日：转换溢价 =7.62-6.23=1.39",
+    "tokenCount": 105,
+    "sourcePage": 24,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 24,
+    "content": "25 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 市场转换价格、每股市场转换溢价、市场转换溢价比率 - 市场转换溢价比率 = 每股市场转换溢价 / 基础股票价格 例： 2013 年 4 月 4 日：溢价比率 = 1.39 6.23 =22.32% 投资者为何愿意支付溢价？可避免股票下跌风险，价格至少高于相同的不可转换债券；每股市场转换溢价类似看涨期权价格",
+    "tokenCount": 93,
+    "sourcePage": 25,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 25,
+    "content": "26 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 下行风险：常使用纯粹价值来衡量，计算以下指标；同等条件下，溢价越高，该债券吸引力越小 - 纯粹债券价值溢价 = （可转换债券价格 / 纯粹债券价值） -1 例： 2013 年 4 月 4 日： 纯粹债券价值溢价 = （ 127006/107523.95 ） -1=18.11%",
+    "tokenCount": 86,
+    "sourcePage": 26,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 26,
+    "content": "27 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 可转换债券的上升潜力：取决于基础普通股的前景，需熟悉普通股估值和分析技术",
+    "tokenCount": 35,
+    "sourcePage": 27,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 27,
+    "content": "28 含嵌入期权的债券定价 第四讲 · 债券定价 可转换债券分析 可转换债券估值：具有挑战性、复杂性，投资风险高，需独立财务估值师确定不同情景下的转换价格；最常用模型为无套利框架 - 可转换债券价值 = 纯粹债券价值 + 发行人股票的看涨期权价值 - 可赎回可回售可转换债券价值 = 纯粹债券价值 + 发行人股票的看涨期权价值 - 发行人看涨期权价值 + 投资者看跌期权价值 - 无论债券中嵌入多少期权，均采用利率树进行逆向归纳估值",
+    "tokenCount": 108,
+    "sourcePage": 28,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 28,
+    "content": "29 可转换债券 第四讲 · 债券定价 思考题： 我国可转债市场的发展？",
+    "tokenCount": 18,
+    "sourcePage": 29,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 29,
+    "content": "30 可转换债券 第四讲 · 债券定价 思考题： 我国可转债市场的发展？ 是什么？ 固收 +",
+    "tokenCount": 23,
+    "sourcePage": 30,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 30,
+    "content": "31 可转换债券 第四讲 · 债券定价 思考题： 我国可转债市场的发展？ 是什么？",
+    "tokenCount": 21,
+    "sourcePage": 31,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 31,
+    "content": "32 可转换债券 第四讲 · 债券定价 思考题：我国可转债市场的发展？ 发展历程？",
+    "tokenCount": 21,
+    "sourcePage": 32,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 32,
+    "content": "33 可转换债券 第四讲 · 债券定价 思考题：我国可转债市场的发展？ 发展历程？ - 探索试行阶段（ 1991-2005 ）： 这一时期发行的转债更多是试验性质的， 反映出可转债发展前期法规制度不完善、市场机制不成熟等问题。 2001 年，证监会出台了 《 上市公司 发行可转换公司债实施办法 》 和 《 关于做好上市公司可转换公司债发行工作的通知 》，并颁布了 《 上市公司发行可转换公司债券申请文件 》、 《 可转换公司债券募集说明书 》 和 《 可转换公司债券上市公告书 》 三个配套文件，对可转债的发行有了更全面、明确的规定。",
+    "tokenCount": 134,
+    "sourcePage": 33,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 33,
+    "content": "34 可转换债券 第四讲 · 债券定价 思考题：我国可转债市场的发展？ 发展历程？ - 规范发展阶段（ 2006-2016 ）： 这一时期，可转债发行规则的不断完善，转债的发行量开始呈现明显的上涨趋势，投资者的申购也更加积极，包销比例减少。 可转债发行与股票发行适用同一套管理办法，可转债在发行端的监管是偏“股”而非偏“债”。 2014 年，证监会发布了 《 创业板 上市公司证券发行管理暂行办法 》，创业板上市公司发行可转债的要求相对主板有所放宽，鼓励创业板上市公司通过发行可转债融资。",
+    "tokenCount": 122,
+    "sourcePage": 34,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 34,
+    "content": "35 可转换债券 第四讲 · 债券定价 思考题：我国可转债市场的发展？ 发展历程？ - 提质增效阶段（ 2017- 至今）： 可转债面世以来，作为上市公司 再融资 的一种方式，和配股、增发、定增等再融资方式存在替代关系。配股和增发的融资规模相对较少，上市公司再融资还是以定增为主。 2017 年，证监会再融资新规对上市公司定增实行严格监管，使得上市公司再融资的方式从定增向发行可转债等方式转变，可转债迎来了大发展的契机。 2020 年，新 《 证券法 》 及 《 创业板上市公司证券发行管理暂行办法 》 等办法的修订进一步放宽了可转债的发行条件，转债市场继续扩容。",
+    "tokenCount": 141,
+    "sourcePage": 35,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 35,
+    "content": "36 可转换债券 第四讲 · 债券定价 思考题：我国可转债市场的发展？ 可转债举例？",
+    "tokenCount": 21,
+    "sourcePage": 36,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 36,
+    "content": "37 可转换债券 第四讲 · 债券定价 思考题：我国可转债市场的发展？ 常用定价模型？",
+    "tokenCount": 22,
+    "sourcePage": 37,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 37,
+    "content": "38 城投债 第四讲 · 债券定价 1. 是什么？ - 对城投公司的定义起源于 2010 年国务院 19 号文，各机构给出的定义略有不同，核心定义是地方政府投融资项目承载主体。城投公司一 般被称为“地方政府投融资平台”，主要承担为政府项目投融资的功能。 2010 年国务院 19 号文首次对城投平台给出明确定义，后续出 台的 19 号文、 412 号和 101 号文对城投平台定义略有不同。 - 市场常用划分标准： 1.Wind ( 现采用中债曲线 ) 2. 银监会 3. 中债地方债收益率曲线",
+    "tokenCount": 124,
+    "sourcePage": 38,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 38,
+    "content": "39 城投债 第四讲 · 债券定价 补充：城投债与地方债区别？ 与政府信用相关的债券大致可分为四类： 国债、政策性金融债、地方政府债、城投债 地方债：省、自治区、直辖市政府（含经省级政府批准自办债券发行的计划单列市政府）为有一定收益的公益性项目发行的、约定一定期限内以公益性项目对应的政府性基金或专项收入还本付息的政府债券 城投债： 地方投融资平台作为发行主体，公开发行企业债和中期票据，其本质是企业债和非金融企业债，发行产品所募资金主要用于企业经营性项目或城市基础设施建设项目。？",
+    "tokenCount": 121,
+    "sourcePage": 39,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 39,
+    "content": "40 城投债 第四讲 · 债券定价 补充：城投债与地方债区别？ 发行主体不同：政府 vs 企业 发行审核制度不同：审批制 vs 注册制 发行目的不同：九大领域 vs 经营性或市政基础设施项目 投资风险不同：政府担保，风险小 vs 本质企业，风险更高",
+    "tokenCount": 62,
+    "sourcePage": 40,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 40,
+    "content": "41 城投债 第四讲 · 债券定价 补充：城投债与地方债区别？ 拓展阅读： 1. 中债资信特别评论：中国地方政府债券的模式演变： https://www.chinaratings.com.cn/uploadfile/2014/0717/635411912437364000.pdf 2. 政策解读：全面认识 43 号文及其影响 — 政府性债务和城投债专题研究 http://www.ccgp.gov.cn/ppp/zcjd/201506/t20150611_5409290.htm 3. 城投债与地方债关系浅析： https://max.book118.com/html/2018/0704/7144005053001136.shtm",
+    "tokenCount": 159,
+    "sourcePage": 41,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 41,
+    "content": "42 城投债 第七讲 · 债券定价 2. 产生背景？",
+    "tokenCount": 13,
+    "sourcePage": 42,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 42,
+    "content": "43 城投债 第七讲 · 债券定价 3. 发展历史？ 起步阶段（ 1993-2004 ）： 城投债全年发行余额不足百亿，且发行主体集中于直辖市和省一级平台。（第一支：上海城市建设投资开发总公司发行 5 亿元城市建设债券） 加速发展阶段（ 2005-2008 ）： 发行主体从原来的省一级地方融资平台为主向地级市和县级市融资平台倾斜，主体信用评级逐渐多元化，期限结构也更为丰富。 跨越式发展阶段（ 2009-2011 ）： 2009 年，在政府“ 4 万亿”投资计划刺激下，城投债的发行规模较 2008 年实现了跨越式发展，直接融资占社会融资的比例大幅提高 转型发展阶段（ 2012-2014 ）： 政策鼓励扶持下，投向保障性住房等民生领域的城投债规模开始快速增长",
+    "tokenCount": 166,
+    "sourcePage": 43,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 43,
+    "content": "44 城投债 第七讲 · 债券定价 3. 发展历史？ 地方债体系建设阶段（ 2015-2019 ）： 43 号文 《 关于加强地方政府性债务管理的意见 》 的颁布，我国地方债发行体系正式建立，城投债融资大幅放松 规范发展阶段（ 2020 年至今）： 央行会同发改委、证监会下发文件，指出要从源头上控制信用债（包含城投债）无序扩张的源头，监管趋严 2021 年： 城投公司融资监管政策密集出台，旨在降低政府杠杆率，化解地方政府隐性债务，严控地方政府债务风险，同时规范城投公司融资，对区域债务水平较高及弱资质城投公司过度融资进行限制 http://www.zichanjie.com/article/334846.html （一 . 近期主要政策梳理）",
+    "tokenCount": 162,
+    "sourcePage": 44,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 44,
+    "content": "45 城投债 第七讲 · 债券定价 4. 为什么关注？ 城投债受到债券投资市场亲睐： 城投债的利率更有保障： 大部分城投公司都不会进行市场化运营，不以盈利为目的，业务也都是替政府融资和规划一些城市所需的建设。 这就决定了城投债代表的是政府信用，发行具有很强的政府痕迹， 政府普遍都会为所属的城投企业进行最后的债务偿还，以维持良好的政府信用 （ 2020 年底国企债券违约事件后） 城投债的投资项目加清晰： 城投债的投资者，可以清晰地看到当地政府借钱到底投资了什么样的项目，在哪投，项目进度如何",
+    "tokenCount": 123,
+    "sourcePage": 45,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 45,
+    "content": "46 城投债 第七讲 · 债券定价 4. 为什么关注？ 城投债服务于城镇化：",
+    "tokenCount": 19,
+    "sourcePage": 46,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 46,
+    "content": "47 城投债 第七讲 · 债券定价 4. 为什么关注？ 城投债服务于城镇化：",
+    "tokenCount": 19,
+    "sourcePage": 47,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 47,
+    "content": "48 城投债 第七讲 · 债券定价 4. 为什么关注？ 城投债服务于城镇化： - 宽窄巷子与成都文化旅游发展集团 - 工业园区开发：苏州工业园区",
+    "tokenCount": 36,
+    "sourcePage": 48,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 48,
+    "content": "49 城投债 第七讲 · 债券定价 4. 为什么关注？ 城投债服务于城镇化： - 工业园区开发：苏州工业园区",
+    "tokenCount": 27,
+    "sourcePage": 49,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 49,
+    "content": "50 城投债 第七讲 · 债券定价 4. 为什么关注？ 政府隐性债务问题：",
+    "tokenCount": 19,
+    "sourcePage": 50,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 50,
+    "content": "51 城投债 第七讲 · 债券定价 4. 为什么关注？ 政府隐性债务问题：",
+    "tokenCount": 19,
+    "sourcePage": 51,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 51,
+    "content": "52 城投债 第四讲 · 债券定价 5. 城投债行研要素 政府相关风险： 地区经济财政实力、具体城投公司在该区域所处地位。如： 天津、湖南、内蒙、贵州等地城投平台陆续出现了一些信用风波，不难发现这几个省（市、区）正是政府债务余额 / 限额明显偏高的省份。",
+    "tokenCount": 64,
+    "sourcePage": 52,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 52,
+    "content": "53 城投债 第四讲 · 债券定价 5. 城投债行研要素 产业相关风险： 产业相关风险由产业类资产带来，这里面的产业类资产包括工业品 / 商品生产（如钢铁、煤炭、 有色金属 ）、路产交通、工业 / 商业用地等。 评估产业类资产的质量时，可采取与 产业国企 相同的方式进行分析。 如果发债主体“ 产业类资产占比高且质量差 ”的主体，则自身资质一般且不容易得到政府的支持 如： 云南国资、吉森工、津市政、天房等（类）城投陆续出现的风波，其平台所对应的均为省级政府，财政实力并不差，但平台产业类资产占比高且质量差，且不易获得政府支持。",
+    "tokenCount": 132,
+    "sourcePage": 53,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 53,
+    "content": "54 城投债 第四讲 · 债券定价 5. 城投债行研要素 其他风险： 如公司经营风险、政策监管风险等。 关注：城投平台转型风险 - 城投领域监管政策，长期以来都致力于推动城投剥离政府融资职能，向市场化方向转型。 - 如：合肥模式 , 合肥建投的产业投资可以分为直接股权投资、基金投资两个部分，对于京东方、晶合、蔚来等战略新兴产业龙头企业落地合肥起到了重要作用。 - 但 城投转型意味着从熟悉的基建投融资主业，向其他方向转型，在这个过程中也蕴含着相当高的投资失利等风险。",
+    "tokenCount": 117,
+    "sourcePage": 54,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch06-spreads-convertibles",
+    "chunkIndex": 54,
+    "content": "55 城投债 第四讲 · 债券定价 城投债行研要素 拓展阅读： - 城投债尽调框架和建模思路： https://zhuanlan.zhihu.com/p/79060191 - 光大固收：如何看城投债： http://bond.hexun.com/2018-07-27/193593239.html - 华泰固收：后转型时代的城投债投研框架 https://m.gelonghui.com/p/480134 - 兴业证券：看懂城投债 https://www.shangyexinzhi.com/article/4044792.html",
+    "tokenCount": 133,
+    "sourcePage": 55,
+    "sourceSection": "第六章：债券定价（三）：Z利差、OAS与可转换债券",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 学年春季学期 第四讲 债券定价（四） 固定收益证券 本科生专业方向课程",
+    "tokenCount": 22,
+    "sourcePage": 1,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 1,
+    "content": "第四讲 · 债券定价 MBS 和 ABS 估值 知识目标： 着重于对 MBS 及与房地产相关的 ABS 进行估价 了解 MBS 及 ABS 的估值思路及方法 了解基于蒙特卡罗模拟的利率路径估计 掌握收益利差，特别是 Z 利差及 OAS 利差在 MBS、 ABS 估值中的应用",
+    "tokenCount": 69,
+    "sourcePage": 2,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 2,
+    "content": "第四讲 · 债券定价 MBS 和 ABS 估值 思考： 与含嵌入式期权类非国债相比，资产证券化产品有何特征，可能导致其估值方法有何不同？",
+    "tokenCount": 34,
+    "sourcePage": 3,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 3,
+    "content": "第四讲 · 债券定价 MBS 和 ABS 估值 回顾： 常见含权非国债估值： - 可赎回、可回售、浮动利率债券、可转换债券 - 估值：基于假定的利率波动、利率模型构建二（多）叉树，使用逆向归纳法进行估值 [ - 逆向归纳法 (Backward induction)：某个节点处的价值等于未来一期现金流量以远期利率折现的现值 ]",
+    "tokenCount": 82,
+    "sourcePage": 4,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 4,
+    "content": "第四讲 · 债券定价 MBS 和 ABS 估值 回顾： 资产证券化产品： -MBS： 分层技术 / 结构化构造具有不同 提前偿付风险 的组别，并计算各个组别的现金流 -ABS： 通过结构化解决 ABS 过程中的 提前偿付风险",
+    "tokenCount": 56,
+    "sourcePage": 5,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 5,
+    "content": "第四讲 · 债券定价 MBS 和 ABS 估值 回答： 资产证券化产品估值方法： 由于提前偿还行为（可理解为一种特殊的早偿期权）的存在，通过模拟不同情况下可能的未来短期利率（远期利率）变化（即 利率路径 ），确定相应的 提前偿还情况，计算 对应现金流，得出估值。 - 例：建行首只 MBS 定价考 http://finance.sina.com.cn/bond/bondmarket/20050810/0640256986.shtml",
+    "tokenCount": 109,
+    "sourcePage": 6,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 6,
+    "content": "第四讲 · 债券定价 MBS 和 ABS 估值 回答： 资产证券化产品估值方法： - 例：建行首只 MBS 定价考 第二种利率路径下，由于第二三月市场利率下降，导致 提前偿还 增加。可通过借新的更低利率贷款进行再融资。 - 拓展阅读： 债券杂志 2014 年十佳文章评选 - 信贷资产证券化产品定价方法与实践 http://finance.sina.com.cn/money/bond/20150226/133121598150.shtml",
+    "tokenCount": 110,
+    "sourcePage": 7,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 7,
+    "content": "第四讲 · 债券定价 目录 MBS 估值：蒙特卡罗模型和期权调整利差 收益利差应用 ABS 估值",
+    "tokenCount": 24,
+    "sourcePage": 8,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 8,
+    "content": "第四讲 · 债券定价 目录 MBS 估值：蒙特卡罗模型和期权调整利差 收益利差应用 ABS 估值",
+    "tokenCount": 24,
+    "sourcePage": 9,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 9,
+    "content": "MBS 和 ABS 估值 MBS：利率路径依赖型 - 抵押转手债券：提前偿付是利率路径依赖型的 - CMO 债券：现金流量在两个方面具有路径依赖 1 ）担保品的提前偿付是利率路径依赖型的 2 ）一个组别债券收到的现金流量取决于其他组别的未偿付余额 (1 ) 模拟利率路径和现金流量 : - 基于利率模型和波动假设，可以产生一系列的利率路径 (2 ) 计算利率路径的现值 : - 第 n 条利率路径上 MBS 的现值为： (3 ) 确定理论价值 : - 理论价值为： 第四讲 · 债券定价",
+    "tokenCount": 122,
+    "sourcePage": 10,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 10,
+    "content": "MBS 和 ABS 估值 （ 1 ） 模拟利率路径和现金流量 第四讲（二）（三）中 二项式利率树形图需要 利率模型 和 利率波动假设，同样，基于利率模型和波动假设，可以产生一系列的利率路径。 - 利率模型 是对利率随时间变化的一个概率性描述（大多数经销商选用的利率模型都类似） - 利率波动假设 决定了模拟的未来利率的分散程度，一般很少使用单一的一种利率波动，而是使用短期 / 长期收益率波动或收益率波动期限结构（不同经销商对利率波动的假设存在较大差异） 第四讲 · 债券定价",
+    "tokenCount": 119,
+    "sourcePage": 11,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 11,
+    "content": "MBS 和 ABS 估值 （ 1 ） 模拟利率路径和现金流量 蒙特卡罗模拟根据利率模型和利率波动的假设，借助于计算机的运算，产生一系列 未来利率的模拟路径。 - 利率路径必须由 无套利模型 产生，即运用该利率路径使各个时期的平均零息国债理论价格等于今天的实际价格。 月利率、再融资利率和现金流量 - 月利率用来折现现金流量 - 再融资利率用来确定现金流量： 机构 抵押贷款支持证券，需要提前偿付模型 非机构 抵押贷款支持证券及 ABS，不仅需要提前偿付模型，还需要违约及回收率模型（信用风险） 第四讲 · 债券定价",
+    "tokenCount": 129,
+    "sourcePage": 12,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 12,
+    "content": "MBS 和 ABS 估值 （ 1 ） 模拟利率路径和现金流量 例： 考虑一个新发行的抵押转手债券，期限 360 个月， 表 12-1 列出了 N 重“已调整”的利率路径 （基于无套利原则得出），每个场景由 360 个假设的未来利率组成。 第四讲 · 债券定价",
+    "tokenCount": 65,
+    "sourcePage": 13,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 13,
+    "content": "MBS 和 ABS 估值 （ 1 ） 模拟利率路径和现金流量 例： 表 12-2 列出了表 12-1 中场景的模拟再融资利率路径，比如，对于一个 30 年的抵押贷款，建模者可以用 10 年期国债利率作为再融资利率的替代变量。 第四讲 · 债券定价",
+    "tokenCount": 62,
+    "sourcePage": 14,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 14,
+    "content": "MBS 和 ABS 估值 （ 1 ） 模拟利率路径和现金流量 例： 表 12-3 列出了每个利率路径的现金流量。 - 再融资利率是影响提前偿付最主要的因素 - 给定再融资利率与提前偿付模型，可以得到机构 MBS 对应每一利率路径上的现金流 - 给定提前偿付模型、违约及回收率模型，可以得到 ABS 及非机构 MBS 的现金流结构 第四讲 · 债券定价",
+    "tokenCount": 88,
+    "sourcePage": 15,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 15,
+    "content": "MBS 和 ABS 估值 （ 1 ） 模拟利率路径和现金流量 例： 表 12-3 列出了每个利率路径的现金流量。 ( 也就是我们练习中手算的人工智能版 ) 第四讲 · 债券定价",
+    "tokenCount": 44,
+    "sourcePage": 16,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 16,
+    "content": "MBS 和 ABS 估值 （ 2 ） 计算利率路径的现值：求出利率路径上的现金流后，可以计算 MBS 在各个路径上的现值 用以贴现现金流的 贴现率 为利率路径上每月的 模拟即期利率 与一个恰当的 利差 （拟求解的 OAS ）之和，路径上的 即期利率 可以由模拟的未来月利率确定，路径 n 上第 T 个月的模拟即期利率与模拟的未来 1 月期利率的关系为： 第四讲 · 债券定价",
+    "tokenCount": 94,
+    "sourcePage": 17,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 17,
+    "content": "MBS 和 ABS 估值 （ 2 ） 计算利率路径的现值：求出利率路径上的现金流后，可以计算 MBS 在各个路径上的现值 因此， 第 n 条利率路径上 MBS 的现值为： 第四讲 · 债券定价",
+    "tokenCount": 48,
+    "sourcePage": 18,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 18,
+    "content": "MBS 和 ABS 估值 （ 2 ） 计算利率路径的现值：求出利率路径上的现金流后，可以计算 MBS 在各个路径上的现值 因此， 第 n 条利率路径上 MBS 的现值为： 第四讲 · 债券定价",
+    "tokenCount": 48,
+    "sourcePage": 19,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 19,
+    "content": "MBS 和 ABS 估值 （ 3 ） 确定 MBS 的理论现值 抵押转手债券的理论价值可以通过所有利率路径上的理论价值的 平均值 得到： -N 是利率路径总数。利率路径总数决定了模型估计值的准确性，路径数目越多，平均利差就越趋稳定。 - 现实中，大多数模型通过缩减方差来减少必须的路径数量，即通过通过统计技术寻找 代表性路径 抵押转手债券的估价程序也适用于 CMO 债券组别，每个利率路径上每一个月的现金流量都是根据本金偿付和利息分配原则得到 第四讲 · 债券定价",
+    "tokenCount": 116,
+    "sourcePage": 20,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 20,
+    "content": "MBS 和 ABS 估值 补充资料： 《 金融新格局：资产证券化的突破与创新 》 第十一章资产证券化的现金流建模（含案例） https://weread.qq.com/web/reader/a903250059b331a90ad0cf2 第四讲 · 债券定价",
+    "tokenCount": 65,
+    "sourcePage": 21,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 21,
+    "content": "第四讲 · 债券定价 目录 MBS 估值：蒙特卡罗模型和期权调整利差 收益利差应用 ABS 估值",
+    "tokenCount": 24,
+    "sourcePage": 22,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 22,
+    "content": "MBS 和 ABS 估值 收益利差含义： - 名义利差 (Nominal spread)：目标债券 到期收益率 与基准付息国债到期收益率之间的差额 - Z 利差 / 无波动利差 (Zero-volatility spread)：通常以国债即期利率为基准， Z 利差是使 非国债 未来现金流量的现值等于其价格的折现率与国债即期收益率的差额。 用于度量（ 不含期权 ）无利率波动的风险债券利差。 - 期权调整利差 (Option adjusted spread, OAS)：通常以国债即期利率为基准， OAS 利差是 超过在对 含嵌入期权 债券定价中运用的基准利率的利差。 用于度量 含期权（有利率波动） 的风险债券利差。 第四讲 · 债券定价",
+    "tokenCount": 160,
+    "sourcePage": 23,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 23,
+    "content": "MBS 和 ABS 估值 收益利差在 MB S 和 ABS 估值中的应用： - 名义利差 (Nominal spread)：目标债券 到期收益率 与基准付息国债到期收益率之间的差额 - Z 利差 / 无波动利差 (Zero-volatility spread)：通常以国债即期利率为基准， Z 利差是使 非国债 未来现金流量的现值等于其价格的折现率与国债即期收益率的差额。 用于度量（ 不含期权 ）无利率波动的风险债券利差。 第四讲 · 债券定价",
+    "tokenCount": 112,
+    "sourcePage": 24,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 24,
+    "content": "MBS 和 ABS 估值 收益利差在 MB S 和 ABS 估值中的应用： - 期权调整利差 (Option adjusted spread, OAS)： 运用蒙特卡罗模拟技术，模拟大量的未来利率运动轨迹，根据模拟出的利率路径用提前还款模型预测借款人的提前还款，进而确定不同路径下 MBS 的现金流量，再用 模拟利率加上期权调整利差（ OAS ）的和来贴现未来现金流，得出的理论价值与 MBS 的市场价格相等时的利差就是期权调整利差。 第四讲 · 债券定价 OAS 是将所有利率路径上的现值加总平均后与观察到的市场价格（与应计利息之和）相等时的利差 K 第 n 条利率路径上 MBS 的现值： 市场价格：",
+    "tokenCount": 151,
+    "sourcePage": 25,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 25,
+    "content": "MBS 和 ABS 估值 收益利差在 MB S 和 ABS 估值中的应用： - 期权调整利差 (Option adjusted spread, OAS) 的经济含义： 对于 MBS， OAS 是一种“期权调整”，因为这种利率路径现金流量是根据债务人提前偿付期权调整过的。 如果用国债利率作为基准计算 OAS，那么 OAS 补偿的是： 第四讲 · 债券定价",
+    "tokenCount": 89,
+    "sourcePage": 26,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 26,
+    "content": "第四讲 · 债券定价 目录 MBS 估值：蒙特卡罗模型和期权调整利差 收益利差应用 ABS 估值",
+    "tokenCount": 24,
+    "sourcePage": 27,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 27,
+    "content": "MBS 和 ABS 估值 ABS 估值： 基于蒙特卡罗模拟的债券估值是极其复杂的，投资组合经理一般使用 第三方供应商的模型，而不是自建估值模型 并非所有的资产支持证券估值都要使用蒙特卡罗模型 一个 ABS 可能有如下特点： - ABS 不存在提前偿付期权（如信用卡应收款支持的债券） - ABS 存在提前偿付期权，但当再融资利率下降到贷款利率以下时，借款人不表现出提前偿付的倾向 - ABS 存在提前偿付期权，但当再融资利率下降到贷款利率以下时，借款人表现出提前偿付的倾向 Z- 利差方法 可用于特点 1 或特点 2 的 ABS 估值，此时 Z- 利差等于 OAS； OAS 方法 用于特点 3 的 ABS 估值 第四讲 · 债券定价",
+    "tokenCount": 159,
+    "sourcePage": 28,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 28,
+    "content": "MBS 和 ABS 估值 总结： 估值方法与不同债券的匹配 第四讲 · 债券定价",
+    "tokenCount": 20,
+    "sourcePage": 29,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch07-mbs-abs-pricing",
+    "chunkIndex": 29,
+    "content": "MBS 和 ABS 估值 思考题： 你对资产支持证券市场 的认识？ 第四讲 · 债券定价",
+    "tokenCount": 22,
+    "sourcePage": 30,
+    "sourceSection": "第七章：债券定价（四）：MBS与ABS估值",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 0,
+    "content": "李丽莎 2026 学年春季学期 第五讲 债券投资风险（一） 固定收益证券 本科生专业方向课程",
+    "tokenCount": 23,
+    "sourcePage": 1,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 1,
+    "content": "回顾 债券投资回报率的构成？ 第五讲 · 债券投资风险",
+    "tokenCount": 14,
+    "sourcePage": 2,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 2,
+    "content": "第五讲 · 债券投资风险 目录 债券投资风险概述 债券的信用风险概述 信用评级 信用风险衡量方法",
+    "tokenCount": 24,
+    "sourcePage": 3,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 3,
+    "content": "第五讲 · 债券投资风险 信用风险 知识目标： 熟悉债券投资中的各种风险概念及相关案例 熟悉债券投资中的信用风险 了解债券投资中信用评级信息的应用 了解债券投资中信用风险量化的方法及应用",
+    "tokenCount": 47,
+    "sourcePage": 4,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 4,
+    "content": "第五讲 · 债券投资风险 目录 债券投资风险概述 债券的信用风险概述 信用评级 信用风险衡量方法",
+    "tokenCount": 24,
+    "sourcePage": 5,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 5,
+    "content": "信用风险 债券投资的风险： 固定利率债券的回报受到许多因素的影响，对于分析师来说，深入了解固定收益的投资风险和回报特征非常重要。 利率风险 再投资风险 信用风险 流动性风险 其他风险 - 汇率风险 - 通货膨胀或购买力风险 - 事件风险 第五讲 · 债券投资风险",
+    "tokenCount": 66,
+    "sourcePage": 6,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 6,
+    "content": "信用风险 债券投资的风险： （ 1 ） 利率风险： 市场利率、收益率变化或利率波动变化对债券价格的影响 例： 2018 年 9 月 26 日， 2 年期美债和 5 年期美债收益率创下 10 年来新高，达到 2.829% （两年前 : 0.75% ）及 2.997%。然而，在周二 9 月 25 日的美债拍卖会上，它们的售卖情况却十分惨淡。为什么？ 第五讲 · 债券投资风险",
+    "tokenCount": 93,
+    "sourcePage": 7,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 7,
+    "content": "信用风险 债券投资的风险： （ 1 ） 利率风险： 市场利率、收益率变化或利率波动变化对债券价格的影响 例： 2018 年 9 月 26 日， 2 年期美债和 5 年期美债收益率创下 10 年来新高，达到 2.829% （两年前 : 0.75% ）及 2.997%。然而，在周二 9 月 25 日的美债拍卖会上，它们的售卖情况却十分惨淡。为什么？ 解答：美联储议息会议之前，尽管美债收益率不断攀升，美债交易者们都在等待美联储宣布最新利率决议。 拓展： 第五讲 · 债券投资风险",
+    "tokenCount": 119,
+    "sourcePage": 8,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 8,
+    "content": "信用风险 债券投资的风险： （ 1 ） 利率风险： 市场利率、收益率变化或利率波动变化对债券价格的影响 市场利率上升，债券价格下跌；市场利率下降，债券价格上升 投资者要求收益率上升，债券价格下跌；投资者要求收益率下降，债券价格上升 影响利率风险的债券特征：债券期限、票面利率、嵌入式期权、收益水平 第五讲 · 债券投资风险",
+    "tokenCount": 81,
+    "sourcePage": 9,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 9,
+    "content": "信用风险 债券投资的风险： - 收益率曲线风险： 当 市场利率发生变动时，通常不会对所有的期限都按相等的基点数移动。 债券组合 因收益率曲线移动的程度不同而具有不同的风险。 例 : 价值为 6500 万债券组合，价格等于面值。利率上升 25 个基点，债券组合的价值改变了多少 ? - 关键：判断投资组合中每种债券收益率变动了多少 第五讲 · 债券投资风险",
+    "tokenCount": 89,
+    "sourcePage": 10,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 10,
+    "content": "信用风险 债券投资的风险： - 收益率曲线风险： 例 : - 情况 1：收益率曲线平行移动 +25 个基点 （利率水平变动风险） 第五讲 · 债券投资风险",
+    "tokenCount": 39,
+    "sourcePage": 11,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 11,
+    "content": "信用风险 债券投资的风险： - 收益率曲线风险： 例 : - 情况 2：收益率曲线非平行移动 （利率曲线变动风险） 第五讲 · 债券投资风险",
+    "tokenCount": 35,
+    "sourcePage": 12,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 12,
+    "content": "信用风险 债券投资的风险： 利率波动性风险： 对于嵌入期权债券而言，债券价格受到嵌入期权价值影响。一旦利率波动性改变，将影响嵌入期权价格。 例：可赎回债券价格 = 不可赎回债券价格 - 嵌入式期权价格 预期利率波动性增大，期权价格上涨，债券价格下跌 第五讲 · 债券投资风险",
+    "tokenCount": 69,
+    "sourcePage": 13,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 13,
+    "content": "信用风险 债券投资的风险： （ 2 ） 再投资 风险： 从利息和本金支付（包括计划的款项支付、赎回收入和提前偿付的本金）中获得的可用于再投资的收入，不得不以低于原债券收益率进行再投资的风险 债券被赎回或本金提前偿还，一般发生在 市场利率下降 时，此时投资者不得不在一个利率更低的环境下，将被赎回债券所得的收入或提前收到的本金进行再投资 零息 债券不存在再投资风险，因此吸引了大量投资者 第五讲 · 债券投资风险",
+    "tokenCount": 103,
+    "sourcePage": 14,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 14,
+    "content": "信用风险 债券投资的风险： - 赎回和提前偿付风险： 从投资者角度看，接受赎回条款的三大劣势（ 赎回风险 ）： - 不知道被赎回的时间，可赎回债券的现金流无法确切估计 - 投资者面临再投资风险：发行人有可能在市场利率降到票面利率以下时赎回债券； - 价格压缩：相较可比的无期权债券，可赎回债券的增值潜力会被削减（利率下降时，可赎回债券价格上升幅度不如无期权） MBS 和 ABS 的债务人在计划的本金偿还日前提前偿付本金，也同样存在这些劣势，即面临 提前偿付风险 第五讲 · 债券投资风险",
+    "tokenCount": 122,
+    "sourcePage": 15,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 15,
+    "content": "信用风险 债券投资的风险： （ 3 ） 信用利差 风险： 回顾：风险溢价 - 企业类债券收益率中除无风险收益之外的部分，其中最重要部分就是信用利差，由此带来的溢价即信用利差。 第五讲 · 债券投资风险",
+    "tokenCount": 50,
+    "sourcePage": 16,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 16,
+    "content": "信用风险 债券投资的风险： （ 3 ） 信用利差 风险： - 信用风险：债券发行人在债券到期前无法履行还本付息义务的风险，也被称为违约风险。 第五讲 · 债券投资风险",
+    "tokenCount": 42,
+    "sourcePage": 17,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 17,
+    "content": "信用风险 债券投资的风险： （ 3 ） 信用利差 风险： - 信用风险：债券发行人在债券到期前无法履行还本付息义务的风险，也被称为违约风险。 违约风险： 债券发行人到期不能偿还债券本息的风险。即使没有真正发生违约，但只要存在 违约的可能，就是信用风险。 - 给定违约率和回收率，便可估计预期的违约损失 - 投资者通过观察违约评级或信用评级来判断债券的违约风险 降级风险： 因债券信用级别变化导致的债券价格变动风险 - 债券信用等级下降所引起的风险被称为降级风险，未预期到的信用降级会增大信用利差，导致债券价格下降 第五讲 · 债券投资风险",
+    "tokenCount": 135,
+    "sourcePage": 18,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 18,
+    "content": "信用风险 债券投资的风险： （ 3 ） 信用利差 风险： - 流动性 风险： 债券以等于或接近于债券价值的价格（或当前市场价格）出售的难易程度。 衡量流动性的主要指标是买入报价与卖出报价的差额，买入卖出价差越大，流动性风险越大 第五讲 · 债券投资风险",
+    "tokenCount": 63,
+    "sourcePage": 19,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 19,
+    "content": "信用风险 债券投资的风险： （ 3 ） 信用利差 风险： - 流动性 风险： 债券以等于或接近于债券价值的价格（或当前市场价格）出售的难易程度。 对于准备持有债券至到期日私人投资者而言，流动性风险无关紧要 机构投资者出于风险管理的需要，必须定期按照市场价格调整头寸，或简称盯市，即投资组合管理者必须定期确定投资组合中各种债券的市场价值。因此，流动性风险尤为重要 与股票相比，债券市场流动性相对差很多，大多数债券发行一段时间后就会慢慢变得没有流动性，甚至很长时间内没有交易 第五讲 · 债券投资风险",
+    "tokenCount": 124,
+    "sourcePage": 20,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 20,
+    "content": "信用风险 债券投资的风险： （ 3 ） 信用利差 风险： - 流动性 风险： 债券以等于或接近于债券价值的价格（或当前市场价格）出售的难易程度。 与股票相比，债券市场流动性相对差很多，大多数债券发行一段时间后就会慢慢变得没有流动性，甚至很长时间内没有交易 第五讲 · 债券投资风险",
+    "tokenCount": 70,
+    "sourcePage": 21,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 21,
+    "content": "信用风险 债券投资的风险： （ 3 ） 信用利差 风险： - 思考： 投资债券型基金的利与弊？ https://fund.10jqka.com.cn/datacenter/sy/kfs/zqx/ 1 ）与直接投资债券区别 2 ）适合投资者类型，与股票型基金收益相比较如何 3 ）收益排名较前债券型基金包含的债券产品种类 4 ）债券市场 / 债券基金发展趋势： https://finance.sina.com.cn/money/bond/market/2022-08-15/doc-imizirav8169765.shtml?r=0&tr=174 第五讲 · 债券投资风险",
+    "tokenCount": 143,
+    "sourcePage": 22,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 22,
+    "content": "信用风险 债券投资的风险： （ 4 ） 其他 风险： 汇率风险或货币风险：投资外国货币支付本息的债券，收到本息时只能兑付较少本国货币的风险 例：中国投资者购买日元债券，若日元相对于人民币贬值，则投资者所获得的日元换算成人民币时收入就会减少。 第五讲 · 债券投资风险",
+    "tokenCount": 67,
+    "sourcePage": 23,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 23,
+    "content": "信用风险 债券投资的风险： （ 4 ） 其他 风险： 通货膨胀风险 / 购买力风险：由于通货膨胀造成以购买力衡量的债券现金流价值变动的风险 例：投资者购买息票率未 7% 的债券，但通货膨胀率为 8%，则债券现金流的实际购买下降。浮动利率债券的通货膨胀风险水平较低。 第五讲 · 债券投资风险",
+    "tokenCount": 73,
+    "sourcePage": 24,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 24,
+    "content": "信用风险 债券投资的风险： （ 7 ） 其他 风险： 事件 风险：债券发行人支付本息的能力因某些事件（如自然灾害、公司合并或重组、政治风险等）发生变化的风险 第五讲 · 债券投资风险",
+    "tokenCount": 46,
+    "sourcePage": 25,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 25,
+    "content": "第五讲 · 债券投资风险 目录 债券投资风险概述 债券的信用风险概述 信用评级 信用风险衡量方法",
+    "tokenCount": 24,
+    "sourcePage": 26,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 26,
+    "content": "信用风险 信用 风险：来源于借款人（债券发行人）的违约可能性 （ 1 ）债券的信用风险包括： 违约风险： 债券发行人到期不能偿还债券本息的风险 - 给定违约率和回收率，便可估计预期的违约损失 降级风险： 因债券信用级别变化导致的债券价格变动风险 - 债券信用等级下降所引起的风险被称为降级风险，且与信用利差风险密切相关 信用利差风险：因信用利差增长导致债券价格下降的风险 - 非国债债券收益率 = 无违约风险债券收益率 + 信用利差 - 在国债利率不变前提下，信用利差增长（扩大），债券的市场价格下降 第五讲 · 债券投资风险",
+    "tokenCount": 132,
+    "sourcePage": 27,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 27,
+    "content": "信用风险 信用 风险：来源于借款人（债券发行人）的违约可能性 （ 2 ）信用风险衡量方法（重点：企业类债券的信用分析）： 信用评级 传统信用分析 信用评分模型 信用风险模型 第五讲 · 债券投资风险",
+    "tokenCount": 50,
+    "sourcePage": 28,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 28,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 第五讲 · 债券投资风险",
+    "tokenCount": 19,
+    "sourcePage": 29,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 29,
+    "content": "第五讲 · 债券投资风险 目录 债券投资风险概述 债券的信用风险概述 信用评级 信用风险衡量方法",
+    "tokenCount": 24,
+    "sourcePage": 30,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 30,
+    "content": "信用风险 （ 1 ） 信用评级： 是专业公司对投资某一特定债券所面临的违约风险给出的正式意见。 评级机构的定期研究提供了违约风险两个方面的信息 - 违约率： 期初被评定为一定等级的债券在期末违约的百分比 - 违约损失率： 违约发生时潜在的亏损程度 评级机构提供给投资者： - 评级：对违约的可能性、违约发生时损失大小的前瞻性评估 - 评级观察或信用观察： 在一个债券评级改变之前，评级机构将说明评级升级或降级的潜在变化方向。一般 3 个月内作出决定 - 评级展望： 指推测长期债券（从 6 个月到 2 年）是否有可能升级、降级，或维持其现有评级 穆迪公司的报告发现，衡量企业债券的违约风险时需结合评级观察和评级展望状态 第五讲 · 债券投资风险",
+    "tokenCount": 161,
+    "sourcePage": 31,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 31,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 5 ）房地产企业分析： 20 年违约案例 - 泰禾，首家违约 Top50 房企 第五讲 · 债券投资风险 泰禾 2018 年开始就面临非常严重的偿债和再融资问题， 2019 年通过大量项目资产包转让后得以喘息，但是 2020 年恰逢疫情、地产尤其是豪宅项目去化难度上升，最终还是走向了违约。",
+    "tokenCount": 91,
+    "sourcePage": 32,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 32,
+    "content": "信用风险 （ 2 ） 信用评级机构： 评级机构在信贷市场发挥重要作用，绝大多数已发行债券，至少需要两个机构提供评级 对于投资者而言，信用评级可以直接和容易地比较所有债券发行人的相对信用风险 国外评级机构发展 初始阶段（ 1840——1920 ）： 1 800——1850 年，美国正处于工业化带来的经济迅速发展时期，盛行发行国债、州债、和铁路债券。随着融资活动的增加，投资主体由以个体投资者为主发展至以投资银行为主，投资机构需要各类债券信息帮助进行投资决策。 -1860 年普尔出版公司成立 -1909 年，穆迪公司出版了一本各家铁路公司债券的刊物供投资者参考，开创性地利用简单的评级符号来分辨 250 家公司发行的 90 种债券 - 1913 年惠誉公司成立 第五讲 · 债券投资风险",
+    "tokenCount": 172,
+    "sourcePage": 33,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 33,
+    "content": "信用风险 （ 2 ） 信用评级机构： 国外评级机构发展 发展阶段（ 1921——1970 ）： 经济大萧条过后，投资者逐步将注意力由实物资产担保转向企业本身经营状况及财务状况，而评级机构对于债券的评级基本反映出债券偿债能力的真实情况，此外， 1933 美国颁布证券法，禁止证券承销商对有价证券评级。 -1922 年，标准统计公司成立 -1941 年，标准统计公司与普尔出版公司合并为标准普尔 S&P's 第五讲 · 债券投资风险",
+    "tokenCount": 107,
+    "sourcePage": 34,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 34,
+    "content": "信用风险 （ 2 ） 信用评级机构： 国外评级机构发展 普及阶段（ 1971—— 至今）： 70 年代末期，美国通货膨胀加剧，利率上涨，企业筹资重点有债券转向短期商业票据，评级业务大增，且评级等级也更为细分。同时，评级品种也有所增加，除对各类债券、基金、商业票据外，还对企业、金融机构、国家主权进行评级。 -1972 年，加拿大债券评级公司（ CBRS ）成立 -1975 年，日本债券评级公司（ JBRI ）成立 -1976 年，加拿大权威信用评级公司（ DBRS ）成立 第五讲 · 债券投资风险",
+    "tokenCount": 125,
+    "sourcePage": 35,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 35,
+    "content": "信用风险 （ 2 ） 信用评级机构： 国外评级机构发展 全球三大信用评级机构的分析比较： https://pdf.dfcfw.com/pdf/H3_AP202110181523536522_1.pdf?1634590881000.pdf - 三家评级机构各有侧重：标普侧重于企业评级方面，穆迪侧重于机构融资方面，而惠誉则更侧重于金融机构的评级 - 信用等级划分标准和信用评级方法的差异 第五讲 · 债券投资风险",
+    "tokenCount": 103,
+    "sourcePage": 36,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 36,
+    "content": "信用风险 （ 2 ） 信用评级机构： 我国 评级机构发展 我国信用评级行业的产生源于 1987 年，中国人民银行为了规范企业债券的发行开始牵头组建信用评级机构。 2005 年以后随着债券市场的发展，信用评级行业也开始加速发展。 https://www.sohu.com/a/166561862_777813 -2023 年第一季度债券市场信用评级机构业务运行及合规情况： https://www.nafmii.org.cn/zlgl/pjytb/pjyw/tb/202305/P020230529614702787909.pdf 一季度， 14 家评级机构共承揽债券产品 2395 只，同比增加 27.46%，环比微增 1.14%；分机构看，联合资信和中诚信国际的业务量占比分别为 30.10% 和 28.14%，东方金诚、中证鹏元占比分别为 15.37% 和 11.48%，其余评级机构业务量占比均不足 10%。此外，评级机构共承揽非金融企业类主体评级 968 家，金融企业等其他类主体评级 106 家，环比分别减少 4.25% 和 43.32%。 第五讲 · 债券投资风险",
+    "tokenCount": 244,
+    "sourcePage": 37,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 37,
+    "content": "信用风险 （ 2 ） 信用评级机构： 依靠信用评级的风险 - 信用评级随时间而变化，债券投资人不应假设发行人信用评级无变化 - 信用评级往往滞后于市场的信用风险定价 - 评级机构可能会犯错，如给予次级抵押支持贷款证券错误高评级 - 信用评级中有些风险很难捕捉，如 2011 年 3 月日本发生地震海啸，对东京电力公司债券产生信用影响 - 信用评级缺乏监管、信息披露不透明、利益冲突导致的评级失当，次贷危机中的信用评级机构 第五讲 · 债券投资风险",
+    "tokenCount": 112,
+    "sourcePage": 38,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 38,
+    "content": "第五讲 · 债券投资风险 目录 债券投资风险概述 债券的信用风险概述 信用评级 信用风险衡量方法",
+    "tokenCount": 24,
+    "sourcePage": 39,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 39,
+    "content": "信用风险 （ 1 ） 传统信用分析（定性）： 传统信用分析的重点是了解公司在债务期限内产生现金流量的能力。分析师主要考虑 4C： 能力 (capacity)：发行人偿还债务的能力 - 行业分析：行业结构、行业基础 - 公司基本面：竞争地位、运营历史、管理策略和执行能力、比率和比率分析（盈利能力和现金流、杠杆、偿还）等 - 发行人流动性：净运营资金、经营现金流量等、承诺的银行信贷额度等 - 穆迪分析师评估要素 : 第五讲 · 债券投资风险",
+    "tokenCount": 110,
+    "sourcePage": 40,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 40,
+    "content": "信用风险 （ 1 ） 传统信用分析： 传统信用分析的重点是了解公司在债务期限内产生现金流量的能力。分析师主要考虑 4C： 担保品 (collateral) : 既包括传统意义上担保债务的抵押，也包括由发行人控制的未抵押资产的质量和价值 条款 (covenants)： 用于处理对借款人行为的限制和约束。 如 嵌入式期权条款、偿债保障条款等 品格 (character)： 涉及质量管理的分析，重点是公司治理和董事会的作用 - 难以量化，但却是支持发行人信用实力的最重要因素之一。当意外发生时，做出恰当回应，维持公司绩效，就是管理层的能力 第五讲 · 债券投资风险",
+    "tokenCount": 141,
+    "sourcePage": 41,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 41,
+    "content": "信用风险 （ 1 ） 传统信用分析： 试结合中诚信评级方法，分析房地产公司信用债违约原因？ http://finance.sina.com.cn/zl/china/2020-09-15/zl-iivhuipp4446137.shtml https://www.ccxi.com.cn/creditrating/document/documentDetail/1738 https://www.ccxi.com.cn/coreditResearch/detail/10629?type=1 第五讲 · 债券投资风险",
+    "tokenCount": 128,
+    "sourcePage": 42,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 42,
+    "content": "信用风险 （ 1 ） 传统信用分析： 试结合中诚信评级方法，分析房地产公司信用债违约原因？ 新希望公司： https://www.ccxi.com.cn/creditrating/result/InitialRating/detail/273075 第五讲 · 债券投资风险",
+    "tokenCount": 69,
+    "sourcePage": 43,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 43,
+    "content": "信用风险 （ 1 ） 传统信用分析： 拓展： 企业信用风险评级 -python 应用 https://www.bilibili.com/video/BV1eV411v7Xm?from=search&seid=12382110056712331162&spm_id_from=333.337.0.0 https://match.creditscoring.cn/#/index 中诚信评级方法总论： http://eid.csrc.gov.cn/mnt/storage/other/ftp_data_trans/sac/2020-08-03/SAC_F0302_20200803_01_Z/2020-08-03/businessCon/93e9dd2c9365c5c9f0054d8f4564ab4e25cc0c61.pdf 第五讲 · 债券投资风险",
+    "tokenCount": 187,
+    "sourcePage": 44,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 44,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 5 ）房地产企业分析： 20 年违约案例 - 泰禾，首家违约 Top50 房企 第五讲 · 债券投资风险 泰禾 2018 年开始就面临非常严重的偿债和再融资问题， 2019 年通过大量项目资产包转让后得以喘息，但是 2020 年恰逢疫情、地产尤其是豪宅项目去化难度上升，最终还是走向了违约。",
+    "tokenCount": 91,
+    "sourcePage": 45,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 45,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 5 ）房地产企业分析： 20 年违约案例 - 泰禾，首家违约 Top50 房企 第五讲 · 债券投资风险",
+    "tokenCount": 44,
+    "sourcePage": 46,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 46,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 5 ）房地产企业分析： 20 年违约案例 - 泰禾，首家违约 Top50 房企 第五讲 · 债券投资风险",
+    "tokenCount": 44,
+    "sourcePage": 47,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 47,
+    "content": "信用风险 （ 2 ） 信用评分模型（定量分析）： 多项鉴别分析（ MDA ）允许对一大批特征进行模拟分析，会考察多项财务比例、财务指标和定性因素对评级总的联合影响 Altman 最先提出借助多项鉴别分析（ MDA ），以公司的财务指标比率来预测公司破产 Altman 的 Z 值模型：是多变量财务公式，用以对公司在 2 年内破产的可能性进行诊断与预测，研究表明该公式的预测准确率高达 72% -80% 该 模型的具体形式如下： 第五讲 · 债券投资风险",
+    "tokenCount": 113,
+    "sourcePage": 48,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 48,
+    "content": "信用风险 （ 2 ） 信用评分模型： Altman 的 Z 值模型：是多变量财务公式，用以对公司在 2 年内破产的可能性进行诊断与预测，研究表明该公式的预测准确率高达 72% -80% 该 模型的具体形式如下： 第五讲 · 债券投资风险 Z 值越小，公司发生财务危机的可能行就越大。 Z>3.0，企业违约信用不大； 2.7<Z<3.0，企业信用处于警戒状态； 1.8<Z<2.7，企业存在一定违约可能； Z<1.8，企业违约可能性大",
+    "tokenCount": 108,
+    "sourcePage": 49,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 49,
+    "content": "信用风险 （ 2 ） 信用评分模型： ZETA 模型（ ZETA Credit Risk Model ）： Z 值模型后的第二代信用评分模型，变量由原始模型的五个增加到了 7 个，适应范围更宽，对不良借款人的辨认精度也大大提高。 第五讲 · 债券投资风险 ZETA 模型比 Z 值模型更加准确、有效，特别是在破产前预测的时间越长、预测的准确性相对越高",
+    "tokenCount": 88,
+    "sourcePage": 50,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 50,
+    "content": "信用风险 （ 2 ） 信用评分模型： ZETA 模型（ ZETA Credit Risk Model ）和 Z 值模型缺陷： - 依赖于财务报表的帐面数据，而忽视日益重要的各项资本市场指标 - 缺乏对违约和违约风险的系统认识，理论基础比较薄弱 - 假设在解释变量中存在着线性关系，而现实的经济现象是非线性的 - 无法计量企业的表外信用风险，另外对某些特定行业的企业不适用 第五讲 · 债券投资风险",
+    "tokenCount": 99,
+    "sourcePage": 51,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 51,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 盯市的投资组合理论模型（ Market-to-market portfolio-theoretic models ），比如 JP Morgan 的 Credit Metrics 和 KMV 公司提出的以 Merton 模型为基础的信用风险模型 - 这类模型是在允许信用度下降（只要没完全违约）的情况下，估计资产组合价值在未来的分布，从而计算投资组合风险价值度 ( VaR ) 违约模式模型 (Default-mode models)，如 CSFP 的 Credit Risk+ 模型和 Mc Kinsey 的 Credit Portfolio View 投资组合方法。 - 用来估计在给定期限内资产组合的违约风险概率分布 第五讲 · 债券投资风险",
+    "tokenCount": 180,
+    "sourcePage": 52,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 52,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 例 : JP Morgan 的 Credit Metrics 模型： 需要 利用的数据 ; - 借款人当前的信用评级数据 - 信用等级在一年内可能改变的概率 - 违约贷款的残值回收率 - 债券的（到期）收益率 第五讲 · 债券投资风险",
+    "tokenCount": 77,
+    "sourcePage": 53,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 53,
+    "content": "信用风险 （ 3 ） 信用风险模型： 例 : JP Morgan 的 Credit Metrics 模型 步骤 1：构建信用转移矩阵 - 结论： A ～ CCC 债券有违约的可能 第五讲 · 债券投资风险",
+    "tokenCount": 51,
+    "sourcePage": 54,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 54,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 例 : JP Morgan 的 Credit Metrics 模型： 步骤 2：估计违约回收率 - 由于 A ～ CCC 债券有违约的可能，故需要考虑违约时的回收率。企业破产清算顺序直接关系回收率的大小 第五讲 · 债券投资风险",
+    "tokenCount": 75,
+    "sourcePage": 55,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 55,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 例 : JP Morgan 的 Credit Metrics 模型： 步骤 3：债券估值 - 由于债券信用级别上升（下降）到新的级别，因此，需要估计每个级别下的市值。估计市值采取的方法是贴现法。利用市场数据得到，不同级别债券的利率期限结构： 第五讲 · 债券投资风险",
+    "tokenCount": 85,
+    "sourcePage": 56,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 56,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 例 : JP Morgan 的 Credit Metrics 模型： 步骤 3：债券估值 - 假设优先无担保 BBB 级债券的面值 100 元，票面利率为 6 ％ - 若第 1 年末，该债券信用等级由 BBB 升至 A 级，则债券在第 1 年末的市值可以根据上表得到： 第五讲 · 债券投资风险",
+    "tokenCount": 92,
+    "sourcePage": 57,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 57,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 例 : JP Morgan 的 Credit Metrics 模型： 步骤 4：计算信用风险 -BBB 债券的价值分布，例如若 转移 到 AAA，则价值为 109.37，概率为 0.02 第五讲 · 债券投资风险",
+    "tokenCount": 71,
+    "sourcePage": 58,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 58,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 例 : JP Morgan 的 Credit Metrics 模型： 步骤 4：计算信用风险 -BBB 债券的价值分布，例如若 转移 到 AAA，则价值为 109.37，概率为 0.02 - 由债券价值的分布，容易得到其价值的均值和方差： 第五讲 · 债券投资风险 - 由债券市值的概率分布可知：市值大于 83.64 美元的概率为 99.7 ％",
+    "tokenCount": 104,
+    "sourcePage": 59,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 59,
+    "content": "信用风险 （ 3 ） 信用风险模型： 现代信用风险模型可分为以下两类： 例 : JP Morgan 的 Credit Metrics 模型： 步骤 4：计算信用风险 - 由于该债券的均值为 107.90 美元，根据相对 VaR 的定义： VaR ＝ 107.09-83.64=23.45 ( 美元 ) - 说明：我们可以以 99.7 ％的概率确信，该债券在 1 年内的损失不超过 23.45 美元 第五讲 · 债券投资风险",
+    "tokenCount": 106,
+    "sourcePage": 60,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 60,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ https://www.bilibili.com/video/BV1ng411j7RJ?from=search&seid=5247509201253541920&spm_id_from=333.337.0.0 房地产债市场为例： 1 ）房地产市场发展历史 - 1949 年到 1979：公有住房时代 - 1980 年到 1996 年：商品房拓荒时代 1980 年，邓小平首次提出设想，将房子定义为商品 1987 年，深圳首次土拍 1988 年，宪法规定土地使用权可转让；海南淘金“万通六人” 1991 年， 24 省份房改 第五讲 · 债券投资风险",
+    "tokenCount": 150,
+    "sourcePage": 61,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 61,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 1 ）房地产市场发展历史 - 1949 年到 1979：公有住房时代 - 1980 年到 1996 年：商品房拓荒时代 - 1997 年到 2007 年：黄金时代 1997 年，亚洲金融危机，影响房地产行业 1998 年，停止福利分房，货币化分房开启，个人消费成为主体，大量私营公司参与房地产开发 第五讲 · 债券投资风险",
+    "tokenCount": 99,
+    "sourcePage": 62,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 62,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 1 ）房地产市场发展历史 - 1949 年到 1979：公有住房时代 - 1980 年到 1996 年：商品房拓荒时代 - 1997 年到 2007 年：黄金时代 2000 年，新发展期；温州炒房团 2001 年，申奥、加入 WTO 推高房价 2002 年，土地实行“招拍挂 ” 第五讲 · 债券投资风险",
+    "tokenCount": 94,
+    "sourcePage": 63,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 63,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 1 ）房地产市场发展历史 - 1949 年到 1979：公有住房时代 - 1980 年到 1996 年：商品房拓荒时代 - 1997 年到 2007 年：黄金时代 2003 年，房地产过热，央行首次提高二套房首付、利率上浮；非典爆发，住建部发布“国八条”，房价继续上涨 2007 年，政策收紧，次贷危机，房市冰冻；央行调整政策，第二次去库存 第五讲 · 债券投资风险",
+    "tokenCount": 110,
+    "sourcePage": 64,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 64,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 1 ）房地产市场发展历史 - 2008 年到 2017 年： 后黄金时代 09 年，房价回升 10 年，史上最严调控 12 年，央行降息，房价回升 16-17 年，加强调控 第五讲 · 债券投资风险",
+    "tokenCount": 68,
+    "sourcePage": 65,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 65,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 1 ）房地产市场发展历史 - 1949 年到 1979：公有住房时代 - 1980 年到 1996 年：商品房拓荒时代 - 1997 年到 2007 年：黄金时代 - 2008 年到 2017 年： 后黄金时代 - 2018 年至今： 两极分化 房住不炒，加强调控 第五讲 · 债券投资风险",
+    "tokenCount": 91,
+    "sourcePage": 66,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 66,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 2 ）房地产债券： 第五讲 · 债券投资风险",
+    "tokenCount": 29,
+    "sourcePage": 67,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 67,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 2 ）房地产债券： 第五讲 · 债券投资风险",
+    "tokenCount": 29,
+    "sourcePage": 68,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 68,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 2 ）房地产债券： 第五讲 · 债券投资风险",
+    "tokenCount": 29,
+    "sourcePage": 69,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 69,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 3 ）房地产企业信用分析特征： 第五讲 · 债券投资风险",
+    "tokenCount": 32,
+    "sourcePage": 70,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 70,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 3 ）房地产企业信用分析特征： 第五讲 · 债券投资风险",
+    "tokenCount": 32,
+    "sourcePage": 71,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 71,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 3 ）房地产企业信用分析特征：行业展望 第五讲 · 债券投资风险",
+    "tokenCount": 34,
+    "sourcePage": 72,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 72,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 3 ）房地产企业信用分析特征：行业展望 第五讲 · 债券投资风险",
+    "tokenCount": 34,
+    "sourcePage": 73,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 73,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 4 ）房地产企业信用分析特征：疫情之后 第五讲 · 债券投资风险",
+    "tokenCount": 34,
+    "sourcePage": 74,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 74,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 5 ）房地产企业分析：恒大 第五讲 · 债券投资风险",
+    "tokenCount": 31,
+    "sourcePage": 75,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  },
+  {
+    "materialId": "gdsyzq-ch08-bond-investment-risk",
+    "chunkIndex": 75,
+    "content": "信用风险 思考题： 近年我国信用债违约及风险防范？ 房地产债市场为例： 拓展： 1. 中诚信 2021 年度中国债券市场评级质量表现年报： https://www.ccxi.com.cn/coreditResearch/detail/8582?type=1 2. 中诚信 2023 年下半年债市信用风险回顾与下阶段展望： https://www.ccxi.com.cn/coreditResearch/detail/10696?type=1 3. 万亿增发国债： https://www.ccxi.com.cn/coreditResearch/detail/10726?type=1 4. 万德终端债券实务之信用债市场透视与分析： https://www.bilibili.com/video/BV1Ra411P78H/?spm_id_from=333.337.search-card.all.click 第五讲 · 债券投资风险",
+    "tokenCount": 208,
+    "sourcePage": 76,
+    "sourceSection": "第八章：债券投资风险（一）：信用风险与风险衡量",
+    "contentType": "slide_text"
+  }
+]

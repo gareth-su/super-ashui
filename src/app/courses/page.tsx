@@ -29,6 +29,15 @@ const courses: CourseCard[] = [
     alt: "固定收益证券课程配图",
     imagePosition: "right",
   },
+  {
+    id: "jrjlx",
+    title: "金融计量学",
+    description:
+      "围绕 Stata、回归表、数据集结构与实证复现路径，帮助你建立金融计量学的考试复习和实证操作框架。",
+    cover: "/course-covers/jrjlx-cover.png",
+    alt: "金融计量学课程配图",
+    imagePosition: "left",
+  },
 ];
 
 export default function CoursesPage() {

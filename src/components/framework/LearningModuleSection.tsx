@@ -44,10 +44,22 @@ function getResourceSummary(blocks: unknown[]) {
   const exampleCount = blocks.filter((block) => getBlockType(block) === "example_box").length;
   const chartTypes = new Set(["payoff_chart", "line_chart", "curve_chart", "chart_explanation", "cashflow_diagram", "decision_tree", "timeline", "process_flow"]);
   const chartCount = blocks.filter((block) => chartTypes.has(getBlockType(block))).length;
+  const codeTypes = new Set(["stata_code_block", "stata_output_block"]);
+  const codeCount = blocks.filter((block) => codeTypes.has(getBlockType(block))).length;
+  const regressionCount = blocks.filter((block) => getBlockType(block) === "regression_table").length;
+  const datasetCount = blocks.filter((block) => getBlockType(block) === "dataset_schema").length;
+  const reproductionCount = blocks.filter((block) => getBlockType(block) === "reproduction_steps").length;
+  const taskTypes = new Set(["exam_task", "interpretation_checklist", "common_stata_error"]);
+  const taskCount = blocks.filter((block) => taskTypes.has(getBlockType(block))).length;
   return [
     formulaCount > 0 ? `公式 ${formulaCount}` : "",
     exampleCount > 0 ? `例题 ${exampleCount}` : "",
     chartCount > 0 ? `图表 ${chartCount}` : "",
+    codeCount > 0 ? `代码 ${codeCount}` : "",
+    regressionCount > 0 ? `回归表 ${regressionCount}` : "",
+    datasetCount > 0 ? `数据集 ${datasetCount}` : "",
+    reproductionCount > 0 ? `复现 ${reproductionCount}` : "",
+    taskCount > 0 ? `任务 ${taskCount}` : "",
   ].filter(Boolean);
 }
 

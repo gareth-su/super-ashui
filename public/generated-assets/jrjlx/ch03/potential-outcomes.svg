@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#fbfaf7"/>
+  <text x="60" y="70" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">潜在结果：同一个人有两个可能世界</text>
+  <text x="60" y="110" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5b6472">教学示意图：根据讲义内容重绘。核心困难是同一个个体不能同时被处理和未处理。</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif">
+    <circle cx="600" cy="210" r="62" fill="#ffffff" stroke="#c9d2e3" stroke-width="3"/>
+    <text x="565" y="220" font-size="26" font-weight="700" fill="#172033">个体 i</text>
+    <path d="M545 255 C440 320 350 360 250 430" fill="none" stroke="#7194d9" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <path d="M655 255 C760 320 850 360 950 430" fill="none" stroke="#8e71d9" stroke-width="4" marker-end="url(#arrowPurple)"/>
+    <rect x="115" y="430" width="330" height="135" rx="16" fill="#eef3ff" stroke="#7194d9" stroke-width="2"/>
+    <text x="165" y="480" font-size="24" font-weight="700" fill="#172033">未处理潜在结果 Y(0)</text>
+    <text x="157" y="520" font-size="18" fill="#5b6472">如果这个人没有接受处理</text>
+    <rect x="755" y="430" width="330" height="135" rx="16" fill="#f1ecff" stroke="#8e71d9" stroke-width="2"/>
+    <text x="805" y="480" font-size="24" font-weight="700" fill="#172033">处理潜在结果 Y(1)</text>
+    <text x="797" y="520" font-size="18" fill="#5b6472">如果这个人接受了处理</text>
+    <rect x="430" y="590" width="340" height="44" rx="22" fill="#172033"/>
+    <text x="463" y="619" font-size="19" fill="#ffffff">个体因果效应 = Y(1) - Y(0)</text>
+    <text x="420" y="340" font-size="20" fill="#be5a36">现实中只能观察其中一个</text>
+  </g>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7194d9"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#8e71d9"/>
+    </marker>
+  </defs>
+</svg>

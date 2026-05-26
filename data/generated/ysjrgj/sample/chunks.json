@@ -1,0 +1,102 @@
+[
+  {
+    "id": "derivatives-ch02-p01-p03",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 0,
+    "content": "页1-3：本章标题为“第二章：期货市场的运作机制”。期货合约适用于多种类别的资产，在交易所进行交易。合约需要规定交割资产种类、交割地点和交割时间，并采用每日结算。图2-1说明随着交割日期临近，期货价格与即期价格会趋于接近；图中展示了期货价格高于或低于即期价格时都可能向即期价格收敛。",
+    "tokenCount": 131,
+    "sourcePage": 1,
+    "sourceSection": "期货合约与价格收敛",
+    "contentType": "concept"
+  },
+  {
+    "id": "derivatives-ch02-p04-p08",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 1,
+    "content": "页4-8：保证金是投资者通过经纪人缴存的现金或可交易证券。保证金账户余额根据每日结算情况调整，目的是把合约违约导致损失的可能性降到最小。黄金期货例子中，投资者6月5日持有两份12月份到期的黄金期货多头合约，合约规模为100盎司黄金，期货价格为1250美元/盎司，初始保证金为每份6000美元，维持保证金为每份4500美元。表2-1展示两份黄金期货多头合约的保证金运作过程：每日按结算价格计算日收益或亏损、累计收益或亏损和保证金余额；当余额低于维持保证金时出现催付保证金。页7-8用现金流图展示价格上涨时资金从空头方经经纪人和结算中心流向多头方，价格下跌时资金从多头方经经纪人和结算中心流向空头方。",
+    "tokenCount": 273,
+    "sourcePage": 4,
+    "sourceSection": "保证金、每日结算与现金流",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "derivatives-ch02-p09-p11",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 2,
+    "content": "页9-11：术语包括未平仓数量、结算价格和成交数。未平仓数量是未平仓合约的总数，等于多头头寸或空头头寸的数目。结算价格是交易日结束之前最后成交的期货合约价格，用于计算每天合约的盈亏以及保证金数量。成交数是一天交易的合约总数。期货合约要点包括每日结算、期货头寸的平仓涉及一个相反交易、绝大多数合约在到期之前会被平仓。表2-2展示2016年5月3日一些CME集团商品期货合约的报价，字段包括开盘价、最高价、最低价、前一天闭盘价、最后交易日、变化量和成交量。",
+    "tokenCount": 211,
+    "sourcePage": 9,
+    "sourceSection": "术语、期货合约要点与报价字段",
+    "contentType": "concept"
+  },
+  {
+    "id": "derivatives-ch02-p12-p13",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 3,
+    "content": "页12-13：如果合约在到期之前没有被平仓，通常做法是进行标的资产交割。当交割产品级别、交割地点和交割时间有多重选择时，空头方可以选择合适的交割方式。一些期货合约如股指期货、欧洲美元期货使用现金进行结算。行业案例2-1说明，若误将客户多头头寸重复进入为多头合约，会造成交割义务识别错误；期货合约规定交割时，空头方向交易所提供交割意向通知书，交易所再向多头方发出交割通知。",
+    "tokenCount": 187,
+    "sourcePage": 12,
+    "sourceSection": "交割、现金结算与交割错误案例",
+    "contentType": "case"
+  },
+  {
+    "id": "derivatives-ch02-p14-p16",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 4,
+    "content": "页14-16：场外交易越来越普遍使用抵押制度。公司A和B交易前可签署带信用支持附件CSA的ISDA主协议；CSA要求公司A向公司B提供抵押品，抵押品价值等于公司B未平仓交易在价值为正时的价值；如果A违约，B有权处置抵押物。场外抵押交易不是每日结算，利息用现金类抵押物支付。LTCM案例说明，在市场出现“逃向高质量资产”时，流动性好产品与流动性差产品价差急剧扩大，高杠杆和抵押品需求会迫使交易平仓。页16比较传统场外市场双边结算与中央清算：金融危机后，各国要求标准化场外衍生品交易通过中央结算机制进行结算，图2-2展示由双边网络转为以CCP为中心的结构。",
+    "tokenCount": 260,
+    "sourcePage": 14,
+    "sourceSection": "场外抵押制度、LTCM与中央清算",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "derivatives-ch02-p17",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 5,
+    "content": "页17：页面提出两个用于区分概念边界的检查点：新完成交易对未平仓数量的影响，以及一天交易数量是否可能大于未平仓数量。本样板不将其改写成题库，只把它作为区分“未平仓数量”和“成交数”的复习提醒。",
+    "tokenCount": 91,
+    "sourcePage": 17,
+    "sourceSection": "未平仓数量与成交数的概念边界",
+    "contentType": "concept_check"
+  },
+  {
+    "id": "derivatives-ch02-p18",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 6,
+    "content": "页18：交易指令类型包括限价指令、止损指令、限价止损指令、触及市价指令、自行裁定指令、限时指令、开放指令和立即成交指令。这一页只列出类型，未展开各指令的定义。",
+    "tokenCount": 74,
+    "sourcePage": 18,
+    "sourceSection": "交易指令类型",
+    "contentType": "list"
+  },
+  {
+    "id": "derivatives-ch02-p19",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 7,
+    "content": "页19：制度部分说明，当前美国期货市场由联邦政府级机构商品期货交易委员会CFTC负责监管；监管机构试图保护公众利益并防范可疑交易发生。我国期货行业监管体系依据《期货交易管理条例》《期货公司监督管理办法》，由中国证监会、中国证监会地方派出机构、中国期货业协会、期货交易所和中国期货市场监控中心共同参与，形成“五位一体”的监管体系。",
+    "tokenCount": 151,
+    "sourcePage": 19,
+    "sourceSection": "监管制度",
+    "contentType": "system"
+  },
+  {
+    "id": "derivatives-ch02-p20",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 8,
+    "content": "页20：表2-3比较远期合约与期货合约。远期合约是交易双方间的私下合约、非标准化、通常只有单一交割日、在合约到期时结算、通常会发生实物或现金交割、有信用风险。期货合约是交易所内的标准合约、标准化、有一系列交割日、每日结算、合约通常在到期前被平仓、几乎没有信用风险。",
+    "tokenCount": 132,
+    "sourcePage": 20,
+    "sourceSection": "远期与期货合约比较",
+    "contentType": "comparison"
+  },
+  {
+    "id": "derivatives-ch02-p21",
+    "materialId": "derivatives-ch02-futures-market-mechanism",
+    "chunkIndex": 9,
+    "content": "页21：外汇报价部分说明，外汇上的远期和期货交易都十分活跃，但有时两个市场上的汇率报价有区别。期货中有美元时，期货报价总是以一种外币单位所对应的美元或美分数量为单位。远期报价永远同即期市场报价一样：对英镑、欧元、澳元和新西兰元，远期报价为每单位外币的美元数量；其他货币如加元和日元，远期报价为一美元兑换的外币数量。",
+    "tokenCount": 156,
+    "sourcePage": 21,
+    "sourceSection": "外汇远期与期货报价",
+    "contentType": "quote_convention"
+  }
+]

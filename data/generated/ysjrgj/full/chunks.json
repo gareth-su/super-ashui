@@ -1,0 +1,432 @@
+[
+  {
+    "id": "ysjrgj-ch01-introduction-p01-p07",
+    "materialId": "ysjrgj-ch01-introduction",
+    "chunkIndex": 0,
+    "content": "衍生产品定义、重要性、交易场所与用途。导言先说明衍生产品价值依赖标的变量，再区分交易所市场和场外市场，最后用对冲、投机、套利、改变负债性质等用途建立课程入口。",
+    "tokenCount": 40,
+    "sourcePage": 1,
+    "sourceSection": "p01-p07",
+    "contentType": "overview"
+  },
+  {
+    "id": "ysjrgj-ch01-introduction-p08-p14",
+    "materialId": "ysjrgj-ch01-introduction",
+    "chunkIndex": 1,
+    "content": "远期价格、远期术语、远期合约收益图、期货合约以及国内外期货交易所。内容强调远期的约定价格、交割日、多头空头收益方向，以及期货合约的标准化和保证金风险控制。",
+    "tokenCount": 39,
+    "sourcePage": 8,
+    "sourceSection": "p08-p14",
+    "contentType": "concept"
+  },
+  {
+    "id": "ysjrgj-ch01-introduction-p15-p21",
+    "materialId": "ysjrgj-ch01-introduction",
+    "chunkIndex": 2,
+    "content": "黄金和石油套利例子、期权基本术语、看涨看跌实例与到期收益图。核心是用无套利约束解释远期价格，并用执行价格、到期日、欧式美式等术语引入期权。",
+    "tokenCount": 35,
+    "sourcePage": 15,
+    "sourceSection": "p15-p21",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch01-introduction-p22-p28",
+    "materialId": "ysjrgj-ch01-introduction",
+    "chunkIndex": 3,
+    "content": "期权与期货远期的比较、中国期权市场发展、交易员类型与对冲、投机、套利实例。重点区分义务型合约与权利型合约，以及不同交易者承担或转移风险的目的。",
+    "tokenCount": 36,
+    "sourcePage": 22,
+    "sourceSection": "p22-p28",
+    "contentType": "comparison"
+  },
+  {
+    "id": "ysjrgj-ch01-introduction-p29-p33",
+    "materialId": "ysjrgj-ch01-introduction",
+    "chunkIndex": 4,
+    "content": "对冲基金、复杂交易策略、交易危害和应对措施。材料强调衍生产品能转移风险也可能放大风险，因此金融机构需要控制目的、风险额度和执行纪律。",
+    "tokenCount": 33,
+    "sourcePage": 29,
+    "sourceSection": "p29-p33",
+    "contentType": "risk"
+  },
+  {
+    "id": "ysjrgj-ch02-futures-market-mechanism-p01-p05",
+    "materialId": "ysjrgj-ch02-futures-market-mechanism",
+    "chunkIndex": 0,
+    "content": "期货合约条款、交易所标准化、期货价格向即期价格收敛，以及远期和期货的主要制度差异。",
+    "tokenCount": 21,
+    "sourcePage": 1,
+    "sourceSection": "p01-p05",
+    "contentType": "concept"
+  },
+  {
+    "id": "ysjrgj-ch02-futures-market-mechanism-p06-p11",
+    "materialId": "ysjrgj-ch02-futures-market-mechanism",
+    "chunkIndex": 1,
+    "content": "保证金账户、初始保证金、维持保证金、每日结算和追加保证金机制。核心是把市场价格变化转化为每日现金流。",
+    "tokenCount": 25,
+    "sourcePage": 6,
+    "sourceSection": "p06-p11",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "ysjrgj-ch02-futures-market-mechanism-p12-p16",
+    "materialId": "ysjrgj-ch02-futures-market-mechanism",
+    "chunkIndex": 2,
+    "content": "平仓、交割、结算价格和交易所清算职能。内容说明多数期货头寸通过反向交易退出，少数进入实物或现金交割。",
+    "tokenCount": 25,
+    "sourcePage": 12,
+    "sourceSection": "p12-p16",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "ysjrgj-ch02-futures-market-mechanism-p17-p21",
+    "materialId": "ysjrgj-ch02-futures-market-mechanism",
+    "chunkIndex": 3,
+    "content": "场外市场抵押制度、中央清算、交易对手风险和保证金制度扩展。重点是比较双边抵押与中央清算在风险控制上的差别。",
+    "tokenCount": 27,
+    "sourcePage": 17,
+    "sourceSection": "p17-p21",
+    "contentType": "comparison"
+  },
+  {
+    "id": "ysjrgj-ch03-futures-hedging-strategies-p01-p05",
+    "materialId": "ysjrgj-ch03-futures-hedging-strategies",
+    "chunkIndex": 0,
+    "content": "多头对冲、空头对冲、拥护与反对对冲的观点，以及基差风险。内容说明期货对冲能锁定价格但不能完全消除所有风险。",
+    "tokenCount": 27,
+    "sourcePage": 1,
+    "sourceSection": "p01-p05",
+    "contentType": "overview"
+  },
+  {
+    "id": "ysjrgj-ch03-futures-hedging-strategies-p06-p10",
+    "materialId": "ysjrgj-ch03-futures-hedging-strategies",
+    "chunkIndex": 1,
+    "content": "多头对冲、空头对冲、交叉对冲与合约选择。重点是基差在建仓和平仓时的变化决定实际锁定效果。",
+    "tokenCount": 22,
+    "sourcePage": 6,
+    "sourceSection": "p06-p10",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "ysjrgj-ch03-futures-hedging-strategies-p11-p16",
+    "materialId": "ysjrgj-ch03-futures-hedging-strategies",
+    "chunkIndex": 2,
+    "content": "对冲比率、最小方差对冲比率、最优合约数量和尾随对冲调整。核心公式把现货和期货价格变化的相关性转化为合约数量。",
+    "tokenCount": 27,
+    "sourcePage": 11,
+    "sourceSection": "p11-p16",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch03-futures-hedging-strategies-p17-p26",
+    "materialId": "ysjrgj-ch03-futures-hedging-strategies",
+    "chunkIndex": 3,
+    "content": "股票指数期货、股指期货对冲、CAPM、组合贝塔以及改变组合贝塔值。重点是用股指期货把组合系统性风险调到目标水平。",
+    "tokenCount": 28,
+    "sourcePage": 17,
+    "sourceSection": "p17-p26",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch03-futures-hedging-strategies-p27-p30",
+    "materialId": "ysjrgj-ch03-futures-hedging-strategies",
+    "chunkIndex": 4,
+    "content": "对冲期权组合、向前滚动对冲和流动性问题。内容强调期限不匹配、保证金压力和损益未实现会影响对冲执行。",
+    "tokenCount": 25,
+    "sourcePage": 27,
+    "sourceSection": "p27-p30",
+    "contentType": "risk"
+  },
+  {
+    "id": "ysjrgj-ch04-interest-rates-p01-p07",
+    "materialId": "ysjrgj-ch04-interest-rates",
+    "chunkIndex": 0,
+    "content": "利率定义、信用风险、基点、国债利率、LIBOR、隔夜拆借、回购利率、互换利率和无风险利率代理。",
+    "tokenCount": 24,
+    "sourcePage": 1,
+    "sourceSection": "p01-p07",
+    "contentType": "concept"
+  },
+  {
+    "id": "ysjrgj-ch04-interest-rates-p08-p13",
+    "materialId": "ysjrgj-ch04-interest-rates",
+    "chunkIndex": 1,
+    "content": "利率度量、复利频率、连续复利、利率转换和零息利率。材料给出离散复利与连续复利之间的等价转换。",
+    "tokenCount": 23,
+    "sourcePage": 8,
+    "sourceSection": "p08-p13",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch04-interest-rates-p14-p20",
+    "materialId": "ysjrgj-ch04-interest-rates",
+    "chunkIndex": 2,
+    "content": "债券定价、债券收益率、平价收益率和零息利率剥离法。重点是用不同期限现金流的贴现关系推出零息利率曲线。",
+    "tokenCount": 25,
+    "sourcePage": 14,
+    "sourceSection": "p14-p20",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch04-interest-rates-p21-p30",
+    "materialId": "ysjrgj-ch04-interest-rates",
+    "chunkIndex": 3,
+    "content": "远期利率、瞬时远期利率、收益曲线赌博、FRA定义、FRA现金流和FRA价值。核心是把未来一段利率锁定为可定价现金流。",
+    "tokenCount": 29,
+    "sourcePage": 21,
+    "sourceSection": "p21-p30",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "ysjrgj-ch04-interest-rates-p31-p40",
+    "materialId": "ysjrgj-ch04-interest-rates",
+    "chunkIndex": 4,
+    "content": "久期、修正久期、债券组合、凸性、利率期限结构理论、净利息收入管理和流动性。重点是利率变化对债券价值和金融机构资产负债的影响。",
+    "tokenCount": 31,
+    "sourcePage": 31,
+    "sourceSection": "p31-p40",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch05-forward-futures-pricing-p01-p10",
+    "materialId": "ysjrgj-ch05-forward-futures-pricing",
+    "chunkIndex": 0,
+    "content": "知识准备、投资资产与消费资产、卖空、连续复利、持有成本理论、无套利均衡定价和符号假设。",
+    "tokenCount": 22,
+    "sourcePage": 1,
+    "sourceSection": "p01-p10",
+    "contentType": "overview"
+  },
+  {
+    "id": "ysjrgj-ch05-forward-futures-pricing-p11-p19",
+    "materialId": "ysjrgj-ch05-forward-futures-pricing",
+    "chunkIndex": 1,
+    "content": "投资资产远期价格：无中间收入、已知现金收入和已知收益率三类。核心是根据收入形态修正现货持有成本。",
+    "tokenCount": 24,
+    "sourcePage": 11,
+    "sourceSection": "p11-p19",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch05-forward-futures-pricing-p20-p32",
+    "materialId": "ysjrgj-ch05-forward-futures-pricing",
+    "chunkIndex": 2,
+    "content": "远期合约价值、远期价格与期货价格关系，以及期货价格与预期未来即期价格之间的风险溢价关系。",
+    "tokenCount": 22,
+    "sourcePage": 20,
+    "sourceSection": "p20-p32",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch05-forward-futures-pricing-p33-p42",
+    "materialId": "ysjrgj-ch05-forward-futures-pricing",
+    "chunkIndex": 3,
+    "content": "股指期货、指数套利、货币远期和外汇期货。内容将收益率和外币无风险利率纳入持有成本模型。",
+    "tokenCount": 22,
+    "sourcePage": 33,
+    "sourceSection": "p33-p42",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch05-forward-futures-pricing-p43-p54",
+    "materialId": "ysjrgj-ch05-forward-futures-pricing",
+    "chunkIndex": 4,
+    "content": "商品期货、存储成本、消费商品、便利收益率、持有成本和交割选择。重点是投资资产可定价，消费商品通常只能给出价格区间。",
+    "tokenCount": 29,
+    "sourcePage": 43,
+    "sourceSection": "p43-p54",
+    "contentType": "concept"
+  },
+  {
+    "id": "ysjrgj-ch07-swaps-p01-p07",
+    "materialId": "ysjrgj-ch07-swaps",
+    "chunkIndex": 0,
+    "content": "互换简介、标准利率互换、现金流表和净额结算。材料用固定利息换浮动利息说明互换现金流。",
+    "tokenCount": 21,
+    "sourcePage": 1,
+    "sourceSection": "p01-p07",
+    "contentType": "overview"
+  },
+  {
+    "id": "ysjrgj-ch07-swaps-p08-p15",
+    "materialId": "ysjrgj-ch07-swaps",
+    "chunkIndex": 1,
+    "content": "利率互换的作用、改变负债和资产性质、交易方式、做市商、天数计算惯例和确认书。重点是互换如何把固定利率与浮动利率敞口互相转换。",
+    "tokenCount": 31,
+    "sourcePage": 8,
+    "sourceSection": "p08-p15",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "ysjrgj-ch07-swaps-p16-p20",
+    "materialId": "ysjrgj-ch07-swaps",
+    "chunkIndex": 2,
+    "content": "相对优势观点及其批评。内容说明相对优势能解释一部分互换动机，但信用风险、期限和融资市场差异也会影响结果。",
+    "tokenCount": 26,
+    "sourcePage": 16,
+    "sourceSection": "p16-p20",
+    "contentType": "comparison"
+  },
+  {
+    "id": "ysjrgj-ch07-swaps-p21-p26",
+    "materialId": "ysjrgj-ch07-swaps",
+    "chunkIndex": 3,
+    "content": "利率互换定价、利用债券价格定价、利用远期利率定价和互换价值随时间变化。核心是把互换拆为债券组合或一组FRA。",
+    "tokenCount": 27,
+    "sourcePage": 21,
+    "sourceSection": "p21-p26",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch07-swaps-p27-p36",
+    "materialId": "ysjrgj-ch07-swaps",
+    "chunkIndex": 4,
+    "content": "固定利息货币互换、货币互换改变负债和资产特征、相对优势例子以及通过远期合约和债券价格定价。",
+    "tokenCount": 23,
+    "sourcePage": 27,
+    "sourceSection": "p27-p36",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch07-swaps-p37-p41",
+    "materialId": "ysjrgj-ch07-swaps",
+    "chunkIndex": 5,
+    "content": "信用风险、信用违约互换、其他类型互换。内容包括变额本金、递减、递增、延期、CMS、CMT、股票、商品、波动率等形式。",
+    "tokenCount": 29,
+    "sourcePage": 37,
+    "sourceSection": "p37-p41",
+    "contentType": "risk"
+  },
+  {
+    "id": "ysjrgj-ch10-options-market-mechanism-p01-p06",
+    "materialId": "ysjrgj-ch10-options-market-mechanism",
+    "chunkIndex": 0,
+    "content": "期权类型、期权头寸、标的资产类别和基本到期收益。材料区分看涨、看跌、美式、欧式以及不同标的资产的期权。",
+    "tokenCount": 26,
+    "sourcePage": 1,
+    "sourceSection": "p01-p06",
+    "contentType": "concept"
+  },
+  {
+    "id": "ysjrgj-ch10-options-market-mechanism-p07-p12",
+    "materialId": "ysjrgj-ch10-options-market-mechanism",
+    "chunkIndex": 1,
+    "content": "股票期权细节、到期日、执行价格、期权类别、期权系列、实值平值虚值、内含价值、时间价值、股票分割、头寸和行使限额。",
+    "tokenCount": 28,
+    "sourcePage": 7,
+    "sourceSection": "p07-p12",
+    "contentType": "concept"
+  },
+  {
+    "id": "ysjrgj-ch10-options-market-mechanism-p13-p17",
+    "materialId": "ysjrgj-ch10-options-market-mechanism",
+    "chunkIndex": 2,
+    "content": "佣金、保证金、承约裸露期权和期权结算公司。重点是期权交易中的费用、担保和清算机制。",
+    "tokenCount": 21,
+    "sourcePage": 13,
+    "sourceSection": "p13-p17",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "ysjrgj-ch10-options-market-mechanism-p18-p20",
+    "materialId": "ysjrgj-ch10-options-market-mechanism",
+    "chunkIndex": 3,
+    "content": "税收、认股权证、雇员股票期权、可转换债券和中国期权市场发展。内容说明交易所期权以外的期权型工具。",
+    "tokenCount": 24,
+    "sourcePage": 18,
+    "sourceSection": "p18-p20",
+    "contentType": "extension"
+  },
+  {
+    "id": "ysjrgj-ch11-stock-option-properties-p01-p05",
+    "materialId": "ysjrgj-ch11-stock-option-properties",
+    "chunkIndex": 0,
+    "content": "影响股票期权价格的因素、假设与记号。材料列出股价、执行价格、期限、波动率、无风险利率和股息。",
+    "tokenCount": 23,
+    "sourcePage": 1,
+    "sourceSection": "p01-p05",
+    "contentType": "overview"
+  },
+  {
+    "id": "ysjrgj-ch11-stock-option-properties-p06-p10",
+    "materialId": "ysjrgj-ch11-stock-option-properties",
+    "chunkIndex": 1,
+    "content": "期权价格上下限和无股息股票欧式看涨、看跌期权的下限。核心是用无套利组合推导价格边界。",
+    "tokenCount": 21,
+    "sourcePage": 6,
+    "sourceSection": "p06-p10",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch11-stock-option-properties-p11-p15",
+    "materialId": "ysjrgj-ch11-stock-option-properties",
+    "chunkIndex": 2,
+    "content": "看跌看涨期权平价公式、公司资本结构解释和美式期权关系。重点是用组合复制说明看涨与看跌之间的定价联系。",
+    "tokenCount": 25,
+    "sourcePage": 11,
+    "sourceSection": "p11-p15",
+    "contentType": "formula"
+  },
+  {
+    "id": "ysjrgj-ch11-stock-option-properties-p16-p20",
+    "materialId": "ysjrgj-ch11-stock-option-properties",
+    "chunkIndex": 3,
+    "content": "无股息股票看涨与看跌期权的上下界图示。内容说明看涨期权不会提前行使，而看跌期权可能提前行使。",
+    "tokenCount": 23,
+    "sourcePage": 16,
+    "sourceSection": "p16-p20",
+    "contentType": "mechanism"
+  },
+  {
+    "id": "ysjrgj-ch11-stock-option-properties-p21-p24",
+    "materialId": "ysjrgj-ch11-stock-option-properties",
+    "chunkIndex": 4,
+    "content": "股息对期权的影响、提前行使期权和含股息情形下的平价公式。重点是股息会降低看涨价值并提高看跌价值。",
+    "tokenCount": 24,
+    "sourcePage": 21,
+    "sourceSection": "p21-p24",
+    "contentType": "extension"
+  },
+  {
+    "id": "ysjrgj-ch12-option-trading-strategies-p01-p05",
+    "materialId": "ysjrgj-ch12-option-trading-strategies",
+    "chunkIndex": 0,
+    "content": "保本债券、单一期权与股票组合、保护性看跌和备兑看涨。材料用组合收益解释期权策略的构造逻辑。",
+    "tokenCount": 23,
+    "sourcePage": 1,
+    "sourceSection": "p01-p05",
+    "contentType": "overview"
+  },
+  {
+    "id": "ysjrgj-ch12-option-trading-strategies-p06-p11",
+    "materialId": "ysjrgj-ch12-option-trading-strategies",
+    "chunkIndex": 1,
+    "content": "牛市差价、熊市差价和盒式差价。重点是用不同执行价格的同类期权构造有限收益和有限损失。",
+    "tokenCount": 21,
+    "sourcePage": 6,
+    "sourceSection": "p06-p11",
+    "contentType": "strategy"
+  },
+  {
+    "id": "ysjrgj-ch12-option-trading-strategies-p12-p17",
+    "materialId": "ysjrgj-ch12-option-trading-strategies",
+    "chunkIndex": 2,
+    "content": "蝶式差价和日历差价。材料说明蝶式适合预期波动较小，日历差价适合利用期限差异。",
+    "tokenCount": 19,
+    "sourcePage": 12,
+    "sourceSection": "p12-p17",
+    "contentType": "strategy"
+  },
+  {
+    "id": "ysjrgj-ch12-option-trading-strategies-p18-p23",
+    "materialId": "ysjrgj-ch12-option-trading-strategies",
+    "chunkIndex": 3,
+    "content": "跨式组合、序列组合、带式组合、异价跨式组合及尖峰收益构造。重点是用期权组合表达对波动幅度和方向概率的判断。",
+    "tokenCount": 27,
+    "sourcePage": 18,
+    "sourceSection": "p18-p23",
+    "contentType": "strategy"
+  }
+]

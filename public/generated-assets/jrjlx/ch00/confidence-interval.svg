@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect width="1200" height="680" fill="#f8fafc"/>
+<rect x="40" y="36" width="1120" height="608" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<text x="72" y="92" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#172033">置信区间：点估计周围的一段范围</text>
+<text x="72" y="132" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#526070">点估计告诉你中心位置，标准误告诉你不确定性有多大。</text>
+<rect x="90" y="172" width="300" height="120" rx="14" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+<text x="112" y="210" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">点估计</text>
+<text x="112" y="244" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">b2 = 0.1283</text>
+<text x="112" y="272" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">一条样本给出的系数</text>
+<rect x="450" y="172" width="300" height="120" rx="14" fill="#f0fdf4" stroke="#34d399" stroke-width="2"/>
+<text x="472" y="210" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">标准误</text>
+<text x="472" y="244" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">se = 0.0305</text>
+<text x="472" y="272" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">估计不确定性</text>
+<rect x="810" y="172" width="300" height="120" rx="14" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+<text x="832" y="210" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#172033">95% 近似区间</text>
+<text x="832" y="244" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">b2 ± 2se</text>
+<text x="832" y="272" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#334155">(0.0673, 0.1893)</text>
+
+        <line x1="240" y1="450" x2="960" y2="450" stroke="#1e293b" stroke-width="4"/>
+        <line x1="420" y1="430" x2="420" y2="470" stroke="#ef4444" stroke-width="5"/>
+        <line x1="780" y1="430" x2="780" y2="470" stroke="#ef4444" stroke-width="5"/>
+        <circle cx="600" cy="450" r="14" fill="#2563eb"/>
+        <text x="392" y="410" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#ef4444">0.0673</text>
+        <text x="560" y="410" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#2563eb">0.1283</text>
+        <text x="752" y="410" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#ef4444">0.1893</text>
+        
+<text x="72" y="620" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#64748b">教学示意图：根据第 0 讲讲义与 Stata 入门材料重绘，不是原始软件输出截图。</text>
+</svg>

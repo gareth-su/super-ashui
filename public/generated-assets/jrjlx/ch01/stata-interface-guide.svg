@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+  <defs>
+    <style>
+      .bg{fill:#f4f6f8}.frame{fill:#ffffff;stroke:#cfd6df;stroke-width:3}.panel{fill:#fbfcfd;stroke:#b9c4d0;stroke-width:2}.head{fill:#e8edf3;stroke:#b9c4d0;stroke-width:2}.teal{fill:#0f766e}.blue{fill:#1d4ed8}.amber{fill:#b45309}.label{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;font-size:34px;font-weight:700;fill:#111827}.small{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;font-size:25px;fill:#374151}.tiny{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;font-size:21px;fill:#4b5563}.mono{font-family:Consolas,'Courier New',monospace;font-size:22px;fill:#1f2937}.tag{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;font-size:22px;font-weight:700;fill:white}.num{font-family:Arial,sans-serif;font-size:22px;font-weight:800;fill:white}.line{stroke:#0f766e;stroke-width:4;fill:none;marker-end:url(#arrow)}.blueLine{stroke:#1d4ed8;stroke-width:4;fill:none;marker-end:url(#arrowBlue)}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/></marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1d4ed8"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="1050"/>
+  <text x="70" y="70" class="label">Stata 复现实验界面示意图</text>
+  <text x="70" y="112" class="small">先找入口，再跑命令：写命令、运行 do 文件、看 Results、对照 log 和回归表</text>
+
+  <rect x="530" y="118" width="330" height="58" rx="14" fill="#1d4ed8"/>
+  <text x="560" y="155" class="tag">2 打开 do 文件，分段运行</text>
+  <rect x="940" y="118" width="330" height="58" rx="14" fill="#0f766e"/>
+  <text x="970" y="155" class="tag">3 查看数据，不随意编辑</text>
+
+  <rect x="60" y="185" width="1480" height="805" rx="22" class="frame"/>
+  <rect x="60" y="185" width="1480" height="58" rx="22" fill="#dbe4ee"/>
+  <text x="95" y="222" class="tiny">File   Edit   Data   Graphics   Statistics   User   Window   Help</text>
+  <rect x="585" y="199" width="190" height="34" rx="8" fill="#1d4ed8"/>
+  <text x="607" y="223" class="tag">Do-file Editor</text>
+  <rect x="795" y="199" width="160" height="34" rx="8" fill="#0f766e"/>
+  <text x="821" y="223" class="tag">Data Editor</text>
+  <path d="M695,176 C700,186 695,194 680,199" class="blueLine"/>
+  <path d="M1105,176 C1125,212 1220,220 1330,250" class="line"/>
+
+  <rect x="85" y="265" width="305" height="510" rx="10" class="panel"/>
+  <rect x="85" y="265" width="305" height="48" rx="10" class="head"/>
+  <text x="112" y="299" class="label" font-size="30">Review</text>
+  <text x="112" y="348" class="tiny">历史命令：用来追踪输出来源</text>
+  <text x="112" y="389" class="mono">use fatality, clear</text>
+  <text x="112" y="425" class="mono">describe</text>
+  <text x="112" y="461" class="mono">xtset state year</text>
+  <text x="112" y="497" class="mono">xtreg ..., fe</text>
+  <text x="112" y="533" class="mono">hausman fe_est re_est</text>
+  <circle cx="354" cy="293" r="16" class="teal"/><text x="347" y="301" class="num">5</text>
+
+  <rect x="415" y="265" width="730" height="510" rx="10" class="panel"/>
+  <rect x="415" y="265" width="730" height="48" rx="10" class="head"/>
+  <text x="445" y="299" class="label" font-size="30">Results</text>
+  <text x="445" y="348" class="tiny">看回归输出、系数、标准误、p 值、R-sq、groups、rho</text>
+  <text x="445" y="395" class="mono">. xtreg vfrall beertax, fe vce(cluster state)</text>
+  <text x="445" y="439" class="mono">Fixed-effects (within) regression</text>
+  <text x="445" y="473" class="mono">Number of obs = 336    Number of groups = 48</text>
+  <text x="445" y="527" class="mono">vfrall     Coef.     Std. Err.      t      P&gt;|t|</text>
+  <rect x="440" y="547" width="655" height="46" rx="8" fill="#eefcf8" stroke="#0f766e" stroke-width="2"/>
+  <text x="455" y="578" class="mono">beertax  -.6558736   .2918556   -2.25    0.029</text>
+  <text x="445" y="641" class="mono">rho = .93408484   (variance due to u_i)</text>
+  <circle cx="1110" cy="293" r="16" class="teal"/><text x="1103" y="301" class="num">4</text>
+
+  <rect x="1170" y="265" width="345" height="250" rx="10" class="panel"/>
+  <rect x="1170" y="265" width="345" height="48" rx="10" class="head"/>
+  <text x="1195" y="299" class="label" font-size="30">Variables</text>
+  <text x="1195" y="349" class="tiny">核对变量名和大小写</text>
+  <text x="1195" y="388" class="mono">state</text><text x="1340" y="388" class="mono">year</text>
+  <text x="1195" y="424" class="mono">vfrall</text><text x="1340" y="424" class="mono">beertax</text>
+  <text x="1195" y="460" class="mono">WAGE</text><text x="1340" y="460" class="mono">SCHOOL</text>
+  <circle cx="1483" cy="293" r="16" class="teal"/><text x="1476" y="301" class="num">6</text>
+
+  <rect x="1170" y="540" width="345" height="235" rx="10" class="panel"/>
+  <rect x="1170" y="540" width="345" height="48" rx="10" class="head"/>
+  <text x="1195" y="574" class="label" font-size="30">Properties</text>
+  <text x="1195" y="623" class="tiny">查看变量标签、类型、格式</text>
+  <text x="1195" y="668" class="tiny">选中变量后确认含义</text>
+  <text x="1195" y="710" class="tiny">避免把变量名看错</text>
+  <circle cx="1483" cy="568" r="16" class="teal"/><text x="1476" y="576" class="num">7</text>
+
+  <rect x="85" y="805" width="1430" height="125" rx="10" class="panel"/>
+  <rect x="85" y="805" width="1430" height="48" rx="10" class="head"/>
+  <text x="112" y="839" class="label" font-size="30">Command</text>
+  <text x="112" y="891" class="mono">. use fatality, clear    . xtset state year    . log using ch01-practice.log, replace</text>
+  <circle cx="1483" cy="833" r="16" class="teal"/><text x="1476" y="841" class="num">1</text>
+
+  <rect x="95" y="945" width="1400" height="32" rx="16" fill="#e8f5f3"/>
+  <text x="120" y="967" class="tiny">学习顺序：输入命令或分段运行 do 文件 → Results 看输出 → Review 追命令 → Variables/Properties 核对变量 → 回归表中填 coef、Std. Err.、p 值</text>
+</svg>

@@ -30,6 +30,16 @@ export const generatedCourses: GeneratedCourse[] = [
     defaultVariant: "full",
     defaultLevel: "detailed",
   },
+  {
+    id: "jrjlx",
+    title: "金融计量学",
+    shortTitle: "金融计量学",
+    description: "面向期末复习的金融计量学课程知识框架。",
+    category: "金融学",
+    generatedPath: "data/generated/jrjlx",
+    defaultVariant: "full",
+    defaultLevel: "detailed",
+  },
 ];
 
 export function getGeneratedCourseById(courseId: string): GeneratedCourse | undefined {

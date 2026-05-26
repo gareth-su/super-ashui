@@ -361,6 +361,100 @@ function getBlockText(block: unknown): string {
         }
       }
       break;
+    case "stata_code_block":
+      push(b.description);
+      push(b.code);
+      push(b.sourceFile);
+      if (Array.isArray(b.commands)) for (const command of b.commands) push(command);
+      if (Array.isArray(b.notes)) for (const note of b.notes) push(note);
+      break;
+    case "stata_output_block":
+      push(b.command);
+      push(b.output);
+      push(b.sourceFile);
+      if (Array.isArray(b.highlights)) {
+        for (const h of b.highlights) {
+          if (typeof h === "object" && h) { push((h as Record<string, unknown>).label); push((h as Record<string, unknown>).value); push((h as Record<string, unknown>).meaning); }
+        }
+      }
+      if (Array.isArray(b.warnings)) for (const warning of b.warnings) push(warning);
+      break;
+    case "regression_table":
+      push(b.description);
+      push(b.dependentVariable);
+      push(b.sourceFile);
+      if (Array.isArray(b.models)) {
+        for (const model of b.models) {
+          if (typeof model === "object" && model) {
+            const m = model as Record<string, unknown>;
+            push(m.name);
+            push(m.estimator);
+            push(m.clusteredBy);
+            if (Array.isArray(m.fixedEffects)) for (const fe of m.fixedEffects) push(fe);
+            if (Array.isArray(m.rows)) {
+              for (const row of m.rows) {
+                if (typeof row === "object" && row) {
+                  const r = row as Record<string, unknown>;
+                  push(r.variable); push(r.coef); push(r.stdErr); push(r.t); push(r.p); push(r.note);
+                }
+              }
+            }
+          }
+        }
+      }
+      if (Array.isArray(b.notes)) for (const note of b.notes) push(note);
+      break;
+    case "dataset_schema":
+      push(b.datasetName);
+      push(b.description);
+      push(b.panelId);
+      push(b.timeId);
+      if (Array.isArray(b.variables)) {
+        for (const variable of b.variables) {
+          if (typeof variable === "object" && variable) {
+            const v = variable as Record<string, unknown>;
+            push(v.name); push(v.label); push(v.type); push(v.role); push(v.generatedFrom);
+          }
+        }
+      }
+      if (Array.isArray(b.notes)) for (const note of b.notes) push(note);
+      break;
+    case "reproduction_steps":
+      push(b.goal);
+      push(b.finalCheck);
+      if (Array.isArray(b.sourceFiles)) for (const file of b.sourceFiles) push(file);
+      if (Array.isArray(b.steps)) {
+        for (const step of b.steps) {
+          if (typeof step === "object" && step) {
+            const s = step as Record<string, unknown>;
+            push(s.label); push(s.command); push(s.expectedOutput); push(s.check); push(s.explanation);
+          }
+        }
+      }
+      break;
+    case "exam_task":
+      push(b.prompt);
+      if (Array.isArray(b.requirements)) for (const item of b.requirements) push(item);
+      if (Array.isArray(b.answerPath)) for (const item of b.answerPath) push(item);
+      if (Array.isArray(b.scoringPoints)) for (const item of b.scoringPoints) push(item);
+      if (Array.isArray(b.commonMistakes)) for (const item of b.commonMistakes) push(item);
+      break;
+    case "interpretation_checklist":
+      if (Array.isArray(b.items)) {
+        for (const item of b.items) {
+          if (typeof item === "object" && item) {
+            const checklistItem = item as Record<string, unknown>;
+            push(checklistItem.label); push(checklistItem.question); push(checklistItem.expected); push(checklistItem.warning);
+          }
+        }
+      }
+      break;
+    case "common_stata_error":
+      push(b.message);
+      push(b.cause);
+      push(b.fix);
+      push(b.example);
+      break;
   }
 
   // Generic fields

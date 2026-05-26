@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ysjrgj-ch01-introduction",
+    "title": "第一章：导言",
+    "filePath": "source-materials/ysjrgj/01导言.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch02-futures-market-mechanism",
+    "title": "第二章：期货市场的运作机制",
+    "filePath": "source-materials/ysjrgj/02期货市场的运作机制.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch03-futures-hedging-strategies",
+    "title": "第三章：利用期货的对冲策略",
+    "filePath": "source-materials/ysjrgj/03利用期货的对冲策略.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch04-interest-rates",
+    "title": "第四章：利率",
+    "filePath": "source-materials/ysjrgj/04利率.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch05-forward-futures-pricing",
+    "title": "第五章：确定远期和期货价格",
+    "filePath": "source-materials/ysjrgj/05确定远期和期货价格.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch07-swaps",
+    "title": "第七章：互换",
+    "filePath": "source-materials/ysjrgj/07互换.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch10-options-market-mechanism",
+    "title": "第十章：期权市场机制",
+    "filePath": "source-materials/ysjrgj/10期权市场机制.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch11-stock-option-properties",
+    "title": "第十一章：股票期权的性质",
+    "filePath": "source-materials/ysjrgj/11股票期权的性质.pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "id": "ysjrgj-ch12-option-trading-strategies",
+    "title": "第十二章：期权交易策略",
+    "filePath": "source-materials/ysjrgj/12期权交易策略.pdf",
+    "mimeType": "application/pdf"
+  }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="60" y="70" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">实验有效性的两类威胁</text>
+  <text x="60" y="110" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5b6472">教学示意图：根据讲义内容重绘。内部有效性问“这项研究内部因果估计可靠吗”，外部有效性问“能推广吗”。</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif">
+    <rect x="80" y="165" width="500" height="455" rx="20" fill="#ffffff" stroke="#7194d9" stroke-width="3"/>
+    <text x="120" y="220" font-size="28" font-weight="700" fill="#172033">内部有效性</text>
+    <text x="120" y="255" font-size="18" fill="#5b6472">处理组和对照组的差异能否归因于处理？</text>
+    <g font-size="20" fill="#172033">
+      <text x="125" y="320">1. 未能真正随机化</text>
+      <text x="125" y="370">2. 未遵循处理方案 / 部分遵守</text>
+      <text x="125" y="420">3. 样本流失与处理相关</text>
+      <text x="125" y="470">4. 实验效应 / 霍桑效应</text>
+      <text x="125" y="520">5. 小样本导致估计不精确</text>
+    </g>
+    <rect x="620" y="165" width="500" height="455" rx="20" fill="#ffffff" stroke="#60b78a" stroke-width="3"/>
+    <text x="660" y="220" font-size="28" font-weight="700" fill="#172033">外部有效性</text>
+    <text x="660" y="255" font-size="18" fill="#5b6472">这项实验结论能否推广到其他人群和环境？</text>
+    <g font-size="20" fill="#172033">
+      <text x="665" y="320">1. 样本不代表目标总体</text>
+      <text x="665" y="370">2. 实验项目不是现实政策版本</text>
+      <text x="665" y="420">3. 小规模项目推广后质量变化</text>
+      <text x="665" y="470">4. 一般均衡效应改变环境</text>
+      <text x="665" y="520">5. 情境不同导致效果不稳定</text>
+    </g>
+  </g>
+</svg>
