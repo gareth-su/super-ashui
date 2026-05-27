@@ -58,7 +58,7 @@ export const landingPreface: PrefaceBlock[] = [
   },
   {
     type: "paragraph",
-    text: "后续该项目大概率不会继续进行更新。",
+    text: "除课件资料补充外，后续该项目大概率不会继续进行更新。",
   },
   {
     type: "paragraph",
@@ -66,6 +66,6 @@ export const landingPreface: PrefaceBlock[] = [
   },
   {
     type: "paragraph",
-    text: "感谢：Claude Code、ChatGPT、Codex、DeepSeek-V4-Pro、GPT-5.5、Claude Opus 4.7。",
+    text: "主要工具：Claude Code、ChatGPT、Codex、DeepSeek-V4-Pro、GPT-5.5、Claude Opus 4.7。",
   },
 ];

@@ -44,8 +44,8 @@ function renderLatex(latex: string, displayMode: boolean): string | null {
 
 function LatexBlock({ latex, fallback }: { latex: string; fallback: string }) {
   const html = renderLatex(latex, true);
-  if (!html) return <p className="overflow-x-auto font-mono text-sm leading-7 text-violet-950">{fallback}</p>;
-  return <div className="max-w-full overflow-x-auto text-center text-violet-950 [&_.katex-display]:my-0 [&_.katex-html]:min-w-max" dangerouslySetInnerHTML={{ __html: html }} />;
+  if (!html) return <p className="max-w-full overflow-x-auto font-mono text-sm leading-7 text-violet-950">{fallback}</p>;
+  return <div className="max-w-full overflow-x-auto overscroll-x-contain text-center text-violet-950 [&_.katex-display]:my-0 [&_.katex-html]:min-w-max" dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
 function LatexInline({ latex, fallback }: { latex: string; fallback: string }) {
@@ -410,8 +410,8 @@ function BlockCard({ title, type, children }: { title: string; type?: string; ch
   const meta = type ? visualBlockTypeMeta[type] : null;
 
   return (
-    <div className="min-w-0 overflow-visible rounded-3xl border border-zinc-200 bg-white p-4 shadow-sm sm:p-5">
-      <div className="flex flex-wrap items-center gap-2 border-b border-zinc-100 pb-3">
+    <div className="min-w-0 overflow-visible rounded-2xl border border-zinc-200 bg-white p-4 shadow-[0_1px_2px_rgba(24,24,27,0.04)]">
+      <div className="flex flex-wrap items-center gap-2 border-b border-zinc-100 pb-2.5">
         {meta ? <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${meta.className}`}>{meta.label}</span> : null}
         <p className="text-sm font-semibold text-zinc-950"><MathText text={title} /></p>
       </div>
@@ -430,7 +430,7 @@ function CodePanel({ code, tone = "zinc" }: { code?: string; tone?: "zinc" | "sk
         : "border-zinc-800 bg-zinc-950 text-zinc-50";
   return (
     <div className={`max-w-full overflow-x-auto overscroll-x-contain rounded-xl border ${toneClass}`}>
-      <pre className="min-w-max p-4 font-mono text-xs leading-6">
+      <pre className="max-h-[360px] min-w-max overflow-y-auto p-4 font-mono text-xs leading-6">
         <code>{code}</code>
       </pre>
     </div>
@@ -513,12 +513,12 @@ function ComparisonTableView({ block, compact = true }: { block: ComparisonTable
 
   return (
     <BlockCard title={block.title} type={block.type}>
-      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-100">
+      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
         <table className="w-full min-w-max border-collapse text-sm">
           <thead>
-            <tr className="border-b border-zinc-200 bg-zinc-50">
+            <tr className="border-b border-zinc-200 bg-zinc-100/80">
               {block.headers.map((header, i) => (
-                <th key={`h-${i}`} className="max-w-[18rem] px-3 py-2 text-left align-top font-semibold text-zinc-900">
+                <th key={`h-${i}`} className="max-w-[18rem] px-3 py-2.5 text-left align-top text-xs font-semibold uppercase text-zinc-700">
                   <MathText text={header} />
                 </th>
               ))}
@@ -564,8 +564,10 @@ function FormulaCardView({ block }: { block: FormulaCardBlock }) {
     <BlockCard title={block.title} type={block.type}>
       {/* Formula display – KaTeX if formulaLatex available, else plain text */}
       {block.formulaLatex ? (
-        <div className="rounded-xl border border-violet-100 bg-violet-50/70 px-4 py-4">
-          <LatexBlock latex={block.formulaLatex} fallback={block.formula} />
+        <div className="rounded-xl border border-violet-100 bg-violet-50/60 px-4 py-4">
+          <div className="mx-auto max-w-3xl">
+            <LatexBlock latex={block.formulaLatex} fallback={block.formula} />
+          </div>
         </div>
       ) : (
         <div className="rounded-xl border border-violet-100 bg-violet-50/70 px-4 py-3">
@@ -698,7 +700,7 @@ function ImageBlockView({ block }: { block: ImageBlock }) {
             <img
               src={block.src}
               alt={alt}
-              className="mx-auto block h-auto w-auto max-w-full object-contain"
+              className="mx-auto block h-auto w-auto max-h-[520px] max-w-full object-contain"
               loading="lazy"
               onError={() => setFailed(true)}
             />
@@ -806,12 +808,12 @@ function DataTableView({ block, compact = true }: { block: DataTableBlock; compa
   return (
     <BlockCard title={block.title} type={block.type}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
-      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-100">
+      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
         <table className="w-full min-w-max border-collapse text-sm">
           <thead>
-            <tr className="border-b border-zinc-200 bg-zinc-50">
+            <tr className="border-b border-zinc-200 bg-zinc-100/80">
               {block.headers.map((header, i) => (
-                <th key={`dh-${i}`} className="max-w-[18rem] px-3 py-2 text-left align-top font-semibold text-zinc-900">
+                <th key={`dh-${i}`} className="max-w-[18rem] px-3 py-2.5 text-left align-top text-xs font-semibold uppercase text-zinc-700">
                   <MathText text={header} />
                 </th>
               ))}
@@ -1628,12 +1630,12 @@ function StataOutputBlockView({ block }: { block: StataOutputBlock }) {
       {block.annotations?.length ? (
         <div className="mt-4">
           <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">输出字段怎么读</p>
-          <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-100">
+          <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
             <table className="w-full min-w-[680px] border-collapse text-sm">
               <thead>
-                <tr className="border-b border-zinc-200 bg-zinc-50">
+                <tr className="border-b border-zinc-200 bg-zinc-100/80">
                   {['字段', '含义', '怎么看', '考试怎么用'].map((header) => (
-                    <th key={header} className="px-3 py-2 text-left align-top font-semibold text-zinc-900">{header}</th>
+                    <th key={header} className="px-3 py-2.5 text-left align-top text-xs font-semibold uppercase text-zinc-700">{header}</th>
                   ))}
                 </tr>
               </thead>
@@ -1663,7 +1665,7 @@ function StataInterfaceGuideView({ block }: { block: StataInterfaceGuideBlock })
       {block.imageSrc ? (
         <div className="mb-4 overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 p-2">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={block.imageSrc} alt={block.title} className="mx-auto block h-auto max-w-full object-contain" loading="lazy" />
+          <img src={block.imageSrc} alt={block.title} className="mx-auto block h-auto max-h-[520px] max-w-full object-contain" loading="lazy" />
         </div>
       ) : null}
       <div className="grid gap-3 md:grid-cols-2">
@@ -1697,12 +1699,12 @@ function TableMappingBlockView({ block }: { block: TableMappingBlock }) {
       <div className="mb-3 flex flex-wrap gap-2">
         <InlineMeta label="目标表" value={block.targetTable} />
       </div>
-      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-100">
+      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
         <table className="w-full min-w-[1040px] border-collapse text-sm">
           <thead>
-            <tr className="border-b border-zinc-200 bg-zinc-50">
+            <tr className="border-b border-zinc-200 bg-zinc-100/80">
               {headers.map((header) => (
-                <th key={header} className="px-3 py-2 text-left align-top font-semibold text-zinc-900">{header}</th>
+                <th key={header} className="px-3 py-2.5 text-left align-top text-xs font-semibold uppercase text-zinc-700">{header}</th>
               ))}
             </tr>
           </thead>
@@ -1767,13 +1769,13 @@ function RegressionTableView({ block }: { block: RegressionTableBlock }) {
         <InlineMeta label="被解释变量" value={block.dependentVariable} />
         <InlineMeta label="来源" value={block.sourceFile} />
       </div>
-      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-100">
+      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
         <table className="w-full min-w-[760px] border-collapse text-sm">
           <thead>
-            <tr className="border-b border-zinc-200 bg-zinc-50">
-              <th className="w-44 px-3 py-2 text-left align-top font-semibold text-zinc-900">变量</th>
+            <tr className="border-b border-zinc-200 bg-zinc-100/80">
+              <th className="w-44 px-3 py-2.5 text-left align-top text-xs font-semibold uppercase text-zinc-700">变量</th>
               {block.models.map((model, i) => (
-                <th key={`model-${i}`} className="min-w-44 px-3 py-2 text-left align-top font-semibold text-zinc-900">
+                <th key={`model-${i}`} className="min-w-44 px-3 py-2.5 text-left align-top text-xs font-semibold uppercase text-zinc-700">
                   <MathText text={model.name} />
                   <div className="mt-1 space-y-0.5 text-[11px] font-normal leading-5 text-zinc-500">
                     {model.estimator ? <p><MathText text={model.estimator} /></p> : null}
@@ -1842,12 +1844,12 @@ function DatasetSchemaView({ block }: { block: DatasetSchemaBlock }) {
         <InlineMeta label="Panel ID" value={block.panelId} />
         <InlineMeta label="Time ID" value={block.timeId} />
       </div>
-      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-100">
+      <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
         <table className="w-full min-w-[680px] border-collapse text-sm">
           <thead>
-            <tr className="border-b border-zinc-200 bg-zinc-50">
+            <tr className="border-b border-zinc-200 bg-zinc-100/80">
               {['变量名', '标签', '类型', '角色', '生成来源'].map((header) => (
-                <th key={header} className="px-3 py-2 text-left align-top font-semibold text-zinc-900">{header}</th>
+                <th key={header} className="px-3 py-2.5 text-left align-top text-xs font-semibold uppercase text-zinc-700">{header}</th>
               ))}
             </tr>
           </thead>
