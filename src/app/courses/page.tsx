@@ -57,7 +57,7 @@ export default function CoursesPage() {
               课程
               <span className="absolute inset-x-0 -bottom-2 h-1 rounded-full bg-red-600" />
             </Link>
-            <Link href="/#about" className="transition-colors hover:text-red-600">
+            <Link href="/about" className="transition-colors hover:text-red-600">
               关于我们
             </Link>
           </nav>

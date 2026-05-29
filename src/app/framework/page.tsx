@@ -6,11 +6,13 @@ import FrameworkPageClient from "./FrameworkPageClient";
 export default async function FrameworkPage({
   searchParams,
 }: {
-  searchParams: Promise<{ course?: string }>;
+  searchParams: Promise<{ course?: string; chapter?: string; page?: string }>;
 }) {
-  const { course } = await searchParams;
+  const { course, chapter, page } = await searchParams;
   const courseId = course ?? "";
   const courseObj = getGeneratedCourseById(courseId) ?? getDefaultGeneratedCourse();
+  const initialChapterIndex = chapter === undefined ? null : Number(chapter);
+  const initialPageIndex = page === undefined ? null : Number(page);
 
   const detailedResult = await loadGeneratedFramework({
     courseId: courseObj.id,
@@ -27,6 +29,8 @@ export default async function FrameworkPage({
       initialDetailedContent={detailedContent}
       currentCourseId={courseObj.id}
       courseName={courseObj.title}
+      initialChapterIndex={Number.isFinite(initialChapterIndex) ? initialChapterIndex : null}
+      initialPageIndex={Number.isFinite(initialPageIndex) ? initialPageIndex : null}
     />
   );
 }

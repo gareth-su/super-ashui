@@ -4,6 +4,7 @@ import MathText from "./MathText";
 import {
   classifyBlockTier,
   classifyNodeTier,
+  getResourceAnchorId,
   type ContentTier,
   type LearningModule,
 } from "./buildLearningModules";
@@ -98,6 +99,8 @@ function FoldedTierSection({
   blocks,
   defaultOpen = false,
   compactTables,
+  getBlockAnchorId,
+  highlightedAnchorId,
 }: {
   title: string;
   description: string;
@@ -105,13 +108,17 @@ function FoldedTierSection({
   blocks: unknown[];
   defaultOpen?: boolean;
   compactTables: boolean;
+  getBlockAnchorId?: (block: unknown) => string | null;
+  highlightedAnchorId?: string | null;
 }) {
   if (concepts.length === 0 && blocks.length === 0) return null;
+
+  const shouldOpen = defaultOpen || Boolean(highlightedAnchorId && blocks.some((block) => getBlockAnchorId?.(block) === highlightedAnchorId));
 
   return (
     <details
       className="rounded-2xl border border-zinc-200 bg-zinc-50/80 px-4 py-3"
-      open={defaultOpen}
+      open={shouldOpen}
     >
       <summary className="cursor-pointer text-sm font-semibold text-zinc-600">
         {title}
@@ -127,7 +134,13 @@ function FoldedTierSection({
           </BasicCard>
         )}
         {blocks.length > 0 && (
-          <VisualBlockRenderer blocks={blocks} showHeading={false} compactTables={compactTables} />
+          <VisualBlockRenderer
+            blocks={blocks}
+            showHeading={false}
+            compactTables={compactTables}
+            getBlockAnchorId={getBlockAnchorId}
+            highlightedAnchorId={highlightedAnchorId}
+          />
         )}
       </div>
     </details>
@@ -137,9 +150,11 @@ function FoldedTierSection({
 export default function LearningModuleSection({
   module,
   compactTables = true,
+  highlightedAnchorId,
 }: {
   module: LearningModule;
   compactTables?: boolean;
+  highlightedAnchorId?: string | null;
 }) {
   const node = module.sourceNode;
   const nodeSummary = node.summary;
@@ -149,6 +164,7 @@ export default function LearningModuleSection({
   const tieredConcepts = splitByTier(conceptItems, classifyNodeTier);
   const tieredBlocks = splitByTier(blocks, classifyBlockTier);
   const resourceSummary = getResourceSummary(blocks);
+  const getBlockAnchorId = (block: unknown) => getResourceAnchorId(module, block);
 
   const hasCoreConcepts = tieredConcepts.core.length > 0;
   const hasCoreBlocks = tieredBlocks.core.length > 0;
@@ -220,7 +236,13 @@ export default function LearningModuleSection({
         )}
 
         {hasCoreBlocks && (
-          <VisualBlockRenderer blocks={tieredBlocks.core} showHeading={false} compactTables={compactTables} />
+          <VisualBlockRenderer
+            blocks={tieredBlocks.core}
+            showHeading={false}
+            compactTables={compactTables}
+            getBlockAnchorId={getBlockAnchorId}
+            highlightedAnchorId={highlightedAnchorId}
+          />
         )}
 
         <FoldedTierSection
@@ -229,6 +251,8 @@ export default function LearningModuleSection({
           concepts={tieredConcepts.support}
           blocks={tieredBlocks.support}
           compactTables={compactTables}
+          getBlockAnchorId={getBlockAnchorId}
+          highlightedAnchorId={highlightedAnchorId}
         />
 
         <FoldedTierSection
@@ -237,6 +261,8 @@ export default function LearningModuleSection({
           concepts={tieredConcepts.extension}
           blocks={tieredBlocks.extension}
           compactTables={compactTables}
+          getBlockAnchorId={getBlockAnchorId}
+          highlightedAnchorId={highlightedAnchorId}
         />
       </div>
     </section>

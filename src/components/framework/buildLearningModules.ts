@@ -104,6 +104,12 @@ export type LearningModule = {
   visualBlocks: unknown[];
 };
 
+export function getResourceAnchorId(module: Pick<LearningModule, "id" | "visualBlocks">, block: unknown): string | null {
+  const index = module.visualBlocks.indexOf(block);
+  if (index < 0) return null;
+  return `resource-${module.id}-${String(index + 1).padStart(2, "0")}`;
+}
+
 export type ChapterReview = {
   pitfalls: string[] | null;
   reviewPath: FrameworkNode | null;

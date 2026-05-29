@@ -3,14 +3,60 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PrefaceModal from "@/components/landing/PrefaceModal";
 
 const PREFACE_KEY = "landing-preface-ack";
+const LAST_POSITION_KEY = "study-ai:last-position";
+
+type LastLearningPosition = {
+  courseId: string;
+  chapterIndex: number;
+  pageIndex: number;
+  courseTitle?: string;
+  chapterTitle?: string;
+  pageTitle?: string;
+};
+
+function getValidLastPosition(): LastLearningPosition | null {
+  if (typeof window === "undefined" || typeof window.localStorage === "undefined") return null;
+
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(LAST_POSITION_KEY) ?? "null") as Partial<LastLearningPosition> | null;
+    if (
+      !parsed ||
+      typeof parsed.courseId !== "string" ||
+      typeof parsed.chapterIndex !== "number" ||
+      typeof parsed.pageIndex !== "number" ||
+      !Number.isFinite(parsed.chapterIndex) ||
+      !Number.isFinite(parsed.pageIndex) ||
+      parsed.chapterIndex < 0 ||
+      parsed.pageIndex < 0
+    ) {
+      return null;
+    }
+
+    return {
+      courseId: parsed.courseId,
+      chapterIndex: Math.floor(parsed.chapterIndex),
+      pageIndex: Math.floor(parsed.pageIndex),
+      courseTitle: typeof parsed.courseTitle === "string" ? parsed.courseTitle : undefined,
+      chapterTitle: typeof parsed.chapterTitle === "string" ? parsed.chapterTitle : undefined,
+      pageTitle: typeof parsed.pageTitle === "string" ? parsed.pageTitle : undefined,
+    };
+  } catch {
+    return null;
+  }
+}
 
 export default function Home() {
   const router = useRouter();
   const [prefaceOpen, setPrefaceOpen] = useState(false);
+  const [lastPosition, setLastPosition] = useState<LastLearningPosition | null>(null);
+
+  useEffect(() => {
+    setLastPosition(getValidLastPosition());
+  }, []);
 
   function handleStartLearning() {
     if (localStorage.getItem(PREFACE_KEY) === "true") {
@@ -25,6 +71,24 @@ export default function Home() {
     setPrefaceOpen(false);
     router.push("/courses");
   }
+
+  function handleContinueLearning() {
+    if (!lastPosition) return;
+
+    const params = new URLSearchParams();
+    params.set("course", lastPosition.courseId);
+    params.set("chapter", String(lastPosition.chapterIndex));
+    params.set("page", String(lastPosition.pageIndex));
+    router.push(`/framework?${params.toString()}`);
+  }
+
+  const lastPositionLabel = lastPosition
+    ? [
+        lastPosition.courseTitle,
+        lastPosition.chapterTitle || `第 ${lastPosition.chapterIndex + 1} 讲`,
+        `模块 ${String(lastPosition.pageIndex + 1).padStart(2, "0")}`,
+      ].filter(Boolean).join(" · ")
+    : "";
 
   return (
     <main className="relative min-h-dvh overflow-hidden bg-neutral-950 text-white">
@@ -59,7 +123,7 @@ export default function Home() {
             <span className="text-white">超级</span>
             <span className="text-[#E53935]">阿水</span>
           </h1>
-          <div className="mt-10">
+          <div className="mt-10 flex flex-wrap items-center gap-3">
             <button
               type="button"
               onClick={handleStartLearning}
@@ -67,6 +131,18 @@ export default function Home() {
             >
               开始学习
             </button>
+            {lastPosition && (
+              <button
+                type="button"
+                onClick={handleContinueLearning}
+                className="inline-flex flex-col items-start justify-center rounded-full border border-white/25 bg-white/12 px-6 py-3 text-left text-white shadow-[0_14px_34px_rgba(0,0,0,0.18)] backdrop-blur-md transition duration-200 hover:-translate-y-0.5 hover:bg-white/18 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
+              >
+                <span className="text-sm font-semibold tracking-wide">继续学习</span>
+                <span className="mt-0.5 max-w-[17rem] truncate text-xs font-medium text-white/68">
+                  上次：{lastPositionLabel}
+                </span>
+              </button>
+            )}
           </div>
         </div>
       </section>

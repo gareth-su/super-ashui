@@ -8,6 +8,8 @@ type Props = {
   initialDetailedContent: string;
   currentCourseId: string;
   courseName: string;
+  initialChapterIndex?: number | null;
+  initialPageIndex?: number | null;
 };
 
 function parseFramework(content: string): FrameworkData | null {
@@ -22,8 +24,14 @@ export default function FrameworkPageClient({
   initialDetailedContent,
   currentCourseId,
   courseName,
+  initialChapterIndex,
+  initialPageIndex,
 }: Props) {
   const framework = useMemo(() => parseFramework(initialDetailedContent), [initialDetailedContent]);
+  const currentCourse = useMemo(
+    () => generatedCourses.find((course) => course.id === currentCourseId),
+    [currentCourseId],
+  );
 
   function switchCourse(cId: string) {
     const params = new URLSearchParams();
@@ -41,17 +49,22 @@ export default function FrameworkPageClient({
 
   return (
     <div>
-      <div className="mx-auto mt-8 flex w-full max-w-6xl items-center gap-3 px-6 text-sm">
-        <span className="text-xs font-medium uppercase tracking-[0.15em] text-zinc-400">课程</span>
-        <div className="flex gap-0.5">
+      <div className="mx-auto mt-6 flex w-full max-w-6xl flex-col gap-3 px-6 text-sm sm:flex-row sm:items-center sm:justify-between">
+        <div className="inline-flex w-fit items-center gap-2 rounded-full border border-red-100 bg-white px-4 py-2.5 text-sm shadow-sm">
+          <span className="text-xs font-semibold uppercase tracking-[0.14em] text-zinc-400">当前课程</span>
+          <span className="h-4 w-px bg-zinc-200" />
+          <span className="font-semibold text-zinc-950">{currentCourse?.title ?? courseName}</span>
+        </div>
+        <div className="flex w-full flex-wrap items-center gap-2 rounded-2xl border border-zinc-200 bg-white p-2 shadow-sm sm:w-auto">
+          <span className="px-2 text-xs font-semibold text-red-600">切换课程</span>
           {generatedCourses.map((course) => (
             <button
               key={course.id}
               onClick={() => switchCourse(course.id)}
-              className={`rounded-lg px-3 py-1.5 text-sm transition ${
+              className={`rounded-xl border px-4 py-2 text-sm font-semibold transition ${
                 currentCourseId === course.id
-                  ? "bg-zinc-900 font-medium text-white shadow-sm"
-                  : "text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800"
+                  ? "border-red-600 bg-red-600 text-white shadow-sm"
+                  : "border-transparent bg-zinc-50 text-zinc-600 hover:border-red-100 hover:bg-red-50 hover:text-red-700"
               }`}
             >
               {course.shortTitle}
@@ -63,6 +76,9 @@ export default function FrameworkPageClient({
       <FrameworkLearningView
         framework={framework}
         courseName={courseName}
+        courseId={currentCourseId}
+        initialChapterIndex={initialChapterIndex}
+        initialPageIndex={initialPageIndex}
         mode="detailed"
         headerEyebrow="期末复习"
         headerTitle={framework.title ?? "课程知识框架"}

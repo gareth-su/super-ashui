@@ -1,10 +1,16 @@
 import {
   classifyBlockTier,
+  getResourceAnchorId,
   type ContentTier,
   type LearningModule,
 } from "./buildLearningModules";
 
-type ResourceEntry = {
+type ResourceJumpTarget = {
+  anchorId: string;
+  moduleIndex: number;
+};
+
+type ResourceEntry = ResourceJumpTarget & {
   title: string;
   moduleId: string;
   moduleTitle: string;
@@ -70,7 +76,9 @@ function buildIndex(modules: LearningModule[]): ResourceIndexData {
       const title = getBlockTitle(block);
       if (!title) continue;
       const tier = classifyBlockTier(block);
-      const entry: ResourceEntry = { title, moduleId: mod.id, moduleTitle: mod.title, tier };
+      const anchorId = getResourceAnchorId(mod, block);
+      if (!anchorId) continue;
+      const entry: ResourceEntry = { title, anchorId, moduleId: mod.id, moduleIndex: mod.index, moduleTitle: mod.title, tier };
       const type = getBlockType(block);
       pushEntry(tier === "core" ? index.core : index.extension, type, entry);
     }
@@ -87,6 +95,15 @@ function countResources(group: ResourceGroup) {
   return group.formulas.length + group.examples.length + group.cases.length + group.charts.length;
 }
 
+export function countIndexableResources(modules: LearningModule[]) {
+  const index = buildIndex(modules);
+  return countResources(index.core) + countResources(index.extension);
+}
+
+export function hasIndexableResources(modules: LearningModule[]) {
+  return countIndexableResources(modules) > 0;
+}
+
 const resourceSections: Array<{ key: keyof ResourceGroup; label: string }> = [
   { key: "formulas", label: "公式" },
   { key: "examples", label: "例题" },
@@ -94,10 +111,18 @@ const resourceSections: Array<{ key: keyof ResourceGroup; label: string }> = [
   { key: "charts", label: "图表" },
 ];
 
-function ResourceGroupView({ group, muted = false }: { group: ResourceGroup; muted?: boolean }) {
+function ResourceGroupView({
+  group,
+  muted = false,
+  onJumpToResource,
+}: {
+  group: ResourceGroup;
+  muted?: boolean;
+  onJumpToResource?: (target: ResourceJumpTarget) => void;
+}) {
   const linkClass = muted
-    ? "text-zinc-500 hover:text-zinc-800 hover:underline"
-    : "text-zinc-700 hover:text-red-700 hover:underline";
+    ? "text-left text-zinc-500 hover:text-zinc-800 hover:underline"
+    : "text-left text-zinc-700 hover:text-red-700 hover:underline";
 
   return (
     <div className="grid gap-4 md:grid-cols-2">
@@ -111,9 +136,19 @@ function ResourceGroupView({ group, muted = false }: { group: ResourceGroup; mut
               <span className="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-semibold text-zinc-500">{entries.length}</span>
             </div>
             <ol className="space-y-2">
-              {entries.map((entry, i) => (
-                <li key={`${key}-${i}`} className="rounded-xl bg-zinc-50/80 px-3 py-2 text-sm">
-                  <a href={`#${entry.moduleId}`} className={linkClass}>{entry.title}</a>
+              {entries.map((entry) => (
+                <li key={entry.anchorId} className="rounded-xl bg-zinc-50/80 px-3 py-2 text-sm">
+                  {onJumpToResource ? (
+                    <button
+                      type="button"
+                      className={linkClass}
+                      onClick={() => onJumpToResource({ anchorId: entry.anchorId, moduleIndex: entry.moduleIndex })}
+                    >
+                      {entry.title}
+                    </button>
+                  ) : (
+                    <a href={`#${entry.moduleId}`} className={linkClass}>{entry.title}</a>
+                  )}
                   <span className="mt-1 block truncate text-xs text-zinc-400">来自：{entry.moduleTitle}</span>
                 </li>
               ))}
@@ -125,7 +160,13 @@ function ResourceGroupView({ group, muted = false }: { group: ResourceGroup; mut
   );
 }
 
-export default function ResourceIndex({ modules }: { modules: LearningModule[] }) {
+export default function ResourceIndex({
+  modules,
+  onJumpToResource,
+}: {
+  modules: LearningModule[];
+  onJumpToResource?: (target: ResourceJumpTarget) => void;
+}) {
   const index = buildIndex(modules);
   const hasCore = hasAny(index.core);
   const hasExtension = hasAny(index.extension);
@@ -153,13 +194,13 @@ export default function ResourceIndex({ modules }: { modules: LearningModule[] }
         <span>拓展 {extensionCount}</span>
       </div>
 
-      {hasCore && <ResourceGroupView group={index.core} />}
+      {hasCore && <ResourceGroupView group={index.core} onJumpToResource={onJumpToResource} />}
 
       {hasExtension && (
         <details className={hasCore ? "mt-5 rounded-2xl border border-zinc-200 bg-zinc-50/80 px-4 py-3" : "rounded-2xl border border-zinc-200 bg-zinc-50/80 px-4 py-3"}>
           <summary className="cursor-pointer text-sm font-semibold text-zinc-600">拓展资源</summary>
           <div className="mt-3">
-            <ResourceGroupView group={index.extension} muted />
+            <ResourceGroupView group={index.extension} muted onJumpToResource={onJumpToResource} />
           </div>
         </details>
       )}

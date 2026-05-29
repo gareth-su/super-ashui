@@ -2,7 +2,7 @@
 
 import "katex/dist/katex.min.css";
 import katex from "katex";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import MathText from "./MathText";
 import {
   LineChart,
@@ -406,11 +406,29 @@ const visualBlockTypeMeta: Record<string, { label: string; className: string }> 
   common_stata_error: { label: "Stata 错误", className: "bg-red-50 text-red-700 ring-1 ring-red-100" },
 };
 
-function BlockCard({ title, type, children }: { title: string; type?: string; children: React.ReactNode }) {
+function BlockCard({
+  title,
+  type,
+  anchorId,
+  highlighted = false,
+  children,
+}: {
+  title: string;
+  type?: string;
+  anchorId?: string;
+  highlighted?: boolean;
+  children: React.ReactNode;
+}) {
   const meta = type ? visualBlockTypeMeta[type] : null;
 
   return (
-    <div className="min-w-0 overflow-visible rounded-2xl border border-zinc-200 bg-white p-4 shadow-[0_1px_2px_rgba(24,24,27,0.04)]">
+    <div
+      id={anchorId}
+      data-resource-anchor={anchorId}
+      className={`min-w-0 scroll-mt-28 overflow-visible rounded-2xl border p-4 shadow-[0_1px_2px_rgba(24,24,27,0.04)] transition-colors ${
+        highlighted ? "border-red-200 bg-red-50/40 ring-2 ring-red-300" : "border-zinc-200 bg-white"
+      }`}
+    >
       <div className="flex flex-wrap items-center gap-2 border-b border-zinc-100 pb-2.5">
         {meta ? <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${meta.className}`}>{meta.label}</span> : null}
         <p className="text-sm font-semibold text-zinc-950"><MathText text={title} /></p>
@@ -420,8 +438,73 @@ function BlockCard({ title, type, children }: { title: string; type?: string; ch
   );
 }
 
+type CopyState = "idle" | "copied" | "failed";
+
+async function copyTextToClipboard(text: string) {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // Fall through to the small textarea fallback for restricted browser contexts.
+    }
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  textarea.style.top = "0";
+  document.body.appendChild(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  document.body.removeChild(textarea);
+  if (!copied) throw new Error("Copy command failed");
+}
+
+function CopyButton({ text }: { text: string }) {
+  const [copyState, setCopyState] = useState<CopyState>("idle");
+  const resetTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (resetTimerRef.current) clearTimeout(resetTimerRef.current);
+    };
+  }, []);
+
+  async function handleCopy() {
+    if (resetTimerRef.current) clearTimeout(resetTimerRef.current);
+
+    try {
+      await copyTextToClipboard(text);
+      setCopyState("copied");
+    } catch {
+      setCopyState("failed");
+    }
+
+    resetTimerRef.current = setTimeout(() => {
+      setCopyState("idle");
+      resetTimerRef.current = null;
+    }, 1400);
+  }
+
+  const label = copyState === "copied" ? "已复制" : copyState === "failed" ? "复制失败" : "复制";
+
+  return (
+    <button
+      type="button"
+      className="absolute right-2 top-2 z-10 rounded-full border border-white/70 bg-white/95 px-2.5 py-1 text-xs font-semibold text-zinc-700 shadow-sm transition hover:border-red-100 hover:bg-red-50 hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-200"
+      onClick={handleCopy}
+      aria-live="polite"
+    >
+      {label}
+    </button>
+  );
+}
+
 function CodePanel({ code, tone = "zinc" }: { code?: string; tone?: "zinc" | "sky" | "red" }) {
-  if (!code) return null;
+  if (!code?.trim()) return null;
   const toneClass =
     tone === "sky"
       ? "border-sky-100 bg-sky-950 text-sky-50"
@@ -429,8 +512,9 @@ function CodePanel({ code, tone = "zinc" }: { code?: string; tone?: "zinc" | "sk
         ? "border-red-100 bg-red-950 text-red-50"
         : "border-zinc-800 bg-zinc-950 text-zinc-50";
   return (
-    <div className={`max-w-full overflow-x-auto overscroll-x-contain rounded-xl border ${toneClass}`}>
-      <pre className="max-h-[360px] min-w-max overflow-y-auto p-4 font-mono text-xs leading-6">
+    <div className={`relative max-w-full overflow-x-auto overscroll-x-contain rounded-xl border ${toneClass}`}>
+      <CopyButton text={code} />
+      <pre className="max-h-[360px] min-w-max overflow-y-auto p-4 pr-24 pt-11 font-mono text-xs leading-6">
         <code>{code}</code>
       </pre>
     </div>
@@ -470,15 +554,21 @@ function NoteList({ title = "备注", items, tone = "zinc" }: { title?: string; 
   );
 }
 
+type BlockViewProps<T> = {
+  block: T;
+  anchorId?: string;
+  highlighted?: boolean;
+};
+
 /* ------------------------------------------------------------------ */
 /*  process_flow                                                       */
 /* ------------------------------------------------------------------ */
 
-function ProcessFlowView({ block }: { block: ProcessFlowBlock }) {
+function ProcessFlowView({ block, anchorId, highlighted = false }: BlockViewProps<ProcessFlowBlock>) {
   if (!block.steps?.length) return null;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-4 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <ol className="flex flex-col gap-0">
         {block.steps.map((step, i) => (
@@ -504,7 +594,7 @@ function ProcessFlowView({ block }: { block: ProcessFlowBlock }) {
 /*  comparison_table                                                   */
 /* ------------------------------------------------------------------ */
 
-function ComparisonTableView({ block, compact = true }: { block: ComparisonTableBlock; compact?: boolean }) {
+function ComparisonTableView({ block, compact = true, anchorId, highlighted = false }: BlockViewProps<ComparisonTableBlock> & { compact?: boolean }) {
   const [expanded, setExpanded] = useState(false);
   if (!block.headers?.length || !block.rows?.length) return null;
 
@@ -512,7 +602,7 @@ function ComparisonTableView({ block, compact = true }: { block: ComparisonTable
   const visibleRows = shouldCompact && !expanded ? block.rows.slice(0, 5) : block.rows;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
         <table className="w-full min-w-max border-collapse text-sm">
           <thead>
@@ -557,11 +647,11 @@ function ComparisonTableView({ block, compact = true }: { block: ComparisonTable
 /*  formula_card                                                       */
 /* ------------------------------------------------------------------ */
 
-function FormulaCardView({ block }: { block: FormulaCardBlock }) {
+function FormulaCardView({ block, anchorId, highlighted = false }: BlockViewProps<FormulaCardBlock>) {
   if (!block.formula) return null;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {/* Formula display – KaTeX if formulaLatex available, else plain text */}
       {block.formulaLatex ? (
         <div className="rounded-xl border border-violet-100 bg-violet-50/60 px-4 py-4">
@@ -619,11 +709,11 @@ function FormulaCardView({ block }: { block: FormulaCardBlock }) {
 /*  concept_map                                                        */
 /* ------------------------------------------------------------------ */
 
-function ConceptMapView({ block }: { block: ConceptMapBlock }) {
+function ConceptMapView({ block, anchorId, highlighted = false }: BlockViewProps<ConceptMapBlock>) {
   if (!block.concepts?.length) return null;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {block.concepts.map((concept, i) => (
           <div key={`concept-${i}`} className="rounded-xl border border-zinc-100 bg-zinc-50/80 p-3">
@@ -656,7 +746,7 @@ function ConceptMapView({ block }: { block: ConceptMapBlock }) {
 /*  image                                                              */
 /* ------------------------------------------------------------------ */
 
-function ImageBlockView({ block }: { block: ImageBlock }) {
+function ImageBlockView({ block, anchorId, highlighted = false }: BlockViewProps<ImageBlock>) {
   const [failed, setFailed] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -678,7 +768,7 @@ function ImageBlockView({ block }: { block: ImageBlock }) {
   const alt = block.alt ?? block.caption ?? block.title;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? (
         <p className="mb-3 text-sm leading-7 text-zinc-600">
           <MathText text={block.description} />
@@ -763,9 +853,9 @@ const caseCardSections: { key: keyof CaseCardBlock; label: string }[] = [
   { key: "lesson", label: "复习启示" },
 ];
 
-function CaseCardView({ block }: { block: CaseCardBlock }) {
+function CaseCardView({ block, anchorId, highlighted = false }: BlockViewProps<CaseCardBlock>) {
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="space-y-3">
         {caseCardSections.map(({ key, label }) => {
           const value = block[key];
@@ -798,7 +888,7 @@ function CaseCardView({ block }: { block: CaseCardBlock }) {
 /*  data_table                                                         */
 /* ------------------------------------------------------------------ */
 
-function DataTableView({ block, compact = true }: { block: DataTableBlock; compact?: boolean }) {
+function DataTableView({ block, compact = true, anchorId, highlighted = false }: BlockViewProps<DataTableBlock> & { compact?: boolean }) {
   const [expanded, setExpanded] = useState(false);
   if (!block.headers?.length || !block.rows?.length) return null;
 
@@ -806,7 +896,7 @@ function DataTableView({ block, compact = true }: { block: DataTableBlock; compa
   const visibleRows = shouldCompact && !expanded ? block.rows.slice(0, 5) : block.rows;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <div className="-mx-1 max-w-full overflow-x-auto overscroll-x-contain rounded-xl border border-zinc-200">
         <table className="w-full min-w-max border-collapse text-sm">
@@ -858,11 +948,11 @@ function DataTableView({ block, compact = true }: { block: DataTableBlock; compa
 /*  example_box                                                        */
 /* ------------------------------------------------------------------ */
 
-function ExampleBoxView({ block }: { block: ExampleBoxBlock }) {
+function ExampleBoxView({ block, anchorId, highlighted = false }: BlockViewProps<ExampleBoxBlock>) {
   if (!block.steps?.length) return null;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.scenario ? (
         <div className="mb-4 rounded-xl border border-zinc-100 bg-zinc-50/80 px-4 py-3">
           <p className="text-xs font-semibold text-zinc-500">已知条件</p>
@@ -910,11 +1000,11 @@ const chartTypeLabels: Record<string, string> = {
   other: "图表",
 };
 
-function ChartExplanationView({ block }: { block: ChartExplanationBlock }) {
+function ChartExplanationView({ block, anchorId, highlighted = false }: BlockViewProps<ChartExplanationBlock>) {
   if (!block.keyTakeaways?.length) return null;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {/* chart type badge + axis info */}
       <div className="flex flex-wrap items-center gap-2">
         {block.chartType ? (
@@ -1015,7 +1105,7 @@ const CHART_COLORS = [
 /*  payoff_chart                                                        */
 /* ------------------------------------------------------------------ */
 
-function PayoffChartView({ block }: { block: PayoffChartBlock }) {
+function PayoffChartView({ block, anchorId, highlighted = false }: BlockViewProps<PayoffChartBlock>) {
   if (!block.curves?.length) return null;
 
   // Merge all curve points into unified x-axis data rows
@@ -1046,7 +1136,7 @@ function PayoffChartView({ block }: { block: PayoffChartBlock }) {
   ) ?? [];
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <div className="max-w-full overflow-x-auto overscroll-x-contain pb-2">
         <div className="w-[860px] max-w-none">
@@ -1189,7 +1279,7 @@ function PayoffChartView({ block }: { block: PayoffChartBlock }) {
 /*  line_chart                                                          */
 /* ------------------------------------------------------------------ */
 
-function LineChartView({ block }: { block: LineChartBlock }) {
+function LineChartView({ block, anchorId, highlighted = false }: BlockViewProps<LineChartBlock>) {
   if (!block.series?.length) return null;
 
   // Determine if x is categorical (string) or numeric
@@ -1216,7 +1306,7 @@ function LineChartView({ block }: { block: LineChartBlock }) {
   }
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <div className="max-w-full overflow-x-auto overscroll-x-contain pb-2">
         <div className="w-[780px] max-w-none">
@@ -1275,7 +1365,7 @@ function LineChartView({ block }: { block: LineChartBlock }) {
 /*  curve_chart                                                         */
 /* ------------------------------------------------------------------ */
 
-function CurveChartView({ block }: { block: CurveChartBlock }) {
+function CurveChartView({ block, anchorId, highlighted = false }: BlockViewProps<CurveChartBlock>) {
   if (!block.curves?.length) return null;
 
   // Merge points, numeric x assumed
@@ -1301,7 +1391,7 @@ function CurveChartView({ block }: { block: CurveChartBlock }) {
   });
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <div className="mb-2 flex flex-wrap items-center gap-2">
         <span className="rounded-full bg-zinc-100 px-3 py-0.5 text-xs font-medium text-zinc-700">概念曲线</span>
@@ -1398,14 +1488,14 @@ function CashflowEdgeRow({
   );
 }
 
-function CashflowDiagramView({ block }: { block: CashflowDiagramBlock }) {
+function CashflowDiagramView({ block, anchorId, highlighted = false }: BlockViewProps<CashflowDiagramBlock>) {
   if (!block.nodes?.length || !block.edges?.length) return null;
 
   const nodeMap = new Map(block.nodes.map((n) => [n.id, n]));
   const hasPhases = block.phases && block.phases.length > 0;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? (
         <p className="mb-4 text-sm leading-7 text-zinc-600">
           <MathText text={block.description} />
@@ -1474,13 +1564,13 @@ function CashflowDiagramView({ block }: { block: CashflowDiagramBlock }) {
 /*  decision_tree                                                       */
 /* ------------------------------------------------------------------ */
 
-function DecisionTreeView({ block }: { block: DecisionTreeBlock }) {
+function DecisionTreeView({ block, anchorId, highlighted = false }: BlockViewProps<DecisionTreeBlock>) {
   if (!block.root?.question || !block.nodes?.length) return null;
 
   const nodeMap = new Map(block.nodes.map((n) => [n.id, n]));
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? (
         <p className="mb-4 text-sm leading-7 text-zinc-600">
           <MathText text={block.description} />
@@ -1543,11 +1633,11 @@ function DecisionTreeView({ block }: { block: DecisionTreeBlock }) {
 /*  timeline                                                            */
 /* ------------------------------------------------------------------ */
 
-function TimelineView({ block }: { block: TimelineBlock }) {
+function TimelineView({ block, anchorId, highlighted = false }: BlockViewProps<TimelineBlock>) {
   if (!block.events?.length) return null;
 
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? (
         <p className="mb-4 text-sm leading-7 text-zinc-600">
           <MathText text={block.description} />
@@ -1583,10 +1673,10 @@ function TimelineView({ block }: { block: TimelineBlock }) {
 /*  econometrics / Stata blocks                                        */
 /* ------------------------------------------------------------------ */
 
-function StataCodeBlockView({ block }: { block: StataCodeBlock }) {
+function StataCodeBlockView({ block, anchorId, highlighted = false }: BlockViewProps<StataCodeBlock>) {
   if (!block.code) return null;
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <div className="mb-3 flex flex-wrap gap-2">
         <InlineMeta label="语言" value={block.language ?? "stata"} />
@@ -1607,10 +1697,10 @@ function StataCodeBlockView({ block }: { block: StataCodeBlock }) {
   );
 }
 
-function StataOutputBlockView({ block }: { block: StataOutputBlock }) {
+function StataOutputBlockView({ block, anchorId, highlighted = false }: BlockViewProps<StataOutputBlock>) {
   if (!block.output) return null;
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="mb-3 flex flex-wrap gap-2">
         <InlineMeta label="命令" value={block.command} />
         <InlineMeta label="来源" value={block.sourceFile} />
@@ -1658,10 +1748,10 @@ function StataOutputBlockView({ block }: { block: StataOutputBlock }) {
   );
 }
 
-function StataInterfaceGuideView({ block }: { block: StataInterfaceGuideBlock }) {
+function StataInterfaceGuideView({ block, anchorId, highlighted = false }: BlockViewProps<StataInterfaceGuideBlock>) {
   if (!block.areas?.length) return null;
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.imageSrc ? (
         <div className="mb-4 overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 p-2">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -1691,11 +1781,11 @@ function StataInterfaceGuideView({ block }: { block: StataInterfaceGuideBlock })
   );
 }
 
-function TableMappingBlockView({ block }: { block: TableMappingBlock }) {
+function TableMappingBlockView({ block, anchorId, highlighted = false }: BlockViewProps<TableMappingBlock>) {
   if (!block.mappings?.length) return null;
   const headers = ["表格列", "模型", "Stata 命令", "log 位置", "系数", "标准误", "p 值", "考试解释", "注意事项"];
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="mb-3 flex flex-wrap gap-2">
         <InlineMeta label="目标表" value={block.targetTable} />
       </div>
@@ -1736,11 +1826,11 @@ const teacherNoteToneMeta: Record<NonNullable<CalloutTeacherNoteBlock["tone"]>, 
   intuition: { label: "直觉理解", className: "border-emerald-100 bg-emerald-50/70 text-emerald-900" },
 };
 
-function CalloutTeacherNoteView({ block }: { block: CalloutTeacherNoteBlock }) {
+function CalloutTeacherNoteView({ block, anchorId, highlighted = false }: BlockViewProps<CalloutTeacherNoteBlock>) {
   if (!block.body) return null;
   const tone = teacherNoteToneMeta[block.tone ?? "concept"];
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className={`rounded-2xl border px-4 py-3 ${tone.className}`}>
         <p className="text-xs font-semibold">{tone.label}</p>
         <div className="mt-2 space-y-2 text-sm leading-7">
@@ -1759,11 +1849,11 @@ function CalloutTeacherNoteView({ block }: { block: CalloutTeacherNoteBlock }) {
   );
 }
 
-function RegressionTableView({ block }: { block: RegressionTableBlock }) {
+function RegressionTableView({ block, anchorId, highlighted = false }: BlockViewProps<RegressionTableBlock>) {
   if (!block.models?.length) return null;
   const variables = Array.from(new Set(block.models.flatMap((model) => model.rows?.map((row) => row.variable) ?? [])));
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <div className="mb-3 flex flex-wrap gap-2">
         <InlineMeta label="被解释变量" value={block.dependentVariable} />
@@ -1826,10 +1916,10 @@ function RegressionTableView({ block }: { block: RegressionTableBlock }) {
   );
 }
 
-function DatasetSchemaView({ block }: { block: DatasetSchemaBlock }) {
+function DatasetSchemaView({ block, anchorId, highlighted = false }: BlockViewProps<DatasetSchemaBlock>) {
   if (!block.variables?.length) return null;
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       {block.description ? <p className="mb-3 text-sm leading-7 text-zinc-600"><MathText text={block.description} /></p> : null}
       <div className="mb-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-xl border border-emerald-100 bg-emerald-50/60 px-4 py-3">
@@ -1871,10 +1961,10 @@ function DatasetSchemaView({ block }: { block: DatasetSchemaBlock }) {
   );
 }
 
-function ReproductionStepsView({ block }: { block: ReproductionStepsBlock }) {
+function ReproductionStepsView({ block, anchorId, highlighted = false }: BlockViewProps<ReproductionStepsBlock>) {
   if (!block.steps?.length) return null;
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="mb-4 rounded-xl border border-indigo-100 bg-indigo-50/60 px-4 py-3">
         <p className="text-xs font-semibold text-indigo-700">复现目标</p>
         <p className="mt-1 text-sm leading-7 text-zinc-800"><MathText text={block.goal} /></p>
@@ -1903,9 +1993,9 @@ function ReproductionStepsView({ block }: { block: ReproductionStepsBlock }) {
   );
 }
 
-function ExamTaskView({ block }: { block: ExamTaskBlock }) {
+function ExamTaskView({ block, anchorId, highlighted = false }: BlockViewProps<ExamTaskBlock>) {
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="rounded-xl border border-red-100 bg-red-50/50 px-4 py-3">
         <p className="text-xs font-semibold text-red-700">题目</p>
         <p className="mt-1 text-sm leading-7 text-zinc-800"><MathText text={block.prompt} /></p>
@@ -1918,10 +2008,10 @@ function ExamTaskView({ block }: { block: ExamTaskBlock }) {
   );
 }
 
-function InterpretationChecklistView({ block }: { block: InterpretationChecklistBlock }) {
+function InterpretationChecklistView({ block, anchorId, highlighted = false }: BlockViewProps<InterpretationChecklistBlock>) {
   if (!block.items?.length) return null;
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="space-y-2">
         {block.items.map((item, i) => (
           <div key={`chk-${i}`} className="rounded-xl border border-zinc-100 bg-zinc-50/70 px-4 py-3">
@@ -1936,9 +2026,9 @@ function InterpretationChecklistView({ block }: { block: InterpretationChecklist
   );
 }
 
-function CommonStataErrorView({ block }: { block: CommonStataErrorBlock }) {
+function CommonStataErrorView({ block, anchorId, highlighted = false }: BlockViewProps<CommonStataErrorBlock>) {
   return (
-    <BlockCard title={block.title} type={block.type}>
+    <BlockCard title={block.title} type={block.type} anchorId={anchorId} highlighted={highlighted}>
       <div className="rounded-xl border border-red-100 bg-red-50/70 px-4 py-3">
         <p className="text-xs font-semibold text-red-700">错误 / 警告信息</p>
         <p className="mt-1 font-mono text-sm font-semibold leading-6 text-red-950">{block.message}</p>
@@ -1960,10 +2050,14 @@ export default function VisualBlockRenderer({
   blocks,
   showHeading = true,
   compactTables = true,
+  getBlockAnchorId,
+  highlightedAnchorId,
 }: {
   blocks?: unknown[];
   showHeading?: boolean;
   compactTables?: boolean;
+  getBlockAnchorId?: (block: unknown) => string | null;
+  highlightedAnchorId?: string | null;
 }) {
   if (!blocks?.length) return null;
 
@@ -1974,60 +2068,63 @@ export default function VisualBlockRenderer({
         const b = block as VisualBlock | undefined;
         if (!b?.type) return null;
 
+        const anchorId = getBlockAnchorId?.(block) ?? undefined;
+        const highlighted = Boolean(anchorId && highlightedAnchorId === anchorId);
+
         try {
           switch (b.type) {
             case "process_flow":
-              return <ProcessFlowView key={`vb-${index}`} block={b} />;
+              return <ProcessFlowView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "comparison_table":
-              return <ComparisonTableView key={`vb-${index}`} block={b} compact={compactTables} />;
+              return <ComparisonTableView key={`vb-${index}`} block={b} compact={compactTables} anchorId={anchorId} highlighted={highlighted} />;
             case "formula_card":
-              return <FormulaCardView key={`vb-${index}`} block={b} />;
+              return <FormulaCardView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "concept_map":
-              return <ConceptMapView key={`vb-${index}`} block={b} />;
+              return <ConceptMapView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "image":
-              return <ImageBlockView key={`vb-${index}`} block={b} />;
+              return <ImageBlockView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "case_card":
-              return <CaseCardView key={`vb-${index}`} block={b} />;
+              return <CaseCardView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "data_table":
-              return <DataTableView key={`vb-${index}`} block={b} compact={compactTables} />;
+              return <DataTableView key={`vb-${index}`} block={b} compact={compactTables} anchorId={anchorId} highlighted={highlighted} />;
             case "example_box":
-              return <ExampleBoxView key={`vb-${index}`} block={b} />;
+              return <ExampleBoxView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "chart_explanation":
-              return <ChartExplanationView key={`vb-${index}`} block={b} />;
+              return <ChartExplanationView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "payoff_chart":
-              return <PayoffChartView key={`vb-${index}`} block={b} />;
+              return <PayoffChartView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "line_chart":
-              return <LineChartView key={`vb-${index}`} block={b} />;
+              return <LineChartView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "curve_chart":
-              return <CurveChartView key={`vb-${index}`} block={b} />;
+              return <CurveChartView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "cashflow_diagram":
-              return <CashflowDiagramView key={`vb-${index}`} block={b} />;
+              return <CashflowDiagramView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "decision_tree":
-              return <DecisionTreeView key={`vb-${index}`} block={b} />;
+              return <DecisionTreeView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "timeline":
-              return <TimelineView key={`vb-${index}`} block={b} />;
+              return <TimelineView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "stata_code_block":
-              return <StataCodeBlockView key={`vb-${index}`} block={b} />;
+              return <StataCodeBlockView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "stata_output_block":
-              return <StataOutputBlockView key={`vb-${index}`} block={b} />;
+              return <StataOutputBlockView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "stata_interface_guide":
-              return <StataInterfaceGuideView key={`vb-${index}`} block={b} />;
+              return <StataInterfaceGuideView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "table_mapping_block":
-              return <TableMappingBlockView key={`vb-${index}`} block={b} />;
+              return <TableMappingBlockView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "callout_teacher_note":
-              return <CalloutTeacherNoteView key={`vb-${index}`} block={b} />;
+              return <CalloutTeacherNoteView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "regression_table":
-              return <RegressionTableView key={`vb-${index}`} block={b} />;
+              return <RegressionTableView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "dataset_schema":
-              return <DatasetSchemaView key={`vb-${index}`} block={b} />;
+              return <DatasetSchemaView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "reproduction_steps":
-              return <ReproductionStepsView key={`vb-${index}`} block={b} />;
+              return <ReproductionStepsView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "exam_task":
-              return <ExamTaskView key={`vb-${index}`} block={b} />;
+              return <ExamTaskView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "interpretation_checklist":
-              return <InterpretationChecklistView key={`vb-${index}`} block={b} />;
+              return <InterpretationChecklistView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             case "common_stata_error":
-              return <CommonStataErrorView key={`vb-${index}`} block={b} />;
+              return <CommonStataErrorView key={`vb-${index}`} block={b} anchorId={anchorId} highlighted={highlighted} />;
             default:
               return null;
           }
